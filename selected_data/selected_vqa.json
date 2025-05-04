@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 0,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1111601171_reverse.mp4",
+    "question": "Is the sphere building changing from green to blue?",
+    "options": "",
+    "answer": "no"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 22,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1081734740.mp4",
+    "question": "Is the leaf turning into green color?",
+    "options": "",
+    "answer": "no"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 33,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1054494542.mp4",
+    "question": "Is the background changing from pink to blue?",
+    "options": "",
+    "answer": "yes"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 36,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1060403198_reverse.mp4",
+    "question": "What is happening to the tree?\nA. increasing height\nB. decreasing height\nC. shedding leaves\nD. changing color",
+    "options": "",
+    "answer": "B. decreasing height"
+  }
+]

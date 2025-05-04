@@ -1,0 +1,10 @@
+[
+  {
+    "dataset": "random_200_perceptiontest_mcq_json",
+    "sample_index": 0,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/perception_test/videos/video_2710.mp4",
+    "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+    "options": "",
+    "answer": "2"
+  }
+]

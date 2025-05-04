@@ -71,11 +71,6 @@
             background-color: #f8f9fa;
             border-radius: 5px;
         }
-        /* smaller toggle icon for collapsible sections */
-        .toggle-icon {
-            font-size: 0.8rem;
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
@@ -122,7 +117,7 @@
                     <div class="card-body">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input error-type" type="checkbox" id="misalignment" value="Misalignment">
-                            <label class="form-check-label" for="misalignment">Ambiguous</label>
+                            <label class="form-check-label" for="misalignment">Misalignment</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input error-type" type="checkbox" id="wrong" value="Wrong">
@@ -178,26 +173,11 @@
             </div>
         </div>
 
-        <!-- New Caption Section (moved above New VQA) -->
         <div class="section-card">
             <div class="section-header">
-                <h3 class="mb-0">New Caption</h3>
+                <h3 class="mb-0">New VQA</h3>
             </div>
             <div class="section-body">
-                <div class="mb-3">
-                    <label for="newCaption" class="form-label">New Caption</label>
-                    <textarea class="form-control" id="newCaption" rows="2"></textarea>
-                </div>
-                <button class="btn btn-primary" id="addCaptionBtn" onclick="addCaption()" disabled>Add Caption</button>
-            </div>
-        </div>
-
-        <!-- New VQA Section (collapsed by default) -->
-        <div class="section-card" id="newVQASection">
-            <div class="section-header" onclick="toggleNewVQA()" style="cursor: pointer;">
-                <h3 class="mb-0"><span id="newVQAToggleIcon" class="me-2 toggle-icon">+</span>New VQA</h3>
-            </div>
-            <div class="section-body" id="newVQABody" style="display: none;">
                 <div class="mb-3">
                     <label for="newQuestion" class="form-label">New Question</label>
                     <textarea class="form-control" id="newQuestion" rows="2"></textarea>
@@ -211,18 +191,6 @@
                     <textarea class="form-control" id="newAnswer" rows="2"></textarea>
                 </div>
                 <button class="btn btn-primary" onclick="addNewVQA()" id="addNewVQABtn" disabled>Add New VQA</button>
-            </div>
-        </div>
-
-        <!-- Captions List Section -->
-        <div class="section-card">
-            <div class="section-header">
-                <h3 class="mb-0">Captions</h3>
-            </div>
-            <div class="section-body">
-                <ul id="captionsList" class="list-group">
-                    <!-- Captions will be listed here -->
-                </ul>
             </div>
         </div>
 
@@ -265,18 +233,12 @@
         document.getElementById('newQuestion').addEventListener('input', validateNewVQA);
         document.getElementById('newOptions').addEventListener('input', validateNewVQA);
         document.getElementById('newAnswer').addEventListener('input', validateNewVQA);
-        document.getElementById('newCaption').addEventListener('input', validateNewCaption);
 
         function validateNewVQA() {
             const newQuestion = document.getElementById('newQuestion').value.trim();
             const newOptions = document.getElementById('newOptions').value.trim();
             const newAnswer = document.getElementById('newAnswer').value.trim();
             document.getElementById('addNewVQABtn').disabled = !(newQuestion || newOptions || newAnswer);
-        }
-
-        function validateNewCaption() {
-            const caption = document.getElementById('newCaption').value.trim();
-            document.getElementById('addCaptionBtn').disabled = !caption;
         }
 
         function addNewVQA() {
@@ -411,20 +373,24 @@
                     // 更新选项
                     const optionsList = document.getElementById('options');
                     optionsList.innerHTML = '';
-                    const optionsData = data.options || data.option;
-                    let optionsArray = [];
-                    if (Array.isArray(optionsData)) {
-                        optionsArray = optionsData;
-                    } else if (typeof optionsData === 'string') {
-                        optionsArray = optionsData.split('\n');
-                    }
-                    optionsArray.forEach(option => {
-                        if (option.trim()) {
-                            const li = document.createElement('li');
-                            li.textContent = option.trim();
-                            optionsList.appendChild(li);
+                    if (data.options) {
+                        if (typeof data.options === 'string' && data.options.includes('\n')) {
+                            const options = data.options.split('\n');
+                            options.forEach(option => {
+                                if (option.trim()) {
+                                    const li = document.createElement('li');
+                                    li.textContent = option.trim();
+                                    optionsList.appendChild(li);
+                                }
+                            });
+                        } else if (Array.isArray(data.options)) {
+                            data.options.forEach(option => {
+                                const li = document.createElement('li');
+                                li.textContent = option;
+                                optionsList.appendChild(li);
+                            });
                         }
-                    });
+                    }
                     
                     // 更新答案
                     document.getElementById('answer').textContent = data.answer || 'No answer available';
@@ -440,9 +406,6 @@
 
                     // 加载原始VQA选择状态
                     loadOriginalVQASelection();
-                    
-                    // Load captions for this sample
-                    loadCaptions();
                     
                     document.getElementById('currentIndex').textContent = parseInt(sampleIndex) + 1;
                     updateNavigationButtons();
@@ -685,139 +648,6 @@
             .catch(error => {
                 console.error('Error loading selection:', error);
             });
-        }
-
-        // Send new caption to backend and reload list
-        function addCaption() {
-            const caption = document.getElementById('newCaption').value.trim();
-            if (!caption) {
-                alert('Please enter a caption');
-                return;
-            }
-            fetch('/add_caption', {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({
-                    dataset: currentDataset,
-                    sample_index: currentSampleIndex,
-                    caption: caption
-                })
-            })
-            .then(res => res.json())
-            .then(data => {
-                if (data.success) {
-                    // clear input and disable
-                    document.getElementById('newCaption').value = '';
-                    document.getElementById('addCaptionBtn').disabled = true;
-                    loadCaptions();
-                } else {
-                    alert('Failed to add caption: ' + data.error);
-                }
-            })
-            .catch(err => {
-                console.error('Error adding caption:', err);
-                alert('Error adding caption');
-            });
-        }
-
-        // Load and display captions for current sample
-        function loadCaptions() {
-            fetch('/get_captions', {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({dataset: currentDataset, sample_index: currentSampleIndex})
-            })
-            .then(res => res.json())
-            .then(data => {
-                const list = document.getElementById('captionsList');
-                list.innerHTML = '';
-                if (data.captions && data.captions.length > 0) {
-                    data.captions.forEach((item, idx) => {
-                        const li = document.createElement('li');
-                        li.className = 'list-group-item d-flex justify-content-between align-items-center';
-                        li.innerHTML = `
-                            <span>${item.caption}</span>
-                            <div class="btn-group btn-group-sm">
-                                <button class="btn btn-outline-secondary" onclick="editCaption(${idx})">Modify</button>
-                                <button class="btn btn-outline-danger" onclick="deleteCaption(${idx})">Delete</button>
-                            </div>`;
-                        list.appendChild(li);
-                    });
-                } else {
-                    list.innerHTML = '<li class="list-group-item text-muted">No captions added.</li>';
-                }
-            })
-            .catch(err => console.error('Error loading captions:', err));
-        }
-
-        // Modify an existing caption
-        function editCaption(index) {
-            // get current caption text
-            const listItems = document.querySelectorAll('#captionsList .list-group-item span');
-            const currentText = listItems[index]?.textContent || '';
-            const newText = prompt('Edit caption:', currentText);
-            if (newText === null) return; // cancelled
-            fetch('/update_caption', {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({
-                    dataset: currentDataset,
-                    sample_index: currentSampleIndex,
-                    caption_index: index,
-                    new_caption: newText.trim()
-                })
-            })
-            .then(res => res.json())
-            .then(data => {
-                if (data.success) {
-                    loadCaptions();
-                } else {
-                    alert('Failed to update caption: ' + data.error);
-                }
-            })
-            .catch(err => {
-                console.error('Error updating caption:', err);
-                alert('Error updating caption');
-            });
-        }
-
-        // Delete an existing caption
-        function deleteCaption(index) {
-            if (!confirm('Are you sure you want to delete this caption?')) return;
-            fetch('/delete_caption', {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({
-                    dataset: currentDataset,
-                    sample_index: currentSampleIndex,
-                    caption_index: index
-                })
-            })
-            .then(res => res.json())
-            .then(data => {
-                if (data.success) {
-                    loadCaptions();
-                } else {
-                    alert('Failed to delete caption: ' + data.error);
-                }
-            })
-            .catch(err => {
-                console.error('Error deleting caption:', err);
-                alert('Error deleting caption');
-            });
-        }
-
-        // Toggle function for New VQA section
-        function toggleNewVQA() {
-            const body = document.getElementById('newVQABody');
-            const icon = document.getElementById('newVQAToggleIcon');
-            if (body.style.display === 'none') {
-                body.style.display = 'block';
-                icon.textContent = '-';
-            } else {
-                body.style.display = 'none';
-                icon.textContent = '+';
-            }
         }
 
         // 初始化

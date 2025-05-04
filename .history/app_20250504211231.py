@@ -637,47 +637,5 @@ def get_captions():
     filtered = [item for item in captions if item['dataset'] == dataset and item['sample_index'] == sample_index]
     return jsonify({'captions': filtered})
 
-@app.route('/update_caption', methods=['POST'])
-def update_caption():
-    data = request.json
-    dataset = data.get('dataset')
-    sample_index = data.get('sample_index')
-    caption_index = data.get('caption_index')
-    new_caption = data.get('new_caption')
-
-    if not all([dataset, sample_index is not None, caption_index is not None, new_caption]):
-        return jsonify({'success': False, 'error': 'Missing required parameters'}), 400
-
-    captions = load_selected_captions()
-    # filter indices
-    items = [(i, item) for i, item in enumerate(captions) if item['dataset'] == dataset and item['sample_index'] == sample_index]
-    if caption_index < 0 or caption_index >= len(items):
-        return jsonify({'success': False, 'error': 'Invalid caption index'}), 400
-    orig_i = items[caption_index][0]
-    captions[orig_i]['caption'] = new_caption
-    save_selected_captions(captions)
-    return jsonify({'success': True})
-
-@app.route('/delete_caption', methods=['POST'])
-def delete_caption():
-    data = request.json
-    dataset = data.get('dataset')
-    sample_index = data.get('sample_index')
-    caption_index = data.get('caption_index')
-
-    if not all([dataset, sample_index is not None, caption_index is not None]):
-        return jsonify({'success': False, 'error': 'Missing required parameters'}), 400
-
-    captions = load_selected_captions()
-    # filter indices
-    items = [(i, item) for i, item in enumerate(captions) if item['dataset'] == dataset and item['sample_index'] == sample_index]
-    if caption_index < 0 or caption_index >= len(items):
-        return jsonify({'success': False, 'error': 'Invalid caption index'}), 400
-    orig_i = items[caption_index][0]
-    # delete entry
-    del captions[orig_i]
-    save_selected_captions(captions)
-    return jsonify({'success': True})
-
 if __name__ == '__main__':
     app.run(debug=True) 

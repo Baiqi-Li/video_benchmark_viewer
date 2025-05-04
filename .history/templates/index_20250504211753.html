@@ -71,11 +71,6 @@
             background-color: #f8f9fa;
             border-radius: 5px;
         }
-        /* smaller toggle icon for collapsible sections */
-        .toggle-icon {
-            font-size: 0.8rem;
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
@@ -122,7 +117,7 @@
                     <div class="card-body">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input error-type" type="checkbox" id="misalignment" value="Misalignment">
-                            <label class="form-check-label" for="misalignment">Ambiguous</label>
+                            <label class="form-check-label" for="misalignment">Misalignment</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input error-type" type="checkbox" id="wrong" value="Wrong">
@@ -195,7 +190,7 @@
         <!-- New VQA Section (collapsed by default) -->
         <div class="section-card" id="newVQASection">
             <div class="section-header" onclick="toggleNewVQA()" style="cursor: pointer;">
-                <h3 class="mb-0"><span id="newVQAToggleIcon" class="me-2 toggle-icon">+</span>New VQA</h3>
+                <h3 class="mb-0">New VQA</h3>
             </div>
             <div class="section-body" id="newVQABody" style="display: none;">
                 <div class="mb-3">
@@ -805,19 +800,6 @@
                 console.error('Error deleting caption:', err);
                 alert('Error deleting caption');
             });
-        }
-
-        // Toggle function for New VQA section
-        function toggleNewVQA() {
-            const body = document.getElementById('newVQABody');
-            const icon = document.getElementById('newVQAToggleIcon');
-            if (body.style.display === 'none') {
-                body.style.display = 'block';
-                icon.textContent = '-';
-            } else {
-                body.style.display = 'none';
-                icon.textContent = '+';
-            }
         }
 
         // 初始化
