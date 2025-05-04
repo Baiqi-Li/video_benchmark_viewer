@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Sample Viewer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #000;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .sample-info {
+            margin-top: 20px;
+            padding: 0;
+        }
+        .section-card {
+            margin-bottom: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .section-header {
+            background-color: #f8f9fa;
+            padding: 10px 15px;
+            border-bottom: 1px solid #dee2e6;
+            border-radius: 5px 5px 0 0;
+        }
+        .section-body {
+            padding: 15px;
+        }
+        .divider {
+            height: 1px;
+            background-color: #dee2e6;
+            margin: 20px 0;
+        }
+        .controls {
+            margin: 20px 0;
+        }
+        #videoPlayer {
+            width: 100%;
+            max-height: 450px;
+            background-color: #000;
+        }
+        .options-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .options-list li {
+            padding: 8px;
+            margin: 5px 0;
+            background-color: #e9ecef;
+            border-radius: 4px;
+        }
+        .repurposed-vqa-card {
+            margin-top: 15px;
+            border-left: 4px solid #0d6efd;
+        }
+        .vqa-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+        .edit-form {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Video Sample Viewer</h1>
+        
+        <div class="row mb-4">
+            <div class="col-12 text-end">
+                <a href="/error_samples" class="btn btn-outline-primary me-2">View Error Samples</a>
+                <a href="/repurposed_samples" class="btn btn-outline-primary">View Repurposed Samples</a>
+            </div>
+        </div>
+
+        <div class="row controls">
+            <div class="col-md-4">
+                <select id="datasetSelect" class="form-select">
+                    {% for dataset in datasets %}
+                    <option value="{{ dataset }}">{{ dataset }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group">
+                    <button class="btn btn-outline-primary" id="prevBtn" onclick="prevSample()" disabled>&lt; Previous</button>
+                    <input type="number" id="sampleIndex" class="form-control" min="0" value="0">
+                    <button class="btn btn-outline-primary" id="nextBtn" onclick="nextSample()" disabled>Next &gt;</button>
+                    <button class="btn btn-primary" onclick="loadSample()">Load Sample</button>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div id="sampleCount" class="text-muted" style="font-size: 1.1em; margin-top: 8px;">
+                    Sample: <span id="currentIndex">0</span> / <span id="totalSamples">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Error Types</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input error-type" type="checkbox" id="misalignment" value="Misalignment">
+                            <label class="form-check-label" for="misalignment">Misalignment</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input error-type" type="checkbox" id="wrong" value="Wrong">
+                            <label class="form-check-label" for="wrong">Wrong</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input error-type" type="checkbox" id="singleFrameBias" value="Single Frame Bias">
+                            <label class="form-check-label" for="singleFrameBias">Single Frame Bias</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input error-type" type="checkbox" id="others" value="Others">
+                            <label class="form-check-label" for="others">Others</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <video id="videoPlayer" controls>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="section-card">
+            <div class="section-header">
+                <h3 class="mb-0">Original VQA</h3>
+            </div>
+            <div class="section-body">
+                <div class="mb-3">
+                    <span class="badge bg-secondary">Sample Index: <span id="sampleIndexDisplay">0</span></span>
+                </div>
+                <h4>Question</h4>
+                <p id="question" class="lead"></p>
+                
+                <h4>Options</h4>
+                <ul id="options" class="options-list"></ul>
+                
+                <h4>Answer</h4>
+                <p id="answer" class="lead"></p>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="addOriginalVQA" onchange="updateOriginalVQASelection()">
+                    <label class="form-check-label" for="addOriginalVQA">
+                        Add Original VQA to Selected Data
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <div class="section-header">
+                <h3 class="mb-0">New VQA</h3>
+            </div>
+            <div class="section-body">
+                <div class="mb-3">
+                    <label for="newQuestion" class="form-label">New Question</label>
+                    <textarea class="form-control" id="newQuestion" rows="2"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="newOptions" class="form-label">New Options</label>
+                    <textarea class="form-control" id="newOptions" rows="4"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="newAnswer" class="form-label">New Answer</label>
+                    <textarea class="form-control" id="newAnswer" rows="2"></textarea>
+                </div>
+                <button class="btn btn-primary" onclick="addNewVQA()" id="addNewVQABtn" disabled>Add New VQA</button>
+            </div>
+        </div>
+
+        <div class="section-card">
+            <div class="section-header">
+                <h3 class="mb-0">Repurposed VQAs</h3>
+            </div>
+            <div class="section-body">
+                <div id="repurposedVQAs" class="list-group">
+                    <!-- Repurposed VQAs will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentDataset = '';
+        let totalSamples = 0;
+        let currentSampleId = '';
+        let currentSampleIndex = 0;
+
+        // 加载数据集信息
+        document.getElementById('datasetSelect').addEventListener('change', function() {
+            currentDataset = this.value;
+            loadDatasetInfo();
+        });
+
+        // 错误类型复选框事件处理
+        document.querySelectorAll('.error-type').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                if (currentSampleId) {
+                    const errorType = this.value;
+                    const isChecked = this.checked;
+                    updateErrorAnnotation(errorType, isChecked);
+                }
+            });
+        });
+
+        // 监听新VQA输入框的变化
+        document.getElementById('newQuestion').addEventListener('input', validateNewVQA);
+        document.getElementById('newOptions').addEventListener('input', validateNewVQA);
+        document.getElementById('newAnswer').addEventListener('input', validateNewVQA);
+
+        function validateNewVQA() {
+            const newQuestion = document.getElementById('newQuestion').value.trim();
+            const newOptions = document.getElementById('newOptions').value.trim();
+            const newAnswer = document.getElementById('newAnswer').value.trim();
+            document.getElementById('addNewVQABtn').disabled = !(newQuestion || newOptions || newAnswer);
+        }
+
+        function addNewVQA() {
+            const newQuestion = document.getElementById('newQuestion').value.trim();
+            const newOptions = document.getElementById('newOptions').value.trim();
+            const newAnswer = document.getElementById('newAnswer').value.trim();
+
+            if (!newQuestion && !newOptions && !newAnswer) {
+                alert('Please fill in at least one field');
+                return;
+            }
+
+            fetch('/add_new_vqa', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    dataset: currentDataset,
+                    sample_index: currentSampleIndex,
+                    new_question: newQuestion || '',
+                    new_options: newOptions || '',
+                    new_answer: newAnswer || ''
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('New VQA added successfully');
+                    // 清空输入框
+                    document.getElementById('newQuestion').value = '';
+                    document.getElementById('newOptions').value = '';
+                    document.getElementById('newAnswer').value = '';
+                    document.getElementById('addNewVQABtn').disabled = true;
+                    // 重新加载repurposed数据
+                    loadRepurposedVQAs();
+                } else {
+                    alert('Failed to add new VQA: ' + data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error adding new VQA');
+            });
+        }
+
+        function updateErrorAnnotation(errorType, isChecked) {
+            fetch('/update_error_annotation', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    dataset: currentDataset,
+                    sample_id: currentSampleId,
+                    error_type: errorType,
+                    is_checked: isChecked
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (!data.success) {
+                    console.error('Error updating annotation:', data.error);
+                    alert('Failed to update error annotation');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error updating error annotation');
+            });
+        }
+
+        function loadDatasetInfo() {
+            fetch(`/get_dataset_info/${currentDataset}`)
+                .then(response => response.json())
+                .then(data => {
+                    totalSamples = data.total_samples;
+                    document.getElementById('sampleIndex').max = totalSamples - 1;
+                    document.getElementById('totalSamples').textContent = totalSamples;
+                    updateNavigationButtons();
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function updateNavigationButtons() {
+            const currentIndex = parseInt(document.getElementById('sampleIndex').value);
+            document.getElementById('prevBtn').disabled = currentIndex <= 0;
+            document.getElementById('nextBtn').disabled = currentIndex >= totalSamples - 1;
+        }
+
+        function prevSample() {
+            const currentIndex = parseInt(document.getElementById('sampleIndex').value);
+            if (currentIndex > 0) {
+                document.getElementById('sampleIndex').value = currentIndex - 1;
+                loadSample();
+            }
+        }
+
+        function nextSample() {
+            const currentIndex = parseInt(document.getElementById('sampleIndex').value);
+            if (currentIndex < totalSamples - 1) {
+                document.getElementById('sampleIndex').value = currentIndex + 1;
+                loadSample();
+            }
+        }
+
+        function loadSample() {
+            const sampleIndex = document.getElementById('sampleIndex').value;
+            currentSampleIndex = parseInt(sampleIndex);
+            // 更新显示的样本索引
+            document.getElementById('sampleIndexDisplay').textContent = currentSampleIndex;
+            fetch(`/get_sample/${currentDataset}/${sampleIndex}`)
+                .then(response => response.json())
+                .then(data => {
+                    // 更新视频
+                    const videoPlayer = document.getElementById('videoPlayer');
+                    if (data.video_url) {
+                        videoPlayer.src = data.video_url;
+                        videoPlayer.load();
+                        videoPlayer.onerror = function() {
+                            console.error('Error loading video:', data.video_url);
+                            alert('Error loading video. Please check the URL.');
+                        };
+                    } else {
+                        console.error('No video URL found in sample');
+                        alert('No video URL found in sample');
+                    }
+                    
+                    // 更新问题
+                    document.getElementById('question').textContent = data.question || 'No question available';
+                    
+                    // 更新选项
+                    const optionsList = document.getElementById('options');
+                    optionsList.innerHTML = '';
+                    if (data.options) {
+                        if (typeof data.options === 'string' && data.options.includes('\n')) {
+                            const options = data.options.split('\n');
+                            options.forEach(option => {
+                                if (option.trim()) {
+                                    const li = document.createElement('li');
+                                    li.textContent = option.trim();
+                                    optionsList.appendChild(li);
+                                }
+                            });
+                        } else if (Array.isArray(data.options)) {
+                            data.options.forEach(option => {
+                                const li = document.createElement('li');
+                                li.textContent = option;
+                                optionsList.appendChild(li);
+                            });
+                        }
+                    }
+                    
+                    // 更新答案
+                    document.getElementById('answer').textContent = data.answer || 'No answer available';
+                    
+                    // 更新当前样本ID
+                    currentSampleId = data.id || `${currentDataset}_${sampleIndex}`;
+                    
+                    // 加载错误类型标注
+                    loadErrorAnnotations();
+                    
+                    // 加载repurposed数据
+                    loadRepurposedVQAs();
+
+                    // 加载原始VQA选择状态
+                    loadOriginalVQASelection();
+                    
+                    document.getElementById('currentIndex').textContent = parseInt(sampleIndex) + 1;
+                    updateNavigationButtons();
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error loading sample. Please try again.');
+                });
+        }
+
+        function loadErrorAnnotations() {
+            fetch('/get_error_annotations', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    dataset: currentDataset,
+                    sample_id: currentSampleId
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // 重置所有复选框
+                document.querySelectorAll('.error-type').forEach(checkbox => {
+                    checkbox.checked = false;
+                });
+                
+                // 设置已标注的错误类型
+                if (data.error_types) {
+                    data.error_types.forEach(errorType => {
+                        const checkbox = document.querySelector(`.error-type[value="${errorType}"]`);
+                        if (checkbox) {
+                            checkbox.checked = true;
+                        }
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Error loading error annotations:', error);
+            });
+        }
+
+        function loadRepurposedVQAs() {
+            fetch('/get_repurposed_vqas', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    dataset: currentDataset,
+                    sample_index: currentSampleIndex
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('repurposedVQAs');
+                container.innerHTML = '';
+
+                if (data.repurposed_vqas && data.repurposed_vqas.length > 0) {
+                    data.repurposed_vqas.forEach((vqa, index) => {
+                        const card = document.createElement('div');
+                        card.className = 'card mb-3';
+                        card.innerHTML = `
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">Repurposed VQA ${index + 1}</h5>
+                                <div class="vqa-actions">
+                                    <button class="btn btn-warning btn-sm" onclick="editRepurposedVQA(${index})">Modify</button>
+                                    <button class="btn btn-danger btn-sm" onclick="deleteRepurposedVQA(${index})">Delete</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h6>New Question</h6>
+                                <p>${vqa.new_question}</p>
+                                <h6>New Options</h6>
+                                <p>${vqa.new_options}</p>
+                                <h6>New Answer</h6>
+                                <p>${vqa.new_answer}</p>
+                                <div class="edit-form" id="editForm${index}">
+                                    <div class="mb-3">
+                                        <label class="form-label">New Question</label>
+                                        <textarea class="form-control" id="editQuestion${index}" rows="2">${vqa.new_question || ''}</textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">New Options</label>
+                                        <textarea class="form-control" id="editOptions${index}" rows="4">${vqa.new_options || ''}</textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">New Answer</label>
+                                        <textarea class="form-control" id="editAnswer${index}" rows="2">${vqa.new_answer || ''}</textarea>
+                                    </div>
+                                    <div class="text-end">
+                                        <button class="btn btn-secondary btn-sm me-2" onclick="cancelEdit(${index})">Cancel</button>
+                                        <button class="btn btn-primary btn-sm" onclick="saveEdit(${index})">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        container.appendChild(card);
+                    });
+                } else {
+                    container.innerHTML = '<p class="text-muted">No repurposed VQAs for this sample.</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Error loading repurposed VQAs:', error);
+            });
+        }
+
+        function deleteRepurposedVQA(index) {
+            if (!confirm('Are you sure you want to delete this repurposed VQA?')) {
+                return;
+            }
+
+            fetch('/delete_repurposed_vqa', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    dataset: currentDataset,
+                    sample_index: currentSampleIndex,
+                    vqa_index: index
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // 重新加载repurposed数据
+                    loadRepurposedVQAs();
+                } else {
+                    alert('Failed to delete repurposed VQA: ' + data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error deleting repurposed VQA');
+            });
+        }
+
+        function editRepurposedVQA(index) {
+            // 隐藏所有编辑表单
+            document.querySelectorAll('.edit-form').forEach(form => {
+                form.style.display = 'none';
+            });
+            // 显示当前编辑表单
+            document.getElementById(`editForm${index}`).style.display = 'block';
+        }
+
+        function cancelEdit(index) {
+            document.getElementById(`editForm${index}`).style.display = 'none';
+        }
+
+        function saveEdit(index) {
+            const newQuestion = document.getElementById(`editQuestion${index}`).value.trim();
+            const newOptions = document.getElementById(`editOptions${index}`).value.trim();
+            const newAnswer = document.getElementById(`editAnswer${index}`).value.trim();
+
+            if (!newQuestion && !newOptions && !newAnswer) {
+                alert('Please fill in at least one field');
+                return;
+            }
+
+            fetch('/update_repurposed_vqa', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    dataset: currentDataset,
+                    sample_index: currentSampleIndex,
+                    vqa_index: index,
+                    new_question: newQuestion || '',
+                    new_options: newOptions || '',
+                    new_answer: newAnswer || ''
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Repurposed VQA updated successfully');
+                    // 重新加载repurposed数据
+                    loadRepurposedVQAs();
+                } else {
+                    alert('Failed to update repurposed VQA: ' + data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error updating repurposed VQA');
+            });
+        }
+
+        function updateOriginalVQASelection() {
+            const isSelected = document.getElementById('addOriginalVQA').checked;
+            
+            fetch('/update_original_vqa_selection', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    dataset: currentDataset,
+                    sample_index: currentSampleIndex,
+                    is_selected: isSelected
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (!data.success) {
+                    console.error('Error updating selection:', data.error);
+                    alert('Failed to update selection');
+                    // 恢复复选框状态
+                    document.getElementById('addOriginalVQA').checked = !isSelected;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error updating selection');
+                // 恢复复选框状态
+                document.getElementById('addOriginalVQA').checked = !isSelected;
+            });
+        }
+
+        function loadOriginalVQASelection() {
+            fetch('/get_original_vqa_selection', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    dataset: currentDataset,
+                    sample_index: currentSampleIndex
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('addOriginalVQA').checked = data.is_selected;
+            })
+            .catch(error => {
+                console.error('Error loading selection:', error);
+            });
+        }
+
+        // 初始化
+        currentDataset = document.getElementById('datasetSelect').value;
+        loadDatasetInfo();
+    </script>
+</body>
+</html> 

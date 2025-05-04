@@ -1,0 +1,16 @@
+{
+  "random_200_tempcompass_qa_json": [
+    {
+      "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1100117263_reverse.mp4",
+      "question": "What is the little lion doing?\nA. sitting nearby an adult lion\nB. sitting on the back of an adult lion\nC. falling from the back of an adult lion\nD. jumping onto the back of an adult lion",
+      "answer": "D. jumping onto the back of an adult lion",
+      "option": "",
+      "meta_data": {
+        "video_id": "1100117263_reverse",
+        "question": "What is the little lion doing?\nA. sitting nearby an adult lion\nB. sitting on the back of an adult lion\nC. falling from the back of an adult lion\nD. jumping onto the back of an adult lion",
+        "answer": "D. jumping onto the back of an adult lion",
+        "dim": "direction"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+    {
+        "video_url": "https://example.com/videos/sample1.mp4",
+        "question": "What is the main action happening in the video?",
+        "options": [
+            "A person is walking",
+            "A person is running",
+            "A person is jumping",
+            "A person is sitting"
+        ],
+        "answer": "A person is walking"
+    },
+    {
+        "video_url": "https://example.com/videos/sample2.mp4",
+        "question": "What color is the car in the video?",
+        "options": [
+            "Red",
+            "Blue",
+            "Green",
+            "Black"
+        ],
+        "answer": "Red"
+    }
+] 

@@ -1,0 +1,2402 @@
+[
+    {
+        "video_id": "https://huggingface.co/datasets/YOUR_USERNAME/YOUR_DATASET_NAME/resolve/main/videos/1111601171_reverse",
+        "question": "Is the sphere building changing from green to blue?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1111601171_reverse",
+            "question": "Is the sphere building changing from green to blue?",
+            "answer": "no",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1100117263_reverse",
+        "question": "What is the little lion doing?\nA. sitting nearby an adult lion\nB. sitting on the back of an adult lion\nC. falling from the back of an adult lion\nD. jumping onto the back of an adult lion",
+        "answer": "D. jumping onto the back of an adult lion",
+        "options": "",
+        "meta_data": {
+            "video_id": "1100117263_reverse",
+            "question": "What is the little lion doing?\nA. sitting nearby an adult lion\nB. sitting on the back of an adult lion\nC. falling from the back of an adult lion\nD. jumping onto the back of an adult lion",
+            "answer": "D. jumping onto the back of an adult lion",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1040541401",
+        "question": "Is the video running at a rapid speed?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1040541401",
+            "question": "Is the video running at a rapid speed?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1095939659",
+        "question": "In which direction is the light growing?\nA. Downwards\nB. Clockwise\nC. Counterclockwise\nD. Upwards",
+        "answer": "B. Clockwise",
+        "options": "",
+        "meta_data": {
+            "video_id": "1095939659",
+            "question": "In which direction is the light growing?\nA. Downwards\nB. Clockwise\nC. Counterclockwise\nD. Upwards",
+            "answer": "B. Clockwise",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1022115337",
+        "question": "Which event occurs second?\nA. dancing\nB. sending an air kiss\nC.Both events happen at the same time",
+        "answer": "B. sending an air kiss",
+        "options": "",
+        "meta_data": {
+            "video_id": "1022115337",
+            "question": "Which event occurs second?\nA. dancing\nB. sending an air kiss\nC.Both events happen at the same time",
+            "answer": "B. sending an air kiss",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1084518106_concat_1",
+        "question": "How does the speed of the truck above compare to the truck below?\nA. faster\nB. the same speed\nC. slower",
+        "answer": "A. faster",
+        "options": "",
+        "meta_data": {
+            "video_id": "1084518106_concat_1",
+            "question": "How does the speed of the truck above compare to the truck below?\nA. faster\nB. the same speed\nC. slower",
+            "answer": "A. faster",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1083845854_reverse",
+        "question": "Are the clock hands moving clockwise?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1083845854_reverse",
+            "question": "Are the clock hands moving clockwise?",
+            "answer": "no",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "15695290_concat_0",
+        "question": "Is the person above drawing a picture faster than the person below?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "15695290_concat_0",
+            "question": "Is the person above drawing a picture faster than the person below?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1096238125_1098970151_2",
+        "question": "What is the order of the events in the video?\nA. Two people are lifting weights and then a cat is licking its paw\nB. A cat is licking its paw and then two people are lifting weights\nC. The events are happening simultaneously, there is no specific order",
+        "answer": "B. A cat is licking its paw and then two people are lifting weights",
+        "options": "",
+        "meta_data": {
+            "video_id": "1096238125_1098970151_2",
+            "question": "What is the order of the events in the video?\nA. Two people are lifting weights and then a cat is licking its paw\nB. A cat is licking its paw and then two people are lifting weights\nC. The events are happening simultaneously, there is no specific order",
+            "answer": "B. A cat is licking its paw and then two people are lifting weights",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1072453637",
+        "question": "What is the direction of the camera panning in the video?\nA. panning to the back of a fighter jet\nB. panning downwards around a fighter jet\nC. panning upwards around a fighter jet\nD. panning to the front of a fighter jet",
+        "answer": "A. panning to the back of a fighter jet",
+        "options": "",
+        "meta_data": {
+            "video_id": "1072453637",
+            "question": "What is the direction of the camera panning in the video?\nA. panning to the back of a fighter jet\nB. panning downwards around a fighter jet\nC. panning upwards around a fighter jet\nD. panning to the front of a fighter jet",
+            "answer": "A. panning to the back of a fighter jet",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1090578917_concat_1",
+        "question": "Is the speed of the man above jumping faster than the man below?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1090578917_concat_1",
+            "question": "Is the speed of the man above jumping faster than the man below?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1086423566_1094782389_0",
+        "question": "Does the event of a dog giving a high five to a woman happen simultaneously with foods being added into a bowl in the video?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086423566_1094782389_0",
+            "question": "Does the event of a dog giving a high five to a woman happen simultaneously with foods being added into a bowl in the video?",
+            "answer": "yes",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1034736653_1043054206_1",
+        "question": "Which event happens last in the video?\nA. Cars are racing\nB. Women are running\nC. They happen at the same time",
+        "answer": "A. Cars are racing",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034736653_1043054206_1",
+            "question": "Which event happens last in the video?\nA. Cars are racing\nB. Women are running\nC. They happen at the same time",
+            "answer": "A. Cars are racing",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1058907236_1021488277_0",
+        "question": "In what sequence are the events happening in the video?\nA. First, a person is picking up a pineapple; then, a squirrel is foraging\nB. First, a squirrel is foraging; then, a person is picking up a pineapple\nC. Both events are happening simultaneously",
+        "answer": "C. Both events are happening simultaneously",
+        "options": "",
+        "meta_data": {
+            "video_id": "1058907236_1021488277_0",
+            "question": "In what sequence are the events happening in the video?\nA. First, a person is picking up a pineapple; then, a squirrel is foraging\nB. First, a squirrel is foraging; then, a person is picking up a pineapple\nC. Both events are happening simultaneously",
+            "answer": "C. Both events are happening simultaneously",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1059718130_concat_0",
+        "question": "Are both suns rising at the same speed?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1059718130_concat_0",
+            "question": "Are both suns rising at the same speed?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "15695290_concat_2",
+        "question": "In the comparison of the speed of drawing, who is considered as faster?\nA. The person below\nB. They draw at an equal rate\nC. The person above",
+        "answer": "C. The person above",
+        "options": "",
+        "meta_data": {
+            "video_id": "15695290_concat_2",
+            "question": "In the comparison of the speed of drawing, who is considered as faster?\nA. The person below\nB. They draw at an equal rate\nC. The person above",
+            "answer": "C. The person above",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1108534143_reverse",
+        "question": "Is the direction of the puppy's movement walking out of a wigwam?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1108534143_reverse",
+            "question": "Is the direction of the puppy's movement walking out of a wigwam?",
+            "answer": "no",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1088428381",
+        "question": "Is the woman wrapping a gift box in the video?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1088428381",
+            "question": "Is the woman wrapping a gift box in the video?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1058985719_reverse",
+        "question": "Is the airplane flying from top to bottom?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1058985719_reverse",
+            "question": "Is the airplane flying from top to bottom?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1096238125",
+        "question": "Are the man and woman engaged in lifting kettlebell?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1096238125",
+            "question": "Are the man and woman engaged in lifting kettlebell?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1054717541_1047368344_2",
+        "question": "Does the sequence of events in the video start with a girl jumping into water and then a person kneading dough?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1054717541_1047368344_2",
+            "question": "Does the sequence of events in the video start with a girl jumping into water and then a person kneading dough?",
+            "answer": "yes",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1055413730_reverse",
+        "question": "Is the planet Earth spinning leftwards?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1055413730_reverse",
+            "question": "Is the planet Earth spinning leftwards?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1081734740",
+        "question": "Is the leaf turning into green color?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1081734740",
+            "question": "Is the leaf turning into green color?",
+            "answer": "no",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1086105089_1085910917_1",
+        "question": "Is it true that a woman is drinking water happens before a building is being constructed?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086105089_1085910917_1",
+            "question": "Is it true that a woman is drinking water happens before a building is being constructed?",
+            "answer": "no",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1105233293",
+        "question": "Is the rate at which the video is progressing real-time speed?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1105233293",
+            "question": "Is the rate at which the video is progressing real-time speed?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1065272113",
+        "question": "What action is the doctor performing on the woman?\nA. applying bandage\nB. writing a prescription\nC. giving an injection",
+        "answer": "C. giving an injection",
+        "options": "",
+        "meta_data": {
+            "video_id": "1065272113",
+            "question": "What action is the doctor performing on the woman?\nA. applying bandage\nB. writing a prescription\nC. giving an injection",
+            "answer": "C. giving an injection",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1062609286_concat_0",
+        "question": "In relation to the charging speed below, how is the charging speed above?\nA. faster\nB. slower\nC. the same",
+        "answer": "C. the same",
+        "options": "",
+        "meta_data": {
+            "video_id": "1062609286_concat_0",
+            "question": "In relation to the charging speed below, how is the charging speed above?\nA. faster\nB. slower\nC. the same",
+            "answer": "C. the same",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1100058499_concat_1",
+        "question": "Is the man above jumping rope at the same speed as the man below?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1100058499_concat_1",
+            "question": "Is the man above jumping rope at the same speed as the man below?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1066801717",
+        "question": "Is arranging bouquet of daffodils the action performed by the woman?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1066801717",
+            "question": "Is arranging bouquet of daffodils the action performed by the woman?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1107180099",
+        "question": "Are the women singing?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1107180099",
+            "question": "Are the women singing?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1111657885",
+        "question": "Can dancing be observed in the video?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1111657885",
+            "question": "Can dancing be observed in the video?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "3406661033",
+        "question": "Is the man crawling?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "3406661033",
+            "question": "Is the man crawling?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1093041749",
+        "question": "Which action can the dragon perform?\nA. breathing fire\nB. eating food\nC. laying eggs",
+        "answer": "A. breathing fire",
+        "options": "",
+        "meta_data": {
+            "video_id": "1093041749",
+            "question": "Which action can the dragon perform?\nA. breathing fire\nB. eating food\nC. laying eggs",
+            "answer": "A. breathing fire",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1054494542",
+        "question": "Is the background changing from pink to blue?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1054494542",
+            "question": "Is the background changing from pink to blue?",
+            "answer": "yes",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1043054206",
+        "question": "Is the yellow car driving faster than other cars?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1043054206",
+            "question": "Is the yellow car driving faster than other cars?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1059718130_concat_0",
+        "question": "Is the sun above rising at the same speed as the sun below?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1059718130_concat_0",
+            "question": "Is the sun above rising at the same speed as the sun below?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1060403198_reverse",
+        "question": "What is happening to the tree?\nA. increasing height\nB. decreasing height\nC. shedding leaves\nD. changing color",
+        "answer": "B. decreasing height",
+        "options": "",
+        "meta_data": {
+            "video_id": "1060403198_reverse",
+            "question": "What is happening to the tree?\nA. increasing height\nB. decreasing height\nC. shedding leaves\nD. changing color",
+            "answer": "B. decreasing height",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1099811331",
+        "question": "What is the attribute change of the 3d heart?\nA. gradually appearing\nB. splitting in half\nC. gradually disappearing\nD. breaking apart",
+        "answer": "A. gradually appearing",
+        "options": "",
+        "meta_data": {
+            "video_id": "1099811331",
+            "question": "What is the attribute change of the 3d heart?\nA. gradually appearing\nB. splitting in half\nC. gradually disappearing\nD. breaking apart",
+            "answer": "A. gradually appearing",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "9537677",
+        "question": "Is the woman dancing?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "9537677",
+            "question": "Is the woman dancing?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1022115337",
+        "question": "Is the video showing dancing and then sending an air kiss?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1022115337",
+            "question": "Is the video showing dancing and then sending an air kiss?",
+            "answer": "yes",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1056433484",
+        "question": "The Earth's rotation in relation to the Sun follows a ____________ direction.\nA. Counter-clockwise\nB. Clockwise\nC. Horizontal",
+        "answer": "A. Counter-clockwise",
+        "options": "",
+        "meta_data": {
+            "video_id": "1056433484",
+            "question": "The Earth's rotation in relation to the Sun follows a ____________ direction.\nA. Counter-clockwise\nB. Clockwise\nC. Horizontal",
+            "answer": "A. Counter-clockwise",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1056491306",
+        "question": "Are the passengers dancing on the stage?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1056491306",
+            "question": "Are the passengers dancing on the stage?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1072971926",
+        "question": "Is the man eating the pizza?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1072971926",
+            "question": "Is the man eating the pizza?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1098153561",
+        "question": "Which of the following best describes the tempo of the video?\nA. sluggish\nB. steady\nC. accelerated",
+        "answer": "C. accelerated",
+        "options": "",
+        "meta_data": {
+            "video_id": "1098153561",
+            "question": "Which of the following best describes the tempo of the video?\nA. sluggish\nB. steady\nC. accelerated",
+            "answer": "C. accelerated",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1081684532",
+        "question": "Are the asteroids flying towards the camera?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1081684532",
+            "question": "Are the asteroids flying towards the camera?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1069338034",
+        "question": "Are the elephants engaged in eating and drinking?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1069338034",
+            "question": "Are the elephants engaged in eating and drinking?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1054717541_1047368344_0",
+        "question": "What is happening first in the video?\nA. a person is kneading dough\nB. a girl is jumping into water\nC. Both events occur at the same time",
+        "answer": "C. Both events occur at the same time",
+        "options": "",
+        "meta_data": {
+            "video_id": "1054717541_1047368344_0",
+            "question": "What is happening first in the video?\nA. a person is kneading dough\nB. a girl is jumping into water\nC. Both events occur at the same time",
+            "answer": "C. Both events occur at the same time",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1055413730_1055973887_2",
+        "question": "What is the correct order of events in the video?\nA. Simultaneously, the earth is spinning and the fire ball is expanding\nB. The fire ball is expanding, then the earth is spinning\nC. The earth is spinning, then the fire ball is expanding",
+        "answer": "B. The fire ball is expanding, then the earth is spinning",
+        "options": "",
+        "meta_data": {
+            "video_id": "1055413730_1055973887_2",
+            "question": "What is the correct order of events in the video?\nA. Simultaneously, the earth is spinning and the fire ball is expanding\nB. The fire ball is expanding, then the earth is spinning\nC. The earth is spinning, then the fire ball is expanding",
+            "answer": "B. The fire ball is expanding, then the earth is spinning",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1093041749",
+        "question": "Is the dragon landing from the sky and then breathing fire?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1093041749",
+            "question": "Is the dragon landing from the sky and then breathing fire?",
+            "answer": "yes",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1058907236",
+        "question": "Is the squirrel sleeping?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1058907236",
+            "question": "Is the squirrel sleeping?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1100058499_concat_1",
+        "question": "Is the man above jumping rope at a slower speed compared to the man below?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1100058499_concat_1",
+            "question": "Is the man above jumping rope at a slower speed compared to the man below?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1100058499_concat_1",
+        "question": "Is the man above jumping rope at a slower speed?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1100058499_concat_1",
+            "question": "Is the man above jumping rope at a slower speed?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1060403198_concat_2",
+        "question": "Is the tree above growing at the same speed as the tree below?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1060403198_concat_2",
+            "question": "Is the tree above growing at the same speed as the tree below?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1073831006",
+        "question": "Are the zebras performing the action of walking?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1073831006",
+            "question": "Are the zebras performing the action of walking?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "22100041",
+        "question": "What is the woman doing in the video?\nA. waving goodbye\nB. clapping her hands\nC. doing an invitation gesture\nD. pointing towards something",
+        "answer": "C. doing an invitation gesture",
+        "options": "",
+        "meta_data": {
+            "video_id": "22100041",
+            "question": "What is the woman doing in the video?\nA. waving goodbye\nB. clapping her hands\nC. doing an invitation gesture\nD. pointing towards something",
+            "answer": "C. doing an invitation gesture",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1050618460",
+        "question": "How would you describe the pace of the entire video?\nA. fast-paced\nB. slow-paced\nC. medium-paced",
+        "answer": "A. fast-paced",
+        "options": "",
+        "meta_data": {
+            "video_id": "1050618460",
+            "question": "How would you describe the pace of the entire video?\nA. fast-paced\nB. slow-paced\nC. medium-paced",
+            "answer": "A. fast-paced",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1096612823",
+        "question": "How is the video changing?\nA. panning upwards\nB. rewinding\nC. zooming out\nD. zooming in",
+        "answer": "D. zooming in",
+        "options": "",
+        "meta_data": {
+            "video_id": "1096612823",
+            "question": "How is the video changing?\nA. panning upwards\nB. rewinding\nC. zooming out\nD. zooming in",
+            "answer": "D. zooming in",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "23391142",
+        "question": "Is the video panning to the right?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "23391142",
+            "question": "Is the video panning to the right?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1084518106_concat_2",
+        "question": "Is the truck below moving at a higher speed compared to the truck above?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1084518106_concat_2",
+            "question": "Is the truck below moving at a higher speed compared to the truck above?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1077575504_reverse",
+        "question": "Is the pile of salt shrinking?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1077575504_reverse",
+            "question": "Is the pile of salt shrinking?",
+            "answer": "yes",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1079384099_reverse",
+        "question": "Which shapes does the 3d pixel transform through? \nA. From flower to square\nB. From flower to heart\nC. From heart to flower\nD. From square to flower",
+        "answer": "A. From flower to square",
+        "options": "",
+        "meta_data": {
+            "video_id": "1079384099_reverse",
+            "question": "Which shapes does the 3d pixel transform through? \nA. From flower to square\nB. From flower to heart\nC. From heart to flower\nD. From square to flower",
+            "answer": "A. From flower to square",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1111657885",
+        "question": "In what direction are the people moving?\nA. standing still\nB. towards the camera\nC. from right to left in relation to the camera\nD. away from the camera",
+        "answer": "B. towards the camera",
+        "options": "",
+        "meta_data": {
+            "video_id": "1111657885",
+            "question": "In what direction are the people moving?\nA. standing still\nB. towards the camera\nC. from right to left in relation to the camera\nD. away from the camera",
+            "answer": "B. towards the camera",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1086105089_1085910917_2",
+        "question": "Does the event of a building being constructed happen before the event of a woman drinking water?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086105089_1085910917_2",
+            "question": "Does the event of a building being constructed happen before the event of a woman drinking water?",
+            "answer": "no",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "22100041",
+        "question": "Is the woman doing an invitation gesture?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "22100041",
+            "question": "Is the woman doing an invitation gesture?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1077275024",
+        "question": "Is the girl recording the man playing the ukulele?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1077275024",
+            "question": "Is the girl recording the man playing the ukulele?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1100117263_reverse",
+        "question": "Is the little lion's motion upward?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1100117263_reverse",
+            "question": "Is the little lion's motion upward?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1093139559_reverse",
+        "question": "How would you describe the change in light on the football players?\nA. dimming\nB. flickering\nC. intensifying",
+        "answer": "A. dimming",
+        "options": "",
+        "meta_data": {
+            "video_id": "1093139559_reverse",
+            "question": "How would you describe the change in light on the football players?\nA. dimming\nB. flickering\nC. intensifying",
+            "answer": "A. dimming",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1094590221",
+        "question": "How does the basketball move in the horizontal direction?\nA. left to right\nB. right to left\nC. standing still",
+        "answer": "B. right to left",
+        "options": "",
+        "meta_data": {
+            "video_id": "1094590221",
+            "question": "How does the basketball move in the horizontal direction?\nA. left to right\nB. right to left\nC. standing still",
+            "answer": "B. right to left",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1086820415",
+        "question": "Does the large wave move in the direction towards the bottom of the screen?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086820415",
+            "question": "Does the large wave move in the direction towards the bottom of the screen?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "22100041",
+        "question": "When captured on video, what action is the woman engaged in?\nA. waving goodbye\nB. doing an invitation gesture\nC. pointing towards something\nD. clapping her hands",
+        "answer": "B. doing an invitation gesture",
+        "options": "",
+        "meta_data": {
+            "video_id": "22100041",
+            "question": "When captured on video, what action is the woman engaged in?\nA. waving goodbye\nB. doing an invitation gesture\nC. pointing towards something\nD. clapping her hands",
+            "answer": "B. doing an invitation gesture",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1047368344_reverse",
+        "question": "In which direction is the girl moving? Is it towards the water?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1047368344_reverse",
+            "question": "In which direction is the girl moving? Is it towards the water?",
+            "answer": "no",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1059072773_concat_2",
+        "question": "Is the speed of melting of the ice cream above faster than the ice cream below?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1059072773_concat_2",
+            "question": "Is the speed of melting of the ice cream above faster than the ice cream below?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1059072773_concat_1",
+        "question": "In comparison, how would you describe the speed of melting of the ice creams?\nA. The ice cream above is melting at the same speed as the ice cream below.\nB. The ice cream above is melting faster than the ice cream below.\nC. The ice cream above is melting slower than the ice cream below.",
+        "answer": "C. The ice cream above is melting slower than the ice cream below.",
+        "options": "",
+        "meta_data": {
+            "video_id": "1059072773_concat_1",
+            "question": "In comparison, how would you describe the speed of melting of the ice creams?\nA. The ice cream above is melting at the same speed as the ice cream below.\nB. The ice cream above is melting faster than the ice cream below.\nC. The ice cream above is melting slower than the ice cream below.",
+            "answer": "C. The ice cream above is melting slower than the ice cream below.",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1072453637_reverse",
+        "question": "Identify the camera's panning movement in the video.\nA. Panning to the back of a fighter jet\nB. Panning upward around a fighter jet\nC. Panning downward around a fighter jet\nD. Panning to the front of a fighter jet",
+        "answer": "D. Panning to the front of a fighter jet",
+        "options": "",
+        "meta_data": {
+            "video_id": "1072453637_reverse",
+            "question": "Identify the camera's panning movement in the video.\nA. Panning to the back of a fighter jet\nB. Panning upward around a fighter jet\nC. Panning downward around a fighter jet\nD. Panning to the front of a fighter jet",
+            "answer": "D. Panning to the front of a fighter jet",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1024867412",
+        "question": "Is the dog engaged in driving a car?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1024867412",
+            "question": "Is the dog engaged in driving a car?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1050618460",
+        "question": "Does the entire video appear rapidly in terms of tempo?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1050618460",
+            "question": "Does the entire video appear rapidly in terms of tempo?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1098153561_reverse",
+        "question": "Is the initial color of the leaves yellow?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1098153561_reverse",
+            "question": "Is the initial color of the leaves yellow?",
+            "answer": "yes",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1034736653_1043054206_1",
+        "question": "Do the events occur in the order of cars racing, then women running?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034736653_1043054206_1",
+            "question": "Do the events occur in the order of cars racing, then women running?",
+            "answer": "no",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1034736653",
+        "question": "What are the woman athletes doing?\nA. cycling\nB. swimming\nC. running\nD. dancing",
+        "answer": "C. running",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034736653",
+            "question": "What are the woman athletes doing?\nA. cycling\nB. swimming\nC. running\nD. dancing",
+            "answer": "C. running",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1084153195_reverse",
+        "question": "Are the dolphins swimming towards the shore?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1084153195_reverse",
+            "question": "Are the dolphins swimming towards the shore?",
+            "answer": "no",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1103088481",
+        "question": "Is the person buying vegetables in the market?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1103088481",
+            "question": "Is the person buying vegetables in the market?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1098785169_reverse",
+        "question": "In which direction is the galaxy rotating?\nA. backward\nB. counter clockwise\nC. clockwise\nD. forward",
+        "answer": "B. counter clockwise",
+        "options": "",
+        "meta_data": {
+            "video_id": "1098785169_reverse",
+            "question": "In which direction is the galaxy rotating?\nA. backward\nB. counter clockwise\nC. clockwise\nD. forward",
+            "answer": "B. counter clockwise",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1077507593",
+        "question": "Are the individuals performing the action of cooking?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1077507593",
+            "question": "Are the individuals performing the action of cooking?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1050618460",
+        "question": "Does the entire video have a fast-paced pace?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1050618460",
+            "question": "Does the entire video have a fast-paced pace?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1088279109_reverse",
+        "question": "In which direction is the elevator moving?\nA. up\nB. down\nC. not moving",
+        "answer": "B. down",
+        "options": "",
+        "meta_data": {
+            "video_id": "1088279109_reverse",
+            "question": "In which direction is the elevator moving?\nA. up\nB. down\nC. not moving",
+            "answer": "B. down",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1071214909",
+        "question": "What is the video about?\nA. drawing a cuttting line on a wood surface\nB. erasing a line on a wood surface\nC. carving a pattern on a wood surface\nD. measuring length on a wood surface",
+        "answer": "A. drawing a cuttting line on a wood surface",
+        "options": "",
+        "meta_data": {
+            "video_id": "1071214909",
+            "question": "What is the video about?\nA. drawing a cuttting line on a wood surface\nB. erasing a line on a wood surface\nC. carving a pattern on a wood surface\nD. measuring length on a wood surface",
+            "answer": "A. drawing a cuttting line on a wood surface",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1025137214",
+        "question": "What action is the man engaged in?\nA. reading a book\nB. smoking cigarette\nC. writing a letter",
+        "answer": "B. smoking cigarette",
+        "options": "",
+        "meta_data": {
+            "video_id": "1025137214",
+            "question": "What action is the man engaged in?\nA. reading a book\nB. smoking cigarette\nC. writing a letter",
+            "answer": "B. smoking cigarette",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1092278063",
+        "question": "Are the two rows of duck toy moving in the same direction on a conveyor belt?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1092278063",
+            "question": "Are the two rows of duck toy moving in the same direction on a conveyor belt?",
+            "answer": "no",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1079406734",
+        "question": "Is the man feeding a dog?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1079406734",
+            "question": "Is the man feeding a dog?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1077146132",
+        "question": "Is the video turning brighter?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1077146132",
+            "question": "Is the video turning brighter?",
+            "answer": "yes",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1096238125_concat_1",
+        "question": "Relative to the two people below, how fast are the two people above lifting the kettlebell moving?\nA. slower\nB. faster\nC. at the same speed",
+        "answer": "B. faster",
+        "options": "",
+        "meta_data": {
+            "video_id": "1096238125_concat_1",
+            "question": "Relative to the two people below, how fast are the two people above lifting the kettlebell moving?\nA. slower\nB. faster\nC. at the same speed",
+            "answer": "B. faster",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1077388994",
+        "question": "Is the woman singing?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1077388994",
+            "question": "Is the woman singing?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "26631100",
+        "question": "What is the order of events in the video?\nA. One hand is holding the clay pot, then three hands are holding the clay pot\nB. Three hands are holding the clay pot, then two hands are holding the clay pot\nC. Two hands are holding the clay pot, then three hands are holding the clay pot",
+        "answer": "B. Three hands are holding the clay pot, then two hands are holding the clay pot",
+        "options": "",
+        "meta_data": {
+            "video_id": "26631100",
+            "question": "What is the order of events in the video?\nA. One hand is holding the clay pot, then three hands are holding the clay pot\nB. Three hands are holding the clay pot, then two hands are holding the clay pot\nC. Two hands are holding the clay pot, then three hands are holding the clay pot",
+            "answer": "B. Three hands are holding the clay pot, then two hands are holding the clay pot",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1062609286_concat_0",
+        "question": "Is the battery charge above increasing at the same speed as the battery charge below?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1062609286_concat_0",
+            "question": "Is the battery charge above increasing at the same speed as the battery charge below?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "15695290",
+        "question": "What is the person doing?\nA. playing soccer\nB. reading a book\nC. drawing a picture",
+        "answer": "C. drawing a picture",
+        "options": "",
+        "meta_data": {
+            "video_id": "15695290",
+            "question": "What is the person doing?\nA. playing soccer\nB. reading a book\nC. drawing a picture",
+            "answer": "C. drawing a picture",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1034736653",
+        "question": "Is running the primary action of the woman athletes?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034736653",
+            "question": "Is running the primary action of the woman athletes?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1093139559",
+        "question": "Are the light conditions on the football players staying the same?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1093139559",
+            "question": "Are the light conditions on the football players staying the same?",
+            "answer": "no",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1095939659",
+        "question": "What is the direction of the light's movement?\nA. Clockwise\nB. Anticlockwise\nC. Straight forward\nD. Downwards",
+        "answer": "A. Clockwise",
+        "options": "",
+        "meta_data": {
+            "video_id": "1095939659",
+            "question": "What is the direction of the light's movement?\nA. Clockwise\nB. Anticlockwise\nC. Straight forward\nD. Downwards",
+            "answer": "A. Clockwise",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1058907236",
+        "question": "Is the squirrel performing the action of foraging for nuts?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1058907236",
+            "question": "Is the squirrel performing the action of foraging for nuts?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1072971926",
+        "question": "Is wrapping the pizza box what the man is doing?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1072971926",
+            "question": "Is wrapping the pizza box what the man is doing?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1084736389_reverse",
+        "question": "Which animal does the face resemble at the beginning?\nA. Chimpanzee\nB. Giraffe\nC. Human\nD. Tiger",
+        "answer": "C. Human",
+        "options": "",
+        "meta_data": {
+            "video_id": "1084736389_reverse",
+            "question": "Which animal does the face resemble at the beginning?\nA. Chimpanzee\nB. Giraffe\nC. Human\nD. Tiger",
+            "answer": "C. Human",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1054494542",
+        "question": "What is the main change occurring in the background?\nA. changing from green to pink\nB. changing from pink to green\nC. changing from blue to pink\nD. changing from pink to blue",
+        "answer": "D. changing from pink to blue",
+        "options": "",
+        "meta_data": {
+            "video_id": "1054494542",
+            "question": "What is the main change occurring in the background?\nA. changing from green to pink\nB. changing from pink to green\nC. changing from blue to pink\nD. changing from pink to blue",
+            "answer": "D. changing from pink to blue",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1060403198_concat_0",
+        "question": "Are both trees growing at an equal speed - the tree above and the tree below?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1060403198_concat_0",
+            "question": "Are both trees growing at an equal speed - the tree above and the tree below?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "3406618583",
+        "question": "What is the direction of the camera movement in the video?\nA. panning left and right around the girl\nB. panning up and down around the girl\nC. rotating clockwise around the girl\nD. zooming in and out around the girl",
+        "answer": "B. panning up and down around the girl",
+        "options": "",
+        "meta_data": {
+            "video_id": "3406618583",
+            "question": "What is the direction of the camera movement in the video?\nA. panning left and right around the girl\nB. panning up and down around the girl\nC. rotating clockwise around the girl\nD. zooming in and out around the girl",
+            "answer": "B. panning up and down around the girl",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1072453637",
+        "question": "What did the fighter jet do latter in the video?\nA. shooting three missiles\nB. shooting two missiles\nC. shooting one missile\nD. shooting four missiles",
+        "answer": "B. shooting two missiles",
+        "options": "",
+        "meta_data": {
+            "video_id": "1072453637",
+            "question": "What did the fighter jet do latter in the video?\nA. shooting three missiles\nB. shooting two missiles\nC. shooting one missile\nD. shooting four missiles",
+            "answer": "B. shooting two missiles",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1094219575",
+        "question": "What is the transformation occurring to the flowers?\nA. reproducing through seeds\nB. changing from withered to full blossom\nC. changing from full blossom to withered\nD. sprouting new buds",
+        "answer": "C. changing from full blossom to withered",
+        "options": "",
+        "meta_data": {
+            "video_id": "1094219575",
+            "question": "What is the transformation occurring to the flowers?\nA. reproducing through seeds\nB. changing from withered to full blossom\nC. changing from full blossom to withered\nD. sprouting new buds",
+            "answer": "C. changing from full blossom to withered",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1017768724_reverse",
+        "question": "In which direction is the person heading?\nA. vertically\nB. backward\nC. forward\nD. horizontally",
+        "answer": "D. horizontally",
+        "options": "",
+        "meta_data": {
+            "video_id": "1017768724_reverse",
+            "question": "In which direction is the person heading?\nA. vertically\nB. backward\nC. forward\nD. horizontally",
+            "answer": "D. horizontally",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1096612823",
+        "question": "What is the car doing in the scene?\nA. flying in the sky\nB. swimming in the ocean\nC. parked on the sidewalk\nD. driving on the road",
+        "answer": "D. driving on the road",
+        "options": "",
+        "meta_data": {
+            "video_id": "1096612823",
+            "question": "What is the car doing in the scene?\nA. flying in the sky\nB. swimming in the ocean\nC. parked on the sidewalk\nD. driving on the road",
+            "answer": "D. driving on the road",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1088279109",
+        "question": "Is the elevator moving up?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1088279109",
+            "question": "Is the elevator moving up?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1086105089",
+        "question": "Is the building growing shorter?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086105089",
+            "question": "Is the building growing shorter?",
+            "answer": "no",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1099811331_reverse",
+        "question": "Is the 3d heart gradually disappearing?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1099811331_reverse",
+            "question": "Is the 3d heart gradually disappearing?",
+            "answer": "yes",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1078368947",
+        "question": "Is reading a book while taking a bath describes the woman's action?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1078368947",
+            "question": "Is reading a book while taking a bath describes the woman's action?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1089810425_reverse",
+        "question": "What is the movement of the camera in the video?\nA. panning from right to left\nB. zooming in\nC. zooming out\nD. panning from left to right",
+        "answer": "D. panning from left to right",
+        "options": "",
+        "meta_data": {
+            "video_id": "1089810425_reverse",
+            "question": "What is the movement of the camera in the video?\nA. panning from right to left\nB. zooming in\nC. zooming out\nD. panning from left to right",
+            "answer": "D. panning from left to right",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1086105089_1085910917_0",
+        "question": "What order do the events occur in?\nA. First, a building is being constructed; then, a woman is drinking water.\nB. First, a woman is drinking water; then, a building is being constructed.\nC. Both events happen simultaneously.",
+        "answer": "C. Both events happen simultaneously.",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086105089_1085910917_0",
+            "question": "What order do the events occur in?\nA. First, a building is being constructed; then, a woman is drinking water.\nB. First, a woman is drinking water; then, a building is being constructed.\nC. Both events happen simultaneously.",
+            "answer": "C. Both events happen simultaneously.",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1057447372",
+        "question": "What is happening to the sport stadium?\nA. turning darker\nB. turning brighter\nC. staying the same brightness",
+        "answer": "B. turning brighter",
+        "options": "",
+        "meta_data": {
+            "video_id": "1057447372",
+            "question": "What is happening to the sport stadium?\nA. turning darker\nB. turning brighter\nC. staying the same brightness",
+            "answer": "B. turning brighter",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1089810969",
+        "question": "Does the little girl run towards the woman and hug her?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1089810969",
+            "question": "Does the little girl run towards the woman and hug her?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1025137214",
+        "question": "Is playing soccer the activity the man is involved in?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1025137214",
+            "question": "Is playing soccer the activity the man is involved in?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1014976360",
+        "question": "What is the order of events for the man?\nA. putting on his glasses and then looking at his phone\nB. taking off his glasses and then looking at his phone\nC. looking at his phone and then putting on his glasses\nD. looking at his phone and then taking off his glasses",
+        "answer": "D. looking at his phone and then taking off his glasses",
+        "options": "",
+        "meta_data": {
+            "video_id": "1014976360",
+            "question": "What is the order of events for the man?\nA. putting on his glasses and then looking at his phone\nB. taking off his glasses and then looking at his phone\nC. looking at his phone and then putting on his glasses\nD. looking at his phone and then taking off his glasses",
+            "answer": "D. looking at his phone and then taking off his glasses",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1111657885",
+        "question": "Is the direction that the people moving towards the camera?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1111657885",
+            "question": "Is the direction that the people moving towards the camera?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1077507593",
+        "question": "Are the people cooking?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1077507593",
+            "question": "Are the people cooking?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1079406734",
+        "question": "Is dancing the activity the man is engaged in?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1079406734",
+            "question": "Is dancing the activity the man is engaged in?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1098710341",
+        "question": "Is the glass going from full of water to empty?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1098710341",
+            "question": "Is the glass going from full of water to empty?",
+            "answer": "no",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1080591311",
+        "question": "What direction is the jellyfish moving?\nA. moving towards the right\nB. floating upwards\nC. moving towards the left\nD. sinking downwards",
+        "answer": "B. floating upwards",
+        "options": "",
+        "meta_data": {
+            "video_id": "1080591311",
+            "question": "What direction is the jellyfish moving?\nA. moving towards the right\nB. floating upwards\nC. moving towards the left\nD. sinking downwards",
+            "answer": "B. floating upwards",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "15695290_concat_0",
+        "question": "In the comparison of the speed of drawing, who is considered as faster?\nA. They draw at an equal rate\nB. The person below\nC. The person above",
+        "answer": "A. They draw at an equal rate",
+        "options": "",
+        "meta_data": {
+            "video_id": "15695290_concat_0",
+            "question": "In the comparison of the speed of drawing, who is considered as faster?\nA. They draw at an equal rate\nB. The person below\nC. The person above",
+            "answer": "A. They draw at an equal rate",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1069338034",
+        "question": "Are the elephants swimming and drinking?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1069338034",
+            "question": "Are the elephants swimming and drinking?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1100117263_reverse",
+        "question": "Is the little lion falling from the back of an adult lion?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1100117263_reverse",
+            "question": "Is the little lion falling from the back of an adult lion?",
+            "answer": "no",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1086423566",
+        "question": "What is the order of events in the video?\nA. The bowl rotates and then food is added into the bowl\nB. Food is added into the bowl and then the bowl rotates\nC. The bowl flips upside down and then food is added into the bowl\nD. Food is added into the bowl and then the bowl flips upside down",
+        "answer": "B. Food is added into the bowl and then the bowl rotates",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086423566",
+            "question": "What is the order of events in the video?\nA. The bowl rotates and then food is added into the bowl\nB. Food is added into the bowl and then the bowl rotates\nC. The bowl flips upside down and then food is added into the bowl\nD. Food is added into the bowl and then the bowl flips upside down",
+            "answer": "B. Food is added into the bowl and then the bowl rotates",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1107180099",
+        "question": "Are the women dancing?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1107180099",
+            "question": "Are the women dancing?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1100117263",
+        "question": "Is the little lion climbing to the back of an adult lion?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1100117263",
+            "question": "Is the little lion climbing to the back of an adult lion?",
+            "answer": "no",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1084518106_concat_2",
+        "question": "Is the truck above driving faster than the truck below?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1084518106_concat_2",
+            "question": "Is the truck above driving faster than the truck below?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1059072773_concat_1",
+        "question": "Does the ice cream above melt at a slower speed than the ice cream below?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1059072773_concat_1",
+            "question": "Does the ice cream above melt at a slower speed than the ice cream below?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "18416608",
+        "question": "Is the woman sampling water in a bottle first, then operating her tablet?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "18416608",
+            "question": "Is the woman sampling water in a bottle first, then operating her tablet?",
+            "answer": "yes",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1096612823",
+        "question": "What is happening to the video?\nA. zooming out\nB. rotating\nC. panning left\nD. zooming in",
+        "answer": "D. zooming in",
+        "options": "",
+        "meta_data": {
+            "video_id": "1096612823",
+            "question": "What is happening to the video?\nA. zooming out\nB. rotating\nC. panning left\nD. zooming in",
+            "answer": "D. zooming in",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1067268406_1067427023_2",
+        "question": "What is happening second in the video?\nA. a white car is driving\nB. snow particles are melting\nC. a white car is driving while snow particles are melting simultaneously",
+        "answer": "A. a white car is driving",
+        "options": "",
+        "meta_data": {
+            "video_id": "1067268406_1067427023_2",
+            "question": "What is happening second in the video?\nA. a white car is driving\nB. snow particles are melting\nC. a white car is driving while snow particles are melting simultaneously",
+            "answer": "A. a white car is driving",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "27537016",
+        "question": "In what order did the man do the activities?\nA. showing off his car key, pulling back inside the car\nB. pulling back inside the car, showing off his car key\nC. throwing away his car key, pulling back inside the car\nD. pulling back inside the car, throwing away his car key",
+        "answer": "A. showing off his car key, pulling back inside the car",
+        "options": "",
+        "meta_data": {
+            "video_id": "27537016",
+            "question": "In what order did the man do the activities?\nA. showing off his car key, pulling back inside the car\nB. pulling back inside the car, showing off his car key\nC. throwing away his car key, pulling back inside the car\nD. pulling back inside the car, throwing away his car key",
+            "answer": "A. showing off his car key, pulling back inside the car",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1055022287",
+        "question": "What action is the man undertaking?\nA. reading\nB. sleeping\nC. cleaning a swimming pool",
+        "answer": "C. cleaning a swimming pool",
+        "options": "",
+        "meta_data": {
+            "video_id": "1055022287",
+            "question": "What action is the man undertaking?\nA. reading\nB. sleeping\nC. cleaning a swimming pool",
+            "answer": "C. cleaning a swimming pool",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1054717541",
+        "question": "Is the person grilling dough?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1054717541",
+            "question": "Is the person grilling dough?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1025623079_reverse",
+        "question": "What change is occurring with the skyscraper?\nA. burning in fire\nB. collapsing\nC. standing up\nD. turning darker",
+        "answer": "C. standing up",
+        "options": "",
+        "meta_data": {
+            "video_id": "1025623079_reverse",
+            "question": "What change is occurring with the skyscraper?\nA. burning in fire\nB. collapsing\nC. standing up\nD. turning darker",
+            "answer": "C. standing up",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "6165731",
+        "question": "Is the scientist leisurely conducting experiments?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "6165731",
+            "question": "Is the scientist leisurely conducting experiments?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1105233293",
+        "question": "Are the people engaged in playing basketball?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1105233293",
+            "question": "Are the people engaged in playing basketball?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "6165731",
+        "question": "What is the emotional state of the scientist during the experiment?\nA. calm and content\nB. happy and satisfied\nC. confused and frustrated",
+        "answer": "C. confused and frustrated",
+        "options": "",
+        "meta_data": {
+            "video_id": "6165731",
+            "question": "What is the emotional state of the scientist during the experiment?\nA. calm and content\nB. happy and satisfied\nC. confused and frustrated",
+            "answer": "C. confused and frustrated",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1086105089_reverse",
+        "question": "What is happening to the building?\nA. being constructed\nB. grwoing wider\nC. demolishing",
+        "answer": "C. demolishing",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086105089_reverse",
+            "question": "What is happening to the building?\nA. being constructed\nB. grwoing wider\nC. demolishing",
+            "answer": "C. demolishing",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1086820415_reverse",
+        "question": "How does the large wave travel across the screen?\nA. moving vertically towards the bottom\nB. contracting towards the center\nC. moving vertically towards the top\nD. expanding from the center",
+        "answer": "C. moving vertically towards the top",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086820415_reverse",
+            "question": "How does the large wave travel across the screen?\nA. moving vertically towards the bottom\nB. contracting towards the center\nC. moving vertically towards the top\nD. expanding from the center",
+            "answer": "C. moving vertically towards the top",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1067268403_1064645467_1",
+        "question": "Is the order of events in the video: A man doing exercise followed by wind turbines rotating?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1067268403_1064645467_1",
+            "question": "Is the order of events in the video: A man doing exercise followed by wind turbines rotating?",
+            "answer": "no",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1034736653",
+        "question": "What is the speed of the woman closest to the camera?\nA. Normal speed\nB. Slowest speed\nC. The fastest speed",
+        "answer": "C. The fastest speed",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034736653",
+            "question": "What is the speed of the woman closest to the camera?\nA. Normal speed\nB. Slowest speed\nC. The fastest speed",
+            "answer": "C. The fastest speed",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1081734740_reverse",
+        "question": "What change is occurring in the leaf?\nA. It is getting smaller\nB. It is becoming white\nC. It is becoming yellow\nD. It is becoming green",
+        "answer": "D. It is becoming green",
+        "options": "",
+        "meta_data": {
+            "video_id": "1081734740_reverse",
+            "question": "What change is occurring in the leaf?\nA. It is getting smaller\nB. It is becoming white\nC. It is becoming yellow\nD. It is becoming green",
+            "answer": "D. It is becoming green",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1075484900",
+        "question": "Is the child turning towards the man?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1075484900",
+            "question": "Is the child turning towards the man?",
+            "answer": "no",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1034419625",
+        "question": "What is the direction of the man?\nA. moving towards the camera\nB. moving from left to right\nC. moving away from the camera",
+        "answer": "B. moving from left to right",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034419625",
+            "question": "What is the direction of the man?\nA. moving towards the camera\nB. moving from left to right\nC. moving away from the camera",
+            "answer": "B. moving from left to right",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1043487715",
+        "question": "Are the children diving into water?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1043487715",
+            "question": "Are the children diving into water?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1067268406_1067427023_1",
+        "question": "Is the order of events in the video that a white car is driving, then snow particles are melting?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1067268406_1067427023_1",
+            "question": "Is the order of events in the video that a white car is driving, then snow particles are melting?",
+            "answer": "yes",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1094219575_reverse",
+        "question": "What is the condition of the flowers?\nA. decaying\nB. dormant\nC. budding\nD. blooming",
+        "answer": "D. blooming",
+        "options": "",
+        "meta_data": {
+            "video_id": "1094219575_reverse",
+            "question": "What is the condition of the flowers?\nA. decaying\nB. dormant\nC. budding\nD. blooming",
+            "answer": "D. blooming",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1107180099",
+        "question": "Which activity are the women engaged in?\nA. swimming\nB. playing basketball\nC. dancing\nD. gardening",
+        "answer": "C. dancing",
+        "options": "",
+        "meta_data": {
+            "video_id": "1107180099",
+            "question": "Which activity are the women engaged in?\nA. swimming\nB. playing basketball\nC. dancing\nD. gardening",
+            "answer": "C. dancing",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1107116885",
+        "question": "Is the video presented at real-time tempo?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1107116885",
+            "question": "Is the video presented at real-time tempo?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1072000366",
+        "question": "What are the girls doing to each other?\nA. elbowing each other\nB. giving high five to each other\nC. waving at each other\nD. shaking hands",
+        "answer": "A. elbowing each other",
+        "options": "",
+        "meta_data": {
+            "video_id": "1072000366",
+            "question": "What are the girls doing to each other?\nA. elbowing each other\nB. giving high five to each other\nC. waving at each other\nD. shaking hands",
+            "answer": "A. elbowing each other",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1072453637_reverse",
+        "question": "What is the direction of the camera panning in the video?\nA. panning to the back of a fighter jet\nB. panning downwards around a fighter jet\nC. panning upwards around a fighter jet\nD. panning to the front of a fighter jet",
+        "answer": "D. panning to the front of a fighter jet",
+        "options": "",
+        "meta_data": {
+            "video_id": "1072453637_reverse",
+            "question": "What is the direction of the camera panning in the video?\nA. panning to the back of a fighter jet\nB. panning downwards around a fighter jet\nC. panning upwards around a fighter jet\nD. panning to the front of a fighter jet",
+            "answer": "D. panning to the front of a fighter jet",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1098982673",
+        "question": "Does the video appear to be at fluctuating speed?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1098982673",
+            "question": "Does the video appear to be at fluctuating speed?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1089810425",
+        "question": "Is the tempo of the entire video fast?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1089810425",
+            "question": "Is the tempo of the entire video fast?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1034736653",
+        "question": "Are the woman athletes cycling?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034736653",
+            "question": "Are the woman athletes cycling?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1086105089",
+        "question": "What is happening to the building?\nA. being constructed\nB. demolishing\nC. grwoing wider",
+        "answer": "A. being constructed",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086105089",
+            "question": "What is happening to the building?\nA. being constructed\nB. demolishing\nC. grwoing wider",
+            "answer": "A. being constructed",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1076877854_1073914229_0",
+        "question": "In what order do the events occur in the video?\nA. trains are driving, then robotic arms are working\nB. they happen at the same time\nC. robotic arms are working, then trains are driving",
+        "answer": "B. they happen at the same time",
+        "options": "",
+        "meta_data": {
+            "video_id": "1076877854_1073914229_0",
+            "question": "In what order do the events occur in the video?\nA. trains are driving, then robotic arms are working\nB. they happen at the same time\nC. robotic arms are working, then trains are driving",
+            "answer": "B. they happen at the same time",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1059718130_reverse",
+        "question": "What direction is the sun moving in?\nA. setting\nB. rising\nC. staying in one place",
+        "answer": "A. setting",
+        "options": "",
+        "meta_data": {
+            "video_id": "1059718130_reverse",
+            "question": "What direction is the sun moving in?\nA. setting\nB. rising\nC. staying in one place",
+            "answer": "A. setting",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1094590221",
+        "question": "What is the man doing in the video?\nA. dribbling basketball\nB. passing basketball\nC. shooting basketball\nD. dunking basketball",
+        "answer": "C. shooting basketball",
+        "options": "",
+        "meta_data": {
+            "video_id": "1094590221",
+            "question": "What is the man doing in the video?\nA. dribbling basketball\nB. passing basketball\nC. shooting basketball\nD. dunking basketball",
+            "answer": "C. shooting basketball",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1079406734",
+        "question": "Which of the following actions is being performed by the man?\nA. feeding a dog\nB. reading a book\nC. washing the car\nD. playing the guitar",
+        "answer": "C. washing the car",
+        "options": "",
+        "meta_data": {
+            "video_id": "1079406734",
+            "question": "Which of the following actions is being performed by the man?\nA. feeding a dog\nB. reading a book\nC. washing the car\nD. playing the guitar",
+            "answer": "C. washing the car",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1105233293",
+        "question": "Are the people playing basketball?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1105233293",
+            "question": "Are the people playing basketball?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1034736653",
+        "question": "Among the individuals in the video, is the woman closest to the camera moving at the highest speed?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034736653",
+            "question": "Among the individuals in the video, is the woman closest to the camera moving at the highest speed?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1094590221",
+        "question": "Is the man shooting basketball?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1094590221",
+            "question": "Is the man shooting basketball?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1100468035",
+        "question": "Is the door gradually opening?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1100468035",
+            "question": "Is the door gradually opening?",
+            "answer": "yes",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1103623921",
+        "question": "How would you describe the speed at which the video is playing?\nA. Slowly\nB. Normally\nC. Rapidly",
+        "answer": "B. Normally",
+        "options": "",
+        "meta_data": {
+            "video_id": "1103623921",
+            "question": "How would you describe the speed at which the video is playing?\nA. Slowly\nB. Normally\nC. Rapidly",
+            "answer": "B. Normally",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1056433484",
+        "question": "Is the earth's speed compared to the sun slower?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1056433484",
+            "question": "Is the earth's speed compared to the sun slower?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1096612823_reverse",
+        "question": "Is the video changing by zooming out?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1096612823_reverse",
+            "question": "Is the video changing by zooming out?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1034419625_reverse",
+        "question": "In relation to the camera's position, which way is the man headed?\nA. from right to left\nB. towards the camera\nC. from left to right\nD. away from the camera",
+        "answer": "A. from right to left",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034419625_reverse",
+            "question": "In relation to the camera's position, which way is the man headed?\nA. from right to left\nB. towards the camera\nC. from left to right\nD. away from the camera",
+            "answer": "A. from right to left",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "3405088753",
+        "question": "What action is the woman performing in the video?\nA. reading a book\nB. dancing\nC. buying bread\nD. working out",
+        "answer": "C. buying bread",
+        "options": "",
+        "meta_data": {
+            "video_id": "3405088753",
+            "question": "What action is the woman performing in the video?\nA. reading a book\nB. dancing\nC. buying bread\nD. working out",
+            "answer": "C. buying bread",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1072594556",
+        "question": "Is the car in the center of the screen faster than other cars?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1072594556",
+            "question": "Is the car in the center of the screen faster than other cars?",
+            "answer": "yes",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1055413730_1055973887_2",
+        "question": "Is the correct order of events in the video that the fire ball is expanding, then the earth is spinning?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1055413730_1055973887_2",
+            "question": "Is the correct order of events in the video that the fire ball is expanding, then the earth is spinning?",
+            "answer": "yes",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "5395244",
+        "question": "Is the woman canoeing across the creek?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "5395244",
+            "question": "Is the woman canoeing across the creek?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1080591311_reverse",
+        "question": "Is the jellyfish floating downwards?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1080591311_reverse",
+            "question": "Is the jellyfish floating downwards?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1096238125_1098970151_1",
+        "question": "Which event happens first in the video?\nA. Two people are lifting weights\nB. Both events happen at the same time\nC. A cat is licking its paw",
+        "answer": "A. Two people are lifting weights",
+        "options": "",
+        "meta_data": {
+            "video_id": "1096238125_1098970151_1",
+            "question": "Which event happens first in the video?\nA. Two people are lifting weights\nB. Both events happen at the same time\nC. A cat is licking its paw",
+            "answer": "A. Two people are lifting weights",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1076180768",
+        "question": "Is drawing sword from sheath what the knight is demonstrating?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1076180768",
+            "question": "Is drawing sword from sheath what the knight is demonstrating?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1043054206",
+        "question": "Is the yellow car driving slower than other cars?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1043054206",
+            "question": "Is the yellow car driving slower than other cars?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1037628617",
+        "question": "Is the person pressing a keyboard key and rotating a jog dial?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1037628617",
+            "question": "Is the person pressing a keyboard key and rotating a jog dial?",
+            "answer": "no",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1047368344_concat_1",
+        "question": "Is the speed of the girl above faster than the girl below?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1047368344_concat_1",
+            "question": "Is the speed of the girl above faster than the girl below?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1062609286_concat_2",
+        "question": "Is the charging speed above the same as the charging speed below?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1062609286_concat_2",
+            "question": "Is the charging speed above the same as the charging speed below?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1058907236",
+        "question": "What action is the squirrel performing?\nA. Running around\nB. Taking a rest\nC. Foraging for mushroom\nD. Foraging for nuts",
+        "answer": "D. Foraging for nuts",
+        "options": "",
+        "meta_data": {
+            "video_id": "1058907236",
+            "question": "What action is the squirrel performing?\nA. Running around\nB. Taking a rest\nC. Foraging for mushroom\nD. Foraging for nuts",
+            "answer": "D. Foraging for nuts",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1067925569",
+        "question": "In what sequence are the events presented in the video?\nA. Firstly, a container ship is shown, secondly a cargo train is shown\nB. Firstly, a cargo train is shown, secondly a container ship is shown\nC. The cargo train and the container ship are shown at the same time",
+        "answer": "A. Firstly, a container ship is shown, secondly a cargo train is shown",
+        "options": "",
+        "meta_data": {
+            "video_id": "1067925569",
+            "question": "In what sequence are the events presented in the video?\nA. Firstly, a container ship is shown, secondly a cargo train is shown\nB. Firstly, a cargo train is shown, secondly a container ship is shown\nC. The cargo train and the container ship are shown at the same time",
+            "answer": "A. Firstly, a container ship is shown, secondly a cargo train is shown",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1093340469_reverse",
+        "question": "Is the attribute of the room becoming darker?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1093340469_reverse",
+            "question": "Is the attribute of the room becoming darker?",
+            "answer": "no",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1067268403_1064645467_2",
+        "question": "Is the order of events in the video a man doing exercise followed by wind turbines rotating?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1067268403_1064645467_2",
+            "question": "Is the order of events in the video a man doing exercise followed by wind turbines rotating?",
+            "answer": "yes",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1053758117_1055413730_0",
+        "question": "Which event occurs later in the video?\nA. The digital brain is spinning.\nB. The events are happening simultaneously\nC. The earth is spinning.",
+        "answer": "B. The events are happening simultaneously",
+        "options": "",
+        "meta_data": {
+            "video_id": "1053758117_1055413730_0",
+            "question": "Which event occurs later in the video?\nA. The digital brain is spinning.\nB. The events are happening simultaneously\nC. The earth is spinning.",
+            "answer": "B. The events are happening simultaneously",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1034736653_1043054206_0",
+        "question": "In what order do the events occur in the video?\nA. Women running, then cars racing\nB. They happen simultaneously\nC. Cars racing, then women running",
+        "answer": "B. They happen simultaneously",
+        "options": "",
+        "meta_data": {
+            "video_id": "1034736653_1043054206_0",
+            "question": "In what order do the events occur in the video?\nA. Women running, then cars racing\nB. They happen simultaneously\nC. Cars racing, then women running",
+            "answer": "B. They happen simultaneously",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1054717541",
+        "question": "What is the tempo of the video playback?\nA. medium\nB. slow\nC. fast",
+        "answer": "B. slow",
+        "options": "",
+        "meta_data": {
+            "video_id": "1054717541",
+            "question": "What is the tempo of the video playback?\nA. medium\nB. slow\nC. fast",
+            "answer": "B. slow",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "1024867412",
+        "question": "Is driving a car the action the dog is performing?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1024867412",
+            "question": "Is driving a car the action the dog is performing?",
+            "answer": "yes",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1057163434",
+        "question": "Which action is the chef performing with the bread?\nA. putting it on top of the burger\nB. picking it up from the burger\nC. inserting it inside the burger",
+        "answer": "A. putting it on top of the burger",
+        "options": "",
+        "meta_data": {
+            "video_id": "1057163434",
+            "question": "Which action is the chef performing with the bread?\nA. putting it on top of the burger\nB. picking it up from the burger\nC. inserting it inside the burger",
+            "answer": "A. putting it on top of the burger",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1055973887_reverse",
+        "question": "Is the fire ball staying the same size?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1055973887_reverse",
+            "question": "Is the fire ball staying the same size?",
+            "answer": "no",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1070711428",
+        "question": "Is assembling and rising from water occurring to the glacier?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1070711428",
+            "question": "Is assembling and rising from water occurring to the glacier?",
+            "answer": "no",
+            "dim": "attribute_change"
+        }
+    },
+    {
+        "video_id": "1067268403_reverse",
+        "question": "Which way are the wind turbines rotating?\nA. Randomly\nB. Clockwise\nC. Anti-clockwise",
+        "answer": "C. Anti-clockwise",
+        "options": "",
+        "meta_data": {
+            "video_id": "1067268403_reverse",
+            "question": "Which way are the wind turbines rotating?\nA. Randomly\nB. Clockwise\nC. Anti-clockwise",
+            "answer": "C. Anti-clockwise",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1086105089_1085910917_2",
+        "question": "Does a woman drinking water come before a building being constructed in sequence?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1086105089_1085910917_2",
+            "question": "Does a woman drinking water come before a building being constructed in sequence?",
+            "answer": "yes",
+            "dim": "order"
+        }
+    },
+    {
+        "video_id": "1105233293",
+        "question": "What is the tempo of the video playback?\nA. normal speed\nB. freeze frame\nC. time-lapse\nD. fast-forward",
+        "answer": "A. normal speed",
+        "options": "",
+        "meta_data": {
+            "video_id": "1105233293",
+            "question": "What is the tempo of the video playback?\nA. normal speed\nB. freeze frame\nC. time-lapse\nD. fast-forward",
+            "answer": "A. normal speed",
+            "dim": "speed"
+        }
+    },
+    {
+        "video_id": "23391142",
+        "question": "Is the movement of the video about panning to the right?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "23391142",
+            "question": "Is the movement of the video about panning to the right?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1066801717",
+        "question": "What is the woman doing in the video?\nA. watering bouquet of daffodils\nB. arranging bouquet of daffodils\nC. cutting bouquet of daffodils",
+        "answer": "B. arranging bouquet of daffodils",
+        "options": "",
+        "meta_data": {
+            "video_id": "1066801717",
+            "question": "What is the woman doing in the video?\nA. watering bouquet of daffodils\nB. arranging bouquet of daffodils\nC. cutting bouquet of daffodils",
+            "answer": "B. arranging bouquet of daffodils",
+            "dim": "action"
+        }
+    },
+    {
+        "video_id": "1108534143_reverse",
+        "question": "Is the puppy entering a wigwam?",
+        "answer": "yes",
+        "options": "",
+        "meta_data": {
+            "video_id": "1108534143_reverse",
+            "question": "Is the puppy entering a wigwam?",
+            "answer": "yes",
+            "dim": "direction"
+        }
+    },
+    {
+        "video_id": "1059718130",
+        "question": "Does the video progress at a rate of slow motion?",
+        "answer": "no",
+        "options": "",
+        "meta_data": {
+            "video_id": "1059718130",
+            "question": "Does the video progress at a rate of slow motion?",
+            "answer": "no",
+            "dim": "speed"
+        }
+    }
+]
