@@ -1,4 +1,9 @@
 {
   "random_200_perceptiontest_mcq_json": 19,
-  "random_200_tempcompass_qa_json": 41
+  "random_200_tempcompass_qa_json": 41,
+  "random_200_motionbench_json": 0,
+  "random_200_temporalbench_test_short_qa_json": 0,
+  "random_189_temporalbench_test_short_caption_json": 0,
+  "random_100_vinoground_json": 0,
+  "random_100_vinoground_json (1)": 0
 }
