@@ -30,5 +30,29 @@
     "question": "What is happening to the tree?\nA. increasing height\nB. decreasing height\nC. shedding leaves\nD. changing color",
     "options": "",
     "answer": "B. decreasing height"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 2,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1040541401.mp4",
+    "question": "Is the video running at a rapid speed?",
+    "options": "",
+    "answer": "no"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 5,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1084518106_concat_1.mp4",
+    "question": "How does the speed of the truck above compare to the truck below?\nA. faster\nB. the same speed\nC. slower",
+    "options": "",
+    "answer": "A. faster"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 7,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/15695290_concat_0.mp4",
+    "question": "Is the person above drawing a picture faster than the person below?",
+    "options": "",
+    "answer": "no"
   }
 ]

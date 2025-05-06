@@ -88,7 +88,7 @@
                 <a href="/repurposed_samples" class="btn btn-outline-primary">View Repurposed VQA</a>
             </div>
         </div>
-        
+
         <div class="row controls">
             <div class="col-md-4 d-flex align-items-center">
                 <label for="datasetSelect" class="form-label me-2 mb-0">Dataset:</label>
@@ -169,13 +169,13 @@
             </div>
             <div class="section-body">
                 <h4>Question</h4>
-            <p id="question" class="lead"></p>
-            
+                <p id="question" class="lead"></p>
+                
                 <h4>Options</h4>
-            <ul id="options" class="options-list"></ul>
-            
+                <ul id="options" class="options-list"></ul>
+                
                 <h4>Answer</h4>
-            <p id="answer" class="lead"></p>
+                <p id="answer" class="lead"></p>
 
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="addOriginalVQA" onchange="updateOriginalVQASelection()">
@@ -428,12 +428,12 @@
                         optionsArray = optionsData.split('\n');
                     }
                     optionsArray.forEach(option => {
-                                if (option.trim()) {
-                                    const li = document.createElement('li');
-                                    li.textContent = option.trim();
-                                    optionsList.appendChild(li);
-                                }
-                            });
+                        if (option.trim()) {
+                            const li = document.createElement('li');
+                            li.textContent = option.trim();
+                            optionsList.appendChild(li);
+                        }
+                    });
                     
                     // 更新答案
                     document.getElementById('answer').textContent = data.answer || 'No answer available';
