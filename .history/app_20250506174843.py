@@ -102,7 +102,7 @@ def get_selected_data_file():
     selected_dir = 'selected_data'
     if not os.path.exists(selected_dir):
         os.makedirs(selected_dir)
-    return os.path.join(selected_dir, 'selected_data.json')
+    return os.path.join(selected_dir, 'selected_vqa.json')
 
 def load_selected_data():
     """加载selected数据"""

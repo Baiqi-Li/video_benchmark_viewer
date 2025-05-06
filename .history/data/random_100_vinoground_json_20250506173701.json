@@ -1,0 +1,1202 @@
+[
+    {   
+        "video_id": "vinoground_videos/129_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a person shook a sock before they poured some rice into it\nB. a person poured some rice into a sock before they shook it\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/129_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a person shook a sock before they poured some rice into it\nB. a person poured some rice into a sock before they shook it\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "129_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/129_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/129_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a person poured some rice into a sock before they shook it\nB. a person shook a sock before they poured some rice into it\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/129_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a person poured some rice into a sock before they shook it\nB. a person shook a sock before they poured some rice into it\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "129_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/129_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/384_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the waiter fills the glass with wine before he shakes the bottle a bit\nB. the waiter shakes the bottle a bit before he fills the glass with wine\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/384_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the waiter fills the glass with wine before he shakes the bottle a bit\nB. the waiter shakes the bottle a bit before he fills the glass with wine\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "384_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/384_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/384_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the waiter shakes the bottle a bit before he fills the glass with wine\nB. the waiter fills the glass with wine before he shakes the bottle a bit\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/384_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the waiter shakes the bottle a bit before he fills the glass with wine\nB. the waiter fills the glass with wine before he shakes the bottle a bit\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "384_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/384_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/45_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the flashlight was lit before it is on the desk\nB. the flashlight was on the desk before it is lit\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/45_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the flashlight was lit before it is on the desk\nB. the flashlight was on the desk before it is lit\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "45_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/45_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/45_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the flashlight was lit before it is on the desk\nB. the flashlight was on the desk before it is lit\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/45_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the flashlight was lit before it is on the desk\nB. the flashlight was on the desk before it is lit\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "45_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/45_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/153_pos.mp4",
+        "question": "Which caption best describes this video?\nA. cookies are moved to the outside from the oven\nB. cookies are moved to the oven from the outside\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/153_pos.mp4",
+            "question": "Which caption best describes this video?\nA. cookies are moved to the outside from the oven\nB. cookies are moved to the oven from the outside\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "153_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/153_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/153_neg.mp4",
+        "question": "Which caption best describes this video?\nA. cookies are moved to the oven from the outside\nB. cookies are moved to the outside from the oven\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/153_neg.mp4",
+            "question": "Which caption best describes this video?\nA. cookies are moved to the oven from the outside\nB. cookies are moved to the outside from the oven\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "153_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/153_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/53_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the person moves before people clap for him\nB. people clap for him before the person moves\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/53_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the person moves before people clap for him\nB. people clap for him before the person moves\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "53_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/53_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/53_neg.mp4",
+        "question": "Which caption best describes this video?\nA. people clap for him before the person moves\nB. the person moves before people clap for him\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/53_neg.mp4",
+            "question": "Which caption best describes this video?\nA. people clap for him before the person moves\nB. the person moves before people clap for him\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "53_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/53_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/72_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a group of girls were instructed to lower themselves and turn around before they were dancing upstraight\nB. a group of girls were dancing upstraight before they were instructed to lower themselves and turn around\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/72_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a group of girls were instructed to lower themselves and turn around before they were dancing upstraight\nB. a group of girls were dancing upstraight before they were instructed to lower themselves and turn around\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "72_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/72_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/72_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a group of girls were dancing upstraight before they were instructed to lower themselves and turn around\nB. a group of girls were instructed to lower themselves and turn around before they were dancing upstraight\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/72_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a group of girls were dancing upstraight before they were instructed to lower themselves and turn around\nB. a group of girls were instructed to lower themselves and turn around before they were dancing upstraight\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "72_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/72_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/312_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the tv program was showing several judges next to a gong before cutting to the contestant\nB. the tv program was showing the contestant before cutting to several judges next to a gong\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/312_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the tv program was showing several judges next to a gong before cutting to the contestant\nB. the tv program was showing the contestant before cutting to several judges next to a gong\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "312_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/312_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/312_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the tv program was showing several judges next to a gong before cutting to the contestant\nB. the tv program was showing the contestant before cutting to several judges next to a gong\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/312_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the tv program was showing several judges next to a gong before cutting to the contestant\nB. the tv program was showing the contestant before cutting to several judges next to a gong\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "312_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/312_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/120_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the baby bounces before he falls asleep\nB. the baby falls asleep before he bounces\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/120_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the baby bounces before he falls asleep\nB. the baby falls asleep before he bounces\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "120_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/120_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/120_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the baby falls asleep before he bounces\nB. the baby bounces before he falls asleep\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/120_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the baby falls asleep before he bounces\nB. the baby bounces before he falls asleep\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "120_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/120_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/74_pos.mp4",
+        "question": "Which caption best describes this video?\nA. someone sucks up a yolk out of a bowl before he drops one in another\nB. someone drops a yolk in a bowl before he sucks up one out of another\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/74_pos.mp4",
+            "question": "Which caption best describes this video?\nA. someone sucks up a yolk out of a bowl before he drops one in another\nB. someone drops a yolk in a bowl before he sucks up one out of another\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "74_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/74_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/74_neg.mp4",
+        "question": "Which caption best describes this video?\nA. someone sucks up a yolk out of a bowl before he drops one in another\nB. someone drops a yolk in a bowl before he sucks up one out of another\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/74_neg.mp4",
+            "question": "Which caption best describes this video?\nA. someone sucks up a yolk out of a bowl before he drops one in another\nB. someone drops a yolk in a bowl before he sucks up one out of another\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "74_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/74_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/334_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a man films the long line he is in before he turns away and almost has his face touching the camera\nB. a man almost has his face touching the camera before he turns away and films the long line he is in\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/334_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a man films the long line he is in before he turns away and almost has his face touching the camera\nB. a man almost has his face touching the camera before he turns away and films the long line he is in\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "334_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/334_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/334_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a man almost has his face touching the camera before he turns away and films the long line he is in\nB. a man films the long line he is in before he turns away and almost has his face touching the camera\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/334_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a man almost has his face touching the camera before he turns away and films the long line he is in\nB. a man films the long line he is in before he turns away and almost has his face touching the camera\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "334_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/334_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/300_pos.mp4",
+        "question": "Which caption best describes this video?\nA. tea leaves were first stirred by hand then rubbed against each other in a pair of hands\nB. tea leaves were first rubbed against each other in a pair of hands then stirred by hand\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/300_pos.mp4",
+            "question": "Which caption best describes this video?\nA. tea leaves were first stirred by hand then rubbed against each other in a pair of hands\nB. tea leaves were first rubbed against each other in a pair of hands then stirred by hand\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "300_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/300_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/300_neg.mp4",
+        "question": "Which caption best describes this video?\nA. tea leaves were first rubbed against each other in a pair of hands then stirred by hand\nB. tea leaves were first stirred by hand then rubbed against each other in a pair of hands\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/300_neg.mp4",
+            "question": "Which caption best describes this video?\nA. tea leaves were first rubbed against each other in a pair of hands then stirred by hand\nB. tea leaves were first stirred by hand then rubbed against each other in a pair of hands\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "300_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/300_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/416_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the artist is filling the sketch with another color first then orange\nB. the artist is filling the sketch with orange first then another color\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/416_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the artist is filling the sketch with another color first then orange\nB. the artist is filling the sketch with orange first then another color\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "416_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/416_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/416_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the artist is filling the sketch with orange first then another color\nB. the artist is filling the sketch with another color first then orange\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/416_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the artist is filling the sketch with orange first then another color\nB. the artist is filling the sketch with another color first then orange\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "416_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/416_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/93_pos.mp4",
+        "question": "Which caption best describes this video?\nA. oil is drained before the cap is loosened\nB. the cap is loosened before oil is drained\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/93_pos.mp4",
+            "question": "Which caption best describes this video?\nA. oil is drained before the cap is loosened\nB. the cap is loosened before oil is drained\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "93_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/93_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/93_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the cap is loosened before oil is drained\nB. oil is drained before the cap is loosened\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/93_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the cap is loosened before oil is drained\nB. oil is drained before the cap is loosened\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "93_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/93_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/199_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the camera panned slowly back up the top before it was following a person sliding down the slide\nB. the camera was following a person sliding down the slide before it panned slowly back up the top\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/199_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the camera panned slowly back up the top before it was following a person sliding down the slide\nB. the camera was following a person sliding down the slide before it panned slowly back up the top\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "199_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/199_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/199_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the camera panned slowly back up the top before it was following a person sliding down the slide\nB. the camera was following a person sliding down the slide before it panned slowly back up the top\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/199_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the camera panned slowly back up the top before it was following a person sliding down the slide\nB. the camera was following a person sliding down the slide before it panned slowly back up the top\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "199_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/199_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/347_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a biker goes down the stairs turning right first then left\nB. a biker goes down the stairs turning left first then right\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/347_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a biker goes down the stairs turning right first then left\nB. a biker goes down the stairs turning left first then right\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "347_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/347_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/347_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a biker goes down the stairs turning left first then right\nB. a biker goes down the stairs turning right first then left\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/347_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a biker goes down the stairs turning left first then right\nB. a biker goes down the stairs turning right first then left\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "347_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/347_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/59_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the girl was making her bed before she walks around\nB. the girl walks around before she was making her bed\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/59_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the girl was making her bed before she walks around\nB. the girl walks around before she was making her bed\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "59_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/59_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/59_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the girl walks around before she was making her bed\nB. the girl was making her bed before she walks around\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/59_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the girl walks around before she was making her bed\nB. the girl was making her bed before she walks around\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "59_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/59_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/175_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the boy not on the swing is shown before the boy on the swing is shown\nB. the boy on the swing is shown before the boy not on the swing is shown\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/175_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the boy not on the swing is shown before the boy on the swing is shown\nB. the boy on the swing is shown before the boy not on the swing is shown\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "175_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/175_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/175_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the boy not on the swing is shown before the boy on the swing is shown\nB. the boy on the swing is shown before the boy not on the swing is shown\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/175_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the boy not on the swing is shown before the boy on the swing is shown\nB. the boy on the swing is shown before the boy not on the swing is shown\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "175_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/175_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/472_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the train is stopped before it is moving\nB. the train is moving before it is stopped\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/472_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the train is stopped before it is moving\nB. the train is moving before it is stopped\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "472_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/472_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/472_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the train is moving before it is stopped\nB. the train is stopped before it is moving\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/472_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the train is moving before it is stopped\nB. the train is stopped before it is moving\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "472_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/472_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/212_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a woman only talks to the camera without doing anything else and then wipes her face with a towel\nB. a woman wipes her face with a towel and then only talks to the camera without doing anything else\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/212_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a woman only talks to the camera without doing anything else and then wipes her face with a towel\nB. a woman wipes her face with a towel and then only talks to the camera without doing anything else\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "212_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/212_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/212_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a woman only talks to the camera without doing anything else and then wipes her face with a towel\nB. a woman wipes her face with a towel and then only talks to the camera without doing anything else\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/212_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a woman only talks to the camera without doing anything else and then wipes her face with a towel\nB. a woman wipes her face with a towel and then only talks to the camera without doing anything else\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "212_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/212_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/241_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a man shoves plaster onto his shovel before he fills a gap on the wall with some of it\nB. a man fills a gap on the wall with plaster before he shoves some of it onto his shovel\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/241_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a man shoves plaster onto his shovel before he fills a gap on the wall with some of it\nB. a man fills a gap on the wall with plaster before he shoves some of it onto his shovel\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "241_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/241_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/241_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a man shoves plaster onto his shovel before he fills a gap on the wall with some of it\nB. a man fills a gap on the wall with plaster before he shoves some of it onto his shovel\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/241_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a man shoves plaster onto his shovel before he fills a gap on the wall with some of it\nB. a man fills a gap on the wall with plaster before he shoves some of it onto his shovel\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "241_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/241_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/177_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a lady was patting a baby's head rapidly before she stopped and stared at the baby\nB. a lady stopped and stared at the baby before she was patting the baby's head\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/177_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a lady was patting a baby's head rapidly before she stopped and stared at the baby\nB. a lady stopped and stared at the baby before she was patting the baby's head\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "177_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/177_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/177_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a lady stopped and stared at the baby before she was patting the baby's head\nB. a lady was patting a baby's head rapidly before she stopped and stared at the baby\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/177_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a lady stopped and stared at the baby before she was patting the baby's head\nB. a lady was patting a baby's head rapidly before she stopped and stared at the baby\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "177_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/177_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/92_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the camera was taking a video of other objects before it was pointed at a person\nB. the camera was pointed at a person before it was taking a video of other objects\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/92_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the camera was taking a video of other objects before it was pointed at a person\nB. the camera was pointed at a person before it was taking a video of other objects\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "92_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/92_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/92_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the camera was pointed at a person before it was taking a video of other objects\nB. the camera was taking a video of other objects before it was pointed at a person\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/92_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the camera was pointed at a person before it was taking a video of other objects\nB. the camera was taking a video of other objects before it was pointed at a person\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "92_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/92_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/446_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the man was not welding before he uses his welding gun and flames come out\nB. the man uses his welding gun and flames come out before he was not welding\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/446_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the man was not welding before he uses his welding gun and flames come out\nB. the man uses his welding gun and flames come out before he was not welding\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "446_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/446_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/446_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the man uses his welding gun and flames come out before he was not welding\nB. the man was not welding before he uses his welding gun and flames come out\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/446_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the man uses his welding gun and flames come out before he was not welding\nB. the man was not welding before he uses his welding gun and flames come out\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "446_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/446_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/151_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the pancake is flipped vertically before being moved horizontally\nB. the pancake is moved horizontally before being flipped vertically\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/151_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the pancake is flipped vertically before being moved horizontally\nB. the pancake is moved horizontally before being flipped vertically\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "151_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/151_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/151_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the pancake is flipped vertically before being moved horizontally\nB. the pancake is moved horizontally before being flipped vertically\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/151_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the pancake is flipped vertically before being moved horizontally\nB. the pancake is moved horizontally before being flipped vertically\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "151_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/151_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/7_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the person move with the cup before they water the flowers\nB. the person water the flowers before they move with the cup\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/7_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the person move with the cup before they water the flowers\nB. the person water the flowers before they move with the cup\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "7_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/7_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/7_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the person water the flowers before they move with the cup\nB. the person move with the cup before they water the flowers\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/7_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the person water the flowers before they move with the cup\nB. the person move with the cup before they water the flowers\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "7_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/7_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/184_pos.mp4",
+        "question": "Which caption best describes this video?\nA. somebody is picking up a piece of paper and examining it before using a marker to write on the paper\nB. somebody is using a marker to write on a piece of paper before picking up the paper and examining it\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/184_pos.mp4",
+            "question": "Which caption best describes this video?\nA. somebody is picking up a piece of paper and examining it before using a marker to write on the paper\nB. somebody is using a marker to write on a piece of paper before picking up the paper and examining it\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "184_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/184_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/184_neg.mp4",
+        "question": "Which caption best describes this video?\nA. somebody is using a marker to write on a piece of paper before picking up the paper and examining it\nB. somebody is picking up a piece of paper and examining it before using a marker to write on the paper\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/184_neg.mp4",
+            "question": "Which caption best describes this video?\nA. somebody is using a marker to write on a piece of paper before picking up the paper and examining it\nB. somebody is picking up a piece of paper and examining it before using a marker to write on the paper\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "184_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/184_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/322_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a person opens his mouth to see his clean teeth before a person brushes his teeth\nB. a person brushes his teeth before a person opens his mouth to see his clean teeth\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/322_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a person opens his mouth to see his clean teeth before a person brushes his teeth\nB. a person brushes his teeth before a person opens his mouth to see his clean teeth\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "322_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/322_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/322_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a person opens his mouth to see his clean teeth before a person brushes his teeth\nB. a person brushes his teeth before a person opens his mouth to see his clean teeth\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/322_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a person opens his mouth to see his clean teeth before a person brushes his teeth\nB. a person brushes his teeth before a person opens his mouth to see his clean teeth\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "322_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/322_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/240_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the eggs were in the air before it is being cooked in a pan\nB. the eggs were being cooked in a pan before it is in the air\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/240_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the eggs were in the air before it is being cooked in a pan\nB. the eggs were being cooked in a pan before it is in the air\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "240_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/240_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/240_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the eggs were being cooked in a pan before it is in the air\nB. the eggs were in the air before it is being cooked in a pan\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/240_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the eggs were being cooked in a pan before it is in the air\nB. the eggs were in the air before it is being cooked in a pan\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "240_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/240_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/201_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the camera first focuses on the little girl and then the book she is trying to read\nB. the camera first focuses on the book she is trying to read and then the little girl\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/201_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the camera first focuses on the little girl and then the book she is trying to read\nB. the camera first focuses on the book she is trying to read and then the little girl\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "201_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/201_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/201_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the camera first focuses on the book she is trying to read and then the little girl\nB. the camera first focuses on the little girl and then the book she is trying to read\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/201_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the camera first focuses on the book she is trying to read and then the little girl\nB. the camera first focuses on the little girl and then the book she is trying to read\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "201_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/201_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/213_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the eggs in the pan are left alone before a spoon is used to pour water onto the eggs\nB. a spoon is used to pour water onto the eggs in the pan before the eggs are left alone\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/213_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the eggs in the pan are left alone before a spoon is used to pour water onto the eggs\nB. a spoon is used to pour water onto the eggs in the pan before the eggs are left alone\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "213_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/213_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/213_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the eggs in the pan are left alone before a spoon is used to pour water onto the eggs\nB. a spoon is used to pour water onto the eggs in the pan before the eggs are left alone\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/213_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the eggs in the pan are left alone before a spoon is used to pour water onto the eggs\nB. a spoon is used to pour water onto the eggs in the pan before the eggs are left alone\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "213_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/213_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/374_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a group of little girls lined up in front of the mirror before they stood next to the wall\nB. a group of little girls stood next to the wall before they lined up in front of the mirror\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/374_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a group of little girls lined up in front of the mirror before they stood next to the wall\nB. a group of little girls stood next to the wall before they lined up in front of the mirror\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "374_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/374_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/374_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a group of little girls stood next to the wall before they lined up in front of the mirror\nB. a group of little girls lined up in front of the mirror before they stood next to the wall\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/374_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a group of little girls stood next to the wall before they lined up in front of the mirror\nB. a group of little girls lined up in front of the mirror before they stood next to the wall\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "374_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/374_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/163_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a person rests his hands before he plays music with the dj controls\nB. a person plays music with the dj controls before he rests his hands\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/163_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a person rests his hands before he plays music with the dj controls\nB. a person plays music with the dj controls before he rests his hands\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "163_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/163_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/163_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a person rests his hands before he plays music with the dj controls\nB. a person plays music with the dj controls before he rests his hands\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/163_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a person rests his hands before he plays music with the dj controls\nB. a person plays music with the dj controls before he rests his hands\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "163_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/163_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/100_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the food was moved from away from the fire to close to the fire\nB. the food was moved from close to the fire to away from the fire\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/100_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the food was moved from away from the fire to close to the fire\nB. the food was moved from close to the fire to away from the fire\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "100_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/100_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/100_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the food was moved from close to the fire to away from the fire\nB. the food was moved from away from the fire to close to the fire\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/100_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the food was moved from close to the fire to away from the fire\nB. the food was moved from away from the fire to close to the fire\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "100_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/100_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/41_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a man's hands can be seen operating on the motherboard before we can see clearly the insides of a desktop computer\nB. we can see clearly the insides of a desktop computer before a man's hands can be seen operating on the motherboard\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/41_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a man's hands can be seen operating on the motherboard before we can see clearly the insides of a desktop computer\nB. we can see clearly the insides of a desktop computer before a man's hands can be seen operating on the motherboard\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "41_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/41_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/41_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a man's hands can be seen operating on the motherboard before we can see clearly the insides of a desktop computer\nB. we can see clearly the insides of a desktop computer before a man's hands can be seen operating on the motherboard\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/41_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a man's hands can be seen operating on the motherboard before we can see clearly the insides of a desktop computer\nB. we can see clearly the insides of a desktop computer before a man's hands can be seen operating on the motherboard\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "41_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/41_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/253_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a man celebrates hysterically before he does trick shots\nB. a man does trick shots before he celebrates hysterically\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/253_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a man celebrates hysterically before he does trick shots\nB. a man does trick shots before he celebrates hysterically\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "253_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/253_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/253_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a man does trick shots before he celebrates hysterically\nB. a man celebrates hysterically before he does trick shots\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/253_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a man does trick shots before he celebrates hysterically\nB. a man celebrates hysterically before he does trick shots\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "253_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/253_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/21_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the player on the right moves his pawn before the player on the left moves his knight\nB. the player on the right moves his knight before the player on the left moves his pawn\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/21_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the player on the right moves his pawn before the player on the left moves his knight\nB. the player on the right moves his knight before the player on the left moves his pawn\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "21_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/21_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/21_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the player on the right moves his knight before the player on the left moves his pawn\nB. the player on the right moves his pawn before the player on the left moves his knight\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/21_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the player on the right moves his knight before the player on the left moves his pawn\nB. the player on the right moves his pawn before the player on the left moves his knight\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "21_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/21_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/461_pos.mp4",
+        "question": "Which caption best describes this video?\nA. bob ross dips his brush on a palette with some paint before he brushes the canvas\nB. bob ross brushes the canvas with some paint before he dips his brush on a palette\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/461_pos.mp4",
+            "question": "Which caption best describes this video?\nA. bob ross dips his brush on a palette with some paint before he brushes the canvas\nB. bob ross brushes the canvas with some paint before he dips his brush on a palette\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "461_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/461_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/461_neg.mp4",
+        "question": "Which caption best describes this video?\nA. bob ross dips his brush on a palette with some paint before he brushes the canvas\nB. bob ross brushes the canvas with some paint before he dips his brush on a palette\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/461_neg.mp4",
+            "question": "Which caption best describes this video?\nA. bob ross dips his brush on a palette with some paint before he brushes the canvas\nB. bob ross brushes the canvas with some paint before he dips his brush on a palette\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "461_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/461_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/68_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a person flips a clay bowl over before he wipes it\nB. a person wipes a clay bowl before he flips it over\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/68_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a person flips a clay bowl over before he wipes it\nB. a person wipes a clay bowl before he flips it over\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "68_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/68_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/68_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a person wipes a clay bowl before he flips it over\nB. a person flips a clay bowl over before he wipes it\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/68_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a person wipes a clay bowl before he flips it over\nB. a person flips a clay bowl over before he wipes it\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "68_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/68_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/179_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the man is climbing from the top of the rope to the bottom of the rope\nB. the man is climbing from the bottom of the rope to the top of the rope\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/179_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the man is climbing from the top of the rope to the bottom of the rope\nB. the man is climbing from the bottom of the rope to the top of the rope\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "179_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/179_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/179_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the man is climbing from the top of the rope to the bottom of the rope\nB. the man is climbing from the bottom of the rope to the top of the rope\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/179_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the man is climbing from the top of the rope to the bottom of the rope\nB. the man is climbing from the bottom of the rope to the top of the rope\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "179_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/179_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/323_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the painting tools were put down before they were used to paint\nB. the painting tools were used to paint before they were put down\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/323_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the painting tools were put down before they were used to paint\nB. the painting tools were used to paint before they were put down\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "323_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/323_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/323_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the painting tools were used to paint before they were put down\nB. the painting tools were put down before they were used to paint\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/323_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the painting tools were used to paint before they were put down\nB. the painting tools were put down before they were used to paint\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "323_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/323_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/230_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the girls complete the hopskotch from the start to the end\nB. the girls complete the hopskotch from the end to the start\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/230_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the girls complete the hopskotch from the start to the end\nB. the girls complete the hopskotch from the end to the start\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "230_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/230_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/230_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the girls complete the hopskotch from the end to the start\nB. the girls complete the hopskotch from the start to the end\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/230_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the girls complete the hopskotch from the end to the start\nB. the girls complete the hopskotch from the start to the end\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "230_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/230_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/404_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the baby had their head down onto the plate to eat the spaghetti before they put their head back up and smile at the camera\nB. the baby put their head back up and smile at the camera before they had their head down onto the plate to eat the spaghetti\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/404_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the baby had their head down onto the plate to eat the spaghetti before they put their head back up and smile at the camera\nB. the baby put their head back up and smile at the camera before they had their head down onto the plate to eat the spaghetti\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "404_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/404_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/404_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the baby put their head back up and smile at the camera before they had their head down onto the plate to eat the spaghetti\nB. the baby had their head down onto the plate to eat the spaghetti before they put their head back up and smile at the camera\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/404_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the baby put their head back up and smile at the camera before they had their head down onto the plate to eat the spaghetti\nB. the baby had their head down onto the plate to eat the spaghetti before they put their head back up and smile at the camera\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "404_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/404_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/155_pos.mp4",
+        "question": "Which caption best describes this video?\nA. dancer leans forward to hold extended hands before she stands upright held by the crowd\nB. dancer stands upright held by the crowd before she leans forward to hold extended hands\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/155_pos.mp4",
+            "question": "Which caption best describes this video?\nA. dancer leans forward to hold extended hands before she stands upright held by the crowd\nB. dancer stands upright held by the crowd before she leans forward to hold extended hands\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "155_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/155_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/155_neg.mp4",
+        "question": "Which caption best describes this video?\nA. dancer leans forward to hold extended hands before she stands upright held by the crowd\nB. dancer stands upright held by the crowd before she leans forward to hold extended hands\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/155_neg.mp4",
+            "question": "Which caption best describes this video?\nA. dancer leans forward to hold extended hands before she stands upright held by the crowd\nB. dancer stands upright held by the crowd before she leans forward to hold extended hands\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "155_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/155_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/182_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the person was standing still before he waves his right hand up twice\nB. the person waves his right hand up twice before he was standing still\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/182_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the person was standing still before he waves his right hand up twice\nB. the person waves his right hand up twice before he was standing still\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "182_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/182_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/182_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the person waves his right hand up twice before he was standing still\nB. the person was standing still before he waves his right hand up twice\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/182_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the person waves his right hand up twice before he was standing still\nB. the person was standing still before he waves his right hand up twice\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "182_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/182_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/88_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a girl shows a shoe from above before showing the bottom of it\nB. a girl shows the bottom of a shoe before showing it from above\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/88_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a girl shows a shoe from above before showing the bottom of it\nB. a girl shows the bottom of a shoe before showing it from above\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "88_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/88_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/88_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a girl shows a shoe from above before showing the bottom of it\nB. a girl shows the bottom of a shoe before showing it from above\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/88_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a girl shows a shoe from above before showing the bottom of it\nB. a girl shows the bottom of a shoe before showing it from above\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "88_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/88_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/207_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the girl hears another girl talking to her before she eats her ice cream\nB. the girl eats her ice cream before she hears another girl talking to her\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/207_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the girl hears another girl talking to her before she eats her ice cream\nB. the girl eats her ice cream before she hears another girl talking to her\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "207_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/207_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/207_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the girl hears another girl talking to her before she eats her ice cream\nB. the girl eats her ice cream before she hears another girl talking to her\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/207_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the girl hears another girl talking to her before she eats her ice cream\nB. the girl eats her ice cream before she hears another girl talking to her\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "207_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/207_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/408_pos.mp4",
+        "question": "Which caption best describes this video?\nA. someone chops a piece of wood before it is left alone\nB. a piece of wood is left alone before someone chops it\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/408_pos.mp4",
+            "question": "Which caption best describes this video?\nA. someone chops a piece of wood before it is left alone\nB. a piece of wood is left alone before someone chops it\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "408_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/408_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/408_neg.mp4",
+        "question": "Which caption best describes this video?\nA. someone chops a piece of wood before it is left alone\nB. a piece of wood is left alone before someone chops it\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/408_neg.mp4",
+            "question": "Which caption best describes this video?\nA. someone chops a piece of wood before it is left alone\nB. a piece of wood is left alone before someone chops it\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "408_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/408_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/278_pos.mp4",
+        "question": "Which caption best describes this video?\nA. the camera was focused on the man's hands holding a bike part before it zoomed onto the man's whole body\nB. the camera was focused on the man's whole body before it zoomed onto the man's hands holding a bike part\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A",
+        "meta_data": {
+            "video_name": "vinoground_videos/278_pos.mp4",
+            "question": "Which caption best describes this video?\nA. the camera was focused on the man's hands holding a bike part before it zoomed onto the man's whole body\nB. the camera was focused on the man's whole body before it zoomed onto the man's hands holding a bike part\nAnswer with the option's letter from the given choices directly.",
+            "GT": "A",
+            "idx": "278_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/278_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/278_neg.mp4",
+        "question": "Which caption best describes this video?\nA. the camera was focused on the man's hands holding a bike part before it zoomed onto the man's whole body\nB. the camera was focused on the man's whole body before it zoomed onto the man's hands holding a bike part\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/278_neg.mp4",
+            "question": "Which caption best describes this video?\nA. the camera was focused on the man's hands holding a bike part before it zoomed onto the man's whole body\nB. the camera was focused on the man's whole body before it zoomed onto the man's hands holding a bike part\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "278_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/278_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/444_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a person was showing the front of her hands before she flips them over to the back\nB. a person was showing the back of her hands before she flips them over to the front\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/444_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a person was showing the front of her hands before she flips them over to the back\nB. a person was showing the back of her hands before she flips them over to the front\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "444_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/444_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/444_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a person was showing the back of her hands before she flips them over to the front\nB. a person was showing the front of her hands before she flips them over to the back\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/444_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a person was showing the back of her hands before she flips them over to the front\nB. a person was showing the front of her hands before she flips them over to the back\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "444_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/444_neg.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/171_pos.mp4",
+        "question": "Which caption best describes this video?\nA. a young girl shows a metal cup to the camera before she bends it\nB. a young girl bends a metal cup before she shows it to the camera\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/171_pos.mp4",
+            "question": "Which caption best describes this video?\nA. a young girl shows a metal cup to the camera before she bends it\nB. a young girl bends a metal cup before she shows it to the camera\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "171_pos"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/171_pos.mp4"
+    },
+    {
+        "video_id": "vinoground_videos/171_neg.mp4",
+        "question": "Which caption best describes this video?\nA. a young girl bends a metal cup before she shows it to the camera\nB. a young girl shows a metal cup to the camera before she bends it\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B",
+        "meta_data": {
+            "video_name": "vinoground_videos/171_neg.mp4",
+            "question": "Which caption best describes this video?\nA. a young girl bends a metal cup before she shows it to the camera\nB. a young girl shows a metal cup to the camera before she bends it\nAnswer with the option's letter from the given choices directly.",
+            "GT": "B",
+            "idx": "171_neg"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/171_neg.mp4"
+    }
+]

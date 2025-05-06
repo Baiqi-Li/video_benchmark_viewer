@@ -102,7 +102,7 @@ def get_selected_data_file():
     selected_dir = 'selected_data'
     if not os.path.exists(selected_dir):
         os.makedirs(selected_dir)
-    return os.path.join(selected_dir, 'selected_data.json')
+    return os.path.join(selected_dir, 'selected_vqa.json')
 
 def load_selected_data():
     """加载selected数据"""
@@ -559,8 +559,7 @@ def update_original_vqa_selection():
             'video_url': original_sample.get('video_url', ''),
             'question': original_sample.get('question', ''),
             'options': original_sample.get('options', ''),
-            'answer': original_sample.get('answer', ''),
-            'caption': original_sample.get('caption', '')
+            'answer': original_sample.get('answer', '')
         }
 
         # 添加新的selected数据
