@@ -315,11 +315,8 @@ def add_new_vqa():
     new_options = data.get('new_options')
     new_answer = data.get('new_answer')
 
-    # Validate basic parameters and ensure at least one new field is provided
-    if not dataset or sample_index is None:
+    if not all([dataset, sample_index is not None, new_question, new_options, new_answer]):
         return jsonify({'success': False, 'error': 'Missing required parameters'}), 400
-    if not (new_question or new_options or new_answer):
-        return jsonify({'success': False, 'error': 'Please provide at least one of new_question, new_options, or new_answer'}), 400
 
     # 加载原始数据集
     dataset_data = load_dataset(dataset)
@@ -729,82 +726,6 @@ def get_progress():
     progress = load_progress()
     idx = progress.get(dataset)
     return jsonify({'sample_index': idx})
-
-# Functions to handle abandoned VQA/Caption selection
-def get_abandon_file():
-    """Get path for abandoned data file"""
-    selected_dir = 'selected_data'
-    if not os.path.exists(selected_dir):
-        os.makedirs(selected_dir)
-    return os.path.join(selected_dir, 'abandoned_data.json')
-
-def load_abandoned_data():
-    """Load list of abandoned data"""
-    file_path = get_abandon_file()
-    if not os.path.exists(file_path):
-        return []
-    with open(file_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-def save_abandoned_data(data):
-    """Save abandoned data list"""
-    file_path = get_abandon_file()
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2)
-
-@app.route('/update_abandon', methods=['POST'])
-def update_abandon():
-    data = request.json
-    dataset = data.get('dataset')
-    sample_index = data.get('sample_index')
-    is_abandoned = data.get('is_abandoned')
-
-    if not all([dataset, sample_index is not None, is_abandoned is not None]):
-        return jsonify({'success': False, 'error': 'Missing required parameters'}), 400
-
-    # Load original sample data
-    dataset_data = load_dataset(dataset)
-    if not dataset_data:
-        return jsonify({'success': False, 'error': 'Dataset not found'}), 404
-    if sample_index < 0 or sample_index >= len(dataset_data):
-        return jsonify({'success': False, 'error': 'Sample index out of range'}), 400
-
-    sample = dataset_data[sample_index]
-    # Prepare record
-    record = {
-        'dataset': dataset,
-        'sample_index': sample_index,
-        'video_url': sample.get('video_url', ''),
-        'question': sample.get('question', '') or '',
-        'options': sample.get('options', '') or '',
-        'answer': sample.get('answer', '') or '',
-        'caption': sample.get('caption', '') or ''
-    }
-
-    abandoned_data = load_abandoned_data()
-    # Remove any existing entry for same dataset/sample
-    abandoned_data = [item for item in abandoned_data if not (item['dataset']==dataset and item['sample_index']==sample_index)]
-
-    if is_abandoned:
-        abandoned_data.append(record)
-
-    save_abandoned_data(abandoned_data)
-    return jsonify({'success': True})
-
-@app.route('/get_abandon', methods=['POST'])
-def get_abandon():
-    data = request.json
-    dataset = data.get('dataset')
-    sample_index = data.get('sample_index')
-    if not all([dataset, sample_index is not None]):
-        return jsonify({'error': 'Missing required parameters'}), 400
-
-    abandoned_data = load_abandoned_data()
-    is_abandoned = any(
-        item['dataset'] == dataset and item['sample_index'] == sample_index
-        for item in abandoned_data
-    )
-    return jsonify({'is_abandoned': is_abandoned})
 
 if __name__ == '__main__':
     app.run(debug=True) 

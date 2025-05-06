@@ -758,6 +758,7 @@ def update_abandon():
     dataset = data.get('dataset')
     sample_index = data.get('sample_index')
     is_abandoned = data.get('is_abandoned')
+    caption_text = data.get('caption', '')
 
     if not all([dataset, sample_index is not None, is_abandoned is not None]):
         return jsonify({'success': False, 'error': 'Missing required parameters'}), 400
@@ -778,7 +779,7 @@ def update_abandon():
         'question': sample.get('question', '') or '',
         'options': sample.get('options', '') or '',
         'answer': sample.get('answer', '') or '',
-        'caption': sample.get('caption', '') or ''
+        'caption': caption_text or ''
     }
 
     abandoned_data = load_abandoned_data()

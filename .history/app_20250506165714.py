@@ -730,81 +730,59 @@ def get_progress():
     idx = progress.get(dataset)
     return jsonify({'sample_index': idx})
 
-# Functions to handle abandoned VQA/Caption selection
-def get_abandon_file():
-    """Get path for abandoned data file"""
-    selected_dir = 'selected_data'
-    if not os.path.exists(selected_dir):
-        os.makedirs(selected_dir)
-    return os.path.join(selected_dir, 'abandoned_data.json')
+# Functions to handle abandoned original data
+def get_abandoned_file():
+    """Get the path for abandoned records"""
+    dir_path = 'selected_data'
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path)
+    return os.path.join(dir_path, 'abandoned.json')
 
-def load_abandoned_data():
-    """Load list of abandoned data"""
-    file_path = get_abandon_file()
+def load_abandoned():
+    """Load abandoned records"""
+    file_path = get_abandoned_file()
     if not os.path.exists(file_path):
         return []
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def save_abandoned_data(data):
-    """Save abandoned data list"""
-    file_path = get_abandon_file()
+def save_abandoned(data):
+    """Save abandoned records"""
+    file_path = get_abandoned_file()
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
 
-@app.route('/update_abandon', methods=['POST'])
-def update_abandon():
+@app.route('/abandon_original', methods=['POST'])
+def abandon_original():
     data = request.json
     dataset = data.get('dataset')
     sample_index = data.get('sample_index')
-    is_abandoned = data.get('is_abandoned')
+    video_url = data.get('video_url', '')
+    question = data.get('question', '') or ''
+    options = data.get('options', [])
+    answer = data.get('answer', '') or ''
+    caption = data.get('caption', '') or ''
 
-    if not all([dataset, sample_index is not None, is_abandoned is not None]):
+    if not dataset or sample_index is None:
         return jsonify({'success': False, 'error': 'Missing required parameters'}), 400
+    try:
+        idx = int(sample_index)
+    except (ValueError, TypeError):
+        return jsonify({'success': False, 'error': 'Invalid sample index'}), 400
 
-    # Load original sample data
-    dataset_data = load_dataset(dataset)
-    if not dataset_data:
-        return jsonify({'success': False, 'error': 'Dataset not found'}), 404
-    if sample_index < 0 or sample_index >= len(dataset_data):
-        return jsonify({'success': False, 'error': 'Sample index out of range'}), 400
-
-    sample = dataset_data[sample_index]
-    # Prepare record
+    abandoned = load_abandoned()
     record = {
         'dataset': dataset,
-        'sample_index': sample_index,
-        'video_url': sample.get('video_url', ''),
-        'question': sample.get('question', '') or '',
-        'options': sample.get('options', '') or '',
-        'answer': sample.get('answer', '') or '',
-        'caption': sample.get('caption', '') or ''
+        'sample_index': idx,
+        'video_url': video_url,
+        'question': question,
+        'options': options,
+        'answer': answer,
+        'caption': caption
     }
-
-    abandoned_data = load_abandoned_data()
-    # Remove any existing entry for same dataset/sample
-    abandoned_data = [item for item in abandoned_data if not (item['dataset']==dataset and item['sample_index']==sample_index)]
-
-    if is_abandoned:
-        abandoned_data.append(record)
-
-    save_abandoned_data(abandoned_data)
+    abandoned.append(record)
+    save_abandoned(abandoned)
     return jsonify({'success': True})
-
-@app.route('/get_abandon', methods=['POST'])
-def get_abandon():
-    data = request.json
-    dataset = data.get('dataset')
-    sample_index = data.get('sample_index')
-    if not all([dataset, sample_index is not None]):
-        return jsonify({'error': 'Missing required parameters'}), 400
-
-    abandoned_data = load_abandoned_data()
-    is_abandoned = any(
-        item['dataset'] == dataset and item['sample_index'] == sample_index
-        for item in abandoned_data
-    )
-    return jsonify({'is_abandoned': is_abandoned})
 
 if __name__ == '__main__':
     app.run(debug=True) 
