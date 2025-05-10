@@ -195,13 +195,17 @@
                 <h4>Caption</h4>
                 <p id="caption" class="lead"></p>
                 <h4>Question</h4>
-            <p id="question" class="lead"></p>
-            
+                <p id="question" class="lead"></p>
+                <h4>Original Type</h4>
+                <p id="originalType" class="lead"></p>
                 <h4>Options</h4>
-            <ul id="options" class="options-list"></ul>
-            
+                <ul id="options" class="options-list"></ul>
                 <h4>Answer</h4>
-            <p id="answer" class="lead"></p>
+                <p id="answer" class="lead"></p>
+                <h4>Reasoning</h4>
+                <p id="reasoning" class="lead"></p>
+
+                <hr class="my-4">
 
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="addOriginalVQA" onchange="updateOriginalVQASelection()">
@@ -552,18 +556,24 @@
                         optionsArray = optionsData.split('\n');
                     }
                     optionsArray.forEach(option => {
-                                if (option.trim()) {
-                                    const li = document.createElement('li');
-                                    li.textContent = option.trim();
-                                    optionsList.appendChild(li);
-                                }
-                            });
+                        if (option.trim()) {
+                            const li = document.createElement('li');
+                            li.textContent = option.trim();
+                            optionsList.appendChild(li);
+                        }
+                    });
                     
                     // 更新答案
                     document.getElementById('answer').textContent = data.answer || 'No answer available';
                     
                     // 更新原始caption
                     document.getElementById('caption').textContent = data.caption || '';
+                    
+                    // 更新Original Type
+                    document.getElementById('originalType').textContent = data.type || '';
+                    
+                    // 更新Reasoning
+                    document.getElementById('reasoning').textContent = data.reasoning || '';
                     
                     // 更新开始/结束时间输入框
                     const startInp = document.getElementById('startTime');
