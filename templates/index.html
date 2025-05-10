@@ -1093,45 +1093,8 @@
         document.getElementById('startFrame').addEventListener('input', validateFrameInputs);
         document.getElementById('endFrame').addEventListener('input', validateFrameInputs);
 
-        function playByFrame() {
-            const sF = parseInt(document.getElementById('startFrame').value);
-            const eF = parseInt(document.getElementById('endFrame').value);
-            if (isNaN(sF) || isNaN(eF) || eF <= sF || currentTotalFrames === 0) {
-                alert('Invalid frame inputs or total frames unknown');
-                return;
-            }
-            const video = document.getElementById('videoPlayer');
-            const runSegment = () => {
-                const duration = video.duration;
-                if (!duration || isNaN(duration)) {
-                    alert('Cannot determine video duration yet.');
-                    return;
-                }
-                const startSec = (sF / currentTotalFrames) * duration;
-                const endSec = (eF / currentTotalFrames) * duration;
-                playSegment(video, startSec, endSec);
-            };
-            if (video.readyState < 2) {
-                video.addEventListener('loadedmetadata', runSegment, {once:true});
-            } else {
-                runSegment();
-            }
-        }
-
-        function playByTime() {
-            const video = document.getElementById('videoPlayer');
-            const start = parseFloat(document.getElementById('startTime').value);
-            const end = parseFloat(document.getElementById('endTime').value);
-            if (video.readyState < 2) {
-                video.addEventListener('loadedmetadata', () => {
-                    playSegment(video, start, end);
-                }, {once: true});
-            } else {
-                playSegment(video, start, end);
-            }
-        }
-
-        function playSegment(video, start, end) {
+        // Helper to play segment on HTML5 video
+        function playSegmentHTML(video, start, end) {
             video.currentTime = start;
             video.play();
             const onTimeUpdate = () => {
@@ -1141,6 +1104,101 @@
                 }
             };
             video.addEventListener('timeupdate', onTimeUpdate);
+        }
+
+        // Helper to play segment on YouTube player
+        function playSegmentYouTube(start, end) {
+            if (!youtubePlayer) return;
+            // clear any previous timer
+            if (window.youtubeSegmentTimer) {
+                clearInterval(window.youtubeSegmentTimer);
+            }
+            youtubePlayer.seekTo(start, true);
+            youtubePlayer.playVideo();
+            window.youtubeSegmentTimer = setInterval(() => {
+                if (!youtubePlayer) {
+                    clearInterval(window.youtubeSegmentTimer);
+                    return;
+                }
+                const cur = youtubePlayer.getCurrentTime();
+                // stop if reached end or video ended naturally
+                if (cur >= end || youtubePlayer.getPlayerState() === YT.PlayerState.ENDED) {
+                    youtubePlayer.pauseVideo();
+                    clearInterval(window.youtubeSegmentTimer);
+                }
+            }, 200);
+        }
+
+        function playByTime() {
+            const start = parseFloat(document.getElementById('startTime').value);
+            const end = parseFloat(document.getElementById('endTime').value);
+            const video = document.getElementById('videoPlayer');
+            const youtubeContainer = document.getElementById('youtubePlayer');
+
+            if (youtubeContainer.style.display !== 'none' && youtubePlayer) {
+                // YouTube segment
+                if (youtubePlayer.getDuration) {
+                    if (youtubePlayer.getPlayerState() === -1) {
+                        // not ready yet, wait for ready state
+                        const waitReady = setInterval(() => {
+                            if (youtubePlayer && youtubePlayer.getPlayerState() !== -1) {
+                                clearInterval(waitReady);
+                                playSegmentYouTube(start, end);
+                            }
+                        }, 100);
+                    } else {
+                        playSegmentYouTube(start, end);
+                    }
+                }
+            } else {
+                // HTML5 video
+                if (video.readyState < 2) {
+                    video.addEventListener('loadedmetadata', () => {
+                        playSegmentHTML(video, start, end);
+                    }, {once: true});
+                } else {
+                    playSegmentHTML(video, start, end);
+                }
+            }
+        }
+
+        function playByFrame() {
+            const sF = parseInt(document.getElementById('startFrame').value);
+            const eF = parseInt(document.getElementById('endFrame').value);
+            if (isNaN(sF) || isNaN(eF) || eF <= sF || currentTotalFrames === 0) {
+                alert('Invalid frame inputs or total frames unknown');
+                return;
+            }
+            const video = document.getElementById('videoPlayer');
+            const youtubeContainer = document.getElementById('youtubePlayer');
+
+            if (youtubeContainer.style.display !== 'none' && youtubePlayer) {
+                // Use YouTube duration
+                const duration = youtubePlayer.getDuration();
+                if (!duration || isNaN(duration)) {
+                    alert('Cannot determine video duration yet.');
+                    return;
+                }
+                const startSec = (sF / currentTotalFrames) * duration;
+                const endSec = (eF / currentTotalFrames) * duration;
+                playSegmentYouTube(startSec, endSec);
+            } else {
+                const runSegment = () => {
+                    const duration = video.duration;
+                    if (!duration || isNaN(duration)) {
+                        alert('Cannot determine video duration yet.');
+                        return;
+                    }
+                    const startSec = (sF / currentTotalFrames) * duration;
+                    const endSec = (eF / currentTotalFrames) * duration;
+                    playSegmentHTML(video, startSec, endSec);
+                };
+                if (video.readyState < 2) {
+                    video.addEventListener('loadedmetadata', runSegment, {once:true});
+                } else {
+                    runSegment();
+                }
+            }
         }
 
         // 初始化并加载进度
