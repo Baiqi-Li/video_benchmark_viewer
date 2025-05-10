@@ -113,6 +113,24 @@
             </div>
         </div>
 
+        <!-- Time Controls for video playback -->
+        <div class="row controls-time mb-4">
+            <div class="col-md-12 d-flex align-items-center">
+                <label for="startTime" class="form-label me-2 mb-0">Start Time (s):</label>
+                <input type="number" id="startTime" class="form-control me-3" min="0" step="0.1" placeholder="0">
+                <label for="endTime" class="form-label me-2 mb-0">End Time (s):</label>
+                <input type="number" id="endTime" class="form-control me-3" min="0" step="0.1" placeholder="0">
+                <button class="btn btn-primary" id="playTimeBtn" onclick="playByTime()" disabled>Play Segment</button>
+                <!-- Frame-based controls -->
+                <label for="startFrame" class="form-label ms-4 me-2 mb-0">Start Frame:</label>
+                <input type="number" id="startFrame" class="form-control me-3" min="0" step="1" placeholder="0">
+                <label for="endFrame" class="form-label me-2 mb-0">End Frame:</label>
+                <input type="number" id="endFrame" class="form-control me-3" min="0" step="1" placeholder="0">
+                <button class="btn btn-primary" id="playFrameBtn" onclick="playByFrame()" disabled>Play By Frame</button>
+                <span class="ms-3 text-muted" id="totalFramesLabel" style="font-size: 0.9em;">Total Frames: 0</span>
+            </div>
+        </div>
+
         <div class="row mt-3">
             <div class="col-12">
                 <div class="card">
@@ -139,6 +157,10 @@
                         <div class="form-check form-check-inline">
                             <input class="form-check-input error-type" type="checkbox" id="poorVideoQuality" value="Poor Video Quality">
                             <label class="form-check-label" for="poorVideoQuality">Poor Video Quality</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input error-type" type="checkbox" id="postEdited" value="Post Edited">
+                            <label class="form-check-label" for="postEdited">Post Edited</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input error-type" type="checkbox" id="others" value="Others">
@@ -171,13 +193,13 @@
                 <h4>Caption</h4>
                 <p id="caption" class="lead"></p>
                 <h4>Question</h4>
-                <p id="question" class="lead"></p>
-                
+            <p id="question" class="lead"></p>
+            
                 <h4>Options</h4>
-                <ul id="options" class="options-list"></ul>
-                
+            <ul id="options" class="options-list"></ul>
+            
                 <h4>Answer</h4>
-                <p id="answer" class="lead"></p>
+            <p id="answer" class="lead"></p>
 
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="addOriginalVQA" onchange="updateOriginalVQASelection()">
@@ -259,6 +281,9 @@
         let totalSamples = 0;
         let currentSampleId = '';
         let currentSampleIndex = 0;
+
+        // Global to store total frames of current video
+        let currentTotalFrames = 0;
 
         // 加载数据集信息
         document.getElementById('datasetSelect').addEventListener('change', function() {
@@ -448,6 +473,26 @@
                     
                     // 更新原始caption
                     document.getElementById('caption').textContent = data.caption || '';
+                    
+                    // 更新开始/结束时间输入框
+                    const startInp = document.getElementById('startTime');
+                    const endInp = document.getElementById('endTime');
+                    const startVal = (data.start_time && data.start_time !== '') ? parseFloat(data.start_time) : 0;
+                    const endVal = (data.end_time && data.end_time !== '') ? parseFloat(data.end_time) : 0;
+                    startInp.value = isNaN(startVal) ? 0 : startVal;
+                    endInp.value = isNaN(endVal) ? 0 : endVal;
+                    validateTimeInputs();
+                    
+                    // 更新帧输入框及总帧数
+                    currentTotalFrames = data.total_frames || 0;
+                    const sFrameInp = document.getElementById('startFrame');
+                    const eFrameInp = document.getElementById('endFrame');
+                    const sFVal = (data.start_frame !== undefined && data.start_frame !== null) ? parseInt(data.start_frame) : 0;
+                    const eFVal = (data.end_frame !== undefined && data.end_frame !== null) ? parseInt(data.end_frame) : 0;
+                    sFrameInp.value = isNaN(sFVal) ? 0 : sFVal;
+                    eFrameInp.value = isNaN(eFVal) ? 0 : eFVal;
+                    document.getElementById('totalFramesLabel').textContent = `Total Frames: ${currentTotalFrames}`;
+                    validateFrameInputs();
                     
                     // 更新当前样本ID
                     currentSampleId = data.id || `${currentDataset}_${sampleIndex}`;
@@ -920,6 +965,81 @@
                 document.getElementById('abandonOriginal').checked = data.is_abandoned;
             })
             .catch(err => console.error('Error loading abandon status:', err));
+        }
+
+        // Validate start and end time inputs
+        document.getElementById('startTime').addEventListener('input', validateTimeInputs);
+        document.getElementById('endTime').addEventListener('input', validateTimeInputs);
+
+        function validateTimeInputs() {
+            const start = parseFloat(document.getElementById('startTime').value);
+            const end = parseFloat(document.getElementById('endTime').value);
+            const btn = document.getElementById('playTimeBtn');
+            btn.disabled = isNaN(start) || isNaN(end) || end <= start;
+
+            validateFrameInputs(); // update frame button too
+        }
+
+        // Validate frame inputs
+        function validateFrameInputs() {
+            const sF = parseInt(document.getElementById('startFrame').value);
+            const eF = parseInt(document.getElementById('endFrame').value);
+            const btnF = document.getElementById('playFrameBtn');
+            btnF.disabled = isNaN(sF) || isNaN(eF) || eF <= sF;
+        }
+
+        // attach frame input listeners
+        document.getElementById('startFrame').addEventListener('input', validateFrameInputs);
+        document.getElementById('endFrame').addEventListener('input', validateFrameInputs);
+
+        function playByFrame() {
+            const sF = parseInt(document.getElementById('startFrame').value);
+            const eF = parseInt(document.getElementById('endFrame').value);
+            if (isNaN(sF) || isNaN(eF) || eF <= sF || currentTotalFrames === 0) {
+                alert('Invalid frame inputs or total frames unknown');
+                return;
+            }
+            const video = document.getElementById('videoPlayer');
+            const runSegment = () => {
+                const duration = video.duration;
+                if (!duration || isNaN(duration)) {
+                    alert('Cannot determine video duration yet.');
+                    return;
+                }
+                const startSec = (sF / currentTotalFrames) * duration;
+                const endSec = (eF / currentTotalFrames) * duration;
+                playSegment(video, startSec, endSec);
+            };
+            if (video.readyState < 2) {
+                video.addEventListener('loadedmetadata', runSegment, {once:true});
+            } else {
+                runSegment();
+            }
+        }
+
+        function playByTime() {
+            const video = document.getElementById('videoPlayer');
+            const start = parseFloat(document.getElementById('startTime').value);
+            const end = parseFloat(document.getElementById('endTime').value);
+            if (video.readyState < 2) {
+                video.addEventListener('loadedmetadata', () => {
+                    playSegment(video, start, end);
+                }, {once: true});
+            } else {
+                playSegment(video, start, end);
+            }
+        }
+
+        function playSegment(video, start, end) {
+            video.currentTime = start;
+            video.play();
+            const onTimeUpdate = () => {
+                if (video.currentTime >= end) {
+                    video.pause();
+                    video.removeEventListener('timeupdate', onTimeUpdate);
+                }
+            };
+            video.addEventListener('timeupdate', onTimeUpdate);
         }
 
         // 初始化并加载进度

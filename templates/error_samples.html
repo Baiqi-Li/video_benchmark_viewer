@@ -58,10 +58,13 @@
                 </select>
             </div>
             <div class="col-md-6">
-                <select id="errorTypeSelect" class="form-select">
+                <select id="errorTypeFilter" class="form-select">
                     <option value="Misalignment">Ambiguous</option>
                     <option value="Wrong">Wrong</option>
                     <option value="Single Frame Bias">Single Frame Bias</option>
+                    <option value="Language Bias">Language Bias</option>
+                    <option value="Poor Video Quality">Poor Video Quality</option>
+                    <option value="Post Edited">Post Edited</option>
                     <option value="Others">Others</option>
                 </select>
             </div>
@@ -117,7 +120,7 @@
             loadErrorSamples();
         });
 
-        document.getElementById('errorTypeSelect').addEventListener('change', function() {
+        document.getElementById('errorTypeFilter').addEventListener('change', function() {
             currentErrorType = this.value;
             loadErrorSamples();
         });
@@ -288,7 +291,7 @@
 
         // 初始化
         currentDataset = document.getElementById('datasetSelect').value;
-        currentErrorType = document.getElementById('errorTypeSelect').value;
+        currentErrorType = document.getElementById('errorTypeFilter').value;
         loadErrorSamples();
     </script>
 </body>

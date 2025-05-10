@@ -141,6 +141,49 @@ def save_selected_captions(data):
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
 
+# Functions to handle repurposed captions data
+def get_repurposed_caption_file():
+    """Get path to repurposed captions JSON"""
+    repurpose_dir = 'repurpose_data'
+    if not os.path.exists(repurpose_dir):
+        os.makedirs(repurpose_dir)
+    return os.path.join(repurpose_dir, 'repurposed_caption.json')
+
+def get_repurposed_caption_indices_file():
+    """Get path to repurposed caption indices JSON"""
+    repurpose_dir = 'repurpose_data'
+    if not os.path.exists(repurpose_dir):
+        os.makedirs(repurpose_dir)
+    return os.path.join(repurpose_dir, 'repurposed_caption_indices.json')
+
+def load_repurposed_captions():
+    """Load repurposed captions"""
+    file_path = get_repurposed_caption_file()
+    if not os.path.exists(file_path):
+        return []
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def load_repurposed_caption_indices():
+    """Load repurposed caption indices"""
+    file_path = get_repurposed_caption_indices_file()
+    if not os.path.exists(file_path):
+        return {}
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def save_repurposed_captions(data):
+    """Save repurposed captions"""
+    file_path = get_repurposed_caption_file()
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+
+def save_repurposed_caption_indices(data):
+    """Save repurposed caption indices"""
+    file_path = get_repurposed_caption_indices_file()
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+
 @app.route('/')
 def index():
     datasets = get_available_datasets()
@@ -604,28 +647,44 @@ def add_caption():
     sample_index = data.get('sample_index')
     caption = data.get('caption')
 
-    if not all([dataset, sample_index is not None, caption]):
+    # At least dataset, sample_index, and caption required
+    if not dataset or sample_index is None or caption is None:
         return jsonify({'success': False, 'error': 'Missing required parameters'}), 400
 
-    # 加载原始数据集
+    # Load original dataset and sample
     dataset_data = load_dataset(dataset)
     if not dataset_data:
         return jsonify({'success': False, 'error': 'Dataset not found'}), 404
     if sample_index < 0 or sample_index >= len(dataset_data):
         return jsonify({'success': False, 'error': 'Sample index out of range'}), 400
-
     original_sample = dataset_data[sample_index]
     video_url = original_sample.get('video_url', '')
 
-    selected_captions = load_selected_captions()
-    selected_captions.append({
-        'dataset': dataset,
-        'sample_index': sample_index,
+    # Create new repurposed caption entry
+    repurposed_item = {
+        'original_dataset': dataset,
+        'original_index': sample_index,
         'video_url': video_url,
         'caption': caption
-    })
-    save_selected_captions(selected_captions)
+    }
+    # Save to repurposed captions
+    repurposed_captions = load_repurposed_captions()
+    # Avoid duplicate
+    for item in repurposed_captions:
+        if (item['original_dataset']==dataset and item['original_index']==sample_index and item['caption']==caption):
+            return jsonify({'success': False, 'error': 'This caption already exists'}), 400
+    repurposed_captions.append(repurposed_item)
+    save_repurposed_captions(repurposed_captions)
 
+    # Update indices
+    indices = load_repurposed_caption_indices()
+    if dataset not in indices:
+        indices[dataset] = []
+    if sample_index not in indices[dataset]:
+        indices[dataset].append(sample_index)
+        indices[dataset].sort()
+        save_repurposed_caption_indices(indices)
+     
     return jsonify({'success': True})
 
 @app.route('/get_captions', methods=['POST'])
@@ -634,11 +693,9 @@ def get_captions():
     dataset = data.get('dataset')
     sample_index = data.get('sample_index')
 
-    if not all([dataset, sample_index is not None]):
-        return jsonify({'error': 'Missing required parameters'}), 400
-
-    captions = load_selected_captions()
-    filtered = [item for item in captions if item['dataset'] == dataset and item['sample_index'] == sample_index]
+    # Load repurposed captions and filter
+    repurposed_captions = load_repurposed_captions()
+    filtered = [item for item in repurposed_captions if item['original_dataset']==dataset and item['original_index']==sample_index]
     return jsonify({'captions': filtered})
 
 @app.route('/update_caption', methods=['POST'])
@@ -648,18 +705,18 @@ def update_caption():
     sample_index = data.get('sample_index')
     caption_index = data.get('caption_index')
     new_caption = data.get('new_caption')
-
-    if not all([dataset, sample_index is not None, caption_index is not None, new_caption]):
+    if not all([dataset, sample_index is not None, caption_index is not None, new_caption is not None]):
         return jsonify({'success': False, 'error': 'Missing required parameters'}), 400
 
-    captions = load_selected_captions()
-    # filter indices
-    items = [(i, item) for i, item in enumerate(captions) if item['dataset'] == dataset and item['sample_index'] == sample_index]
-    if caption_index < 0 or caption_index >= len(items):
+    repurposed_captions = load_repurposed_captions()
+    # filter entries for this dataset and sample
+    entries = [(i, item) for i, item in enumerate(repurposed_captions)
+               if item['original_dataset'] == dataset and item['original_index'] == sample_index]
+    if caption_index < 0 or caption_index >= len(entries):
         return jsonify({'success': False, 'error': 'Invalid caption index'}), 400
-    orig_i = items[caption_index][0]
-    captions[orig_i]['caption'] = new_caption
-    save_selected_captions(captions)
+    orig_i = entries[caption_index][0]
+    repurposed_captions[orig_i]['caption'] = new_caption
+    save_repurposed_captions(repurposed_captions)
     return jsonify({'success': True})
 
 @app.route('/delete_caption', methods=['POST'])
@@ -668,19 +725,30 @@ def delete_caption():
     dataset = data.get('dataset')
     sample_index = data.get('sample_index')
     caption_index = data.get('caption_index')
-
     if not all([dataset, sample_index is not None, caption_index is not None]):
         return jsonify({'success': False, 'error': 'Missing required parameters'}), 400
 
-    captions = load_selected_captions()
-    # filter indices
-    items = [(i, item) for i, item in enumerate(captions) if item['dataset'] == dataset and item['sample_index'] == sample_index]
-    if caption_index < 0 or caption_index >= len(items):
+    repurposed_captions = load_repurposed_captions()
+    # find entries
+    entries = [(i, item) for i, item in enumerate(repurposed_captions)
+               if item['original_dataset'] == dataset and item['original_index'] == sample_index]
+    if caption_index < 0 or caption_index >= len(entries):
         return jsonify({'success': False, 'error': 'Invalid caption index'}), 400
-    orig_i = items[caption_index][0]
-    # delete entry
-    del captions[orig_i]
-    save_selected_captions(captions)
+    orig_i = entries[caption_index][0]
+    # delete the caption entry
+    del repurposed_captions[orig_i]
+    save_repurposed_captions(repurposed_captions)
+    # update indices
+    indices = load_repurposed_caption_indices()
+    if dataset in indices:
+        # check remaining
+        remaining = [item for item in repurposed_captions
+                     if item['original_dataset'] == dataset and item['original_index'] == sample_index]
+        if not remaining:
+            indices[dataset].remove(sample_index)
+            if not indices[dataset]:
+                del indices[dataset]
+            save_repurposed_caption_indices(indices)
     return jsonify({'success': True})
 
 # Functions to handle viewing progress
