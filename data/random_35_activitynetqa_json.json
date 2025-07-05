@@ -1,0 +1,527 @@
+[
+    {
+        "video_id": "v_RlRrktN5iH4.mp4",
+        "caption": "",
+        "question": "does the person in black pants tie the hair",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "RlRrktN5iH4",
+            "question_id": "v_RlRrktN5iH4_2",
+            "question": "does the person in black pants tie the hair",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_RlRrktN5iH4.mp4"
+    },
+    {
+        "video_id": "v_HWFosaUWoSI.mp4",
+        "caption": "",
+        "question": "what is the left side of the house in the video",
+        "answer": "tree",
+        "option": "",
+        "meta_data": {
+            "video_name": "HWFosaUWoSI",
+            "question_id": "v_HWFosaUWoSI_4",
+            "question": "what is the left side of the house in the video",
+            "answer": "tree",
+            "type": "1"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_HWFosaUWoSI.mp4"
+    },
+    {
+        "video_id": "v_TtewPltwuXw.mp4",
+        "caption": "",
+        "question": "what is the person in red clothes doing in the video",
+        "answer": "flute",
+        "option": "",
+        "meta_data": {
+            "video_name": "TtewPltwuXw",
+            "question_id": "v_TtewPltwuXw_1",
+            "question": "what is the person in red clothes doing in the video",
+            "answer": "flute",
+            "type": "0"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_TtewPltwuXw.mp4"
+    },
+    {
+        "video_id": "v_PSB1nM3QXxg.mp4",
+        "caption": "",
+        "question": "is the person with the purple belt around his waist a boy",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "PSB1nM3QXxg",
+            "question_id": "v_PSB1nM3QXxg_2",
+            "question": "is the person with the purple belt around his waist a boy",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_PSB1nM3QXxg.mp4"
+    },
+    {
+        "video_id": "v_1vTHJMMPZN0.mp4",
+        "caption": "",
+        "question": "what color is the skateboard of the last surfer in the video",
+        "answer": "green",
+        "option": "",
+        "meta_data": {
+            "video_name": "1vTHJMMPZN0",
+            "question_id": "v_1vTHJMMPZN0_7",
+            "question": "what color is the skateboard of the last surfer in the video",
+            "answer": "green",
+            "type": "4"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_1vTHJMMPZN0.mp4"
+    },
+    {
+        "video_id": "v__G4EVIG9YaE.mp4",
+        "caption": "",
+        "question": "what is the girl in the video doing",
+        "answer": "haystack",
+        "option": "",
+        "meta_data": {
+            "video_name": "_G4EVIG9YaE",
+            "question_id": "v__G4EVIG9YaE_1",
+            "question": "what is the girl in the video doing",
+            "answer": "haystack",
+            "type": "0"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v__G4EVIG9YaE.mp4"
+    },
+    {
+        "video_id": "v_R74yolowFPs.mp4",
+        "caption": "",
+        "question": "is there a yellow disk in the video",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "R74yolowFPs",
+            "question_id": "v_R74yolowFPs_9",
+            "question": "is there a yellow disk in the video",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_R74yolowFPs.mp4"
+    },
+    {
+        "video_id": "v_uM7QSskmloo.mp4",
+        "caption": "",
+        "question": "what is in front of the house",
+        "answer": "tree",
+        "option": "",
+        "meta_data": {
+            "video_name": "uM7QSskmloo",
+            "question_id": "v_uM7QSskmloo_4",
+            "question": "what is in front of the house",
+            "answer": "tree",
+            "type": "1"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_uM7QSskmloo.mp4"
+    },
+    {
+        "video_id": "v_vHnZ3NrZER0.mp4",
+        "caption": "",
+        "question": "do you use a ruler in measuring the length",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "vHnZ3NrZER0",
+            "question_id": "v_vHnZ3NrZER0_2",
+            "question": "do you use a ruler in measuring the length",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_vHnZ3NrZER0.mp4"
+    },
+    {
+        "video_id": "v_dKJMP8EmZjw.mp4",
+        "caption": "",
+        "question": "how safe is sailing",
+        "answer": "secondary",
+        "option": "",
+        "meta_data": {
+            "video_name": "dKJMP8EmZjw",
+            "question_id": "v_dKJMP8EmZjw_10",
+            "question": "how safe is sailing",
+            "answer": "secondary",
+            "type": "8"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_dKJMP8EmZjw.mp4"
+    },
+    {
+        "video_id": "v_Z-sWZUYL0ZU.mp4",
+        "caption": "",
+        "question": "what is the gender of the person in a gray coat",
+        "answer": "male",
+        "option": "",
+        "meta_data": {
+            "video_name": "Z-sWZUYL0ZU",
+            "question_id": "v_Z-sWZUYL0ZU_8",
+            "question": "what is the gender of the person in a gray coat",
+            "answer": "male",
+            "type": "8"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_Z-sWZUYL0ZU.mp4"
+    },
+    {
+        "video_id": "v_12Nafz_Yet4.mp4",
+        "caption": "",
+        "question": "does the person in black have short hair",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "12Nafz_Yet4",
+            "question_id": "v_12Nafz_Yet4_2",
+            "question": "does the person in black have short hair",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_12Nafz_Yet4.mp4"
+    },
+    {
+        "video_id": "v_sfbgZOHLkII.mp4",
+        "caption": "",
+        "question": "what happened to the camel after the woman sat down",
+        "answer": "stand up",
+        "option": "",
+        "meta_data": {
+            "video_name": "sfbgZOHLkII",
+            "question_id": "v_sfbgZOHLkII_5",
+            "question": "what happened to the camel after the woman sat down",
+            "answer": "stand up",
+            "type": "2"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_sfbgZOHLkII.mp4"
+    },
+    {
+        "video_id": "v_5oyenoaVB-w.mp4",
+        "caption": "",
+        "question": "what is the color of the facial cleanser in the video",
+        "answer": "green",
+        "option": "",
+        "meta_data": {
+            "video_name": "5oyenoaVB-w",
+            "question_id": "v_5oyenoaVB-w_6",
+            "question": "what is the color of the facial cleanser in the video",
+            "answer": "green",
+            "type": "4"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_5oyenoaVB-w.mp4"
+    },
+    {
+        "video_id": "v_xizEiQZfJa4.mp4",
+        "caption": "",
+        "question": "where is the video taken ",
+        "answer": "outdoor",
+        "option": "",
+        "meta_data": {
+            "video_name": "xizEiQZfJa4",
+            "question_id": "v_xizEiQZfJa4_9",
+            "question": "where is the video taken ",
+            "answer": "outdoor",
+            "type": "6"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_xizEiQZfJa4.mp4"
+    },
+    {
+        "video_id": "v_hvrKRg166eQ.mp4",
+        "caption": "",
+        "question": "what is the man holding the paper in his right hand in the video",
+        "answer": "broadcast",
+        "option": "",
+        "meta_data": {
+            "video_name": "hvrKRg166eQ",
+            "question_id": "v_hvrKRg166eQ_1",
+            "question": "what is the man holding the paper in his right hand in the video",
+            "answer": "broadcast",
+            "type": "0"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_hvrKRg166eQ.mp4"
+    },
+    {
+        "video_id": "v_iAes5SVj_Fg.mp4",
+        "caption": "",
+        "question": "what is the relationship of the two people in red",
+        "answer": "friend",
+        "option": "",
+        "meta_data": {
+            "video_name": "iAes5SVj_Fg",
+            "question_id": "v_iAes5SVj_Fg_6",
+            "question": "what is the relationship of the two people in red",
+            "answer": "friend",
+            "type": "8"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_iAes5SVj_Fg.mp4"
+    },
+    {
+        "video_id": "v_QPEAp7nf2Tk.mp4",
+        "caption": "",
+        "question": "what's the guy in striped pants doing",
+        "answer": "slide",
+        "option": "",
+        "meta_data": {
+            "video_name": "QPEAp7nf2Tk",
+            "question_id": "v_QPEAp7nf2Tk_1",
+            "question": "what's the guy in striped pants doing",
+            "answer": "slide",
+            "type": "0"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_QPEAp7nf2Tk.mp4"
+    },
+    {
+        "video_id": "v_JGxf-jke0e8.mp4",
+        "caption": "",
+        "question": "what is the man beside the basin doing",
+        "answer": "wash clothes",
+        "option": "",
+        "meta_data": {
+            "video_name": "JGxf-jke0e8",
+            "question_id": "v_JGxf-jke0e8_1",
+            "question": "what is the man beside the basin doing",
+            "answer": "wash clothes",
+            "type": "0"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_JGxf-jke0e8.mp4"
+    },
+    {
+        "video_id": "v_3LwQ2yq85LU.mp4",
+        "caption": "",
+        "question": "what color is the parachutist's parachute",
+        "answer": "orange",
+        "option": "",
+        "meta_data": {
+            "video_name": "3LwQ2yq85LU",
+            "question_id": "v_3LwQ2yq85LU_7",
+            "question": "what color is the parachutist's parachute",
+            "answer": "orange",
+            "type": "4"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_3LwQ2yq85LU.mp4"
+    },
+    {
+        "video_id": "v_aAz3YL2RMr4.mp4",
+        "caption": "",
+        "question": "is the person in the tattoo a man",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "aAz3YL2RMr4",
+            "question_id": "v_aAz3YL2RMr4_2",
+            "question": "is the person in the tattoo a man",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_aAz3YL2RMr4.mp4"
+    },
+    {
+        "video_id": "v_eiN5XPmwcEM.mp4",
+        "caption": "",
+        "question": "what is on the left of the man",
+        "answer": "wall",
+        "option": "",
+        "meta_data": {
+            "video_name": "eiN5XPmwcEM",
+            "question_id": "v_eiN5XPmwcEM_4",
+            "question": "what is on the left of the man",
+            "answer": "wall",
+            "type": "1"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_eiN5XPmwcEM.mp4"
+    },
+    {
+        "video_id": "v_XI7qJHE61zo.mp4",
+        "caption": "",
+        "question": "what is the gender of the person in blue clothes",
+        "answer": "male",
+        "option": "",
+        "meta_data": {
+            "video_name": "XI7qJHE61zo",
+            "question_id": "v_XI7qJHE61zo_6",
+            "question": "what is the gender of the person in blue clothes",
+            "answer": "male",
+            "type": "8"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_XI7qJHE61zo.mp4"
+    },
+    {
+        "video_id": "v_cAiig_569fI.mp4",
+        "caption": "",
+        "question": "is a woman wearing a blue vest wearing short hair",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "cAiig_569fI",
+            "question_id": "v_cAiig_569fI_2",
+            "question": "is a woman wearing a blue vest wearing short hair",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_cAiig_569fI.mp4"
+    },
+    {
+        "video_id": "v_eiN5XPmwcEM.mp4",
+        "caption": "",
+        "question": "is the person's beard long",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "eiN5XPmwcEM",
+            "question_id": "v_eiN5XPmwcEM_2",
+            "question": "is the person's beard long",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_eiN5XPmwcEM.mp4"
+    },
+    {
+        "video_id": "v__QBTD1bLSI0.mp4",
+        "caption": "",
+        "question": "does the person in white clothes have long hair",
+        "answer": "no",
+        "option": "",
+        "meta_data": {
+            "video_name": "_QBTD1bLSI0",
+            "question_id": "v__QBTD1bLSI0_3",
+            "question": "does the person in white clothes have long hair",
+            "answer": "no",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v__QBTD1bLSI0.mp4"
+    },
+    {
+        "video_id": "v_-p7aui3nAnc.mp4",
+        "caption": "",
+        "question": "do you have drums in the performance",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "-p7aui3nAnc",
+            "question_id": "v_-p7aui3nAnc_8",
+            "question": "do you have drums in the performance",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_-p7aui3nAnc.mp4"
+    },
+    {
+        "video_id": "v_LjPKKqe-VO0.mp4",
+        "caption": "",
+        "question": "what is the gender of the coach",
+        "answer": "male",
+        "option": "",
+        "meta_data": {
+            "video_name": "LjPKKqe-VO0",
+            "question_id": "v_LjPKKqe-VO0_8",
+            "question": "what is the gender of the coach",
+            "answer": "male",
+            "type": "8"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_LjPKKqe-VO0.mp4"
+    },
+    {
+        "video_id": "v_1vTHJMMPZN0.mp4",
+        "caption": "",
+        "question": "is the man at the beginning of the video wearing long sleeves ",
+        "answer": "no",
+        "option": "",
+        "meta_data": {
+            "video_name": "1vTHJMMPZN0",
+            "question_id": "v_1vTHJMMPZN0_3",
+            "question": "is the man at the beginning of the video wearing long sleeves ",
+            "answer": "no",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_1vTHJMMPZN0.mp4"
+    },
+    {
+        "video_id": "v_FPf7mAgdy0I.mp4",
+        "caption": "",
+        "question": "how many hair cards do you use for a woman with yellow hair",
+        "answer": "1",
+        "option": "",
+        "meta_data": {
+            "video_name": "FPf7mAgdy0I",
+            "question_id": "v_FPf7mAgdy0I_7",
+            "question": "how many hair cards do you use for a woman with yellow hair",
+            "answer": "1",
+            "type": "7"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_FPf7mAgdy0I.mp4"
+    },
+    {
+        "video_id": "v_uJAL31wAD2A.mp4",
+        "caption": "",
+        "question": "does the person in striped bikini wear sunglasses",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "uJAL31wAD2A",
+            "question_id": "v_uJAL31wAD2A_2",
+            "question": "does the person in striped bikini wear sunglasses",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_uJAL31wAD2A.mp4"
+    },
+    {
+        "video_id": "v_1vTHJMMPZN0.mp4",
+        "caption": "",
+        "question": "how many dogs are there in the video",
+        "answer": "3",
+        "option": "",
+        "meta_data": {
+            "video_name": "1vTHJMMPZN0",
+            "question_id": "v_1vTHJMMPZN0_6",
+            "question": "how many dogs are there in the video",
+            "answer": "3",
+            "type": "7"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_1vTHJMMPZN0.mp4"
+    },
+    {
+        "video_id": "v_Feq-2NIDl94.mp4",
+        "caption": "",
+        "question": "is the person in the video indoors",
+        "answer": "yes",
+        "option": "",
+        "meta_data": {
+            "video_name": "Feq-2NIDl94",
+            "question_id": "v_Feq-2NIDl94_2",
+            "question": "is the person in the video indoors",
+            "answer": "yes",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_Feq-2NIDl94.mp4"
+    },
+    {
+        "video_id": "v_eiN5XPmwcEM.mp4",
+        "caption": "",
+        "question": "what race is the man",
+        "answer": "white",
+        "option": "",
+        "meta_data": {
+            "video_name": "eiN5XPmwcEM",
+            "question_id": "v_eiN5XPmwcEM_8",
+            "question": "what race is the man",
+            "answer": "white",
+            "type": "4"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_eiN5XPmwcEM.mp4"
+    },
+    {
+        "video_id": "v_wE9sQbGdeAk.mp4",
+        "caption": "",
+        "question": "is a man with a beard long hair",
+        "answer": "no",
+        "option": "",
+        "meta_data": {
+            "video_name": "wE9sQbGdeAk",
+            "question_id": "v_wE9sQbGdeAk_3",
+            "question": "is a man with a beard long hair",
+            "answer": "no",
+            "type": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_wE9sQbGdeAk.mp4"
+    }
+]

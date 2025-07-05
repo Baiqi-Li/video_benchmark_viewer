@@ -1,0 +1,386 @@
+[
+    {
+        "video_id": "cd569206-229f-44ac-aa8f-be52f68b0fd6.mp4",
+        "caption": "",
+        "question": "In this video, what is the primary task that c is performing and how does he ensure that it is completed effectively?",
+        "answer": "2",
+        "option": [
+            "A. Currently, c is busy cooking in the kitchen.",
+            "B. Currently, c is occupied with doing their laundry task.",
+            "C. C is cleaning the room.",
+            "D. Currently, c is in the bathroom taking a refreshing shower.",
+            "E. C is sleeping."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00403",
+            "question": "In this video, what is the primary task that c is performing and how does he ensure that it is completed effectively?",
+            "video_idx": "cd569206-229f-44ac-aa8f-be52f68b0fd6",
+            "option": [
+                "A. Currently, c is busy cooking in the kitchen.",
+                "B. Currently, c is occupied with doing their laundry task.",
+                "C. C is cleaning the room.",
+                "D. Currently, c is in the bathroom taking a refreshing shower.",
+                "E. C is sleeping."
+            ],
+            "answer": "2"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/cd569206-229f-44ac-aa8f-be52f68b0fd6.mp4"
+    },
+    {
+        "video_id": "d30c1b6c-bbcb-490b-b104-c30b8cb985d3.mp4",
+        "caption": "",
+        "question": "Identify a possible turning point in the character's sequence of actions that suggests a shift in their focus or goals within the video. explain your choice and how it is significant to understanding the video.",
+        "answer": "4",
+        "option": [
+            "A. In the story, the main character carefully picks up a small white eraser nearby.",
+            "B. Swiftly, the character skillfully erases the visible markings on the smooth paper surface.",
+            "C. The character writes on the paper.",
+            "D. The character attentively glances towards and examines the paper in hand.",
+            "E. The character stands up and opens a drawer."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00415",
+            "question": "Identify a possible turning point in the character's sequence of actions that suggests a shift in their focus or goals within the video. explain your choice and how it is significant to understanding the video.",
+            "video_idx": "d30c1b6c-bbcb-490b-b104-c30b8cb985d3",
+            "option": [
+                "A. In the story, the main character carefully picks up a small white eraser nearby.",
+                "B. Swiftly, the character skillfully erases the visible markings on the smooth paper surface.",
+                "C. The character writes on the paper.",
+                "D. The character attentively glances towards and examines the paper in hand.",
+                "E. The character stands up and opens a drawer."
+            ],
+            "answer": "4"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/d30c1b6c-bbcb-490b-b104-c30b8cb985d3.mp4"
+    },
+    {
+        "video_id": "b81bb7b2-a16d-4cdc-8326-f4019f3be544.mp4",
+        "caption": "",
+        "question": "Identify the instances where c makes adjustments or changes while painting the wall. what significance do these actions have on the overall painting process?",
+        "answer": "0",
+        "option": [
+            "A. C makes two adjustments while painting the wall. first, he changes the brush he is using. second, he moves to a different part of the room. these adjustments allow him to continue painting efficiently and without making any mistakes.",
+            "B. C does not make any adjustments while painting the wall. he continues using the same brush and working in the same spot. this makes it difficult for him to paint the wall evenly and without making any mistakes.",
+            "C. C makes too many adjustments while painting the wall. he changes the brush he is using several times and moves to different parts of the room frequently. this makes it difficult for him to keep track of what he is doing and results in a lot of wasted time.",
+            "D. C makes the wrong adjustments while painting the wall. he changes the brush he is using to a smaller one, which makes it difficult for him to cover the wall evenly. he also moves to a part of the room that is already painted, which results in wasted paint.",
+            "E. C does not make any adjustments while painting the wall, but he should. the brush he is using is too small, and he is working in a part of the room that is already painted. these factors make it difficult for him to paint the wall evenly and without making any mistakes."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00368",
+            "question": "Identify the instances where c makes adjustments or changes while painting the wall. what significance do these actions have on the overall painting process?",
+            "video_idx": "b81bb7b2-a16d-4cdc-8326-f4019f3be544",
+            "option": [
+                "A. C makes two adjustments while painting the wall. first, he changes the brush he is using. second, he moves to a different part of the room. these adjustments allow him to continue painting efficiently and without making any mistakes.",
+                "B. C does not make any adjustments while painting the wall. he continues using the same brush and working in the same spot. this makes it difficult for him to paint the wall evenly and without making any mistakes.",
+                "C. C makes too many adjustments while painting the wall. he changes the brush he is using several times and moves to different parts of the room frequently. this makes it difficult for him to keep track of what he is doing and results in a lot of wasted time.",
+                "D. C makes the wrong adjustments while painting the wall. he changes the brush he is using to a smaller one, which makes it difficult for him to cover the wall evenly. he also moves to a part of the room that is already painted, which results in wasted paint.",
+                "E. C does not make any adjustments while painting the wall, but he should. the brush he is using is too small, and he is working in a part of the room that is already painted. these factors make it difficult for him to paint the wall evenly and without making any mistakes."
+            ],
+            "answer": "0"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/b81bb7b2-a16d-4cdc-8326-f4019f3be544.mp4"
+    },
+    {
+        "video_id": "6a0b0189-25fd-46f8-9d1a-99912de3d5f5.mp4",
+        "caption": "",
+        "question": "In the context of the entire video, which actions most contribute to the overall theme and why? analyze the importance of these activities as they relate to the main story being portrayed.",
+        "answer": "2",
+        "option": [
+            "A. The evidence of c's actions, as seen in the video, clearly demonstrates that she is notably a lazy and utterly irresponsible individual.",
+            "B. C's actions in the video show that she is a creative and imaginative person.",
+            "C. C's actions in the video show that she is a caring and responsible person.",
+            "D. The subtle cues in c's actions throughout the video evidently demonstrate that she is a rather shy, introverted person by nature.",
+            "E. The video displays c's actions, clearly indicating that she is a confident, self-assured, and outgoing person, effortlessly socializing."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00210",
+            "question": "In the context of the entire video, which actions most contribute to the overall theme and why? analyze the importance of these activities as they relate to the main story being portrayed.",
+            "video_idx": "6a0b0189-25fd-46f8-9d1a-99912de3d5f5",
+            "option": [
+                "A. The evidence of c's actions, as seen in the video, clearly demonstrates that she is notably a lazy and utterly irresponsible individual.",
+                "B. C's actions in the video show that she is a creative and imaginative person.",
+                "C. C's actions in the video show that she is a caring and responsible person.",
+                "D. The subtle cues in c's actions throughout the video evidently demonstrate that she is a rather shy, introverted person by nature.",
+                "E. The video displays c's actions, clearly indicating that she is a confident, self-assured, and outgoing person, effortlessly socializing."
+            ],
+            "answer": "2"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/6a0b0189-25fd-46f8-9d1a-99912de3d5f5.mp4"
+    },
+    {
+        "video_id": "a4663dd4-73e2-4e2a-b66b-731527a10c2c.mp4",
+        "caption": "",
+        "question": "How would you summarize the primary task that 'c' is carrying out throughout the video and describe the general process? consider only the most essential steps.",
+        "answer": "3",
+        "option": [
+            "A. C is making a salad.",
+            "B. C is making soup.",
+            "C. C is making macaroni and cheese.",
+            "D. C is cooking broccoli.",
+            "E. C is making a stir-fry."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00320",
+            "question": "How would you summarize the primary task that 'c' is carrying out throughout the video and describe the general process? consider only the most essential steps.",
+            "video_idx": "a4663dd4-73e2-4e2a-b66b-731527a10c2c",
+            "option": [
+                "A. C is making a salad.",
+                "B. C is making soup.",
+                "C. C is making macaroni and cheese.",
+                "D. C is cooking broccoli.",
+                "E. C is making a stir-fry."
+            ],
+            "answer": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/a4663dd4-73e2-4e2a-b66b-731527a10c2c.mp4"
+    },
+    {
+        "video_id": "811f0bb6-5bde-4e87-a182-bcf09def0c06.mp4",
+        "caption": "",
+        "question": "Describe the primary activity of c throughout the video that highlights his multitasking ability, and provide reasoning for his adjustments between different actions.",
+        "answer": "3",
+        "option": [
+            "A. Concurrently, c is multitasking by skillfully playing the ukulele and singing beautifully at the same time.",
+            "B. C is multitasking by playing the ukulele and dancing at the same time.",
+            "C. Concurrently, c is multitasking skillfully by playing the ukulele and eating delicious food at the same moment.",
+            "D. C is multitasking by playing the ukulele and operating the phone at the same time.",
+            "E. Curiously, c is skillfully multitasking by simultaneously playing the ukulele and sleeping at the same time."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00249",
+            "question": "Describe the primary activity of c throughout the video that highlights his multitasking ability, and provide reasoning for his adjustments between different actions.",
+            "video_idx": "811f0bb6-5bde-4e87-a182-bcf09def0c06",
+            "option": [
+                "A. Concurrently, c is multitasking by skillfully playing the ukulele and singing beautifully at the same time.",
+                "B. C is multitasking by playing the ukulele and dancing at the same time.",
+                "C. Concurrently, c is multitasking skillfully by playing the ukulele and eating delicious food at the same moment.",
+                "D. C is multitasking by playing the ukulele and operating the phone at the same time.",
+                "E. Curiously, c is skillfully multitasking by simultaneously playing the ukulele and sleeping at the same time."
+            ],
+            "answer": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/811f0bb6-5bde-4e87-a182-bcf09def0c06.mp4"
+    },
+    {
+        "video_id": "509e6545-5fff-4f73-ae0f-524dfa8b3c2c.mp4",
+        "caption": "",
+        "question": "Based on c's actions, what is the significance of the wooden crates and the blocks with respect to the fork lift's involvement in the video?",
+        "answer": "0",
+        "option": [
+            "A. The wooden crates and the blocks are used to transport the bricks. the bricks are placed on the wooden crates and then stacked on top of each other. the fork lift is used to move the wooden crates and the bricks.",
+            "B. The wooden crates and the blocks are used to build a structure. the blocks are stacked on top of each other to create a wall. the fork lift is used to move the wooden crates and the blocks into position.",
+            "C. The wooden crates and the blocks are used to create a barrier. the blocks are stacked in front of the wooden crates to create a wall. the fork lift is used to move the wooden crates and the blocks into position.",
+            "D. The wooden crates and the blocks are used to create a display. the blocks are stacked on top of each other to create a pyramid. the fork lift is used to move the wooden crates and the blocks into position.",
+            "E. The wooden crates and the blocks are used to create a sculpture. the blocks are stacked in a variety of shapes to create a work of art. the fork lift is used to move the wooden crates and the blocks into position."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00162",
+            "question": "Based on c's actions, what is the significance of the wooden crates and the blocks with respect to the fork lift's involvement in the video?",
+            "video_idx": "509e6545-5fff-4f73-ae0f-524dfa8b3c2c",
+            "option": [
+                "A. The wooden crates and the blocks are used to transport the bricks. the bricks are placed on the wooden crates and then stacked on top of each other. the fork lift is used to move the wooden crates and the bricks.",
+                "B. The wooden crates and the blocks are used to build a structure. the blocks are stacked on top of each other to create a wall. the fork lift is used to move the wooden crates and the blocks into position.",
+                "C. The wooden crates and the blocks are used to create a barrier. the blocks are stacked in front of the wooden crates to create a wall. the fork lift is used to move the wooden crates and the blocks into position.",
+                "D. The wooden crates and the blocks are used to create a display. the blocks are stacked on top of each other to create a pyramid. the fork lift is used to move the wooden crates and the blocks into position.",
+                "E. The wooden crates and the blocks are used to create a sculpture. the blocks are stacked in a variety of shapes to create a work of art. the fork lift is used to move the wooden crates and the blocks into position."
+            ],
+            "answer": "0"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/509e6545-5fff-4f73-ae0f-524dfa8b3c2c.mp4"
+    },
+    {
+        "video_id": "b8bdd88f-996d-47bc-beb8-3b54c60754ec.mp4",
+        "caption": "",
+        "question": "What is the primary focus of the video and how does it relate to the various actions performed by c?",
+        "answer": "0",
+        "option": [
+            "A. C is evaluating the condition of a camera.",
+            "B. Currently, c is diligently working on repairing a damaged camera.",
+            "C. Currently, c is diligently cleaning a camera with care.",
+            "D. C is taking pictures with a camera.",
+            "E. Currently, c is actively filming a scene utilizing a camera."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00369",
+            "question": "What is the primary focus of the video and how does it relate to the various actions performed by c?",
+            "video_idx": "b8bdd88f-996d-47bc-beb8-3b54c60754ec",
+            "option": [
+                "A. C is evaluating the condition of a camera.",
+                "B. Currently, c is diligently working on repairing a damaged camera.",
+                "C. Currently, c is diligently cleaning a camera with care.",
+                "D. C is taking pictures with a camera.",
+                "E. Currently, c is actively filming a scene utilizing a camera."
+            ],
+            "answer": "0"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/b8bdd88f-996d-47bc-beb8-3b54c60754ec.mp4"
+    },
+    {
+        "video_id": "6e72ace9-3ea8-4928-b1b9-07cd2787bdbc.mp4",
+        "caption": "",
+        "question": "What was the main purpose of c using tissue paper and what was the overall impact of this action on the dessert bowl's presentation?",
+        "answer": "2",
+        "option": [
+            "A. C used tissue paper to decorate the dessert bowl.",
+            "B. Carefully, c utilized used tissue paper to effectively absorb any possible excess moisture present from the cake batter.",
+            "C. C used tissue paper to wipe the edges of the dessert bowl to make it look neat and tidy.",
+            "D. Carefully, c utilized used tissue paper to effectively prevent the batter from sticking to the bowl's sides.",
+            "E. Carefully, c utilized used tissue paper for maintaining the batter's warmth, keeping it warm."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00217",
+            "question": "What was the main purpose of c using tissue paper and what was the overall impact of this action on the dessert bowl's presentation?",
+            "video_idx": "6e72ace9-3ea8-4928-b1b9-07cd2787bdbc",
+            "option": [
+                "A. C used tissue paper to decorate the dessert bowl.",
+                "B. Carefully, c utilized used tissue paper to effectively absorb any possible excess moisture present from the cake batter.",
+                "C. C used tissue paper to wipe the edges of the dessert bowl to make it look neat and tidy.",
+                "D. Carefully, c utilized used tissue paper to effectively prevent the batter from sticking to the bowl's sides.",
+                "E. Carefully, c utilized used tissue paper for maintaining the batter's warmth, keeping it warm."
+            ],
+            "answer": "2"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/6e72ace9-3ea8-4928-b1b9-07cd2787bdbc.mp4"
+    },
+    {
+        "video_id": "c93f3f21-63f5-48a3-b627-0aea50d26824.mp4",
+        "caption": "",
+        "question": "In the video, what can you deduce about the relationship between c and the man based on their interactions and the setting?",
+        "answer": "0",
+        "option": [
+            "A. C and the man are friends.",
+            "B. Coincidentally, it seems that c and the man have become passionate lovers recently.",
+            "C. Coincidentally, both c and the man happen to be strangers.",
+            "D. C and the man are enemies.",
+            "E. In the office, c and the man work together as colleagues and coworkers."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00397",
+            "question": "In the video, what can you deduce about the relationship between c and the man based on their interactions and the setting?",
+            "video_idx": "c93f3f21-63f5-48a3-b627-0aea50d26824",
+            "option": [
+                "A. C and the man are friends.",
+                "B. Coincidentally, it seems that c and the man have become passionate lovers recently.",
+                "C. Coincidentally, both c and the man happen to be strangers.",
+                "D. C and the man are enemies.",
+                "E. In the office, c and the man work together as colleagues and coworkers."
+            ],
+            "answer": "0"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/c93f3f21-63f5-48a3-b627-0aea50d26824.mp4"
+    },
+    {
+        "video_id": "a5dd1b46-d83e-4c50-818d-7c9ef882ff3f.mp4",
+        "caption": "",
+        "question": "Considering the various tasks c completed in the kitchen, what general theme can be concluded from the video?",
+        "answer": "2",
+        "option": [
+            "A. In the kitchen, c was hurriedly preparing a quick, delicious meal for lunchtime.",
+            "B. In the cozy kitchen, c was enthusiastically preparing a scrumptious, delicious meal.",
+            "C. C was preparing a healthy meal.",
+            "D. C was preparing a fancy meal.",
+            "E. C was enthusiastically getting ready to prepare a traditional, delicious meal for everyone."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00326",
+            "question": "Considering the various tasks c completed in the kitchen, what general theme can be concluded from the video?",
+            "video_idx": "a5dd1b46-d83e-4c50-818d-7c9ef882ff3f",
+            "option": [
+                "A. In the kitchen, c was hurriedly preparing a quick, delicious meal for lunchtime.",
+                "B. In the cozy kitchen, c was enthusiastically preparing a scrumptious, delicious meal.",
+                "C. C was preparing a healthy meal.",
+                "D. C was preparing a fancy meal.",
+                "E. C was enthusiastically getting ready to prepare a traditional, delicious meal for everyone."
+            ],
+            "answer": "2"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/a5dd1b46-d83e-4c50-818d-7c9ef882ff3f.mp4"
+    },
+    {
+        "video_id": "57420efd-6d84-462f-b03d-f45133760d79.mp4",
+        "caption": "",
+        "question": "Identify the key recurring steps c uses when cleaning various objects in the video. can you summarize these steps into a general approach or strategy for cleaning?",
+        "answer": "4",
+        "option": [
+            "A. C's key recurring steps are washing, rinsing, and drying.",
+            "B. C's key recurring steps are rinsing, washing, and putting in the dishwasher.",
+            "C. C's key recurring steps are washing, rinsing, and putting in the oven.",
+            "D. C's key recurring steps are rinsing, washing, and putting in the freezer.",
+            "E. C's key recurring steps are rinsing, washing, and rinsing again."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "total_frames": "",
+        "meta_data": {
+            "question_idx": "00175",
+            "question": "Identify the key recurring steps c uses when cleaning various objects in the video. can you summarize these steps into a general approach or strategy for cleaning?",
+            "video_idx": "57420efd-6d84-462f-b03d-f45133760d79",
+            "option": [
+                "A. C's key recurring steps are washing, rinsing, and drying.",
+                "B. C's key recurring steps are rinsing, washing, and putting in the dishwasher.",
+                "C. C's key recurring steps are washing, rinsing, and putting in the oven.",
+                "D. C's key recurring steps are rinsing, washing, and putting in the freezer.",
+                "E. C's key recurring steps are rinsing, washing, and rinsing again."
+            ],
+            "answer": "4"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/57420efd-6d84-462f-b03d-f45133760d79.mp4"
+    }
+]

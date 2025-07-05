@@ -8,5 +8,16 @@
   ],
   "random_200_motionbench_json": [
     0
+  ],
+  "random_35_activitynetqa_json": [
+    0
+  ],
+  "random_40_video_mme_json": [
+    7,
+    8,
+    10
+  ],
+  "random_45_PLM-VideoBench-RTLoc_mask_json": [
+    4
   ]
 }

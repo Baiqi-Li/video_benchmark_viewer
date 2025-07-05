@@ -1,0 +1,4714 @@
+[
+    {
+        "video_id": "8NHmfpkxTSw",
+        "caption": "",
+        "question": "How many tiers of seats are there behind the rostrum?\n(A) 4\n(B) 3\n(C) 5\n(D) 6",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 696,
+        "end_time": 702,
+        "reasoning": "time_reference: 11:36-11:42",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1855",
+            "video_id": "8NHmfpkxTSw",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How many tiers of seats are there behind the rostrum?\n(A) 4\n(B) 3\n(C) 5\n(D) 6",
+            "answer": "C",
+            "start_time": 696,
+            "end_time": 702,
+            "reasoning": "time_reference: 11:36-11:42"
+        },
+        "video_url": "https://www.youtube.com/watch?v=8NHmfpkxTSw"
+    },
+    {
+        "video_id": "-WnyRMZqV1U",
+        "caption": "",
+        "question": "Compared to the character the Best Actor portrayed in the movie, the Best Actor winner is ___ on the stage.\n(A) More built\n(B) Quieter\n(C) More animated\n(D) Slimer",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 4470,
+        "end_time": 4770,
+        "reasoning": "time_reference: 74:30-79:30",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "1753",
+            "video_id": "-WnyRMZqV1U",
+            "type": [
+                "entity recognition",
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "Compared to the character the Best Actor portrayed in the movie, the Best Actor winner is ___ on the stage.\n(A) More built\n(B) Quieter\n(C) More animated\n(D) Slimer",
+            "answer": "A",
+            "start_time": 4470,
+            "end_time": 4770,
+            "reasoning": "time_reference: 74:30-79:30"
+        },
+        "video_url": "https://www.youtube.com/watch?v=-WnyRMZqV1U"
+    },
+    {
+        "video_id": "Za2Z_JRxCuk",
+        "caption": "",
+        "question": "What is hidden behind the stone at the garden?\n(A) A tiger\n(B) A monkey\n(C) A mouse\n(D) A wolf",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1068,
+        "end_time": 1085,
+        "reasoning": "time_reference: 17:48-18:05",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "44",
+            "video_id": "Za2Z_JRxCuk",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What is hidden behind the stone at the garden?\n(A) A tiger\n(B) A monkey\n(C) A mouse\n(D) A wolf",
+            "answer": "B",
+            "start_time": 1068,
+            "end_time": 1085,
+            "reasoning": "time_reference: 17:48-18:05"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Za2Z_JRxCuk"
+    },
+    {
+        "video_id": "wNCPgIVz15c",
+        "caption": "",
+        "question": "Are the men, women, and children in the valley eating together in the video?\n(A) The women and children are eating together\n(B) The men and women are eating together\n(C) The men and children are eating together\n(D) They are all eating separately",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 4890,
+        "end_time": 5061,
+        "reasoning": "time_reference: 81:30-84:21",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1339",
+            "video_id": "wNCPgIVz15c",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Are the men, women, and children in the valley eating together in the video?\n(A) The women and children are eating together\n(B) The men and women are eating together\n(C) The men and children are eating together\n(D) They are all eating separately",
+            "answer": "A",
+            "start_time": 4890,
+            "end_time": 5061,
+            "reasoning": "time_reference: 81:30-84:21"
+        },
+        "video_url": "https://www.youtube.com/watch?v=wNCPgIVz15c"
+    },
+    {
+        "video_id": "vHlSoxg8WHo",
+        "caption": "",
+        "question": "What's the relationship between Brad and Lily?\n(A) Mother and son\n(B) Sister and brother\n(C) Couple\n(D) Grandma and grandchind",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2632,
+        "end_time": 2770,
+        "reasoning": "time_reference: 43:52-46:10",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "5087",
+            "video_id": "vHlSoxg8WHo",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What's the relationship between Brad and Lily?\n(A) Mother and son\n(B) Sister and brother\n(C) Couple\n(D) Grandma and grandchind",
+            "answer": "A",
+            "start_time": 2632,
+            "end_time": 2770,
+            "reasoning": "time_reference: 43:52-46:10"
+        },
+        "video_url": "https://www.youtube.com/watch?v=vHlSoxg8WHo"
+    },
+    {
+        "video_id": "RCAqKnvu_P0",
+        "caption": "",
+        "question": "What kind of transportation does the vlogger use to get to Shibuya Scramble Crossing?\n(A) Bus\n(B) Train\n(C) Car\n(D) Subway",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 477,
+        "end_time": 608,
+        "reasoning": "time_reference: 07:57-10:08",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2909",
+            "video_id": "RCAqKnvu_P0",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What kind of transportation does the vlogger use to get to Shibuya Scramble Crossing?\n(A) Bus\n(B) Train\n(C) Car\n(D) Subway",
+            "answer": "B",
+            "start_time": 477,
+            "end_time": 608,
+            "reasoning": "time_reference: 07:57-10:08"
+        },
+        "video_url": "https://www.youtube.com/watch?v=RCAqKnvu_P0"
+    },
+    {
+        "video_id": "pXD3txG2bVQ",
+        "caption": "",
+        "question": "Who do the boy and the cat meet on the way they first leave home?\n(A) The old man\n(B) The couple\n(C) The rabbit\n(D) The dog",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 261,
+        "end_time": 272,
+        "reasoning": "time_reference: 04:21-04:32",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "728",
+            "video_id": "pXD3txG2bVQ",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Who do the boy and the cat meet on the way they first leave home?\n(A) The old man\n(B) The couple\n(C) The rabbit\n(D) The dog",
+            "answer": "D",
+            "start_time": 261,
+            "end_time": 272,
+            "reasoning": "time_reference: 04:21-04:32"
+        },
+        "video_url": "https://www.youtube.com/watch?v=pXD3txG2bVQ"
+    },
+    {
+        "video_id": "2LH3JCGkEBU",
+        "caption": "",
+        "question": "In this video, the Pyeongchang Winter Olympics clip how many outfits did the two people change?\n(A) 6\n(B) 5\n(C) 4\n(D) 2",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2712,
+        "end_time": 4348,
+        "reasoning": "time_reference: 45:12-72:28",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4321",
+            "video_id": "2LH3JCGkEBU",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "In this video, the Pyeongchang Winter Olympics clip how many outfits did the two people change?\n(A) 6\n(B) 5\n(C) 4\n(D) 2",
+            "answer": "B",
+            "start_time": 2712,
+            "end_time": 4348,
+            "reasoning": "time_reference: 45:12-72:28"
+        },
+        "video_url": "https://www.youtube.com/watch?v=2LH3JCGkEBU"
+    },
+    {
+        "video_id": "LLSJrEgOOtw",
+        "caption": "",
+        "question": "Which animal appears first in the video playing with the wood alone for the first time?\n(A) The cow\n(B) The dog\n(C) The tiger\n(D) The duck",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 25,
+        "end_time": 30,
+        "reasoning": "time_reference: 00:25-00:30",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "3224",
+            "video_id": "LLSJrEgOOtw",
+            "type": [
+                "event understanding",
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Which animal appears first in the video playing with the wood alone for the first time?\n(A) The cow\n(B) The dog\n(C) The tiger\n(D) The duck",
+            "answer": "B",
+            "start_time": 25,
+            "end_time": 30,
+            "reasoning": "time_reference: 00:25-00:30"
+        },
+        "video_url": "https://www.youtube.com/watch?v=LLSJrEgOOtw"
+    },
+    {
+        "video_id": "2sriHX3PbXw",
+        "caption": "",
+        "question": "When the people in the government are thinking, what kind of person comes into the meeting room?\n(A) A person without a nose\n(B) A person with a particularly long nose\n(C) A person with colorful hat\n(D) A person in a tall hat",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 520,
+        "end_time": 525,
+        "reasoning": "time_reference: 08:40-08:45",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "516",
+            "video_id": "2sriHX3PbXw",
+            "type": [
+                "entity recognition",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "When the people in the government are thinking, what kind of person comes into the meeting room?\n(A) A person without a nose\n(B) A person with a particularly long nose\n(C) A person with colorful hat\n(D) A person in a tall hat",
+            "answer": "B",
+            "start_time": 520,
+            "end_time": 525,
+            "reasoning": "time_reference: 08:40-08:45"
+        },
+        "video_url": "https://www.youtube.com/watch?v=2sriHX3PbXw"
+    },
+    {
+        "video_id": "hROKtPqktO8",
+        "caption": "",
+        "question": "What posture does the vlogger use to take the photo in 12:53?\n(A) Hands on hips\n(B) Lean on the bridge\n(C) Scissorhands\n(D) Open arms",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 740,
+        "end_time": 780,
+        "reasoning": "time_reference: 12:20-13:00",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "2646",
+            "video_id": "hROKtPqktO8",
+            "type": [
+                "entity recognition",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "What posture does the vlogger use to take the photo in 12:53?\n(A) Hands on hips\n(B) Lean on the bridge\n(C) Scissorhands\n(D) Open arms",
+            "answer": "D",
+            "start_time": 740,
+            "end_time": 780,
+            "reasoning": "time_reference: 12:20-13:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=hROKtPqktO8"
+    },
+    {
+        "video_id": "8QdE--Y-x7U",
+        "caption": "",
+        "question": "What color is the bow tie worn by the man who presided over the Nobel Prize in Chemistry?\n(A) Red bow tie\n(B) Black bow tie\n(C) White bow tie\n(D) Blue bow tie",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1988,
+        "end_time": 2000,
+        "reasoning": "time_reference: 33:08-33:20",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1957",
+            "video_id": "8QdE--Y-x7U",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color is the bow tie worn by the man who presided over the Nobel Prize in Chemistry?\n(A) Red bow tie\n(B) Black bow tie\n(C) White bow tie\n(D) Blue bow tie",
+            "answer": "C",
+            "start_time": 1988,
+            "end_time": 2000,
+            "reasoning": "time_reference: 33:08-33:20"
+        },
+        "video_url": "https://www.youtube.com/watch?v=8QdE--Y-x7U"
+    },
+    {
+        "video_id": "20lTg3yUrO4",
+        "caption": "",
+        "question": "In which topic does a woman wearing a blue hat with the letter Aseyori Lekan Si appear?\n(A) Another Twist in Rivers Politics\n(B) APC Primary Election\n(C) Emohua Residents Restate Support For Wike\n(D) Drug Trafficking",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 590,
+        "end_time": 784,
+        "reasoning": "time_reference: 09:50-13:04",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "5165",
+            "video_id": "20lTg3yUrO4",
+            "type": [
+                "event understanding",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "In which topic does a woman wearing a blue hat with the letter Aseyori Lekan Si appear?\n(A) Another Twist in Rivers Politics\n(B) APC Primary Election\n(C) Emohua Residents Restate Support For Wike\n(D) Drug Trafficking",
+            "answer": "C",
+            "start_time": 590,
+            "end_time": 784,
+            "reasoning": "time_reference: 09:50-13:04"
+        },
+        "video_url": "https://www.youtube.com/watch?v=20lTg3yUrO4"
+    },
+    {
+        "video_id": "t-RtDI2RWQs",
+        "caption": "",
+        "question": "What is the reaction of the Best Supporting Actress when she finds out she wins?\n(A) She shows indifference\n(B) She appears excited\n(C) She gives a faint smile\n(D) She sheds tears of joy",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1170,
+        "end_time": 1324,
+        "reasoning": "time_reference: 19:30-22:04",
+        "total_frames": "",
+        "type": [
+            "key information retrieval",
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "1665",
+            "video_id": "t-RtDI2RWQs",
+            "type": [
+                "key information retrieval",
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "What is the reaction of the Best Supporting Actress when she finds out she wins?\n(A) She shows indifference\n(B) She appears excited\n(C) She gives a faint smile\n(D) She sheds tears of joy",
+            "answer": "D",
+            "start_time": 1170,
+            "end_time": 1324,
+            "reasoning": "time_reference: 19:30-22:04"
+        },
+        "video_url": "https://www.youtube.com/watch?v=t-RtDI2RWQs"
+    },
+    {
+        "video_id": "-WnyRMZqV1U",
+        "caption": "",
+        "question": "What does the presenter do to Brad Pitt when he wins the award?\n(A) She hugs him\n(B) She gives a high five\n(C) She slaps him\n(D) She kisses him",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 201,
+        "end_time": 203,
+        "reasoning": "time_reference: 03:21-03:23",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "1736",
+            "video_id": "-WnyRMZqV1U",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What does the presenter do to Brad Pitt when he wins the award?\n(A) She hugs him\n(B) She gives a high five\n(C) She slaps him\n(D) She kisses him",
+            "answer": "A",
+            "start_time": 201,
+            "end_time": 203,
+            "reasoning": "time_reference: 03:21-03:23"
+        },
+        "video_url": "https://www.youtube.com/watch?v=-WnyRMZqV1U"
+    },
+    {
+        "video_id": "wNCPgIVz15c",
+        "caption": "",
+        "question": "What decoration is the man wearing on his head while sitting at the table and talking with the American man in the video, but not eating together?\n(A) A duckbill cap\n(B) A top hat\n(C) A headscarf\n(D) He isn't wearing anything",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 595,
+        "end_time": 1250,
+        "reasoning": "time_reference: 09:55-20:50",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1320",
+            "video_id": "wNCPgIVz15c",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What decoration is the man wearing on his head while sitting at the table and talking with the American man in the video, but not eating together?\n(A) A duckbill cap\n(B) A top hat\n(C) A headscarf\n(D) He isn't wearing anything",
+            "answer": "A",
+            "start_time": 595,
+            "end_time": 1250,
+            "reasoning": "time_reference: 09:55-20:50"
+        },
+        "video_url": "https://www.youtube.com/watch?v=wNCPgIVz15c"
+    },
+    {
+        "video_id": "lDlA7cfNk8A",
+        "caption": "",
+        "question": "How many hostesses are there?\n(A) 5\n(B) 1\n(C) 3\n(D) 2",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 4200,
+        "reasoning": "time_reference: 00:00-70:00",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1917",
+            "video_id": "lDlA7cfNk8A",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How many hostesses are there?\n(A) 5\n(B) 1\n(C) 3\n(D) 2",
+            "answer": "C",
+            "start_time": 0,
+            "end_time": 4200,
+            "reasoning": "time_reference: 00:00-70:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=lDlA7cfNk8A"
+    },
+    {
+        "video_id": "28CIeC8cZks",
+        "caption": "",
+        "question": "How many people are leaving by boat in the video?\n(A) 2\n(B) 4\n(C) 0\n(D) 1",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2032,
+        "end_time": 2026,
+        "reasoning": "time_reference: 33:52-33:46",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "221",
+            "video_id": "28CIeC8cZks",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "How many people are leaving by boat in the video?\n(A) 2\n(B) 4\n(C) 0\n(D) 1",
+            "answer": "D",
+            "start_time": 2032,
+            "end_time": 2026,
+            "reasoning": "time_reference: 33:52-33:46"
+        },
+        "video_url": "https://www.youtube.com/watch?v=28CIeC8cZks"
+    },
+    {
+        "video_id": "uusf1qG_uZ4",
+        "caption": "",
+        "question": "Why does Janice act so nice?\n(A) Because she is a nice person\n(B) Because she treats other kids as good friends\n(C) Because her mom is the teacher\n(D) Because she is happy to see the visitors",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1984,
+        "end_time": 2012,
+        "reasoning": "time_reference: 33:04-33:32",
+        "total_frames": "",
+        "type": [
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "3177",
+            "video_id": "uusf1qG_uZ4",
+            "type": [
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "Why does Janice act so nice?\n(A) Because she is a nice person\n(B) Because she treats other kids as good friends\n(C) Because her mom is the teacher\n(D) Because she is happy to see the visitors",
+            "answer": "C",
+            "start_time": 1984,
+            "end_time": 2012,
+            "reasoning": "time_reference: 33:04-33:32"
+        },
+        "video_url": "https://www.youtube.com/watch?v=uusf1qG_uZ4"
+    },
+    {
+        "video_id": "AeEYQ62t8hA",
+        "caption": "",
+        "question": "When James Corden is talking to another man through the door, what is the word in the red area on the door?\n(A) ST-1\n(B) ST-7\n(C) ST-5\n(D) ST-2",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 228,
+        "end_time": 252,
+        "reasoning": "time_reference: 03:48-04:12",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4798",
+            "video_id": "AeEYQ62t8hA",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "When James Corden is talking to another man through the door, what is the word in the red area on the door?\n(A) ST-1\n(B) ST-7\n(C) ST-5\n(D) ST-2",
+            "answer": "D",
+            "start_time": 228,
+            "end_time": 252,
+            "reasoning": "time_reference: 03:48-04:12"
+        },
+        "video_url": "https://www.youtube.com/watch?v=AeEYQ62t8hA"
+    },
+    {
+        "video_id": "RjDrZkBwzho",
+        "caption": "",
+        "question": "After finding a row of switches, which switch does Sheriff Black Cat press?\n(A) Bottom switch\n(B) Red switch\n(C) Yellow switch\n(D) Top switch",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 719,
+        "end_time": 723,
+        "reasoning": "time_reference: 11:59-12:03",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "767",
+            "video_id": "RjDrZkBwzho",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "After finding a row of switches, which switch does Sheriff Black Cat press?\n(A) Bottom switch\n(B) Red switch\n(C) Yellow switch\n(D) Top switch",
+            "answer": "C",
+            "start_time": 719,
+            "end_time": 723,
+            "reasoning": "time_reference: 11:59-12:03"
+        },
+        "video_url": "https://www.youtube.com/watch?v=RjDrZkBwzho"
+    },
+    {
+        "video_id": "8NHmfpkxTSw",
+        "caption": "",
+        "question": "How many people have won the Nobel Prize in Chemistry?\n(A) 4\n(B) 1\n(C) 2\n(D) 3",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2438,
+        "end_time": 2460,
+        "reasoning": "time_reference: 40:38-41:00",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "1861",
+            "video_id": "8NHmfpkxTSw",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "How many people have won the Nobel Prize in Chemistry?\n(A) 4\n(B) 1\n(C) 2\n(D) 3",
+            "answer": "D",
+            "start_time": 2438,
+            "end_time": 2460,
+            "reasoning": "time_reference: 40:38-41:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=8NHmfpkxTSw"
+    },
+    {
+        "video_id": "gXnhqF0TqqI",
+        "caption": "",
+        "question": "What happens to the toad after a man stops his blue car?\n(A) The toad drives a man's car\n(B) The toad chases the horse\n(C) The toad chases the car\n(D) The toad drives the car into the river",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2531,
+        "end_time": 2557,
+        "reasoning": "time_reference: 42:11-42:37",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "362",
+            "video_id": "gXnhqF0TqqI",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What happens to the toad after a man stops his blue car?\n(A) The toad drives a man's car\n(B) The toad chases the horse\n(C) The toad chases the car\n(D) The toad drives the car into the river",
+            "answer": "A",
+            "start_time": 2531,
+            "end_time": 2557,
+            "reasoning": "time_reference: 42:11-42:37"
+        },
+        "video_url": "https://www.youtube.com/watch?v=gXnhqF0TqqI"
+    },
+    {
+        "video_id": "YlQugR7KSKg",
+        "caption": "",
+        "question": "What is the main color of the decoration design of the whole stage?\n(A) Yellow and red\n(B) Blue and red\n(C) Yellow and blue\n(D) Green and red",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 48,
+        "reasoning": "time_reference: 00:00-00:48",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1886",
+            "video_id": "YlQugR7KSKg",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What is the main color of the decoration design of the whole stage?\n(A) Yellow and red\n(B) Blue and red\n(C) Yellow and blue\n(D) Green and red",
+            "answer": "C",
+            "start_time": 0,
+            "end_time": 48,
+            "reasoning": "time_reference: 00:00-00:48"
+        },
+        "video_url": "https://www.youtube.com/watch?v=YlQugR7KSKg"
+    },
+    {
+        "video_id": "vZV2WCKMsKs",
+        "caption": "",
+        "question": "What is the last interaction between Joe and Chico?\n(A) The dog catches the ball thrown by the person\n(B) The dog finds the person who has the ball\n(C) The dog bites the person who has the ball\n(D) The dog miss the ball thrown by the person",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 3554,
+        "end_time": 3554,
+        "reasoning": "time_reference: 59:14-59:14",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "4704",
+            "video_id": "vZV2WCKMsKs",
+            "type": [
+                "event understanding",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the last interaction between Joe and Chico?\n(A) The dog catches the ball thrown by the person\n(B) The dog finds the person who has the ball\n(C) The dog bites the person who has the ball\n(D) The dog miss the ball thrown by the person",
+            "answer": "B",
+            "start_time": 3554,
+            "end_time": 3554,
+            "reasoning": "time_reference: 59:14-59:14"
+        },
+        "video_url": "https://www.youtube.com/watch?v=vZV2WCKMsKs"
+    },
+    {
+        "video_id": "QWXlvx1GoTY",
+        "caption": "",
+        "question": "Jonathan Davidson shows a video about what brand during his talk?\n(A) Saint Laurent\n(B) Gucci\n(C) Dior\n(D) L'Oreal",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 3075,
+        "end_time": 3203,
+        "reasoning": "time_reference: 51:15-53:23",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2465",
+            "video_id": "QWXlvx1GoTY",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Jonathan Davidson shows a video about what brand during his talk?\n(A) Saint Laurent\n(B) Gucci\n(C) Dior\n(D) L'Oreal",
+            "answer": "D",
+            "start_time": 3075,
+            "end_time": 3203,
+            "reasoning": "time_reference: 51:15-53:23"
+        },
+        "video_url": "https://www.youtube.com/watch?v=QWXlvx1GoTY"
+    },
+    {
+        "video_id": "T1yhBv1ytzw",
+        "caption": "",
+        "question": "What is the score for the first half of the game?\n(A) 3:1\n(B) 2:1\n(C) 1:1\n(D) 1:2",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 2859,
+        "reasoning": "time_reference: 00:00-47:39",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "3791",
+            "video_id": "T1yhBv1ytzw",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the score for the first half of the game?\n(A) 3:1\n(B) 2:1\n(C) 1:1\n(D) 1:2",
+            "answer": "C",
+            "start_time": 0,
+            "end_time": 2859,
+            "reasoning": "time_reference: 00:00-47:39"
+        },
+        "video_url": "https://www.youtube.com/watch?v=T1yhBv1ytzw"
+    },
+    {
+        "video_id": "vHlSoxg8WHo",
+        "caption": "",
+        "question": "What happens to Janice and Tom when they get to the stage?\n(A) They ignore each other\n(B) They have a fierce quarrel\n(C) They hug each other tightly\n(D) They are concerned about each other",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1512,
+        "end_time": 1742,
+        "reasoning": "time_reference: 25:12-29:02",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "5083",
+            "video_id": "vHlSoxg8WHo",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What happens to Janice and Tom when they get to the stage?\n(A) They ignore each other\n(B) They have a fierce quarrel\n(C) They hug each other tightly\n(D) They are concerned about each other",
+            "answer": "B",
+            "start_time": 1512,
+            "end_time": 1742,
+            "reasoning": "time_reference: 25:12-29:02"
+        },
+        "video_url": "https://www.youtube.com/watch?v=vHlSoxg8WHo"
+    },
+    {
+        "video_id": "o-gLbgpzCc8",
+        "caption": "",
+        "question": "What is the first animal to appear on the stage?\n(A) Horse\n(B) Camel\n(C) Sheep\n(D) Dog",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 40,
+        "end_time": 60,
+        "reasoning": "time_reference: 00:40-01:00",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2393",
+            "video_id": "o-gLbgpzCc8",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What is the first animal to appear on the stage?\n(A) Horse\n(B) Camel\n(C) Sheep\n(D) Dog",
+            "answer": "B",
+            "start_time": 40,
+            "end_time": 60,
+            "reasoning": "time_reference: 00:40-01:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=o-gLbgpzCc8"
+    },
+    {
+        "video_id": "vZV2WCKMsKs",
+        "caption": "",
+        "question": "What is the name of the third group?\n(A) Aron and Buddy\n(B) Amber and Nymeria\n(C) Heather and Bogart\n(D) Adrian Stoica and Hurricane",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1,
+        "end_time": 478,
+        "reasoning": "time_reference: 00:01-07:58",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4682",
+            "video_id": "vZV2WCKMsKs",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What is the name of the third group?\n(A) Aron and Buddy\n(B) Amber and Nymeria\n(C) Heather and Bogart\n(D) Adrian Stoica and Hurricane",
+            "answer": "B",
+            "start_time": 1,
+            "end_time": 478,
+            "reasoning": "time_reference: 00:01-07:58"
+        },
+        "video_url": "https://www.youtube.com/watch?v=vZV2WCKMsKs"
+    },
+    {
+        "video_id": "rSE2YPcv89U",
+        "caption": "",
+        "question": "How is the situation in the first half of the match?\n(A) In the first half, both Arsenal and Liverpool had opportunities to score but failed to capitalize. Arsenal created several chances, including one shot that narrowly missed the goal frame, but were unable to convert. Liverpool, on the other hand, managed to score twice. Despite Arsenal's efforts to find the back of the net, Liverpool's goalkeeper made some impressive saves to maintain their lead. At halftime, the score stood at 2-0 in favor of Liverpool\n(B) In the first half, both Arsenal and Liverpool had opportunities to score but failed to capitalize. Arsenal created several chances, including one shot that narrowly missed the goal frame, but were unable to convert. Liverpool also had a few opportunities, but Arsenal's goalkeeper made some impressive saves to keep them out. Despite both teams' efforts to score, the first half ended with the score still 0-0\n(C) In the first half, both Arsenal and Liverpool had opportunities to score and both managed to find the back of the net once. Arsenal created several chances, including one shot that narrowly missed the goal frame, but they eventually scored. Similarly, Liverpool also capitalized on their chances and scored one goal. Despite both teams' efforts to add to their tally, the score remained 1-1 at halftime\n(D) In the first half, both Arsenal and Liverpool had opportunities to score but failed to capitalize. Arsenal created several chances, including one shot Liverpool also had a few opportunities, but Arsenal's goalkeeper made some impressive saves to keep them out. The first half ended with the score still 1-0",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 79,
+        "end_time": 2933,
+        "reasoning": "time_reference: 01:19-48:53",
+        "total_frames": "",
+        "type": [
+            "summarization"
+        ],
+        "meta_data": {
+            "uid": "3629",
+            "video_id": "rSE2YPcv89U",
+            "type": [
+                "summarization"
+            ],
+            "caption": "",
+            "question": "How is the situation in the first half of the match?\n(A) In the first half, both Arsenal and Liverpool had opportunities to score but failed to capitalize. Arsenal created several chances, including one shot that narrowly missed the goal frame, but were unable to convert. Liverpool, on the other hand, managed to score twice. Despite Arsenal's efforts to find the back of the net, Liverpool's goalkeeper made some impressive saves to maintain their lead. At halftime, the score stood at 2-0 in favor of Liverpool\n(B) In the first half, both Arsenal and Liverpool had opportunities to score but failed to capitalize. Arsenal created several chances, including one shot that narrowly missed the goal frame, but were unable to convert. Liverpool also had a few opportunities, but Arsenal's goalkeeper made some impressive saves to keep them out. Despite both teams' efforts to score, the first half ended with the score still 0-0\n(C) In the first half, both Arsenal and Liverpool had opportunities to score and both managed to find the back of the net once. Arsenal created several chances, including one shot that narrowly missed the goal frame, but they eventually scored. Similarly, Liverpool also capitalized on their chances and scored one goal. Despite both teams' efforts to add to their tally, the score remained 1-1 at halftime\n(D) In the first half, both Arsenal and Liverpool had opportunities to score but failed to capitalize. Arsenal created several chances, including one shot Liverpool also had a few opportunities, but Arsenal's goalkeeper made some impressive saves to keep them out. The first half ended with the score still 1-0",
+            "answer": "B",
+            "start_time": 79,
+            "end_time": 2933,
+            "reasoning": "time_reference: 01:19-48:53"
+        },
+        "video_url": "https://www.youtube.com/watch?v=rSE2YPcv89U"
+    },
+    {
+        "video_id": "28CIeC8cZks",
+        "caption": "",
+        "question": "Where is the camera angle locate at 03:19 in the video?\n(A) Behind the girl\n(B) Above the girl\n(C) In front of the girl\n(D) Next to the girl",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 190,
+        "end_time": 200,
+        "reasoning": "time_reference: 03:10-03:20",
+        "total_frames": "",
+        "type": [
+            "reasoning",
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "201",
+            "video_id": "28CIeC8cZks",
+            "type": [
+                "reasoning",
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Where is the camera angle locate at 03:19 in the video?\n(A) Behind the girl\n(B) Above the girl\n(C) In front of the girl\n(D) Next to the girl",
+            "answer": "A",
+            "start_time": 190,
+            "end_time": 200,
+            "reasoning": "time_reference: 03:10-03:20"
+        },
+        "video_url": "https://www.youtube.com/watch?v=28CIeC8cZks"
+    },
+    {
+        "video_id": "RjDrZkBwzho",
+        "caption": "",
+        "question": "What color is the bow tie on Miss Mantis's chest?\n(A) Pink\n(B) Black\n(C) Green\n(D) Red",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2321,
+        "end_time": 2319,
+        "reasoning": "time_reference: 38:41-38:39",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "778",
+            "video_id": "RjDrZkBwzho",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color is the bow tie on Miss Mantis's chest?\n(A) Pink\n(B) Black\n(C) Green\n(D) Red",
+            "answer": "B",
+            "start_time": 2321,
+            "end_time": 2319,
+            "reasoning": "time_reference: 38:41-38:39"
+        },
+        "video_url": "https://www.youtube.com/watch?v=RjDrZkBwzho"
+    },
+    {
+        "video_id": "Z4HGQL_McDQ",
+        "caption": "",
+        "question": "What color gloves does the mechanic, who removes the standard exhaust of a car, wear?\n(A) Blue\n(B) Black\n(C) Red\n(D) Purple",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 287,
+        "end_time": 287,
+        "reasoning": "time_reference: 04:47-04:47",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "1133",
+            "video_id": "Z4HGQL_McDQ",
+            "type": [
+                "entity recognition",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "What color gloves does the mechanic, who removes the standard exhaust of a car, wear?\n(A) Blue\n(B) Black\n(C) Red\n(D) Purple",
+            "answer": "A",
+            "start_time": 287,
+            "end_time": 287,
+            "reasoning": "time_reference: 04:47-04:47"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Z4HGQL_McDQ"
+    },
+    {
+        "video_id": "pXD3txG2bVQ",
+        "caption": "",
+        "question": "What happens after the boy looks very down in the middle of the man and the woman?\n(A) The cat eats and the boy packs the luggage\n(B) The boy eats and the cat packs the luggage\n(C) The cat writes and the boy packs the luggage\n(D) The boy writes and the cat packs the luggage",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 199,
+        "end_time": 234,
+        "reasoning": "time_reference: 03:19-03:54",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "727",
+            "video_id": "pXD3txG2bVQ",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What happens after the boy looks very down in the middle of the man and the woman?\n(A) The cat eats and the boy packs the luggage\n(B) The boy eats and the cat packs the luggage\n(C) The cat writes and the boy packs the luggage\n(D) The boy writes and the cat packs the luggage",
+            "answer": "D",
+            "start_time": 199,
+            "end_time": 234,
+            "reasoning": "time_reference: 03:19-03:54"
+        },
+        "video_url": "https://www.youtube.com/watch?v=pXD3txG2bVQ"
+    },
+    {
+        "video_id": "qYMnM5blZIE",
+        "caption": "",
+        "question": "There is a scene of a worker packing up stuff. What is the destination of the last package?\n(A) Katmandou\n(B) Berlin\n(C) Tokyo\n(D) Budapest",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 869,
+        "end_time": 884,
+        "reasoning": "time_reference: 14:29-14:44",
+        "total_frames": "",
+        "type": [
+            "key information retrieval",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "285",
+            "video_id": "qYMnM5blZIE",
+            "type": [
+                "key information retrieval",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "There is a scene of a worker packing up stuff. What is the destination of the last package?\n(A) Katmandou\n(B) Berlin\n(C) Tokyo\n(D) Budapest",
+            "answer": "A",
+            "start_time": 869,
+            "end_time": 884,
+            "reasoning": "time_reference: 14:29-14:44"
+        },
+        "video_url": "https://www.youtube.com/watch?v=qYMnM5blZIE"
+    },
+    {
+        "video_id": "JPPMz8fEml0",
+        "caption": "",
+        "question": "What is the attitudes of people living in Lebanon towards life?\n(A) They think their life are meaningless\n(B) They are happy about their life\n(C) They are hopeless about their life\n(D) They are angry about their life",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 517,
+        "end_time": 530,
+        "reasoning": "time_reference: 08:37-08:50",
+        "total_frames": "",
+        "type": [
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "2975",
+            "video_id": "JPPMz8fEml0",
+            "type": [
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "What is the attitudes of people living in Lebanon towards life?\n(A) They think their life are meaningless\n(B) They are happy about their life\n(C) They are hopeless about their life\n(D) They are angry about their life",
+            "answer": "B",
+            "start_time": 517,
+            "end_time": 530,
+            "reasoning": "time_reference: 08:37-08:50"
+        },
+        "video_url": "https://www.youtube.com/watch?v=JPPMz8fEml0"
+    },
+    {
+        "video_id": "16Z-XQh9jhk",
+        "caption": "",
+        "question": "What color is her floor microphone stand?\n(A) Brown\n(B) Red\n(C) Pink\n(D) Black",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1650,
+        "end_time": 1675,
+        "reasoning": "time_reference: 27:30-27:55",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2251",
+            "video_id": "16Z-XQh9jhk",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color is her floor microphone stand?\n(A) Brown\n(B) Red\n(C) Pink\n(D) Black",
+            "answer": "C",
+            "start_time": 1650,
+            "end_time": 1675,
+            "reasoning": "time_reference: 27:30-27:55"
+        },
+        "video_url": "https://www.youtube.com/watch?v=16Z-XQh9jhk"
+    },
+    {
+        "video_id": "vaL_vSdZKZo",
+        "caption": "",
+        "question": "What happens in the next frame when the red helicopter flies by?\n(A) A man named Hotten wears goggles\n(B) A man named Hotten fired a shot\n(C) A man named Helen fired a shot\n(D) A man named Helen put on goggles",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2846,
+        "end_time": 2860,
+        "reasoning": "time_reference: 47:26-47:40",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "1627",
+            "video_id": "vaL_vSdZKZo",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What happens in the next frame when the red helicopter flies by?\n(A) A man named Hotten wears goggles\n(B) A man named Hotten fired a shot\n(C) A man named Helen fired a shot\n(D) A man named Helen put on goggles",
+            "answer": "B",
+            "start_time": 2846,
+            "end_time": 2860,
+            "reasoning": "time_reference: 47:26-47:40"
+        },
+        "video_url": "https://www.youtube.com/watch?v=vaL_vSdZKZo"
+    },
+    {
+        "video_id": "VTCDQYYKA9o",
+        "caption": "",
+        "question": "Is the staff wiping the table tennis table with their left hand or right hand?\n(A) No staff wiping the table\n(B) Left hand\n(C) Right hand\n(D) Both used",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2325,
+        "end_time": 2340,
+        "reasoning": "time_reference: 38:45-39:00",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4090",
+            "video_id": "VTCDQYYKA9o",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Is the staff wiping the table tennis table with their left hand or right hand?\n(A) No staff wiping the table\n(B) Left hand\n(C) Right hand\n(D) Both used",
+            "answer": "C",
+            "start_time": 2325,
+            "end_time": 2340,
+            "reasoning": "time_reference: 38:45-39:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=VTCDQYYKA9o"
+    },
+    {
+        "video_id": "_zrgbA3FMVE",
+        "caption": "",
+        "question": "How many knives are hanging on the wall of the kitchen where the chef is?\n(A) 8\n(B) 6\n(C) 11\n(D) 9",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2795,
+        "end_time": 2798,
+        "reasoning": "time_reference: 46:35-46:38",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "674",
+            "video_id": "_zrgbA3FMVE",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How many knives are hanging on the wall of the kitchen where the chef is?\n(A) 8\n(B) 6\n(C) 11\n(D) 9",
+            "answer": "A",
+            "start_time": 2795,
+            "end_time": 2798,
+            "reasoning": "time_reference: 46:35-46:38"
+        },
+        "video_url": "https://www.youtube.com/watch?v=_zrgbA3FMVE"
+    },
+    {
+        "video_id": "5dZ_lvDgevk",
+        "caption": "",
+        "question": "Based on the visual cues, what is on the scene before the scene focus on a water glass with white top and gray bottom with words 'Promotional Video' in the upper left corner of the video\n(A) Showcasing innovative working automation\n(B) Demonstration of futuristic schools\n(C) Exhibition of advanced labotoray technology\n(D) Smart home scenes display",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 4805,
+        "end_time": 4856,
+        "reasoning": "time_reference: 80:05-80:56",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "912",
+            "video_id": "5dZ_lvDgevk",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Based on the visual cues, what is on the scene before the scene focus on a water glass with white top and gray bottom with words 'Promotional Video' in the upper left corner of the video\n(A) Showcasing innovative working automation\n(B) Demonstration of futuristic schools\n(C) Exhibition of advanced labotoray technology\n(D) Smart home scenes display",
+            "answer": "D",
+            "start_time": 4805,
+            "end_time": 4856,
+            "reasoning": "time_reference: 80:05-80:56"
+        },
+        "video_url": "https://www.youtube.com/watch?v=5dZ_lvDgevk"
+    },
+    {
+        "video_id": "-hgaSElC3wU",
+        "caption": "",
+        "question": "From how other cats treat the cat with the white cane, we can infer about its status?\n(A) There is no such thing as status for cats\n(B) Its status is very high\n(C) Its status is very low\n(D) Its status is similar to theirs",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2100,
+        "end_time": 2154,
+        "reasoning": "time_reference: 35:00-35:54",
+        "total_frames": "",
+        "type": [
+            "reasoning",
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2567",
+            "video_id": "-hgaSElC3wU",
+            "type": [
+                "reasoning",
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "From how other cats treat the cat with the white cane, we can infer about its status?\n(A) There is no such thing as status for cats\n(B) Its status is very high\n(C) Its status is very low\n(D) Its status is similar to theirs",
+            "answer": "B",
+            "start_time": 2100,
+            "end_time": 2154,
+            "reasoning": "time_reference: 35:00-35:54"
+        },
+        "video_url": "https://www.youtube.com/watch?v=-hgaSElC3wU"
+    },
+    {
+        "video_id": "SRq0weUKskM",
+        "caption": "",
+        "question": "Is this a recent cartoon?\n(A) Yes\n(B) No\n(C) I don't know\n(D) Maybe",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 2586,
+        "reasoning": "time_reference: 00:00-43:06",
+        "total_frames": "",
+        "type": [
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "478",
+            "video_id": "SRq0weUKskM",
+            "type": [
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "Is this a recent cartoon?\n(A) Yes\n(B) No\n(C) I don't know\n(D) Maybe",
+            "answer": "B",
+            "start_time": 0,
+            "end_time": 2586,
+            "reasoning": "time_reference: 00:00-43:06"
+        },
+        "video_url": "https://www.youtube.com/watch?v=SRq0weUKskM"
+    },
+    {
+        "video_id": "KbahC-QCKU8",
+        "caption": "",
+        "question": "What does the vlogger family do after buying fishing stuffs?\n(A) Have meal in KFC\n(B) Go fishing\n(C) Have meal in Airport Pizza\n(D) Go swimming",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 165,
+        "end_time": 180,
+        "reasoning": "time_reference: 02:45-03:00",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2585",
+            "video_id": "KbahC-QCKU8",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What does the vlogger family do after buying fishing stuffs?\n(A) Have meal in KFC\n(B) Go fishing\n(C) Have meal in Airport Pizza\n(D) Go swimming",
+            "answer": "C",
+            "start_time": 165,
+            "end_time": 180,
+            "reasoning": "time_reference: 02:45-03:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=KbahC-QCKU8"
+    },
+    {
+        "video_id": "_zrgbA3FMVE",
+        "caption": "",
+        "question": "What does the three girls do between 07:48-07:50?\n(A) They are bowing\n(B) They are hugging\n(C) They are dancing\n(D) They are shaking hands",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 468,
+        "end_time": 470,
+        "reasoning": "time_reference: 07:48-07:50",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "658",
+            "video_id": "_zrgbA3FMVE",
+            "type": [
+                "event understanding",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "What does the three girls do between 07:48-07:50?\n(A) They are bowing\n(B) They are hugging\n(C) They are dancing\n(D) They are shaking hands",
+            "answer": "D",
+            "start_time": 468,
+            "end_time": 470,
+            "reasoning": "time_reference: 07:48-07:50"
+        },
+        "video_url": "https://www.youtube.com/watch?v=_zrgbA3FMVE"
+    },
+    {
+        "video_id": "YlQugR7KSKg",
+        "caption": "",
+        "question": "Where is the podium located?\n(A) Left side of the stage, from the perspective of people on the stage\n(B) On the right side of the stage, from the perspective of people on the stage\n(C) In the middle of the stage\n(D) There is no rostrum",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 8,
+        "reasoning": "time_reference: 00:00-00:08",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "1885",
+            "video_id": "YlQugR7KSKg",
+            "type": [
+                "event understanding",
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "Where is the podium located?\n(A) Left side of the stage, from the perspective of people on the stage\n(B) On the right side of the stage, from the perspective of people on the stage\n(C) In the middle of the stage\n(D) There is no rostrum",
+            "answer": "A",
+            "start_time": 0,
+            "end_time": 8,
+            "reasoning": "time_reference: 00:00-00:08"
+        },
+        "video_url": "https://www.youtube.com/watch?v=YlQugR7KSKg"
+    },
+    {
+        "video_id": "Aiem1w_TvaA",
+        "caption": "",
+        "question": "What's the summary of Game 4?\n(A) In the fourth quarter, Paul hits a layup at the beginning, Anderson scores inside, and Barlow scores a three-pointer. Australia does not give up, 87-75. Deron hits another three-pointer, and Love adds the icing on the cake, 92-75, denying his opponent any hope of a comeback. Mills responds with a three-pointer, and Love hits the inside to make a free throw. Then comes the \"Kobe moment.\" He makes 3 of 3 three-pointers, 105-80. With less than 5 minutes left in the game, Love makes a fast break dunk, 107-80. The U.S. team completely defeats its opponent. In the end, the U.S. team wins a 119-86 victory\n(B) In the fourth quarter, Paul hits a three-pointer at the beginning, Anderson scores inside, and Barlow scores a three-pointer. Australia does not give up, 75-87. Deron hits another three-pointer, and Love adds the icing on the cake, 92-75, denying his opponent any hope of a comeback. Mills responds with a three-pointer, and Love hits the inside to make a free throw. Then comes the \"Kobe moment.\" He makes 3 of 3 three-pointers, 105-80. With less than 5 minutes left in the game, Love makes a fast break dunk, 107-80. The U.S. team completely defeats its opponent. In the end, the U.S. team wins a 119-86 victory\n(C) In the fourth quarter, James hits a three-pointer at the beginning, Anderson scores inside, and Barlow scores a three-pointer. Australia does not give up, 75-87. Deron hits another three-pointer, and Love adds the icing on the cake, 92-75, denying his opponent any hope of a comeback. Mills responds with a three-pointer, and Love hits the inside to make a free throw. Then comes the \"Kobe moment\". He makes 3 of 3 three-pointers, 105-80. With less than 5 minutes left in the game, Love makes a fast break dunk, 107-80. The U.S. team completely defeats its opponent. In the end, the U.S. team wins a 119-86 victory\n(D) In the fourth quarter, Durant hits a three-pointer at the beginning, Anderson scores inside, and Barlow scores a three-pointer. The USA does not give up, 75-87. Deron hits another three-pointer, and Love adds the icing on the cake, 92-75, denying the opponent any hope of a comeback. Mills responds with a three-pointer, and Love hits the inside to make a free throw. Then comes the \"Kobe moment.\" He makes 3 of 3 three-pointers, 105-80. With less than 5 minutes left in the game, Love makes a fast break dunk, 107-80. The U.S. team completely defeats its opponent. In the end, the U.S. team wins a 119-86 victory",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 5940,
+        "end_time": 7114,
+        "reasoning": "time_reference: 99:00-118:34",
+        "total_frames": "",
+        "type": [
+            "summarization"
+        ],
+        "meta_data": {
+            "uid": "4160",
+            "video_id": "Aiem1w_TvaA",
+            "type": [
+                "summarization"
+            ],
+            "caption": "",
+            "question": "What's the summary of Game 4?\n(A) In the fourth quarter, Paul hits a layup at the beginning, Anderson scores inside, and Barlow scores a three-pointer. Australia does not give up, 87-75. Deron hits another three-pointer, and Love adds the icing on the cake, 92-75, denying his opponent any hope of a comeback. Mills responds with a three-pointer, and Love hits the inside to make a free throw. Then comes the \"Kobe moment.\" He makes 3 of 3 three-pointers, 105-80. With less than 5 minutes left in the game, Love makes a fast break dunk, 107-80. The U.S. team completely defeats its opponent. In the end, the U.S. team wins a 119-86 victory\n(B) In the fourth quarter, Paul hits a three-pointer at the beginning, Anderson scores inside, and Barlow scores a three-pointer. Australia does not give up, 75-87. Deron hits another three-pointer, and Love adds the icing on the cake, 92-75, denying his opponent any hope of a comeback. Mills responds with a three-pointer, and Love hits the inside to make a free throw. Then comes the \"Kobe moment.\" He makes 3 of 3 three-pointers, 105-80. With less than 5 minutes left in the game, Love makes a fast break dunk, 107-80. The U.S. team completely defeats its opponent. In the end, the U.S. team wins a 119-86 victory\n(C) In the fourth quarter, James hits a three-pointer at the beginning, Anderson scores inside, and Barlow scores a three-pointer. Australia does not give up, 75-87. Deron hits another three-pointer, and Love adds the icing on the cake, 92-75, denying his opponent any hope of a comeback. Mills responds with a three-pointer, and Love hits the inside to make a free throw. Then comes the \"Kobe moment\". He makes 3 of 3 three-pointers, 105-80. With less than 5 minutes left in the game, Love makes a fast break dunk, 107-80. The U.S. team completely defeats its opponent. In the end, the U.S. team wins a 119-86 victory\n(D) In the fourth quarter, Durant hits a three-pointer at the beginning, Anderson scores inside, and Barlow scores a three-pointer. The USA does not give up, 75-87. Deron hits another three-pointer, and Love adds the icing on the cake, 92-75, denying the opponent any hope of a comeback. Mills responds with a three-pointer, and Love hits the inside to make a free throw. Then comes the \"Kobe moment.\" He makes 3 of 3 three-pointers, 105-80. With less than 5 minutes left in the game, Love makes a fast break dunk, 107-80. The U.S. team completely defeats its opponent. In the end, the U.S. team wins a 119-86 victory",
+            "answer": "B",
+            "start_time": 5940,
+            "end_time": 7114,
+            "reasoning": "time_reference: 99:00-118:34"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Aiem1w_TvaA"
+    },
+    {
+        "video_id": "vaL_vSdZKZo",
+        "caption": "",
+        "question": "How many people dragged the blue and white wooden boat ashore at the same time?\n(A) 10\n(B) 12\n(C) 11\n(D) 13",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1971,
+        "end_time": 1980,
+        "reasoning": "time_reference: 32:51-33:00",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1622",
+            "video_id": "vaL_vSdZKZo",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How many people dragged the blue and white wooden boat ashore at the same time?\n(A) 10\n(B) 12\n(C) 11\n(D) 13",
+            "answer": "C",
+            "start_time": 1971,
+            "end_time": 1980,
+            "reasoning": "time_reference: 32:51-33:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=vaL_vSdZKZo"
+    },
+    {
+        "video_id": "Vk_Af0htZGU",
+        "caption": "",
+        "question": "What is the attitude of the audience at 04:11?\n(A) Mixed\n(B) Negative\n(C) Positive\n(D) Disinterested",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 251,
+        "end_time": 251,
+        "reasoning": "time_reference: 04:11-04:11",
+        "total_frames": "",
+        "type": [
+            "reasoning",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "5050",
+            "video_id": "Vk_Af0htZGU",
+            "type": [
+                "reasoning",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "What is the attitude of the audience at 04:11?\n(A) Mixed\n(B) Negative\n(C) Positive\n(D) Disinterested",
+            "answer": "B",
+            "start_time": 251,
+            "end_time": 251,
+            "reasoning": "time_reference: 04:11-04:11"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Vk_Af0htZGU"
+    },
+    {
+        "video_id": "TZ0j6kr4ZJ0",
+        "caption": "",
+        "question": "What is the person doing while passing by the sign that has \"Climate Change Adaptation Support Project Pilot Site\" written on it?\n(A) Running\n(B) Walking\n(C) Riding a bicycle\n(D) Swimming",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1633,
+        "end_time": 1633,
+        "reasoning": "time_reference: 27:13-27:13",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "1429",
+            "video_id": "TZ0j6kr4ZJ0",
+            "type": [
+                "entity recognition",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the person doing while passing by the sign that has \"Climate Change Adaptation Support Project Pilot Site\" written on it?\n(A) Running\n(B) Walking\n(C) Riding a bicycle\n(D) Swimming",
+            "answer": "C",
+            "start_time": 1633,
+            "end_time": 1633,
+            "reasoning": "time_reference: 27:13-27:13"
+        },
+        "video_url": "https://www.youtube.com/watch?v=TZ0j6kr4ZJ0"
+    },
+    {
+        "video_id": "HfEVEGf1A8Q",
+        "caption": "",
+        "question": "What does the vampire do when the girl first finds him?\n(A) Hide in the cabinet\n(B) Return the phone\n(C) Drink tomato juice\n(D) Clean the desk",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 840,
+        "end_time": 855,
+        "reasoning": "time_reference: 14:00-14:15",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "402",
+            "video_id": "HfEVEGf1A8Q",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What does the vampire do when the girl first finds him?\n(A) Hide in the cabinet\n(B) Return the phone\n(C) Drink tomato juice\n(D) Clean the desk",
+            "answer": "D",
+            "start_time": 840,
+            "end_time": 855,
+            "reasoning": "time_reference: 14:00-14:15"
+        },
+        "video_url": "https://www.youtube.com/watch?v=HfEVEGf1A8Q"
+    },
+    {
+        "video_id": "k2FIFQIYBvA",
+        "caption": "",
+        "question": "Which card does David pin on the table?\n(A) Hearts 8\n(B) Red Joker\n(C) Hearts 3\n(D) Black Joker",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1525,
+        "end_time": 1541,
+        "reasoning": "time_reference: 25:25-25:41",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4732",
+            "video_id": "k2FIFQIYBvA",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Which card does David pin on the table?\n(A) Hearts 8\n(B) Red Joker\n(C) Hearts 3\n(D) Black Joker",
+            "answer": "D",
+            "start_time": 1525,
+            "end_time": 1541,
+            "reasoning": "time_reference: 25:25-25:41"
+        },
+        "video_url": "https://www.youtube.com/watch?v=k2FIFQIYBvA"
+    },
+    {
+        "video_id": "T1yhBv1ytzw",
+        "caption": "",
+        "question": "Who has the most attempts in Brighton?\n(A) March\n(B) Ferguson\n(C) Mitoma\n(D) Dunk",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 3868,
+        "reasoning": "time_reference: 00:00-64:28",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "3786",
+            "video_id": "T1yhBv1ytzw",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Who has the most attempts in Brighton?\n(A) March\n(B) Ferguson\n(C) Mitoma\n(D) Dunk",
+            "answer": "C",
+            "start_time": 0,
+            "end_time": 3868,
+            "reasoning": "time_reference: 00:00-64:28"
+        },
+        "video_url": "https://www.youtube.com/watch?v=T1yhBv1ytzw"
+    },
+    {
+        "video_id": "oZEVgDXJwCc",
+        "caption": "",
+        "question": "What is the number of shots by Germany and Italy at the 30:00 mark of the game?\n(A) 4:0\n(B) 8:4\n(C) 0:4\n(D) 4:8",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1915,
+        "end_time": 1925,
+        "reasoning": "time_reference: 31:55-32:05",
+        "total_frames": "",
+        "type": [
+            "key information retrieval",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "3533",
+            "video_id": "oZEVgDXJwCc",
+            "type": [
+                "key information retrieval",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "What is the number of shots by Germany and Italy at the 30:00 mark of the game?\n(A) 4:0\n(B) 8:4\n(C) 0:4\n(D) 4:8",
+            "answer": "C",
+            "start_time": 1915,
+            "end_time": 1925,
+            "reasoning": "time_reference: 31:55-32:05"
+        },
+        "video_url": "https://www.youtube.com/watch?v=oZEVgDXJwCc"
+    },
+    {
+        "video_id": "qYMnM5blZIE",
+        "caption": "",
+        "question": "What is counterintuitive about the sailing?\n(A) The boat is unbalanced\n(B) The speed is high\n(C) The boat is small\n(D) The power is balloons",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2365,
+        "end_time": 2420,
+        "reasoning": "time_reference: 39:25-40:20",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "287",
+            "video_id": "qYMnM5blZIE",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What is counterintuitive about the sailing?\n(A) The boat is unbalanced\n(B) The speed is high\n(C) The boat is small\n(D) The power is balloons",
+            "answer": "B",
+            "start_time": 2365,
+            "end_time": 2420,
+            "reasoning": "time_reference: 39:25-40:20"
+        },
+        "video_url": "https://www.youtube.com/watch?v=qYMnM5blZIE"
+    },
+    {
+        "video_id": "3_upA09AntU",
+        "caption": "",
+        "question": "How many times does the chef wash his hands during the entire process?\n(A) 3\n(B) 2\n(C) 1\n(D) 4",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1357,
+        "end_time": 1368,
+        "reasoning": "time_reference: 22:37-22:48",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "3393",
+            "video_id": "3_upA09AntU",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "How many times does the chef wash his hands during the entire process?\n(A) 3\n(B) 2\n(C) 1\n(D) 4",
+            "answer": "C",
+            "start_time": 1357,
+            "end_time": 1368,
+            "reasoning": "time_reference: 22:37-22:48"
+        },
+        "video_url": "https://www.youtube.com/watch?v=3_upA09AntU"
+    },
+    {
+        "video_id": "3_upA09AntU",
+        "caption": "",
+        "question": "What color of the sauce which is put on the dish that has pepper as its side?\n(A) Green\n(B) Orange\n(C) Yellow\n(D) Red",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 8,
+        "end_time": 21,
+        "reasoning": "time_reference: 00:08-00:21",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "3371",
+            "video_id": "3_upA09AntU",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color of the sauce which is put on the dish that has pepper as its side?\n(A) Green\n(B) Orange\n(C) Yellow\n(D) Red",
+            "answer": "A",
+            "start_time": 8,
+            "end_time": 21,
+            "reasoning": "time_reference: 00:08-00:21"
+        },
+        "video_url": "https://www.youtube.com/watch?v=3_upA09AntU"
+    },
+    {
+        "video_id": "Aiem1w_TvaA",
+        "caption": "",
+        "question": "Why are the fans in the audience so excited from 45:14-50:00?\n(A) Because they are genuinely happy\n(B) Because both teams performed very well\n(C) Because Australian National Team performed very well\n(D) Because United States National Team performed very well",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2714,
+        "end_time": 3000,
+        "reasoning": "time_reference: 45:14-50:00",
+        "total_frames": "",
+        "type": [
+            "reasoning",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "4152",
+            "video_id": "Aiem1w_TvaA",
+            "type": [
+                "reasoning",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "Why are the fans in the audience so excited from 45:14-50:00?\n(A) Because they are genuinely happy\n(B) Because both teams performed very well\n(C) Because Australian National Team performed very well\n(D) Because United States National Team performed very well",
+            "answer": "B",
+            "start_time": 2714,
+            "end_time": 3000,
+            "reasoning": "time_reference: 45:14-50:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Aiem1w_TvaA"
+    },
+    {
+        "video_id": "2LH3JCGkEBU",
+        "caption": "",
+        "question": "What pants did the men wear in the gala performance segment of the Vancouver Winter Olympics?\n(A) Short pants\n(B) Suit pant\n(C) Jeans\n(D) Beach pants",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 907,
+        "end_time": 925,
+        "reasoning": "time_reference: 15:07-15:25",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4323",
+            "video_id": "2LH3JCGkEBU",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What pants did the men wear in the gala performance segment of the Vancouver Winter Olympics?\n(A) Short pants\n(B) Suit pant\n(C) Jeans\n(D) Beach pants",
+            "answer": "C",
+            "start_time": 907,
+            "end_time": 925,
+            "reasoning": "time_reference: 15:07-15:25"
+        },
+        "video_url": "https://www.youtube.com/watch?v=2LH3JCGkEBU"
+    },
+    {
+        "video_id": "cWEnogdsW78",
+        "caption": "",
+        "question": "Who initiates ground moves in the first round?\n(A) No one initiates ground moves\n(B) Fire Hulk\n(C) Old Bruce Lee\n(D) Curry",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 251,
+        "end_time": 552,
+        "reasoning": "time_reference: 04:11-09:12",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4063",
+            "video_id": "cWEnogdsW78",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Who initiates ground moves in the first round?\n(A) No one initiates ground moves\n(B) Fire Hulk\n(C) Old Bruce Lee\n(D) Curry",
+            "answer": "A",
+            "start_time": 251,
+            "end_time": 552,
+            "reasoning": "time_reference: 04:11-09:12"
+        },
+        "video_url": "https://www.youtube.com/watch?v=cWEnogdsW78"
+    },
+    {
+        "video_id": "EwskdNETNx8",
+        "caption": "",
+        "question": "What accessory is the second contestant wearing around his neck?\n(A) Silver pendant\n(B) Leather choker\n(C) Gold chain\n(D) Pearl necklace",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 140,
+        "end_time": 145,
+        "reasoning": "time_reference: 02:20-02:25",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4491",
+            "video_id": "EwskdNETNx8",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What accessory is the second contestant wearing around his neck?\n(A) Silver pendant\n(B) Leather choker\n(C) Gold chain\n(D) Pearl necklace",
+            "answer": "D",
+            "start_time": 140,
+            "end_time": 145,
+            "reasoning": "time_reference: 02:20-02:25"
+        },
+        "video_url": "https://www.youtube.com/watch?v=EwskdNETNx8"
+    },
+    {
+        "video_id": "gXnhqF0TqqI",
+        "caption": "",
+        "question": "What color of clothes does the water vole wear when it first appears?\n(A) Blue\n(B) White\n(C) Red\n(D) Green",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 290,
+        "end_time": 315,
+        "reasoning": "time_reference: 04:50-05:15",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "346",
+            "video_id": "gXnhqF0TqqI",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color of clothes does the water vole wear when it first appears?\n(A) Blue\n(B) White\n(C) Red\n(D) Green",
+            "answer": "B",
+            "start_time": 290,
+            "end_time": 315,
+            "reasoning": "time_reference: 04:50-05:15"
+        },
+        "video_url": "https://www.youtube.com/watch?v=gXnhqF0TqqI"
+    },
+    {
+        "video_id": "QWXlvx1GoTY",
+        "caption": "",
+        "question": "Who interviews Rodney Clark?\n(A) The male host in the green suit\n(B) The hostess in a black suit\n(C) The male host in the blue suit\n(D) The hostess in the red suit",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 830,
+        "end_time": 845,
+        "reasoning": "time_reference: 13:50-14:05",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2457",
+            "video_id": "QWXlvx1GoTY",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Who interviews Rodney Clark?\n(A) The male host in the green suit\n(B) The hostess in a black suit\n(C) The male host in the blue suit\n(D) The hostess in the red suit",
+            "answer": "D",
+            "start_time": 830,
+            "end_time": 845,
+            "reasoning": "time_reference: 13:50-14:05"
+        },
+        "video_url": "https://www.youtube.com/watch?v=QWXlvx1GoTY"
+    },
+    {
+        "video_id": "moALQl818ZY",
+        "caption": "",
+        "question": "What are the actions of people in the first picture in the The Five Thing #4?\n(A) Get the ball\n(B) High fives\n(C) Kick the ball\n(D) Shooting",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 4180,
+        "end_time": 4180,
+        "reasoning": "time_reference: 69:40-69:40",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "5277",
+            "video_id": "moALQl818ZY",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What are the actions of people in the first picture in the The Five Thing #4?\n(A) Get the ball\n(B) High fives\n(C) Kick the ball\n(D) Shooting",
+            "answer": "A",
+            "start_time": 4180,
+            "end_time": 4180,
+            "reasoning": "time_reference: 69:40-69:40"
+        },
+        "video_url": "https://www.youtube.com/watch?v=moALQl818ZY"
+    },
+    {
+        "video_id": "oZEVgDXJwCc",
+        "caption": "",
+        "question": "Why does Spain get a free kick for the first time?\n(A) Boateng squares into the shoulder of Puyol\n(B) Boateng squares into the shoulder of Iniesta\n(C) Iniesta squares into the shoulder of Friedrich\n(D) Iniesta squares into the shoulder of Boateng",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2580,
+        "end_time": 2640,
+        "reasoning": "time_reference: 43:00-44:00",
+        "total_frames": "",
+        "type": [
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "3535",
+            "video_id": "oZEVgDXJwCc",
+            "type": [
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "Why does Spain get a free kick for the first time?\n(A) Boateng squares into the shoulder of Puyol\n(B) Boateng squares into the shoulder of Iniesta\n(C) Iniesta squares into the shoulder of Friedrich\n(D) Iniesta squares into the shoulder of Boateng",
+            "answer": "B",
+            "start_time": 2580,
+            "end_time": 2640,
+            "reasoning": "time_reference: 43:00-44:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=oZEVgDXJwCc"
+    },
+    {
+        "video_id": "Va_9Q6ekm60",
+        "caption": "",
+        "question": "What is the first non-flour substance the shop assistant put into the mixing bowl?\n(A) Milk\n(B) Water\n(C) Egg\n(D) Butter",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 358,
+        "end_time": 403,
+        "reasoning": "time_reference: 05:58-06:43",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "3313",
+            "video_id": "Va_9Q6ekm60",
+            "type": [
+                "event understanding",
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What is the first non-flour substance the shop assistant put into the mixing bowl?\n(A) Milk\n(B) Water\n(C) Egg\n(D) Butter",
+            "answer": "B",
+            "start_time": 358,
+            "end_time": 403,
+            "reasoning": "time_reference: 05:58-06:43"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Va_9Q6ekm60"
+    },
+    {
+        "video_id": "cWEnogdsW78",
+        "caption": "",
+        "question": "Who is on the right side of the screen after the ground move in the third round?\n(A) The audience\n(B) Fire hulk\n(C) The referee\n(D) Old Bruce Lee",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1020,
+        "end_time": 1016,
+        "reasoning": "time_reference: 17:00-16:56",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4071",
+            "video_id": "cWEnogdsW78",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Who is on the right side of the screen after the ground move in the third round?\n(A) The audience\n(B) Fire hulk\n(C) The referee\n(D) Old Bruce Lee",
+            "answer": "D",
+            "start_time": 1020,
+            "end_time": 1016,
+            "reasoning": "time_reference: 17:00-16:56"
+        },
+        "video_url": "https://www.youtube.com/watch?v=cWEnogdsW78"
+    },
+    {
+        "video_id": "k2FIFQIYBvA",
+        "caption": "",
+        "question": "How many performance does frog been spat out by Jimmy in this video?\n(A) 3\n(B) 5\n(C) 4\n(D) 2",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 1975,
+        "reasoning": "time_reference: 00:00-32:55",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4738",
+            "video_id": "k2FIFQIYBvA",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How many performance does frog been spat out by Jimmy in this video?\n(A) 3\n(B) 5\n(C) 4\n(D) 2",
+            "answer": "A",
+            "start_time": 0,
+            "end_time": 1975,
+            "reasoning": "time_reference: 00:00-32:55"
+        },
+        "video_url": "https://www.youtube.com/watch?v=k2FIFQIYBvA"
+    },
+    {
+        "video_id": "xECIRjlxM3U",
+        "caption": "",
+        "question": "What category does the video beloge to?\n(A) Opera\n(B) TV drama\n(C) Musicals\n(D) Acrobatics",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1,
+        "end_time": 600,
+        "reasoning": "time_reference: 00:01-10:00",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2391",
+            "video_id": "xECIRjlxM3U",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What category does the video beloge to?\n(A) Opera\n(B) TV drama\n(C) Musicals\n(D) Acrobatics",
+            "answer": "C",
+            "start_time": 1,
+            "end_time": 600,
+            "reasoning": "time_reference: 00:01-10:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=xECIRjlxM3U"
+    },
+    {
+        "video_id": "JPPMz8fEml0",
+        "caption": "",
+        "question": "Thomas sleeps at ___ house.\n(A) A stranger's\n(B) His\n(C) A friend's\n(D) A stranger's friend's",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 963,
+        "end_time": 967,
+        "reasoning": "time_reference: 16:03-16:07",
+        "total_frames": "",
+        "type": [
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "2981",
+            "video_id": "JPPMz8fEml0",
+            "type": [
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "Thomas sleeps at ___ house.\n(A) A stranger's\n(B) His\n(C) A friend's\n(D) A stranger's friend's",
+            "answer": "D",
+            "start_time": 963,
+            "end_time": 967,
+            "reasoning": "time_reference: 16:03-16:07"
+        },
+        "video_url": "https://www.youtube.com/watch?v=JPPMz8fEml0"
+    },
+    {
+        "video_id": "NzCO0G8AGLU",
+        "caption": "",
+        "question": "What color is the dotted line at 12:06 on the map?\n(A) Black\n(B) Yellow\n(C) Red\n(D) Write",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 715,
+        "end_time": 741,
+        "reasoning": "time_reference: 11:55-12:21",
+        "total_frames": "",
+        "type": [
+            "reasoning",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "4840",
+            "video_id": "NzCO0G8AGLU",
+            "type": [
+                "reasoning",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "What color is the dotted line at 12:06 on the map?\n(A) Black\n(B) Yellow\n(C) Red\n(D) Write",
+            "answer": "D",
+            "start_time": 715,
+            "end_time": 741,
+            "reasoning": "time_reference: 11:55-12:21"
+        },
+        "video_url": "https://www.youtube.com/watch?v=NzCO0G8AGLU"
+    },
+    {
+        "video_id": "KbahC-QCKU8",
+        "caption": "",
+        "question": "What is the most common form of transportation there?\n(A) Jeep\n(B) Car\n(C) Sled\n(D) Snowmobile",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 2448,
+        "reasoning": "time_reference: 00:00-40:48",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2607",
+            "video_id": "KbahC-QCKU8",
+            "type": [
+                "entity recognition",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What is the most common form of transportation there?\n(A) Jeep\n(B) Car\n(C) Sled\n(D) Snowmobile",
+            "answer": "D",
+            "start_time": 0,
+            "end_time": 2448,
+            "reasoning": "time_reference: 00:00-40:48"
+        },
+        "video_url": "https://www.youtube.com/watch?v=KbahC-QCKU8"
+    },
+    {
+        "video_id": "Aiem1w_TvaA",
+        "caption": "",
+        "question": "What is the halftime score for Team USA vs Team Australia?\n(A) 28:21\n(B) 42:56\n(C) 21:28\n(D) 56:42",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 3480,
+        "end_time": 3540,
+        "reasoning": "time_reference: 58:00-59:00",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "4155",
+            "video_id": "Aiem1w_TvaA",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the halftime score for Team USA vs Team Australia?\n(A) 28:21\n(B) 42:56\n(C) 21:28\n(D) 56:42",
+            "answer": "D",
+            "start_time": 3480,
+            "end_time": 3540,
+            "reasoning": "time_reference: 58:00-59:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Aiem1w_TvaA"
+    },
+    {
+        "video_id": "Za2Z_JRxCuk",
+        "caption": "",
+        "question": "How is the second guard killed?\n(A) By an arrow\n(B) By a spear\n(C) By a stone\n(D) By a gun",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 393,
+        "end_time": 399,
+        "reasoning": "time_reference: 06:33-06:39",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "38",
+            "video_id": "Za2Z_JRxCuk",
+            "type": [
+                "entity recognition",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "How is the second guard killed?\n(A) By an arrow\n(B) By a spear\n(C) By a stone\n(D) By a gun",
+            "answer": "B",
+            "start_time": 393,
+            "end_time": 399,
+            "reasoning": "time_reference: 06:33-06:39"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Za2Z_JRxCuk"
+    },
+    {
+        "video_id": "moALQl818ZY",
+        "caption": "",
+        "question": "What is the change in the number of camera images 03:19-03:21?\n(A) 1 to 3\n(B) 2 to 1\n(C) 1 to 2\n(D) 1 to 3",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 199,
+        "end_time": 201,
+        "reasoning": "time_reference: 03:19-03:21",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "5253",
+            "video_id": "moALQl818ZY",
+            "type": [
+                "entity recognition",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "What is the change in the number of camera images 03:19-03:21?\n(A) 1 to 3\n(B) 2 to 1\n(C) 1 to 2\n(D) 1 to 3",
+            "answer": "B",
+            "start_time": 199,
+            "end_time": 201,
+            "reasoning": "time_reference: 03:19-03:21"
+        },
+        "video_url": "https://www.youtube.com/watch?v=moALQl818ZY"
+    },
+    {
+        "video_id": "AeEYQ62t8hA",
+        "caption": "",
+        "question": "After the host let go of the hand of the man in the drab suit, what is the interaction with him and the man with the white beard?\n(A) They shake hands with each other\n(B) They hug together\n(C) They kiss each other\n(D) They cry together",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1653,
+        "end_time": 1657,
+        "reasoning": "time_reference: 27:33-27:37",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4792",
+            "video_id": "AeEYQ62t8hA",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "After the host let go of the hand of the man in the drab suit, what is the interaction with him and the man with the white beard?\n(A) They shake hands with each other\n(B) They hug together\n(C) They kiss each other\n(D) They cry together",
+            "answer": "B",
+            "start_time": 1653,
+            "end_time": 1657,
+            "reasoning": "time_reference: 27:33-27:37"
+        },
+        "video_url": "https://www.youtube.com/watch?v=AeEYQ62t8hA"
+    },
+    {
+        "video_id": "k2FIFQIYBvA",
+        "caption": "",
+        "question": "How many magic tricks played with cards are performed on the stage?\n(A) 6\n(B) 5\n(C) 4\n(D) 3",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 1975,
+        "reasoning": "time_reference: 00:00-32:55",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4737",
+            "video_id": "k2FIFQIYBvA",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How many magic tricks played with cards are performed on the stage?\n(A) 6\n(B) 5\n(C) 4\n(D) 3",
+            "answer": "C",
+            "start_time": 0,
+            "end_time": 1975,
+            "reasoning": "time_reference: 00:00-32:55"
+        },
+        "video_url": "https://www.youtube.com/watch?v=k2FIFQIYBvA"
+    },
+    {
+        "video_id": "W-BnDvXXfOs",
+        "caption": "",
+        "question": "What color clothes is the person playing the piano wearing in the fourth song?\n(A) Black\n(B) Red\n(C) Blue\n(D) Green",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1950,
+        "end_time": 1995,
+        "reasoning": "time_reference: 32:30-33:15",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "4968",
+            "video_id": "W-BnDvXXfOs",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What color clothes is the person playing the piano wearing in the fourth song?\n(A) Black\n(B) Red\n(C) Blue\n(D) Green",
+            "answer": "D",
+            "start_time": 1950,
+            "end_time": 1995,
+            "reasoning": "time_reference: 32:30-33:15"
+        },
+        "video_url": "https://www.youtube.com/watch?v=W-BnDvXXfOs"
+    },
+    {
+        "video_id": "YlQugR7KSKg",
+        "caption": "",
+        "question": "What color is the wall light around the stage?\n(A) Red\n(B) Blue\n(C) Green\n(D) Yellow",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 84,
+        "end_time": 100,
+        "reasoning": "time_reference: 01:24-01:40",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1898",
+            "video_id": "YlQugR7KSKg",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color is the wall light around the stage?\n(A) Red\n(B) Blue\n(C) Green\n(D) Yellow",
+            "answer": "D",
+            "start_time": 84,
+            "end_time": 100,
+            "reasoning": "time_reference: 01:24-01:40"
+        },
+        "video_url": "https://www.youtube.com/watch?v=YlQugR7KSKg"
+    },
+    {
+        "video_id": "o-gLbgpzCc8",
+        "caption": "",
+        "question": "What color is the belt which worn by the character appear on stage first?\n(A) Red\n(B) White\n(C) Black\n(D) Blue",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 390,
+        "end_time": 390,
+        "reasoning": "time_reference: 06:30-06:30",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2396",
+            "video_id": "o-gLbgpzCc8",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color is the belt which worn by the character appear on stage first?\n(A) Red\n(B) White\n(C) Black\n(D) Blue",
+            "answer": "A",
+            "start_time": 390,
+            "end_time": 390,
+            "reasoning": "time_reference: 06:30-06:30"
+        },
+        "video_url": "https://www.youtube.com/watch?v=o-gLbgpzCc8"
+    },
+    {
+        "video_id": "5dZ_lvDgevk",
+        "caption": "",
+        "question": "How do the main characters interact with each other after the appearance of book 'Zurked' with a thumb down on the book?\n(A) People listening to a speaker on stage\n(B) A mentor guiding a student\n(C) Individuals collaborating on a project\n(D) Characters engaging in a group discussion",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 4571,
+        "end_time": 4603,
+        "reasoning": "time_reference: 76:11-76:43",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "911",
+            "video_id": "5dZ_lvDgevk",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How do the main characters interact with each other after the appearance of book 'Zurked' with a thumb down on the book?\n(A) People listening to a speaker on stage\n(B) A mentor guiding a student\n(C) Individuals collaborating on a project\n(D) Characters engaging in a group discussion",
+            "answer": "A",
+            "start_time": 4571,
+            "end_time": 4603,
+            "reasoning": "time_reference: 76:11-76:43"
+        },
+        "video_url": "https://www.youtube.com/watch?v=5dZ_lvDgevk"
+    },
+    {
+        "video_id": "16Z-XQh9jhk",
+        "caption": "",
+        "question": "What shoes does the female singer wear?\n(A) Sandals\n(B) High-heeled shoes\n(C) Sneaker\n(D) Slippers",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 836,
+        "end_time": 843,
+        "reasoning": "time_reference: 13:56-14:03",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2248",
+            "video_id": "16Z-XQh9jhk",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What shoes does the female singer wear?\n(A) Sandals\n(B) High-heeled shoes\n(C) Sneaker\n(D) Slippers",
+            "answer": "C",
+            "start_time": 836,
+            "end_time": 843,
+            "reasoning": "time_reference: 13:56-14:03"
+        },
+        "video_url": "https://www.youtube.com/watch?v=16Z-XQh9jhk"
+    },
+    {
+        "video_id": "pXD3txG2bVQ",
+        "caption": "",
+        "question": "What is inside the yellow box replaced by the cat and from the man in brown?\n(A) The bottle and the letter\n(B) The camera and the book\n(C) The bottle and the book\n(D) The camera and the letter",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1946,
+        "end_time": 1981,
+        "reasoning": "time_reference: 32:26-33:01",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "750",
+            "video_id": "pXD3txG2bVQ",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What is inside the yellow box replaced by the cat and from the man in brown?\n(A) The bottle and the letter\n(B) The camera and the book\n(C) The bottle and the book\n(D) The camera and the letter",
+            "answer": "D",
+            "start_time": 1946,
+            "end_time": 1981,
+            "reasoning": "time_reference: 32:26-33:01"
+        },
+        "video_url": "https://www.youtube.com/watch?v=pXD3txG2bVQ"
+    },
+    {
+        "video_id": "gbDR39yIs3Y",
+        "caption": "",
+        "question": "What does the vlogger do after putting things into the washing machine?\n(A) She plays with her mobile phone\n(B) She reads a book\n(C) She cooks some food\n(D) She washes her face",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 127,
+        "end_time": 133,
+        "reasoning": "time_reference: 02:07-02:13",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "3442",
+            "video_id": "gbDR39yIs3Y",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What does the vlogger do after putting things into the washing machine?\n(A) She plays with her mobile phone\n(B) She reads a book\n(C) She cooks some food\n(D) She washes her face",
+            "answer": "D",
+            "start_time": 127,
+            "end_time": 133,
+            "reasoning": "time_reference: 02:07-02:13"
+        },
+        "video_url": "https://www.youtube.com/watch?v=gbDR39yIs3Y"
+    },
+    {
+        "video_id": "RbpKkvlHYTw",
+        "caption": "",
+        "question": "Where does the vlogger have his last meal in Korea?\n(A) Incheon\n(B) Busan\n(C) Sokcho\n(D) Seoul",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 7010,
+        "end_time": 6480,
+        "reasoning": "time_reference: 116:50-108:00",
+        "total_frames": "",
+        "type": [
+            "key information retrieval",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2810",
+            "video_id": "RbpKkvlHYTw",
+            "type": [
+                "key information retrieval",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Where does the vlogger have his last meal in Korea?\n(A) Incheon\n(B) Busan\n(C) Sokcho\n(D) Seoul",
+            "answer": "A",
+            "start_time": 7010,
+            "end_time": 6480,
+            "reasoning": "time_reference: 116:50-108:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=RbpKkvlHYTw"
+    },
+    {
+        "video_id": "Z86xysw5Ncc",
+        "caption": "",
+        "question": "What is the best record for Men's 100M Round 1 Heat 4?\n(A) 10.23\n(B) 9.58\n(C) 9.69\n(D) 10.09",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1238,
+        "end_time": 1452,
+        "reasoning": "time_reference: 20:38-24:12",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "4215",
+            "video_id": "Z86xysw5Ncc",
+            "type": [
+                "event understanding",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the best record for Men's 100M Round 1 Heat 4?\n(A) 10.23\n(B) 9.58\n(C) 9.69\n(D) 10.09",
+            "answer": "D",
+            "start_time": 1238,
+            "end_time": 1452,
+            "reasoning": "time_reference: 20:38-24:12"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Z86xysw5Ncc"
+    },
+    {
+        "video_id": "qYMnM5blZIE",
+        "caption": "",
+        "question": "What do the ladybugs do at dusk?\n(A) They drink coconut juice and eat coconut meat\n(B) They lift a coconut and smash it on the ground. Then they drink coconut juice and eat coconut meat\n(C) They lift a coconut together\n(D) They lift a coconut and smash it on the ground",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 3701,
+        "end_time": 3749,
+        "reasoning": "time_reference: 61:41-62:29",
+        "total_frames": "",
+        "type": [
+            "summarization",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "294",
+            "video_id": "qYMnM5blZIE",
+            "type": [
+                "summarization",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What do the ladybugs do at dusk?\n(A) They drink coconut juice and eat coconut meat\n(B) They lift a coconut and smash it on the ground. Then they drink coconut juice and eat coconut meat\n(C) They lift a coconut together\n(D) They lift a coconut and smash it on the ground",
+            "answer": "C",
+            "start_time": 3701,
+            "end_time": 3749,
+            "reasoning": "time_reference: 61:41-62:29"
+        },
+        "video_url": "https://www.youtube.com/watch?v=qYMnM5blZIE"
+    },
+    {
+        "video_id": "jp2M1hIEtsk",
+        "caption": "",
+        "question": "What colour of ink does the vlogger use to write first?\n(A) Blue\n(B) Yellow\n(C) Red\n(D) Black",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1200,
+        "end_time": 1220,
+        "reasoning": "time_reference: 20:00-20:20",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "3477",
+            "video_id": "jp2M1hIEtsk",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What colour of ink does the vlogger use to write first?\n(A) Blue\n(B) Yellow\n(C) Red\n(D) Black",
+            "answer": "B",
+            "start_time": 1200,
+            "end_time": 1220,
+            "reasoning": "time_reference: 20:00-20:20"
+        },
+        "video_url": "https://www.youtube.com/watch?v=jp2M1hIEtsk"
+    },
+    {
+        "video_id": "QWXlvx1GoTY",
+        "caption": "",
+        "question": "What is the video doing at the beginning?\n(A) The staff is helping the host make up at that time\n(B) The staff is explaining the process to the host at that time\n(C) The staff is repairing the microphone for the host at that time\n(D) The staff is helping the host with his hairstyle",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 4,
+        "end_time": 6,
+        "reasoning": "time_reference: 00:04-00:06",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2474",
+            "video_id": "QWXlvx1GoTY",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What is the video doing at the beginning?\n(A) The staff is helping the host make up at that time\n(B) The staff is explaining the process to the host at that time\n(C) The staff is repairing the microphone for the host at that time\n(D) The staff is helping the host with his hairstyle",
+            "answer": "D",
+            "start_time": 4,
+            "end_time": 6,
+            "reasoning": "time_reference: 00:04-00:06"
+        },
+        "video_url": "https://www.youtube.com/watch?v=QWXlvx1GoTY"
+    },
+    {
+        "video_id": "CgvJqGxzRfE",
+        "caption": "",
+        "question": "What color top is the second conteatant wearing?\n(A) Gold\n(B) Red\n(C) Black\n(D) White",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 100,
+        "end_time": 100,
+        "reasoning": "time_reference: 01:40-01:40",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4454",
+            "video_id": "CgvJqGxzRfE",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color top is the second conteatant wearing?\n(A) Gold\n(B) Red\n(C) Black\n(D) White",
+            "answer": "A",
+            "start_time": 100,
+            "end_time": 100,
+            "reasoning": "time_reference: 01:40-01:40"
+        },
+        "video_url": "https://www.youtube.com/watch?v=CgvJqGxzRfE"
+    },
+    {
+        "video_id": "lDlA7cfNk8A",
+        "caption": "",
+        "question": "Who sits in front of the cellist?\n(A) Accordionist\n(B) Violinist\n(C) Conductor\n(D) Saxophonist",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 3675,
+        "end_time": 3685,
+        "reasoning": "time_reference: 61:15-61:25",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1928",
+            "video_id": "lDlA7cfNk8A",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Who sits in front of the cellist?\n(A) Accordionist\n(B) Violinist\n(C) Conductor\n(D) Saxophonist",
+            "answer": "B",
+            "start_time": 3675,
+            "end_time": 3685,
+            "reasoning": "time_reference: 61:15-61:25"
+        },
+        "video_url": "https://www.youtube.com/watch?v=lDlA7cfNk8A"
+    },
+    {
+        "video_id": "evYm0cELO3I",
+        "caption": "",
+        "question": "How does Maxine Smith prepare the lobster?\n(A) She splits the lobster in half and stir fries it\n(B) She chops the lobster and grills it\n(C) She chops the lobster and stir fries it\n(D) She splits the lobster in half and grills it",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 411,
+        "end_time": 415,
+        "reasoning": "time_reference: 06:51-06:55",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2766",
+            "video_id": "evYm0cELO3I",
+            "type": [
+                "entity recognition",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "How does Maxine Smith prepare the lobster?\n(A) She splits the lobster in half and stir fries it\n(B) She chops the lobster and grills it\n(C) She chops the lobster and stir fries it\n(D) She splits the lobster in half and grills it",
+            "answer": "D",
+            "start_time": 411,
+            "end_time": 415,
+            "reasoning": "time_reference: 06:51-06:55"
+        },
+        "video_url": "https://www.youtube.com/watch?v=evYm0cELO3I"
+    },
+    {
+        "video_id": "t-RtDI2RWQs",
+        "caption": "",
+        "question": "What is the nationality of the filmmaker who directs the Best International Feature Film? \n(A) Italy\n(B) Japan\n(C) Spain\n(D) United Kingdom",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2133,
+        "end_time": 2204,
+        "reasoning": "time_reference: 35:33-36:44",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "1666",
+            "video_id": "t-RtDI2RWQs",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the nationality of the filmmaker who directs the Best International Feature Film? \n(A) Italy\n(B) Japan\n(C) Spain\n(D) United Kingdom",
+            "answer": "D",
+            "start_time": 2133,
+            "end_time": 2204,
+            "reasoning": "time_reference: 35:33-36:44"
+        },
+        "video_url": "https://www.youtube.com/watch?v=t-RtDI2RWQs"
+    },
+    {
+        "video_id": "evYm0cELO3I",
+        "caption": "",
+        "question": "What is the name of MT. Pleasant Fishing Lodge's chef?\n(A) Amber\n(B) Alan Brown\n(C) Jupy\n(D) Emerson",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 3045,
+        "end_time": 3051,
+        "reasoning": "time_reference: 50:45-50:51",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "2780",
+            "video_id": "evYm0cELO3I",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the name of MT. Pleasant Fishing Lodge's chef?\n(A) Amber\n(B) Alan Brown\n(C) Jupy\n(D) Emerson",
+            "answer": "D",
+            "start_time": 3045,
+            "end_time": 3051,
+            "reasoning": "time_reference: 50:45-50:51"
+        },
+        "video_url": "https://www.youtube.com/watch?v=evYm0cELO3I"
+    },
+    {
+        "video_id": "Za2Z_JRxCuk",
+        "caption": "",
+        "question": "What happens in the video?\n(A) The protagonist seeks revenge. She defeats most of the enemies who block her way. But in the end, she does not successfully kill the antagonist\n(B) The protagonist seeks revenge. She kills all the enemies who block her way. And in the end, she successfully kill the antagonist\n(C) The protagonist seeks revenge. She defeats most of the enemies who block her way. And in the end, she successfully kill the antagonist\n(D) The protagonist seeks revenge. She kills all the enemies who block her way. But in the end, she does not successfully kill the antagonist",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 2044,
+        "reasoning": "time_reference: 00:00-34:04",
+        "total_frames": "",
+        "type": [
+            "summarization"
+        ],
+        "meta_data": {
+            "uid": "52",
+            "video_id": "Za2Z_JRxCuk",
+            "type": [
+                "summarization"
+            ],
+            "caption": "",
+            "question": "What happens in the video?\n(A) The protagonist seeks revenge. She defeats most of the enemies who block her way. But in the end, she does not successfully kill the antagonist\n(B) The protagonist seeks revenge. She kills all the enemies who block her way. And in the end, she successfully kill the antagonist\n(C) The protagonist seeks revenge. She defeats most of the enemies who block her way. And in the end, she successfully kill the antagonist\n(D) The protagonist seeks revenge. She kills all the enemies who block her way. But in the end, she does not successfully kill the antagonist",
+            "answer": "A",
+            "start_time": 0,
+            "end_time": 2044,
+            "reasoning": "time_reference: 00:00-34:04"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Za2Z_JRxCuk"
+    },
+    {
+        "video_id": "t-RtDI2RWQs",
+        "caption": "",
+        "question": "When the Best Supporting Actor winner goes offstage, what is the color of the outfit of the person sitting next to him?\n(A) Blue\n(B) White\n(C) Black\n(D) Red",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2467,
+        "end_time": 2787,
+        "reasoning": "time_reference: 41:07-46:27",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "1668",
+            "video_id": "t-RtDI2RWQs",
+            "type": [
+                "entity recognition",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "When the Best Supporting Actor winner goes offstage, what is the color of the outfit of the person sitting next to him?\n(A) Blue\n(B) White\n(C) Black\n(D) Red",
+            "answer": "C",
+            "start_time": 2467,
+            "end_time": 2787,
+            "reasoning": "time_reference: 41:07-46:27"
+        },
+        "video_url": "https://www.youtube.com/watch?v=t-RtDI2RWQs"
+    },
+    {
+        "video_id": "4LA_tH-VSnQ",
+        "caption": "",
+        "question": "How does the movement of the host change throughout the video?\n(A) The host mostly sits on the couch, but stands up and walks to the side corridor to welcome the guests\n(B) The host always stands up to address the audience directly\n(C) The host moves around the stage from time to time interacting with the guests and audience\n(D) The host paces back and forth on the stage, expressing excitement and engagement with the guests",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 2893,
+        "reasoning": "time_reference: 00:00-48:13",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "5004",
+            "video_id": "4LA_tH-VSnQ",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How does the movement of the host change throughout the video?\n(A) The host mostly sits on the couch, but stands up and walks to the side corridor to welcome the guests\n(B) The host always stands up to address the audience directly\n(C) The host moves around the stage from time to time interacting with the guests and audience\n(D) The host paces back and forth on the stage, expressing excitement and engagement with the guests",
+            "answer": "A",
+            "start_time": 0,
+            "end_time": 2893,
+            "reasoning": "time_reference: 00:00-48:13"
+        },
+        "video_url": "https://www.youtube.com/watch?v=4LA_tH-VSnQ"
+    },
+    {
+        "video_id": "RbpKkvlHYTw",
+        "caption": "",
+        "question": "Why does the vlogger do push-ups in hotel?\n(A) He is in a push-up competition\n(B) Hotel asks all guests to do so\n(C) He eats too much food these days\n(D) He is engaged in a workout",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 4780,
+        "end_time": 4800,
+        "reasoning": "time_reference: 79:40-80:00",
+        "total_frames": "",
+        "type": [
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "2807",
+            "video_id": "RbpKkvlHYTw",
+            "type": [
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "Why does the vlogger do push-ups in hotel?\n(A) He is in a push-up competition\n(B) Hotel asks all guests to do so\n(C) He eats too much food these days\n(D) He is engaged in a workout",
+            "answer": "C",
+            "start_time": 4780,
+            "end_time": 4800,
+            "reasoning": "time_reference: 79:40-80:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=RbpKkvlHYTw"
+    },
+    {
+        "video_id": "hjoDzK0siaM",
+        "caption": "",
+        "question": "What is Mustafina doing when she is waiting for her score?\n(A) She's untangling the tape\n(B) She is tying her shoelaces\n(C) She is adjusting her socks\n(D) She is stretching her legs",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1775,
+        "end_time": 1775,
+        "reasoning": "time_reference: 29:35-29:35",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4246",
+            "video_id": "hjoDzK0siaM",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What is Mustafina doing when she is waiting for her score?\n(A) She's untangling the tape\n(B) She is tying her shoelaces\n(C) She is adjusting her socks\n(D) She is stretching her legs",
+            "answer": "A",
+            "start_time": 1775,
+            "end_time": 1775,
+            "reasoning": "time_reference: 29:35-29:35"
+        },
+        "video_url": "https://www.youtube.com/watch?v=hjoDzK0siaM"
+    },
+    {
+        "video_id": "9-gOCOu_KGU",
+        "caption": "",
+        "question": "What is the score of the champion?\n(A) 27:30.42\n(B) 27:30.90\n(C) 29:32.12\n(D) 27:01.17",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 2396,
+        "reasoning": "time_reference: 00:00-39:56",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "4358",
+            "video_id": "9-gOCOu_KGU",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the score of the champion?\n(A) 27:30.42\n(B) 27:30.90\n(C) 29:32.12\n(D) 27:01.17",
+            "answer": "A",
+            "start_time": 0,
+            "end_time": 2396,
+            "reasoning": "time_reference: 00:00-39:56"
+        },
+        "video_url": "https://www.youtube.com/watch?v=9-gOCOu_KGU"
+    },
+    {
+        "video_id": "wgBlACG927Y",
+        "caption": "",
+        "question": "What means of transportation do the vloggers take after getting off the high-speed train?\n(A) Taxi\n(B) Subway\n(C) Train\n(D) Bus",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 838,
+        "end_time": 852,
+        "reasoning": "time_reference: 13:58-14:12",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "3084",
+            "video_id": "wgBlACG927Y",
+            "type": [
+                "entity recognition",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What means of transportation do the vloggers take after getting off the high-speed train?\n(A) Taxi\n(B) Subway\n(C) Train\n(D) Bus",
+            "answer": "B",
+            "start_time": 838,
+            "end_time": 852,
+            "reasoning": "time_reference: 13:58-14:12"
+        },
+        "video_url": "https://www.youtube.com/watch?v=wgBlACG927Y"
+    },
+    {
+        "video_id": "rk24OUu_kJQ",
+        "caption": "",
+        "question": "What is this video about?\n(A) Signing ceremony\n(B) Vocal concert\n(C) Dance competition\n(D) Fashion show",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 5391,
+        "reasoning": "time_reference: 00:00-89:51",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2153",
+            "video_id": "rk24OUu_kJQ",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What is this video about?\n(A) Signing ceremony\n(B) Vocal concert\n(C) Dance competition\n(D) Fashion show",
+            "answer": "B",
+            "start_time": 0,
+            "end_time": 5391,
+            "reasoning": "time_reference: 00:00-89:51"
+        },
+        "video_url": "https://www.youtube.com/watch?v=rk24OUu_kJQ"
+    },
+    {
+        "video_id": "JPPMz8fEml0",
+        "caption": "",
+        "question": "Which country do the travelers choose?\n(A) Isreal\n(B) Afghanistan\n(C) Palestine\n(D) Lebanon",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 78,
+        "end_time": 81,
+        "reasoning": "time_reference: 01:18-01:21",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "2963",
+            "video_id": "JPPMz8fEml0",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "Which country do the travelers choose?\n(A) Isreal\n(B) Afghanistan\n(C) Palestine\n(D) Lebanon",
+            "answer": "D",
+            "start_time": 78,
+            "end_time": 81,
+            "reasoning": "time_reference: 01:18-01:21"
+        },
+        "video_url": "https://www.youtube.com/watch?v=JPPMz8fEml0"
+    },
+    {
+        "video_id": "CgvJqGxzRfE",
+        "caption": "",
+        "question": "Which judge turns last when the ninth contestant performs?\n(A) BILL+TOM\n(B) Blocked\n(C) SHIRIN\n(D) GIOVANNI",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1020,
+        "end_time": 1050,
+        "reasoning": "time_reference: 17:00-17:30",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4462",
+            "video_id": "CgvJqGxzRfE",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Which judge turns last when the ninth contestant performs?\n(A) BILL+TOM\n(B) Blocked\n(C) SHIRIN\n(D) GIOVANNI",
+            "answer": "B",
+            "start_time": 1020,
+            "end_time": 1050,
+            "reasoning": "time_reference: 17:00-17:30"
+        },
+        "video_url": "https://www.youtube.com/watch?v=CgvJqGxzRfE"
+    },
+    {
+        "video_id": "RCAqKnvu_P0",
+        "caption": "",
+        "question": "The vlogger visits Takeshita Street ___.\n(A) On the morning\n(B) On the evening\n(C) At midnight\n(D) In the afternoon",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 961,
+        "end_time": 977,
+        "reasoning": "time_reference: 16:01-16:17",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "2914",
+            "video_id": "RCAqKnvu_P0",
+            "type": [
+                "event understanding",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "The vlogger visits Takeshita Street ___.\n(A) On the morning\n(B) On the evening\n(C) At midnight\n(D) In the afternoon",
+            "answer": "B",
+            "start_time": 961,
+            "end_time": 977,
+            "reasoning": "time_reference: 16:01-16:17"
+        },
+        "video_url": "https://www.youtube.com/watch?v=RCAqKnvu_P0"
+    },
+    {
+        "video_id": "moALQl818ZY",
+        "caption": "",
+        "question": "What events does the reporter, who is wearing a yellow dress, report about in the restaurant?\n(A) NEW LAWSUIT ACCUSES DIDDY OF AIDING ANDABETTING HIS SON IN SEX ASSAULT ON A YACHT\n(B) FIGHTS FOR HER SON'S RETURN HOME\n(C) TOURISTS FLOCK TO LOCATIONS ALONGTHE SOLAR ECLIPSE PATH OF TOTALITY\n(D) MOTHER OF HOSTAGE TAKEN BY HAMAS FIGHTS FOR HER SON'S RETURN HOME",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1450,
+        "end_time": 2284,
+        "reasoning": "time_reference: 24:10-38:04",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "event understanding",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "5270",
+            "video_id": "moALQl818ZY",
+            "type": [
+                "entity recognition",
+                "event understanding",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What events does the reporter, who is wearing a yellow dress, report about in the restaurant?\n(A) NEW LAWSUIT ACCUSES DIDDY OF AIDING ANDABETTING HIS SON IN SEX ASSAULT ON A YACHT\n(B) FIGHTS FOR HER SON'S RETURN HOME\n(C) TOURISTS FLOCK TO LOCATIONS ALONGTHE SOLAR ECLIPSE PATH OF TOTALITY\n(D) MOTHER OF HOSTAGE TAKEN BY HAMAS FIGHTS FOR HER SON'S RETURN HOME",
+            "answer": "A",
+            "start_time": 1450,
+            "end_time": 2284,
+            "reasoning": "time_reference: 24:10-38:04"
+        },
+        "video_url": "https://www.youtube.com/watch?v=moALQl818ZY"
+    },
+    {
+        "video_id": "qYMnM5blZIE",
+        "caption": "",
+        "question": "What is on the stone at the construction site in the end?\n(A) Green dye\n(B) Moss\n(C) Caterpillar\n(D) Little grass",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 4689,
+        "end_time": 4700,
+        "reasoning": "time_reference: 78:09-78:20",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "307",
+            "video_id": "qYMnM5blZIE",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What is on the stone at the construction site in the end?\n(A) Green dye\n(B) Moss\n(C) Caterpillar\n(D) Little grass",
+            "answer": "C",
+            "start_time": 4689,
+            "end_time": 4700,
+            "reasoning": "time_reference: 78:09-78:20"
+        },
+        "video_url": "https://www.youtube.com/watch?v=qYMnM5blZIE"
+    },
+    {
+        "video_id": "idZkam9zqAs",
+        "caption": "",
+        "question": "How many people use the trampolines on stage during the performance?\n(A) 5\n(B) 4\n(C) 2\n(D) 3",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1449,
+        "end_time": 1449,
+        "reasoning": "time_reference: 24:09-24:09",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2291",
+            "video_id": "idZkam9zqAs",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How many people use the trampolines on stage during the performance?\n(A) 5\n(B) 4\n(C) 2\n(D) 3",
+            "answer": "B",
+            "start_time": 1449,
+            "end_time": 1449,
+            "reasoning": "time_reference: 24:09-24:09"
+        },
+        "video_url": "https://www.youtube.com/watch?v=idZkam9zqAs"
+    },
+    {
+        "video_id": "_T2Avd3tFHc",
+        "caption": "",
+        "question": "Where do the vlogger team members invite Mikhail on the first night?\n(A) They invite Mikhail to the pub\n(B) They invite Mikhail to the park\n(C) They invite Mikhail to the swimming pool\n(D) They invite Mikhail to the hotel",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 958,
+        "end_time": 967,
+        "reasoning": "time_reference: 15:58-16:07",
+        "total_frames": "",
+        "type": [
+            "reasoning",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2890",
+            "video_id": "_T2Avd3tFHc",
+            "type": [
+                "reasoning",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Where do the vlogger team members invite Mikhail on the first night?\n(A) They invite Mikhail to the pub\n(B) They invite Mikhail to the park\n(C) They invite Mikhail to the swimming pool\n(D) They invite Mikhail to the hotel",
+            "answer": "D",
+            "start_time": 958,
+            "end_time": 967,
+            "reasoning": "time_reference: 15:58-16:07"
+        },
+        "video_url": "https://www.youtube.com/watch?v=_T2Avd3tFHc"
+    },
+    {
+        "video_id": "AeEYQ62t8hA",
+        "caption": "",
+        "question": "What does the man do from 00:27-00:33?\n(A) He climbs the stairs\n(B) He opens the window\n(C) He walks down the stairs\n(D) He opens the door",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 27,
+        "end_time": 33,
+        "reasoning": "time_reference: 00:27-00:33",
+        "total_frames": "",
+        "type": [
+            "temporal grounding",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4771",
+            "video_id": "AeEYQ62t8hA",
+            "type": [
+                "temporal grounding",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What does the man do from 00:27-00:33?\n(A) He climbs the stairs\n(B) He opens the window\n(C) He walks down the stairs\n(D) He opens the door",
+            "answer": "C",
+            "start_time": 27,
+            "end_time": 33,
+            "reasoning": "time_reference: 00:27-00:33"
+        },
+        "video_url": "https://www.youtube.com/watch?v=AeEYQ62t8hA"
+    },
+    {
+        "video_id": "evYm0cELO3I",
+        "caption": "",
+        "question": "What happens from 04:50-05:20?\n(A) Sonny tastes Bohemain Lobster\n(B) The chef cooks Lobster Quesadilla\n(C) The chef cooks Bohemain Lobster\n(D) Sonny tastes  Lobster Quesadilla",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 290,
+        "end_time": 320,
+        "reasoning": "time_reference: 04:50-05:20",
+        "total_frames": "",
+        "type": [
+            "temporal grounding",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2764",
+            "video_id": "evYm0cELO3I",
+            "type": [
+                "temporal grounding",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What happens from 04:50-05:20?\n(A) Sonny tastes Bohemain Lobster\n(B) The chef cooks Lobster Quesadilla\n(C) The chef cooks Bohemain Lobster\n(D) Sonny tastes  Lobster Quesadilla",
+            "answer": "D",
+            "start_time": 290,
+            "end_time": 320,
+            "reasoning": "time_reference: 04:50-05:20"
+        },
+        "video_url": "https://www.youtube.com/watch?v=evYm0cELO3I"
+    },
+    {
+        "video_id": "QgWRyDV9Ozs",
+        "caption": "",
+        "question": "Where does Thumbelina hide when she is scared by the pocket Prince?\n(A) Teapot\n(B) Bed\n(C) Teacup\n(D) Box",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 772,
+        "end_time": 780,
+        "reasoning": "time_reference: 12:52-13:00",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "627",
+            "video_id": "QgWRyDV9Ozs",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Where does Thumbelina hide when she is scared by the pocket Prince?\n(A) Teapot\n(B) Bed\n(C) Teacup\n(D) Box",
+            "answer": "A",
+            "start_time": 772,
+            "end_time": 780,
+            "reasoning": "time_reference: 12:52-13:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=QgWRyDV9Ozs"
+    },
+    {
+        "video_id": "_zrgbA3FMVE",
+        "caption": "",
+        "question": "After the girl with long black hair presses the wrench on the machine, what picture appears?\n(A) Three apple icons appear\n(B) Three milk carton icons appear\n(C) Three cherry icons appear\n(D) Three ice cream icons appear",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 694,
+        "end_time": 699,
+        "reasoning": "time_reference: 11:34-11:39",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "660",
+            "video_id": "_zrgbA3FMVE",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "After the girl with long black hair presses the wrench on the machine, what picture appears?\n(A) Three apple icons appear\n(B) Three milk carton icons appear\n(C) Three cherry icons appear\n(D) Three ice cream icons appear",
+            "answer": "D",
+            "start_time": 694,
+            "end_time": 699,
+            "reasoning": "time_reference: 11:34-11:39"
+        },
+        "video_url": "https://www.youtube.com/watch?v=_zrgbA3FMVE"
+    },
+    {
+        "video_id": "JlrzSvCsIjE",
+        "caption": "",
+        "question": "How many times do the two teams hit the ball after the game score is 2-1, point score is 0-30?\n(A) 10\n(B) 9\n(C) 8\n(D) 7",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 570,
+        "end_time": 600,
+        "reasoning": "time_reference: 09:30-10:00",
+        "total_frames": "",
+        "type": [
+            "key information retrieval",
+            "entity recognition",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4011",
+            "video_id": "JlrzSvCsIjE",
+            "type": [
+                "key information retrieval",
+                "entity recognition",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "How many times do the two teams hit the ball after the game score is 2-1, point score is 0-30?\n(A) 10\n(B) 9\n(C) 8\n(D) 7",
+            "answer": "B",
+            "start_time": 570,
+            "end_time": 600,
+            "reasoning": "time_reference: 09:30-10:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=JlrzSvCsIjE"
+    },
+    {
+        "video_id": "rp4NKWb7dXk",
+        "caption": "",
+        "question": "What is this athlete's number?\n(A) 332\n(B) 365\n(C) 23\n(D) 335",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 818,
+        "end_time": 818,
+        "reasoning": "time_reference: 13:38-13:38",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "4126",
+            "video_id": "rp4NKWb7dXk",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is this athlete's number?\n(A) 332\n(B) 365\n(C) 23\n(D) 335",
+            "answer": "D",
+            "start_time": 818,
+            "end_time": 818,
+            "reasoning": "time_reference: 13:38-13:38"
+        },
+        "video_url": "https://www.youtube.com/watch?v=rp4NKWb7dXk"
+    },
+    {
+        "video_id": "gbDR39yIs3Y",
+        "caption": "",
+        "question": "How long does the vlogger set the timer for when brushing her teeth?\n(A) 3:10\n(B) 2:40\n(C) 3:00\n(D) 2:50",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 151,
+        "end_time": 156,
+        "reasoning": "time_reference: 02:31-02:36",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "3443",
+            "video_id": "gbDR39yIs3Y",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "How long does the vlogger set the timer for when brushing her teeth?\n(A) 3:10\n(B) 2:40\n(C) 3:00\n(D) 2:50",
+            "answer": "B",
+            "start_time": 151,
+            "end_time": 156,
+            "reasoning": "time_reference: 02:31-02:36"
+        },
+        "video_url": "https://www.youtube.com/watch?v=gbDR39yIs3Y"
+    },
+    {
+        "video_id": "rk24OUu_kJQ",
+        "caption": "",
+        "question": "How many coats does the female singer change between when she gets off the music box and when she enters it again?\n(A) 2\n(B) 1\n(C) 0\n(D) 3",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1320,
+        "end_time": 1503,
+        "reasoning": "time_reference: 22:00-25:03",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2171",
+            "video_id": "rk24OUu_kJQ",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "How many coats does the female singer change between when she gets off the music box and when she enters it again?\n(A) 2\n(B) 1\n(C) 0\n(D) 3",
+            "answer": "A",
+            "start_time": 1320,
+            "end_time": 1503,
+            "reasoning": "time_reference: 22:00-25:03"
+        },
+        "video_url": "https://www.youtube.com/watch?v=rk24OUu_kJQ"
+    },
+    {
+        "video_id": "FaV0tIaWWEg",
+        "caption": "",
+        "question": "What do the people do from 29:27-29:33?\n(A) They read books\n(B) They dance\n(C) The use the computer\n(D) The sing songs",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1767,
+        "end_time": 1773,
+        "reasoning": "time_reference: 29:27-29:33",
+        "total_frames": "",
+        "type": [
+            "temporal grounding",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2118",
+            "video_id": "FaV0tIaWWEg",
+            "type": [
+                "temporal grounding",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What do the people do from 29:27-29:33?\n(A) They read books\n(B) They dance\n(C) The use the computer\n(D) The sing songs",
+            "answer": "A",
+            "start_time": 1767,
+            "end_time": 1773,
+            "reasoning": "time_reference: 29:27-29:33"
+        },
+        "video_url": "https://www.youtube.com/watch?v=FaV0tIaWWEg"
+    },
+    {
+        "video_id": "T1yhBv1ytzw",
+        "caption": "",
+        "question": "Who substitutes Arnold?\n(A) Henderson\n(B) Jones\n(C) Núñez\n(D) Milner",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 3649,
+        "end_time": 3714,
+        "reasoning": "time_reference: 60:49-61:54",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "3794",
+            "video_id": "T1yhBv1ytzw",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Who substitutes Arnold?\n(A) Henderson\n(B) Jones\n(C) Núñez\n(D) Milner",
+            "answer": "C",
+            "start_time": 3649,
+            "end_time": 3714,
+            "reasoning": "time_reference: 60:49-61:54"
+        },
+        "video_url": "https://www.youtube.com/watch?v=T1yhBv1ytzw"
+    },
+    {
+        "video_id": "RCAqKnvu_P0",
+        "caption": "",
+        "question": "Where does the vlogger go after visiting Takeshita Street?\n(A) TeamLab Planets\n(B) Shibuya sky\n(C) Asakusa\n(D) Mt. Fuji",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1006,
+        "end_time": 1039,
+        "reasoning": "time_reference: 16:46-17:19",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2915",
+            "video_id": "RCAqKnvu_P0",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Where does the vlogger go after visiting Takeshita Street?\n(A) TeamLab Planets\n(B) Shibuya sky\n(C) Asakusa\n(D) Mt. Fuji",
+            "answer": "C",
+            "start_time": 1006,
+            "end_time": 1039,
+            "reasoning": "time_reference: 16:46-17:19"
+        },
+        "video_url": "https://www.youtube.com/watch?v=RCAqKnvu_P0"
+    },
+    {
+        "video_id": "2LH3JCGkEBU",
+        "caption": "",
+        "question": "How many Olympic Games are featured in the video?\n(A) 4\n(B) 3\n(C) 2\n(D) 1",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 4381,
+        "reasoning": "time_reference: 00:00-73:01",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4329",
+            "video_id": "2LH3JCGkEBU",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "How many Olympic Games are featured in the video?\n(A) 4\n(B) 3\n(C) 2\n(D) 1",
+            "answer": "B",
+            "start_time": 0,
+            "end_time": 4381,
+            "reasoning": "time_reference: 00:00-73:01"
+        },
+        "video_url": "https://www.youtube.com/watch?v=2LH3JCGkEBU"
+    },
+    {
+        "video_id": "TZ0j6kr4ZJ0",
+        "caption": "",
+        "question": "What color is the oxygen tank that appears the last in the video?\n(A) Blue\n(B) Red\n(C) Black\n(D) Yellow",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2361,
+        "end_time": 2361,
+        "reasoning": "time_reference: 39:21-39:21",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1437",
+            "video_id": "TZ0j6kr4ZJ0",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color is the oxygen tank that appears the last in the video?\n(A) Blue\n(B) Red\n(C) Black\n(D) Yellow",
+            "answer": "D",
+            "start_time": 2361,
+            "end_time": 2361,
+            "reasoning": "time_reference: 39:21-39:21"
+        },
+        "video_url": "https://www.youtube.com/watch?v=TZ0j6kr4ZJ0"
+    },
+    {
+        "video_id": "CgvJqGxzRfE",
+        "caption": "",
+        "question": "What is the main color of the scene while the contestant sings \"Kiss Me\"?\n(A) Blue\n(B) Red\n(C) Black\n(D) Green",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 4231,
+        "end_time": 4231,
+        "reasoning": "time_reference: 70:31-70:31",
+        "total_frames": "",
+        "type": [
+            "entity recognition",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "4478",
+            "video_id": "CgvJqGxzRfE",
+            "type": [
+                "entity recognition",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the main color of the scene while the contestant sings \"Kiss Me\"?\n(A) Blue\n(B) Red\n(C) Black\n(D) Green",
+            "answer": "D",
+            "start_time": 4231,
+            "end_time": 4231,
+            "reasoning": "time_reference: 70:31-70:31"
+        },
+        "video_url": "https://www.youtube.com/watch?v=CgvJqGxzRfE"
+    },
+    {
+        "video_id": "IsdbCjlZ5cQ",
+        "caption": "",
+        "question": "Why two sentences have red underlines on two different documents?\n(A) To highlight the central theme of the documentary, serving as a thematic anchor\n(B) To support a specific point\n(C) As evidence presented in a court trial\n(D) To visually emphasize the theme of the two documents",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 3153,
+        "end_time": 3163,
+        "reasoning": "time_reference: 52:33-52:43",
+        "total_frames": "",
+        "type": [
+            "reasoning"
+        ],
+        "meta_data": {
+            "uid": "1570",
+            "video_id": "IsdbCjlZ5cQ",
+            "type": [
+                "reasoning"
+            ],
+            "caption": "",
+            "question": "Why two sentences have red underlines on two different documents?\n(A) To highlight the central theme of the documentary, serving as a thematic anchor\n(B) To support a specific point\n(C) As evidence presented in a court trial\n(D) To visually emphasize the theme of the two documents",
+            "answer": "B",
+            "start_time": 3153,
+            "end_time": 3163,
+            "reasoning": "time_reference: 52:33-52:43"
+        },
+        "video_url": "https://www.youtube.com/watch?v=IsdbCjlZ5cQ"
+    },
+    {
+        "video_id": "TJR1oYDDTwg",
+        "caption": "",
+        "question": "Who save the green dragon from the net?\n(A) Villain\n(B) Prince\n(C) Pink dragon\n(D) Princess",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 760,
+        "end_time": 790,
+        "reasoning": "time_reference: 12:40-13:10",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "266",
+            "video_id": "TJR1oYDDTwg",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "Who save the green dragon from the net?\n(A) Villain\n(B) Prince\n(C) Pink dragon\n(D) Princess",
+            "answer": "B",
+            "start_time": 760,
+            "end_time": 790,
+            "reasoning": "time_reference: 12:40-13:10"
+        },
+        "video_url": "https://www.youtube.com/watch?v=TJR1oYDDTwg"
+    },
+    {
+        "video_id": "O14bbpvy2x0",
+        "caption": "",
+        "question": "Where are the hamburger bun stored?\n(A) In the right drawer under the iron plate\n(B) On the right side of the iron plate\n(C) In the left drawer under the iron plate\n(D) On the left side of the iron plate",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 525,
+        "end_time": 531,
+        "reasoning": "time_reference: 08:45-08:51",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "3370",
+            "video_id": "O14bbpvy2x0",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Where are the hamburger bun stored?\n(A) In the right drawer under the iron plate\n(B) On the right side of the iron plate\n(C) In the left drawer under the iron plate\n(D) On the left side of the iron plate",
+            "answer": "B",
+            "start_time": 525,
+            "end_time": 531,
+            "reasoning": "time_reference: 08:45-08:51"
+        },
+        "video_url": "https://www.youtube.com/watch?v=O14bbpvy2x0"
+    },
+    {
+        "video_id": "JlrzSvCsIjE",
+        "caption": "",
+        "question": "Summarize the scoring in the third game of the first set?\n(A) After losing a point, the U.S. team scored four points in a row to win the game\n(B) After losing a point, the Swiss team scored four points in a row to win the game\n(C) The Swiss team scored four points in a row to win the game\n(D) The U.S. team scored four points in a row to win the game",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 330,
+        "end_time": 510,
+        "reasoning": "time_reference: 05:30-08:30",
+        "total_frames": "",
+        "type": [
+            "summarization"
+        ],
+        "meta_data": {
+            "uid": "4010",
+            "video_id": "JlrzSvCsIjE",
+            "type": [
+                "summarization"
+            ],
+            "caption": "",
+            "question": "Summarize the scoring in the third game of the first set?\n(A) After losing a point, the U.S. team scored four points in a row to win the game\n(B) After losing a point, the Swiss team scored four points in a row to win the game\n(C) The Swiss team scored four points in a row to win the game\n(D) The U.S. team scored four points in a row to win the game",
+            "answer": "D",
+            "start_time": 330,
+            "end_time": 510,
+            "reasoning": "time_reference: 05:30-08:30"
+        },
+        "video_url": "https://www.youtube.com/watch?v=JlrzSvCsIjE"
+    },
+    {
+        "video_id": "W-BnDvXXfOs",
+        "caption": "",
+        "question": "The person singing the third song is sitting on what?\n(A) Sitting on a red chair\n(B) Sitting on a green chair\n(C) Sitting on a yellow bench\n(D) Sitting on a blue sofa",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 419,
+        "end_time": 457,
+        "reasoning": "time_reference: 06:59-07:37",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4958",
+            "video_id": "W-BnDvXXfOs",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "The person singing the third song is sitting on what?\n(A) Sitting on a red chair\n(B) Sitting on a green chair\n(C) Sitting on a yellow bench\n(D) Sitting on a blue sofa",
+            "answer": "A",
+            "start_time": 419,
+            "end_time": 457,
+            "reasoning": "time_reference: 06:59-07:37"
+        },
+        "video_url": "https://www.youtube.com/watch?v=W-BnDvXXfOs"
+    },
+    {
+        "video_id": "oZEVgDXJwCc",
+        "caption": "",
+        "question": "What happens at 47:56 mark of the game?\n(A) Pedro is trying to shot but fails\n(B) Pedro commits a foul\n(C) Alonso is trying to shot but fails\n(D) Alonso commits a foul",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 3090,
+        "end_time": 3120,
+        "reasoning": "time_reference: 51:30-52:00",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "key information retrieval",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "3539",
+            "video_id": "oZEVgDXJwCc",
+            "type": [
+                "event understanding",
+                "key information retrieval",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "What happens at 47:56 mark of the game?\n(A) Pedro is trying to shot but fails\n(B) Pedro commits a foul\n(C) Alonso is trying to shot but fails\n(D) Alonso commits a foul",
+            "answer": "C",
+            "start_time": 3090,
+            "end_time": 3120,
+            "reasoning": "time_reference: 51:30-52:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=oZEVgDXJwCc"
+    },
+    {
+        "video_id": "NzCO0G8AGLU",
+        "caption": "",
+        "question": "What's the name of the 36-year-old cameraman?\n(A) Paul\n(B) Vig\n(C) Will\n(D) Sam",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1560,
+        "end_time": 1680,
+        "reasoning": "time_reference: 26:00-28:00",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4845",
+            "video_id": "NzCO0G8AGLU",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What's the name of the 36-year-old cameraman?\n(A) Paul\n(B) Vig\n(C) Will\n(D) Sam",
+            "answer": "C",
+            "start_time": 1560,
+            "end_time": 1680,
+            "reasoning": "time_reference: 26:00-28:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=NzCO0G8AGLU"
+    },
+    {
+        "video_id": "JTa_Ue2MSwc",
+        "caption": "",
+        "question": "What happens after Kindall comes to the stage?\n(A) Sierra fights the host, and Kindall joins her\n(B) They talk for a long time and eventually get back together\n(C) Sierra quarrels and fights with her\n(D) Sierra quarrels with her, but in the end they fights with Tony",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 135,
+        "end_time": 272,
+        "reasoning": "time_reference: 02:15-04:32",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "5132",
+            "video_id": "JTa_Ue2MSwc",
+            "type": [
+                "event understanding",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What happens after Kindall comes to the stage?\n(A) Sierra fights the host, and Kindall joins her\n(B) They talk for a long time and eventually get back together\n(C) Sierra quarrels and fights with her\n(D) Sierra quarrels with her, but in the end they fights with Tony",
+            "answer": "C",
+            "start_time": 135,
+            "end_time": 272,
+            "reasoning": "time_reference: 02:15-04:32"
+        },
+        "video_url": "https://www.youtube.com/watch?v=JTa_Ue2MSwc"
+    },
+    {
+        "video_id": "rk24OUu_kJQ",
+        "caption": "",
+        "question": "What word best describes the atmosphere of the second song?\n(A) Relaxing\n(B) Darksome\n(C) Gory\n(D) Lively",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 523,
+        "end_time": 550,
+        "reasoning": "time_reference: 08:43-09:10",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2160",
+            "video_id": "rk24OUu_kJQ",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "What word best describes the atmosphere of the second song?\n(A) Relaxing\n(B) Darksome\n(C) Gory\n(D) Lively",
+            "answer": "B",
+            "start_time": 523,
+            "end_time": 550,
+            "reasoning": "time_reference: 08:43-09:10"
+        },
+        "video_url": "https://www.youtube.com/watch?v=rk24OUu_kJQ"
+    },
+    {
+        "video_id": "QB7FoIpx8os",
+        "caption": "",
+        "question": "What color clothes is the fifth speaker wearing in the video?\n(A) Red\n(B) Black\n(C) Red\n(D) Blue",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2951,
+        "end_time": 2960,
+        "reasoning": "time_reference: 49:11-49:20",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "2489",
+            "video_id": "QB7FoIpx8os",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What color clothes is the fifth speaker wearing in the video?\n(A) Red\n(B) Black\n(C) Red\n(D) Blue",
+            "answer": "B",
+            "start_time": 2951,
+            "end_time": 2960,
+            "reasoning": "time_reference: 49:11-49:20"
+        },
+        "video_url": "https://www.youtube.com/watch?v=QB7FoIpx8os"
+    },
+    {
+        "video_id": "o-gLbgpzCc8",
+        "caption": "",
+        "question": "What kind of clothes does the genie wear when he appears for the second time?\n(A) Black suit\n(B) Golden suit\n(C) Blue suit\n(D) White suit",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1170,
+        "end_time": 1200,
+        "reasoning": "time_reference: 19:30-20:00",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2407",
+            "video_id": "o-gLbgpzCc8",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What kind of clothes does the genie wear when he appears for the second time?\n(A) Black suit\n(B) Golden suit\n(C) Blue suit\n(D) White suit",
+            "answer": "D",
+            "start_time": 1170,
+            "end_time": 1200,
+            "reasoning": "time_reference: 19:30-20:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=o-gLbgpzCc8"
+    },
+    {
+        "video_id": "KLIa2UaE2KE",
+        "caption": "",
+        "question": "What is the name of the player wearing number 16 for Brazil in the video?\n(A) Ken\n(B) Dante\n(C) Lucas\n(D) James",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0,
+        "end_time": 2245,
+        "reasoning": "time_reference: 00:00-37:25",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4177",
+            "video_id": "KLIa2UaE2KE",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What is the name of the player wearing number 16 for Brazil in the video?\n(A) Ken\n(B) Dante\n(C) Lucas\n(D) James",
+            "answer": "C",
+            "start_time": 0,
+            "end_time": 2245,
+            "reasoning": "time_reference: 00:00-37:25"
+        },
+        "video_url": "https://www.youtube.com/watch?v=KLIa2UaE2KE"
+    },
+    {
+        "video_id": "Z4HGQL_McDQ",
+        "caption": "",
+        "question": "What color is the car that mechanics are changing from the standard exhaust to the valve-controlled exhaust?\n(A) Silver gray\n(B) Black\n(C) White\n(D) Red",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 323,
+        "end_time": 323,
+        "reasoning": "time_reference: 05:23-05:23",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "1134",
+            "video_id": "Z4HGQL_McDQ",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color is the car that mechanics are changing from the standard exhaust to the valve-controlled exhaust?\n(A) Silver gray\n(B) Black\n(C) White\n(D) Red",
+            "answer": "A",
+            "start_time": 323,
+            "end_time": 323,
+            "reasoning": "time_reference: 05:23-05:23"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Z4HGQL_McDQ"
+    },
+    {
+        "video_id": "USfvmoalqsw",
+        "caption": "",
+        "question": "Where does the vlogger go at 104:44?\n(A) A school\n(B) An office\n(C) A zoo\n(D) A park",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 6284,
+        "end_time": 6284,
+        "reasoning": "time_reference: 104:44-104:44",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "temporal grounding"
+        ],
+        "meta_data": {
+            "uid": "2751",
+            "video_id": "USfvmoalqsw",
+            "type": [
+                "event understanding",
+                "temporal grounding"
+            ],
+            "caption": "",
+            "question": "Where does the vlogger go at 104:44?\n(A) A school\n(B) An office\n(C) A zoo\n(D) A park",
+            "answer": "A",
+            "start_time": 6284,
+            "end_time": 6284,
+            "reasoning": "time_reference: 104:44-104:44"
+        },
+        "video_url": "https://www.youtube.com/watch?v=USfvmoalqsw"
+    },
+    {
+        "video_id": "rk24OUu_kJQ",
+        "caption": "",
+        "question": "How does the audience near the stage at the first floor watch the performance?\n(A) They stands and watch\n(B) There is no audience near the stage\n(C) They sit on chairs and watch\n(D) They try to step onto the stage and watch",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 455,
+        "end_time": 480,
+        "reasoning": "time_reference: 07:35-08:00",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "2164",
+            "video_id": "rk24OUu_kJQ",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How does the audience near the stage at the first floor watch the performance?\n(A) They stands and watch\n(B) There is no audience near the stage\n(C) They sit on chairs and watch\n(D) They try to step onto the stage and watch",
+            "answer": "A",
+            "start_time": 455,
+            "end_time": 480,
+            "reasoning": "time_reference: 07:35-08:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=rk24OUu_kJQ"
+    },
+    {
+        "video_id": "CgvJqGxzRfE",
+        "caption": "",
+        "question": "What happens after the 11th contestant performs?\n(A) The blocked judge lies down\n(B) Justina lies down\n(C) The blocked judge stands up\n(D) The blocked judge sits down",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1260,
+        "end_time": 1280,
+        "reasoning": "time_reference: 21:00-21:20",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "4467",
+            "video_id": "CgvJqGxzRfE",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What happens after the 11th contestant performs?\n(A) The blocked judge lies down\n(B) Justina lies down\n(C) The blocked judge stands up\n(D) The blocked judge sits down",
+            "answer": "A",
+            "start_time": 1260,
+            "end_time": 1280,
+            "reasoning": "time_reference: 21:00-21:20"
+        },
+        "video_url": "https://www.youtube.com/watch?v=CgvJqGxzRfE"
+    },
+    {
+        "video_id": "jp2M1hIEtsk",
+        "caption": "",
+        "question": "What is the word on vlogger's ceramic cup?\n(A) Frozen\n(B) Flower\n(C) Blue\n(D) Cup",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1170,
+        "end_time": 1180,
+        "reasoning": "time_reference: 19:30-19:40",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "3476",
+            "video_id": "jp2M1hIEtsk",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What is the word on vlogger's ceramic cup?\n(A) Frozen\n(B) Flower\n(C) Blue\n(D) Cup",
+            "answer": "A",
+            "start_time": 1170,
+            "end_time": 1180,
+            "reasoning": "time_reference: 19:30-19:40"
+        },
+        "video_url": "https://www.youtube.com/watch?v=jp2M1hIEtsk"
+    },
+    {
+        "video_id": "Hf-n1yfd8II",
+        "caption": "",
+        "question": "How to describe the feeling of Lee Chong Wei at 48:16?\n(A) He feels frustrated because he does not catch the shuttlecock from the opponent\n(B) He feels excited because he gets one point\n(C) He feels frustrated because he beats the buttlecock out of bounds\n(D) He feels frustrated because he does not beat the shuttlecock cross the net",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2880,
+        "end_time": 2897,
+        "reasoning": "time_reference: 48:00-48:17",
+        "total_frames": "",
+        "type": [
+            "temporal grounding",
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "3934",
+            "video_id": "Hf-n1yfd8II",
+            "type": [
+                "temporal grounding",
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "How to describe the feeling of Lee Chong Wei at 48:16?\n(A) He feels frustrated because he does not catch the shuttlecock from the opponent\n(B) He feels excited because he gets one point\n(C) He feels frustrated because he beats the buttlecock out of bounds\n(D) He feels frustrated because he does not beat the shuttlecock cross the net",
+            "answer": "A",
+            "start_time": 2880,
+            "end_time": 2897,
+            "reasoning": "time_reference: 48:00-48:17"
+        },
+        "video_url": "https://www.youtube.com/watch?v=Hf-n1yfd8II"
+    },
+    {
+        "video_id": "28CIeC8cZks",
+        "caption": "",
+        "question": "What color are the runes on the bottom of the girl's feet at 38:18 in the video?\n(A) Golden\n(B) White\n(C) Red\n(D) Black",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2299,
+        "end_time": 2299,
+        "reasoning": "time_reference: 38:19-38:19",
+        "total_frames": "",
+        "type": [
+            "temporal grounding",
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "219",
+            "video_id": "28CIeC8cZks",
+            "type": [
+                "temporal grounding",
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What color are the runes on the bottom of the girl's feet at 38:18 in the video?\n(A) Golden\n(B) White\n(C) Red\n(D) Black",
+            "answer": "A",
+            "start_time": 2299,
+            "end_time": 2299,
+            "reasoning": "time_reference: 38:19-38:19"
+        },
+        "video_url": "https://www.youtube.com/watch?v=28CIeC8cZks"
+    },
+    {
+        "video_id": "QgWRyDV9Ozs",
+        "caption": "",
+        "question": "When the toads leaves, who is the first to appear before Thumbelina and help her?\n(A) A woman with a dog\n(B) Swallow in hat\n(C) Prince riding an insect\n(D) Mermaid in the river",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1750,
+        "end_time": 1820,
+        "reasoning": "time_reference: 29:10-30:20",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "633",
+            "video_id": "QgWRyDV9Ozs",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "When the toads leaves, who is the first to appear before Thumbelina and help her?\n(A) A woman with a dog\n(B) Swallow in hat\n(C) Prince riding an insect\n(D) Mermaid in the river",
+            "answer": "B",
+            "start_time": 1750,
+            "end_time": 1820,
+            "reasoning": "time_reference: 29:10-30:20"
+        },
+        "video_url": "https://www.youtube.com/watch?v=QgWRyDV9Ozs"
+    },
+    {
+        "video_id": "vHlSoxg8WHo",
+        "caption": "",
+        "question": "How old is IEZESHA?\n(A) 18\n(B) 20\n(C) 17\n(D) 16",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2274,
+        "end_time": 2631,
+        "reasoning": "time_reference: 37:54-43:51",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "5086",
+            "video_id": "vHlSoxg8WHo",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "How old is IEZESHA?\n(A) 18\n(B) 20\n(C) 17\n(D) 16",
+            "answer": "A",
+            "start_time": 2274,
+            "end_time": 2631,
+            "reasoning": "time_reference: 37:54-43:51"
+        },
+        "video_url": "https://www.youtube.com/watch?v=vHlSoxg8WHo"
+    },
+    {
+        "video_id": "qAIRFyR6NyQ",
+        "caption": "",
+        "question": "What change occurred to the lighting tool when the girl writes in her diary?\n(A) It changes from a candle to a lantern\n(B) It changes from a desk lamp to a candle\n(C) It changes from a desk lamp to a spotlight\n(D) It changes from a candle to a flashlight",
+        "answer": "B",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 434,
+        "end_time": 3535,
+        "reasoning": "time_reference: 07:14-58:55",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "17",
+            "video_id": "qAIRFyR6NyQ",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What change occurred to the lighting tool when the girl writes in her diary?\n(A) It changes from a candle to a lantern\n(B) It changes from a desk lamp to a candle\n(C) It changes from a desk lamp to a spotlight\n(D) It changes from a candle to a flashlight",
+            "answer": "B",
+            "start_time": 434,
+            "end_time": 3535,
+            "reasoning": "time_reference: 07:14-58:55"
+        },
+        "video_url": "https://www.youtube.com/watch?v=qAIRFyR6NyQ"
+    },
+    {
+        "video_id": "rp4NKWb7dXk",
+        "caption": "",
+        "question": "Who starts the game first?\n(A) ELISABETH SEITZ\n(B) YAO JINNAN\n(C) HE KEXIN\n(D) VICTORIA KOMOVA",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 76,
+        "end_time": 76,
+        "reasoning": "time_reference: 01:16-01:16",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4114",
+            "video_id": "rp4NKWb7dXk",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Who starts the game first?\n(A) ELISABETH SEITZ\n(B) YAO JINNAN\n(C) HE KEXIN\n(D) VICTORIA KOMOVA",
+            "answer": "C",
+            "start_time": 76,
+            "end_time": 76,
+            "reasoning": "time_reference: 01:16-01:16"
+        },
+        "video_url": "https://www.youtube.com/watch?v=rp4NKWb7dXk"
+    },
+    {
+        "video_id": "EwskdNETNx8",
+        "caption": "",
+        "question": "Who is the first coach to turn around during the third contestant's performance?\n(A) The coach wearing the denim jacket\n(B) The coach wearing the floral sweater\n(C) The coach wearing the black jacket\n(D) The coach wearing the pink dress",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 222,
+        "end_time": 248,
+        "reasoning": "time_reference: 03:42-04:08",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "4496",
+            "video_id": "EwskdNETNx8",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Who is the first coach to turn around during the third contestant's performance?\n(A) The coach wearing the denim jacket\n(B) The coach wearing the floral sweater\n(C) The coach wearing the black jacket\n(D) The coach wearing the pink dress",
+            "answer": "D",
+            "start_time": 222,
+            "end_time": 248,
+            "reasoning": "time_reference: 03:42-04:08"
+        },
+        "video_url": "https://www.youtube.com/watch?v=EwskdNETNx8"
+    },
+    {
+        "video_id": "FaV0tIaWWEg",
+        "caption": "",
+        "question": "What appears on the screen at the end of the video?\n(A) \"Microsoft Copilot\" and the logo\n(B) \"Open AI\" and the logo\n(C) \"Microsoft\" and the logo\n(D) \"Google\"and the logo",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1871,
+        "end_time": 1871,
+        "reasoning": "time_reference: 31:11-31:11",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "2119",
+            "video_id": "FaV0tIaWWEg",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What appears on the screen at the end of the video?\n(A) \"Microsoft Copilot\" and the logo\n(B) \"Open AI\" and the logo\n(C) \"Microsoft\" and the logo\n(D) \"Google\"and the logo",
+            "answer": "C",
+            "start_time": 1871,
+            "end_time": 1871,
+            "reasoning": "time_reference: 31:11-31:11"
+        },
+        "video_url": "https://www.youtube.com/watch?v=FaV0tIaWWEg"
+    },
+    {
+        "video_id": "qAIRFyR6NyQ",
+        "caption": "",
+        "question": "What year is written on the first cake appears in the video?\n(A) 1942\n(B) 1937\n(C) 1949\n(D) 1943",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2979,
+        "end_time": 2979,
+        "reasoning": "time_reference: 49:39-49:39",
+        "total_frames": "",
+        "type": [
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "15",
+            "video_id": "qAIRFyR6NyQ",
+            "type": [
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "What year is written on the first cake appears in the video?\n(A) 1942\n(B) 1937\n(C) 1949\n(D) 1943",
+            "answer": "D",
+            "start_time": 2979,
+            "end_time": 2979,
+            "reasoning": "time_reference: 49:39-49:39"
+        },
+        "video_url": "https://www.youtube.com/watch?v=qAIRFyR6NyQ"
+    },
+    {
+        "video_id": "LLSJrEgOOtw",
+        "caption": "",
+        "question": "What does the woman do first in the wooden carbin?\n(A) Decorate the wooden cabin with the fern\n(B) Make the fire\n(C) Clean the wooden cabin\n(D) Cook the meal",
+        "answer": "C",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 569,
+        "end_time": 695,
+        "reasoning": "time_reference: 09:29-11:35",
+        "total_frames": "",
+        "type": [
+            "entity recognition"
+        ],
+        "meta_data": {
+            "uid": "3237",
+            "video_id": "LLSJrEgOOtw",
+            "type": [
+                "entity recognition"
+            ],
+            "caption": "",
+            "question": "What does the woman do first in the wooden carbin?\n(A) Decorate the wooden cabin with the fern\n(B) Make the fire\n(C) Clean the wooden cabin\n(D) Cook the meal",
+            "answer": "C",
+            "start_time": 569,
+            "end_time": 695,
+            "reasoning": "time_reference: 09:29-11:35"
+        },
+        "video_url": "https://www.youtube.com/watch?v=LLSJrEgOOtw"
+    },
+    {
+        "video_id": "-WnyRMZqV1U",
+        "caption": "",
+        "question": "Where does the movie directed by Gary Rydstrom, Tom Johnson and Mark Ulano take place?\n(A) Land\n(B) Magma\n(C) Ocean\n(D) Space",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 2502,
+        "end_time": 2502,
+        "reasoning": "time_reference: 41:42-41:42",
+        "total_frames": "",
+        "type": [
+            "event understanding",
+            "key information retrieval"
+        ],
+        "meta_data": {
+            "uid": "1744",
+            "video_id": "-WnyRMZqV1U",
+            "type": [
+                "event understanding",
+                "key information retrieval"
+            ],
+            "caption": "",
+            "question": "Where does the movie directed by Gary Rydstrom, Tom Johnson and Mark Ulano take place?\n(A) Land\n(B) Magma\n(C) Ocean\n(D) Space",
+            "answer": "D",
+            "start_time": 2502,
+            "end_time": 2502,
+            "reasoning": "time_reference: 41:42-41:42"
+        },
+        "video_url": "https://www.youtube.com/watch?v=-WnyRMZqV1U"
+    },
+    {
+        "video_id": "KbahC-QCKU8",
+        "caption": "",
+        "question": "Why does the vlogger point the barrel of the gun toward his mouth?\n(A) He is trying to clear the barrel of the gun\n(B) He is trying to get the most excitement\n(C) He is trying to commit suicide\n(D) No information",
+        "answer": "A",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 1609,
+        "end_time": 1630,
+        "reasoning": "time_reference: 26:49-27:10",
+        "total_frames": "",
+        "type": [
+            "reasoning",
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "2601",
+            "video_id": "KbahC-QCKU8",
+            "type": [
+                "reasoning",
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "Why does the vlogger point the barrel of the gun toward his mouth?\n(A) He is trying to clear the barrel of the gun\n(B) He is trying to get the most excitement\n(C) He is trying to commit suicide\n(D) No information",
+            "answer": "A",
+            "start_time": 1609,
+            "end_time": 1630,
+            "reasoning": "time_reference: 26:49-27:10"
+        },
+        "video_url": "https://www.youtube.com/watch?v=KbahC-QCKU8"
+    },
+    {
+        "video_id": "lDlA7cfNk8A",
+        "caption": "",
+        "question": "How many categories of awards are awarded by three winners?\n(A) 3\n(B) 4\n(C) 1\n(D) 2",
+        "answer": "D",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 306,
+        "end_time": 3780,
+        "reasoning": "time_reference: 05:06-63:00",
+        "total_frames": "",
+        "type": [
+            "event understanding"
+        ],
+        "meta_data": {
+            "uid": "1923",
+            "video_id": "lDlA7cfNk8A",
+            "type": [
+                "event understanding"
+            ],
+            "caption": "",
+            "question": "How many categories of awards are awarded by three winners?\n(A) 3\n(B) 4\n(C) 1\n(D) 2",
+            "answer": "D",
+            "start_time": 306,
+            "end_time": 3780,
+            "reasoning": "time_reference: 05:06-63:00"
+        },
+        "video_url": "https://www.youtube.com/watch?v=lDlA7cfNk8A"
+    }
+]

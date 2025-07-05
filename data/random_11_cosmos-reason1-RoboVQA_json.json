@@ -1,0 +1,420 @@
+[
+    {
+        "video_id": "16699580329672752614.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - stack the cups on top of existing stack. Was the agent successful in completing the task specified by the instruction?",
+        "answer": "A",
+        "option": {
+            "A": "yes",
+            "B": "no"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:success:discrete:True",
+        "meta_data": {
+            "video": "clips/16699580329672752614.mp4",
+            "qa_pairs": {
+                "answer": "A",
+                "index2ans": {
+                    "A": "yes",
+                    "B": "no"
+                },
+                "question": "The agent in the video was given the instruction - stack the cups on top of existing stack. Was the agent successful in completing the task specified by the instruction?",
+                "task": "task:success:discrete:True"
+            },
+            "video_id": "16699580329672752614.mp4",
+            "question": "The agent in the video was given the instruction - stack the cups on top of existing stack. Was the agent successful in completing the task specified by the instruction?",
+            "answer_index": "A",
+            "options": {
+                "A": "yes",
+                "B": "no"
+            },
+            "type_key": "task:success:discrete:True"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/16699580329672752614.mp4"
+    },
+    {
+        "video_id": "6371317431488289082.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - put the nacho packet in the tray. Is it possible for the agent to execute the task specified in the instruction?",
+        "answer": "A",
+        "option": {
+            "A": "no",
+            "B": "yes"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:affordance:discriminative:discrete:False",
+        "meta_data": {
+            "video": "clips/6371317431488289082.mp4",
+            "qa_pairs": {
+                "answer": "A",
+                "index2ans": {
+                    "A": "no",
+                    "B": "yes"
+                },
+                "question": "The agent in the video was given the instruction - put the nacho packet in the tray. Is it possible for the agent to execute the task specified in the instruction?",
+                "task": "task:affordance:discriminative:discrete:False"
+            },
+            "video_id": "6371317431488289082.mp4",
+            "question": "The agent in the video was given the instruction - put the nacho packet in the tray. Is it possible for the agent to execute the task specified in the instruction?",
+            "answer_index": "A",
+            "options": {
+                "A": "no",
+                "B": "yes"
+            },
+            "type_key": "task:affordance:discriminative:discrete:False"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/6371317431488289082.mp4"
+    },
+    {
+        "video_id": "9453879319042073151.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - put the orange in the bowl. Was the agent successful in completing the task specified by the instruction?",
+        "answer": "A",
+        "option": {
+            "A": "yes",
+            "B": "no"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:success:discrete:True",
+        "meta_data": {
+            "video": "clips/9453879319042073151.mp4",
+            "qa_pairs": {
+                "answer": "A",
+                "index2ans": {
+                    "A": "yes",
+                    "B": "no"
+                },
+                "question": "The agent in the video was given the instruction - put the orange in the bowl. Was the agent successful in completing the task specified by the instruction?",
+                "task": "task:success:discrete:True"
+            },
+            "video_id": "9453879319042073151.mp4",
+            "question": "The agent in the video was given the instruction - put the orange in the bowl. Was the agent successful in completing the task specified by the instruction?",
+            "answer_index": "A",
+            "options": {
+                "A": "yes",
+                "B": "no"
+            },
+            "type_key": "task:success:discrete:True"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/9453879319042073151.mp4"
+    },
+    {
+        "video_id": "6345415993822082811.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - put the plastic fork into the pen holder. Was the agent successful in completing the task specified by the instruction?",
+        "answer": "B",
+        "option": {
+            "A": "yes",
+            "B": "no"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:success:discrete:False",
+        "meta_data": {
+            "video": "clips/6345415993822082811.mp4",
+            "qa_pairs": {
+                "answer": "B",
+                "index2ans": {
+                    "A": "yes",
+                    "B": "no"
+                },
+                "question": "The agent in the video was given the instruction - put the plastic fork into the pen holder. Was the agent successful in completing the task specified by the instruction?",
+                "task": "task:success:discrete:False"
+            },
+            "video_id": "6345415993822082811.mp4",
+            "question": "The agent in the video was given the instruction - put the plastic fork into the pen holder. Was the agent successful in completing the task specified by the instruction?",
+            "answer_index": "B",
+            "options": {
+                "A": "yes",
+                "B": "no"
+            },
+            "type_key": "task:success:discrete:False"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/6345415993822082811.mp4"
+    },
+    {
+        "video_id": "15509482131338970986.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - put the book in the shelf. Was the agent successful in completing the task specified by the instruction?",
+        "answer": "A",
+        "option": {
+            "A": "yes",
+            "B": "no"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:success:discrete:True",
+        "meta_data": {
+            "video": "clips/15509482131338970986.mp4",
+            "qa_pairs": {
+                "answer": "A",
+                "index2ans": {
+                    "A": "yes",
+                    "B": "no"
+                },
+                "question": "The agent in the video was given the instruction - put the book in the shelf. Was the agent successful in completing the task specified by the instruction?",
+                "task": "task:success:discrete:True"
+            },
+            "video_id": "15509482131338970986.mp4",
+            "question": "The agent in the video was given the instruction - put the book in the shelf. Was the agent successful in completing the task specified by the instruction?",
+            "answer_index": "A",
+            "options": {
+                "A": "yes",
+                "B": "no"
+            },
+            "type_key": "task:success:discrete:True"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/15509482131338970986.mp4"
+    },
+    {
+        "video_id": "8337163079513838850.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - put the lid in the dustbin. Was the agent successful in completing the task specified by the instruction?",
+        "answer": "B",
+        "option": {
+            "A": "no",
+            "B": "yes"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:success:discrete:True",
+        "meta_data": {
+            "video": "clips/8337163079513838850.mp4",
+            "qa_pairs": {
+                "answer": "B",
+                "index2ans": {
+                    "A": "no",
+                    "B": "yes"
+                },
+                "question": "The agent in the video was given the instruction - put the lid in the dustbin. Was the agent successful in completing the task specified by the instruction?",
+                "task": "task:success:discrete:True"
+            },
+            "video_id": "8337163079513838850.mp4",
+            "question": "The agent in the video was given the instruction - put the lid in the dustbin. Was the agent successful in completing the task specified by the instruction?",
+            "answer_index": "B",
+            "options": {
+                "A": "no",
+                "B": "yes"
+            },
+            "type_key": "task:success:discrete:True"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/8337163079513838850.mp4"
+    },
+    {
+        "video_id": "4297688030545793780.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - pick up the red sponge. Was the agent successful in completing the task specified by the instruction?",
+        "answer": "B",
+        "option": {
+            "A": "yes",
+            "B": "no"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:success:discrete:False",
+        "meta_data": {
+            "video": "clips/4297688030545793780.mp4",
+            "qa_pairs": {
+                "answer": "B",
+                "index2ans": {
+                    "A": "yes",
+                    "B": "no"
+                },
+                "question": "The agent in the video was given the instruction - pick up the red sponge. Was the agent successful in completing the task specified by the instruction?",
+                "task": "task:success:discrete:False"
+            },
+            "video_id": "4297688030545793780.mp4",
+            "question": "The agent in the video was given the instruction - pick up the red sponge. Was the agent successful in completing the task specified by the instruction?",
+            "answer_index": "B",
+            "options": {
+                "A": "yes",
+                "B": "no"
+            },
+            "type_key": "task:success:discrete:False"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/4297688030545793780.mp4"
+    },
+    {
+        "video_id": "10019888349265530066.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - put black pen on the table. Is it possible for the agent to execute the task specified in the instruction?",
+        "answer": "A",
+        "option": {
+            "A": "yes",
+            "B": "no"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:affordance:discriminative:discrete:True",
+        "meta_data": {
+            "video": "clips/10019888349265530066.mp4",
+            "qa_pairs": {
+                "answer": "A",
+                "index2ans": {
+                    "A": "yes",
+                    "B": "no"
+                },
+                "question": "The agent in the video was given the instruction - put black pen on the table. Is it possible for the agent to execute the task specified in the instruction?",
+                "task": "task:affordance:discriminative:discrete:True"
+            },
+            "video_id": "10019888349265530066.mp4",
+            "question": "The agent in the video was given the instruction - put black pen on the table. Is it possible for the agent to execute the task specified in the instruction?",
+            "answer_index": "A",
+            "options": {
+                "A": "yes",
+                "B": "no"
+            },
+            "type_key": "task:affordance:discriminative:discrete:True"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/10019888349265530066.mp4"
+    },
+    {
+        "video_id": "7525951395982754487.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - put the silver packet in the box. Is it possible for the agent to execute the task specified in the instruction?",
+        "answer": "B",
+        "option": {
+            "A": "yes",
+            "B": "no"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:affordance:discriminative:discrete:False",
+        "meta_data": {
+            "video": "clips/7525951395982754487.mp4",
+            "qa_pairs": {
+                "answer": "B",
+                "index2ans": {
+                    "A": "yes",
+                    "B": "no"
+                },
+                "question": "The agent in the video was given the instruction - put the silver packet in the box. Is it possible for the agent to execute the task specified in the instruction?",
+                "task": "task:affordance:discriminative:discrete:False"
+            },
+            "video_id": "7525951395982754487.mp4",
+            "question": "The agent in the video was given the instruction - put the silver packet in the box. Is it possible for the agent to execute the task specified in the instruction?",
+            "answer_index": "B",
+            "options": {
+                "A": "yes",
+                "B": "no"
+            },
+            "type_key": "task:affordance:discriminative:discrete:False"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/7525951395982754487.mp4"
+    },
+    {
+        "video_id": "11629751093829631910.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - put pear in the bowl. Was the agent successful in completing the task specified by the instruction?",
+        "answer": "A",
+        "option": {
+            "A": "yes",
+            "B": "no"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:success:discrete:True",
+        "meta_data": {
+            "video": "clips/11629751093829631910.mp4",
+            "qa_pairs": {
+                "answer": "A",
+                "index2ans": {
+                    "A": "yes",
+                    "B": "no"
+                },
+                "question": "The agent in the video was given the instruction - put pear in the bowl. Was the agent successful in completing the task specified by the instruction?",
+                "task": "task:success:discrete:True"
+            },
+            "video_id": "11629751093829631910.mp4",
+            "question": "The agent in the video was given the instruction - put pear in the bowl. Was the agent successful in completing the task specified by the instruction?",
+            "answer_index": "A",
+            "options": {
+                "A": "yes",
+                "B": "no"
+            },
+            "type_key": "task:success:discrete:True"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/11629751093829631910.mp4"
+    },
+    {
+        "video_id": "6625633330054221539.mp4",
+        "caption": "",
+        "question": "The agent in the video was given the instruction - pick up the watermelon hint bottle. Was the agent successful in completing the task specified by the instruction?",
+        "answer": "B",
+        "option": {
+            "A": "no",
+            "B": "yes"
+        },
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "task:success:discrete:True",
+        "meta_data": {
+            "video": "clips/6625633330054221539.mp4",
+            "qa_pairs": {
+                "answer": "B",
+                "index2ans": {
+                    "A": "no",
+                    "B": "yes"
+                },
+                "question": "The agent in the video was given the instruction - pick up the watermelon hint bottle. Was the agent successful in completing the task specified by the instruction?",
+                "task": "task:success:discrete:True"
+            },
+            "video_id": "6625633330054221539.mp4",
+            "question": "The agent in the video was given the instruction - pick up the watermelon hint bottle. Was the agent successful in completing the task specified by the instruction?",
+            "answer_index": "B",
+            "options": {
+                "A": "no",
+                "B": "yes"
+            },
+            "type_key": "task:success:discrete:True"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/6625633330054221539.mp4"
+    }
+]

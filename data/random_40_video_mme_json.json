@@ -1,0 +1,1242 @@
+[
+    {
+        "video_id": "0rCbfsuKdYw.mp4",
+        "caption": "",
+        "question": "According to the video, guess how many times more powerful is the PS5 than the PS2?",
+        "answer": "A",
+        "option": [
+            "A. 2800.",
+            "B. 3800.",
+            "C. 380.",
+            "D. 80."
+        ],
+        "meta_data": {
+            "video_id": "389",
+            "duration": "medium",
+            "domain": "Knowledge",
+            "sub_category": "Technology",
+            "url": "https://www.youtube.com/watch?v=0rCbfsuKdYw",
+            "videoID": "0rCbfsuKdYw",
+            "question_id": "389-3",
+            "task_type": "Object Reasoning",
+            "question": "According to the video, guess how many times more powerful is the PS5 than the PS2?",
+            "options": [
+                "A. 2800.",
+                "B. 3800.",
+                "C. 380.",
+                "D. 80."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/0rCbfsuKdYw.mp4"
+    },
+    {
+        "video_id": "3EQLFHRHpag.mp4",
+        "caption": "",
+        "question": "What emotion is the song sung by the woman at the end of the video expressing?",
+        "answer": "B",
+        "option": [
+            "A. Respect for leaders.",
+            "B. Concern about climate change.",
+            "C. Yearning for a beautiful love.",
+            "D. Longing for the outside world."
+        ],
+        "meta_data": {
+            "video_id": "419",
+            "duration": "medium",
+            "domain": "Film & Television",
+            "sub_category": "Documentary",
+            "url": "https://www.youtube.com/watch?v=3EQLFHRHpag",
+            "videoID": "3EQLFHRHpag",
+            "question_id": "419-3",
+            "task_type": "Attribute Perception",
+            "question": "What emotion is the song sung by the woman at the end of the video expressing?",
+            "options": [
+                "A. Respect for leaders.",
+                "B. Concern about climate change.",
+                "C. Yearning for a beautiful love.",
+                "D. Longing for the outside world."
+            ],
+            "answer": "B"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/3EQLFHRHpag.mp4"
+    },
+    {
+        "video_id": "5fPtlxR3s3c.mp4",
+        "caption": "",
+        "question": "What is the main theme of this video?",
+        "answer": "D",
+        "option": [
+            "A. Highlights from Team USA during the FIBA Women's Basketball World Cup.",
+            "B. A compilation of the top five plays from the Men's Basketball World Cup.",
+            "C. A countdown of the top 10 moments from the Men's Basketball World Cup.",
+            "D. A countdown of the top 5 moments from the Women's Basketball World Cup."
+        ],
+        "meta_data": {
+            "video_id": "149",
+            "duration": "short",
+            "domain": "Sports Competition",
+            "sub_category": "Basketball",
+            "url": "https://www.youtube.com/watch?v=5fPtlxR3s3c",
+            "videoID": "5fPtlxR3s3c",
+            "question_id": "149-3",
+            "task_type": "Information Synopsis",
+            "question": "What is the main theme of this video?",
+            "options": [
+                "A. Highlights from Team USA during the FIBA Women's Basketball World Cup.",
+                "B. A compilation of the top five plays from the Men's Basketball World Cup.",
+                "C. A countdown of the top 10 moments from the Men's Basketball World Cup.",
+                "D. A countdown of the top 5 moments from the Women's Basketball World Cup."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/5fPtlxR3s3c.mp4"
+    },
+    {
+        "video_id": "9HPFkUhOp1Q.mp4",
+        "caption": "",
+        "question": "According to this video, in which order do the following events happen?\n(a) A ring jumps into the finger.\n(b) A coin jumps from hand to hand.\n(c) The cigarette disappers and reappears.\n(d) A coin changes into a card.",
+        "answer": "A",
+        "option": [
+            "A. (a)(c)(d)(b).",
+            "B. (a)(b)(d)(c).",
+            "C. (b)(c)(a)(d).",
+            "D. (c)(d)(b)(a)."
+        ],
+        "meta_data": {
+            "video_id": "497",
+            "duration": "medium",
+            "domain": "Artistic Performance",
+            "sub_category": "Magic Show",
+            "url": "https://www.youtube.com/watch?v=9HPFkUhOp1Q",
+            "videoID": "9HPFkUhOp1Q",
+            "question_id": "497-1",
+            "task_type": "Temporal Reasoning",
+            "question": "According to this video, in which order do the following events happen?\n(a) A ring jumps into the finger.\n(b) A coin jumps from hand to hand.\n(c) The cigarette disappers and reappears.\n(d) A coin changes into a card.",
+            "options": [
+                "A. (a)(c)(d)(b).",
+                "B. (a)(b)(d)(c).",
+                "C. (b)(c)(a)(d).",
+                "D. (c)(d)(b)(a)."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/9HPFkUhOp1Q.mp4"
+    },
+    {
+        "video_id": "2za5RwplXdI.mp4",
+        "caption": "",
+        "question": "What happens when a star falls on the earth?",
+        "answer": "D",
+        "option": [
+            "A. It smashes a big hole in the ground.",
+            "B. It brings elements that never shows on earth.",
+            "C. It makes a beautiful star sky.",
+            "D. It causes a disaster and destroys dinosaurs."
+        ],
+        "meta_data": {
+            "video_id": "397",
+            "duration": "medium",
+            "domain": "Film & Television",
+            "sub_category": "Animation",
+            "url": "https://www.youtube.com/watch?v=2za5RwplXdI",
+            "videoID": "2za5RwplXdI",
+            "question_id": "397-1",
+            "task_type": "Action Recognition",
+            "question": "What happens when a star falls on the earth?",
+            "options": [
+                "A. It smashes a big hole in the ground.",
+                "B. It brings elements that never shows on earth.",
+                "C. It makes a beautiful star sky.",
+                "D. It causes a disaster and destroys dinosaurs."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/2za5RwplXdI.mp4"
+    },
+    {
+        "video_id": "2za5RwplXdI.mp4",
+        "caption": "",
+        "question": "According to the video, what do the dead dinosaurs transform into?",
+        "answer": "B",
+        "option": [
+            "A. Star and sun.",
+            "B. Birds.",
+            "C. Human.",
+            "D. Stone."
+        ],
+        "meta_data": {
+            "video_id": "397",
+            "duration": "medium",
+            "domain": "Film & Television",
+            "sub_category": "Animation",
+            "url": "https://www.youtube.com/watch?v=2za5RwplXdI",
+            "videoID": "2za5RwplXdI",
+            "question_id": "397-2",
+            "task_type": "Object Recognition",
+            "question": "According to the video, what do the dead dinosaurs transform into?",
+            "options": [
+                "A. Star and sun.",
+                "B. Birds.",
+                "C. Human.",
+                "D. Stone."
+            ],
+            "answer": "B"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/2za5RwplXdI.mp4"
+    },
+    {
+        "video_id": "4IenX7OHumk.mp4",
+        "caption": "",
+        "question": "Which location appears in the video?",
+        "answer": "B",
+        "option": [
+            "A. Aisa.",
+            "B. Africa.",
+            "C. Europe.",
+            "D. Antarctica."
+        ],
+        "meta_data": {
+            "video_id": "875",
+            "duration": "long",
+            "domain": "Life Record",
+            "sub_category": "Pet & Animal",
+            "url": "https://www.youtube.com/watch?v=4IenX7OHumk",
+            "videoID": "4IenX7OHumk",
+            "question_id": "875-1",
+            "task_type": "Spatial Reasoning",
+            "question": "Which location appears in the video?",
+            "options": [
+                "A. Aisa.",
+                "B. Africa.",
+                "C. Europe.",
+                "D. Antarctica."
+            ],
+            "answer": "B"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/4IenX7OHumk.mp4"
+    },
+    {
+        "video_id": "80p80ynsZ78.mp4",
+        "caption": "",
+        "question": "Which of the following is the main color of the racetrack?",
+        "answer": "C",
+        "option": [
+            "A. Purple.",
+            "B. White.",
+            "C. Pink.",
+            "D. Blue."
+        ],
+        "meta_data": {
+            "video_id": "139",
+            "duration": "short",
+            "domain": "Sports Competition",
+            "sub_category": "Esports",
+            "url": "https://www.youtube.com/watch?v=80p80ynsZ78",
+            "videoID": "80p80ynsZ78",
+            "question_id": "139-1",
+            "task_type": "Attribute Perception",
+            "question": "Which of the following is the main color of the racetrack?",
+            "options": [
+                "A. Purple.",
+                "B. White.",
+                "C. Pink.",
+                "D. Blue."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/80p80ynsZ78.mp4"
+    },
+    {
+        "video_id": "54YD3Gv-3MI.mp4",
+        "caption": "",
+        "question": "How many players are participating in the game?",
+        "answer": "D",
+        "option": [
+            "A. 6.",
+            "B. 4.",
+            "C. 3.",
+            "D. 5."
+        ],
+        "meta_data": {
+            "video_id": "180",
+            "duration": "short",
+            "domain": "Sports Competition",
+            "sub_category": "Other Sports",
+            "url": "https://www.youtube.com/watch?v=54YD3Gv-3MI",
+            "videoID": "54YD3Gv-3MI",
+            "question_id": "180-1",
+            "task_type": "Counting Problem",
+            "question": "How many players are participating in the game?",
+            "options": [
+                "A. 6.",
+                "B. 4.",
+                "C. 3.",
+                "D. 5."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/54YD3Gv-3MI.mp4"
+    },
+    {
+        "video_id": "9v9NHoTXc-Q.mp4",
+        "caption": "",
+        "question": "What color are the shoes worn by the boy with the white hat?",
+        "answer": "A",
+        "option": [
+            "A. Bright blue.",
+            "B. Black and white.",
+            "C. Dark purple.",
+            "D. Grey."
+        ],
+        "meta_data": {
+            "video_id": "244",
+            "duration": "short",
+            "domain": "Life Record",
+            "sub_category": "Fashion",
+            "url": "https://www.youtube.com/watch?v=9v9NHoTXc-Q",
+            "videoID": "9v9NHoTXc-Q",
+            "question_id": "244-1",
+            "task_type": "Attribute Perception",
+            "question": "What color are the shoes worn by the boy with the white hat?",
+            "options": [
+                "A. Bright blue.",
+                "B. Black and white.",
+                "C. Dark purple.",
+                "D. Grey."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/9v9NHoTXc-Q.mp4"
+    },
+    {
+        "video_id": "5kmnEgBSCfg.mp4",
+        "caption": "",
+        "question": "What is the primary item that the two men in the video utilize for their workout?",
+        "answer": "B",
+        "option": [
+            "A. Dumbbel.",
+            "B. Black bench.",
+            "C. Black sofa.",
+            "D. Black iron plate."
+        ],
+        "meta_data": {
+            "video_id": "286",
+            "duration": "short",
+            "domain": "Life Record",
+            "sub_category": "Exercise",
+            "url": "https://www.youtube.com/watch?v=5kmnEgBSCfg",
+            "videoID": "5kmnEgBSCfg",
+            "question_id": "286-2",
+            "task_type": "Object Recognition",
+            "question": "What is the primary item that the two men in the video utilize for their workout?",
+            "options": [
+                "A. Dumbbel.",
+                "B. Black bench.",
+                "C. Black sofa.",
+                "D. Black iron plate."
+            ],
+            "answer": "B"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/5kmnEgBSCfg.mp4"
+    },
+    {
+        "video_id": "7D-gxaie6UI.mp4",
+        "caption": "",
+        "question": "In accordance with the video footage, which of the following diseases causes the most deaths?",
+        "answer": "A",
+        "option": [
+            "A. Tuberculosis.",
+            "B. Malaria.",
+            "C. Cholera.",
+            "D. Typhoid."
+        ],
+        "meta_data": {
+            "video_id": "603",
+            "duration": "long",
+            "domain": "Knowledge",
+            "sub_category": "Humanity & History",
+            "url": "https://www.youtube.com/watch?v=7D-gxaie6UI",
+            "videoID": "7D-gxaie6UI",
+            "question_id": "603-1",
+            "task_type": "Object Reasoning",
+            "question": "In accordance with the video footage, which of the following diseases causes the most deaths?",
+            "options": [
+                "A. Tuberculosis.",
+                "B. Malaria.",
+                "C. Cholera.",
+                "D. Typhoid."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/7D-gxaie6UI.mp4"
+    },
+    {
+        "video_id": "40BlVzjxu-I.mp4",
+        "caption": "",
+        "question": "What is special about the celebration in New York according to the video?",
+        "answer": "A",
+        "option": [
+            "A. Hosting large parades.",
+            "B. Dressing in green and dyeing the river to green.",
+            "C. Drinking a lot.",
+            "D. Planting shamrocks."
+        ],
+        "meta_data": {
+            "video_id": "006",
+            "duration": "short",
+            "domain": "Knowledge",
+            "sub_category": "Humanity & History",
+            "url": "https://www.youtube.com/watch?v=40BlVzjxu-I",
+            "videoID": "40BlVzjxu-I",
+            "question_id": "006-3",
+            "task_type": "Action Recognition",
+            "question": "What is special about the celebration in New York according to the video?",
+            "options": [
+                "A. Hosting large parades.",
+                "B. Dressing in green and dyeing the river to green.",
+                "C. Drinking a lot.",
+                "D. Planting shamrocks."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/40BlVzjxu-I.mp4"
+    },
+    {
+        "video_id": "5Z2_uRf7ckY.mp4",
+        "caption": "",
+        "question": "What clothing was not copied in the clip showing the plagiarism against Zara?",
+        "answer": "D",
+        "option": [
+            "A. High heels.",
+            "B. Floral Shirt.",
+            "C. Dress.",
+            "D. Jeans."
+        ],
+        "meta_data": {
+            "video_id": "850",
+            "duration": "long",
+            "domain": "Life Record",
+            "sub_category": "Fashion",
+            "url": "https://www.youtube.com/watch?v=5Z2_uRf7ckY",
+            "videoID": "5Z2_uRf7ckY",
+            "question_id": "850-2",
+            "task_type": "Object Recognition",
+            "question": "What clothing was not copied in the clip showing the plagiarism against Zara?",
+            "options": [
+                "A. High heels.",
+                "B. Floral Shirt.",
+                "C. Dress.",
+                "D. Jeans."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/5Z2_uRf7ckY.mp4"
+    },
+    {
+        "video_id": "5wLv3pCqZ9o.mp4",
+        "caption": "",
+        "question": "Which of the following is visible in the background of the video when the miniature bottle is shown empty?",
+        "answer": "C",
+        "option": [
+            "A. Water.",
+            "B. Cork.",
+            "C. Shells.",
+            "D. Star."
+        ],
+        "meta_data": {
+            "video_id": "013",
+            "duration": "short",
+            "domain": "Knowledge",
+            "sub_category": "Literature & Art",
+            "url": "https://www.youtube.com/watch?v=5wLv3pCqZ9o",
+            "videoID": "5wLv3pCqZ9o",
+            "question_id": "013-1",
+            "task_type": "Spatial Perception",
+            "question": "Which of the following is visible in the background of the video when the miniature bottle is shown empty?",
+            "options": [
+                "A. Water.",
+                "B. Cork.",
+                "C. Shells.",
+                "D. Star."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/5wLv3pCqZ9o.mp4"
+    },
+    {
+        "video_id": "5i5Be73ESUc.mp4",
+        "caption": "",
+        "question": "Which of the following things was not discussed by the heroine while driving to work?",
+        "answer": "C",
+        "option": [
+            "A. Preview of the main content of this video.",
+            "B. Her occupation and place of work.",
+            "C. Her job search process.",
+            "D. Some of her experiences at work."
+        ],
+        "meta_data": {
+            "video_id": "858",
+            "duration": "long",
+            "domain": "Life Record",
+            "sub_category": "Daily Life",
+            "url": "https://www.youtube.com/watch?v=5i5Be73ESUc",
+            "videoID": "5i5Be73ESUc",
+            "question_id": "858-1",
+            "task_type": "Information Synopsis",
+            "question": "Which of the following things was not discussed by the heroine while driving to work?",
+            "options": [
+                "A. Preview of the main content of this video.",
+                "B. Her occupation and place of work.",
+                "C. Her job search process.",
+                "D. Some of her experiences at work."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/5i5Be73ESUc.mp4"
+    },
+    {
+        "video_id": "4H8hcvNeWtg.mp4",
+        "caption": "",
+        "question": "What is the total number of people in the video?",
+        "answer": "A",
+        "option": [
+            "A. 7.",
+            "B. 6.",
+            "C. 5.",
+            "D. 8."
+        ],
+        "meta_data": {
+            "video_id": "206",
+            "duration": "short",
+            "domain": "Artistic Performance",
+            "sub_category": "Variety Show",
+            "url": "https://www.youtube.com/watch?v=4H8hcvNeWtg",
+            "videoID": "4H8hcvNeWtg",
+            "question_id": "206-1",
+            "task_type": "Counting Problem",
+            "question": "What is the total number of people in the video?",
+            "options": [
+                "A. 7.",
+                "B. 6.",
+                "C. 5.",
+                "D. 8."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/4H8hcvNeWtg.mp4"
+    },
+    {
+        "video_id": "5y5_VyEwZhc.mp4",
+        "caption": "",
+        "question": "Which acrobatic skill is absent from this video?",
+        "answer": "D",
+        "option": [
+            "A. Trampoline.",
+            "B. Hula hoops.",
+            "C. Ropes.",
+            "D. Stilts."
+        ],
+        "meta_data": {
+            "video_id": "813",
+            "duration": "long",
+            "domain": "Artistic Performance",
+            "sub_category": "Acrobatics",
+            "url": "https://www.youtube.com/watch?v=5y5_VyEwZhc",
+            "videoID": "5y5_VyEwZhc",
+            "question_id": "813-1",
+            "task_type": "Action Recognition",
+            "question": "Which acrobatic skill is absent from this video?",
+            "options": [
+                "A. Trampoline.",
+                "B. Hula hoops.",
+                "C. Ropes.",
+                "D. Stilts."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/5y5_VyEwZhc.mp4"
+    },
+    {
+        "video_id": "9edWX7TTsLw.mp4",
+        "caption": "",
+        "question": "Which of the following is NOT a reason for water scarcity mentioned in the video?",
+        "answer": "C",
+        "option": [
+            "A. Climate change.",
+            "B. High consumption by industrial production.",
+            "C. Population growth leading to increased consumption of drinking water.",
+            "D. High consumption by agricultural production."
+        ],
+        "meta_data": {
+            "video_id": "715",
+            "duration": "long",
+            "domain": "Film & Television",
+            "sub_category": "Documentary",
+            "url": "https://www.youtube.com/watch?v=9edWX7TTsLw",
+            "videoID": "9edWX7TTsLw",
+            "question_id": "715-3",
+            "task_type": "Information Synopsis",
+            "question": "Which of the following is NOT a reason for water scarcity mentioned in the video?",
+            "options": [
+                "A. Climate change.",
+                "B. High consumption by industrial production.",
+                "C. Population growth leading to increased consumption of drinking water.",
+                "D. High consumption by agricultural production."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/9edWX7TTsLw.mp4"
+    },
+    {
+        "video_id": "aFfMGy94sjE.mp4",
+        "caption": "",
+        "question": "What is the video mainly about?",
+        "answer": "D",
+        "option": [
+            "A. The daily work of a prosecutor.",
+            "B. The daily law enforcement process of the police.",
+            "C. The daily work of a prison guard.",
+            "D. The daily work of a police records specialist."
+        ],
+        "meta_data": {
+            "video_id": "256",
+            "duration": "short",
+            "domain": "Life Record",
+            "sub_category": "Daily Life",
+            "url": "https://www.youtube.com/watch?v=aFfMGy94sjE",
+            "videoID": "aFfMGy94sjE",
+            "question_id": "256-1",
+            "task_type": "Information Synopsis",
+            "question": "What is the video mainly about?",
+            "options": [
+                "A. The daily work of a prosecutor.",
+                "B. The daily law enforcement process of the police.",
+                "C. The daily work of a prison guard.",
+                "D. The daily work of a police records specialist."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/aFfMGy94sjE.mp4"
+    },
+    {
+        "video_id": "44G3dPME330.mp4",
+        "caption": "",
+        "question": "What common element do these clips in the video share?",
+        "answer": "D",
+        "option": [
+            "A. There are four people in the room.",
+            "B. Everyone is eating something.",
+            "C. Everyone is sitting on the couch.",
+            "D. Sheldon changed the Wi-Fi password."
+        ],
+        "meta_data": {
+            "video_id": "402",
+            "duration": "medium",
+            "domain": "Film & Television",
+            "sub_category": "Movie & TV Show",
+            "url": "https://www.youtube.com/watch?v=44G3dPME330",
+            "videoID": "44G3dPME330",
+            "question_id": "402-2",
+            "task_type": "Object Reasoning",
+            "question": "What common element do these clips in the video share?",
+            "options": [
+                "A. There are four people in the room.",
+                "B. Everyone is eating something.",
+                "C. Everyone is sitting on the couch.",
+                "D. Sheldon changed the Wi-Fi password."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/44G3dPME330.mp4"
+    },
+    {
+        "video_id": "44ivpEIcBhE.mp4",
+        "caption": "",
+        "question": "Which instrument is the performer on the stage holding in the video?",
+        "answer": "B",
+        "option": [
+            "A. Trumpet.",
+            "B. Saxophone.",
+            "C. Violin.",
+            "D. Guitar."
+        ],
+        "meta_data": {
+            "video_id": "208",
+            "duration": "short",
+            "domain": "Artistic Performance",
+            "sub_category": "Variety Show",
+            "url": "https://www.youtube.com/watch?v=44ivpEIcBhE",
+            "videoID": "44ivpEIcBhE",
+            "question_id": "208-1",
+            "task_type": "Object Recognition",
+            "question": "Which instrument is the performer on the stage holding in the video?",
+            "options": [
+                "A. Trumpet.",
+                "B. Saxophone.",
+                "C. Violin.",
+                "D. Guitar."
+            ],
+            "answer": "B"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/44ivpEIcBhE.mp4"
+    },
+    {
+        "video_id": "9v9NHoTXc-Q.mp4",
+        "caption": "",
+        "question": "Which of the following objects is the pink satin high-heeled shoe placed on in the video?",
+        "answer": "C",
+        "option": [
+            "A. Chair.",
+            "B. Sofa.",
+            "C. Record player.",
+            "D. Stair."
+        ],
+        "meta_data": {
+            "video_id": "244",
+            "duration": "short",
+            "domain": "Life Record",
+            "sub_category": "Fashion",
+            "url": "https://www.youtube.com/watch?v=9v9NHoTXc-Q",
+            "videoID": "9v9NHoTXc-Q",
+            "question_id": "244-2",
+            "task_type": "Spatial Perception",
+            "question": "Which of the following objects is the pink satin high-heeled shoe placed on in the video?",
+            "options": [
+                "A. Chair.",
+                "B. Sofa.",
+                "C. Record player.",
+                "D. Stair."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/9v9NHoTXc-Q.mp4"
+    },
+    {
+        "video_id": "0Y9-MQ44MdU.mp4",
+        "caption": "",
+        "question": "What is the largest run differential in the first inning of the game in the video?",
+        "answer": "A",
+        "option": [
+            "A. 4.",
+            "B. 3.",
+            "C. 2.",
+            "D. 1."
+        ],
+        "meta_data": {
+            "video_id": "445",
+            "duration": "medium",
+            "domain": "Sports Competition",
+            "sub_category": "Basketball",
+            "url": "https://www.youtube.com/watch?v=0Y9-MQ44MdU",
+            "videoID": "0Y9-MQ44MdU",
+            "question_id": "445-2",
+            "task_type": "Attribute Perception",
+            "question": "What is the largest run differential in the first inning of the game in the video?",
+            "options": [
+                "A. 4.",
+                "B. 3.",
+                "C. 2.",
+                "D. 1."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/0Y9-MQ44MdU.mp4"
+    },
+    {
+        "video_id": "3rTsETO3s9U.mp4",
+        "caption": "",
+        "question": "How does the girl perceive her future with regard to decision-making and control?",
+        "answer": "C",
+        "option": [
+            "A. She doesn't care about her future.",
+            "B. She wishes to make decision by herself.",
+            "C. She feels she will be controlled by her mom.",
+            "D. She has no hope for the future."
+        ],
+        "meta_data": {
+            "video_id": "092",
+            "duration": "short",
+            "domain": "Film & Television",
+            "sub_category": "Animation",
+            "url": "https://www.youtube.com/watch?v=3rTsETO3s9U",
+            "videoID": "3rTsETO3s9U",
+            "question_id": "092-3",
+            "task_type": "Action Reasoning",
+            "question": "How does the girl perceive her future with regard to decision-making and control?",
+            "options": [
+                "A. She doesn't care about her future.",
+                "B. She wishes to make decision by herself.",
+                "C. She feels she will be controlled by her mom.",
+                "D. She has no hope for the future."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/3rTsETO3s9U.mp4"
+    },
+    {
+        "video_id": "4V6G0qYVoBg.mp4",
+        "caption": "",
+        "question": "What is on the legend when he is hit by the turret?",
+        "answer": "D",
+        "option": [
+            "A. Sand.",
+            "B. Ice.",
+            "C. Thunder.",
+            "D. Fire."
+        ],
+        "meta_data": {
+            "video_id": "132",
+            "duration": "short",
+            "domain": "Sports Competition",
+            "sub_category": "Esports",
+            "url": "https://www.youtube.com/watch?v=4V6G0qYVoBg",
+            "videoID": "4V6G0qYVoBg",
+            "question_id": "132-1",
+            "task_type": "Object Recognition",
+            "question": "What is on the legend when he is hit by the turret?",
+            "options": [
+                "A. Sand.",
+                "B. Ice.",
+                "C. Thunder.",
+                "D. Fire."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/4V6G0qYVoBg.mp4"
+    },
+    {
+        "video_id": "7TydWUguPRU.mp4",
+        "caption": "",
+        "question": "How is the seventh performance different from the others?",
+        "answer": "C",
+        "option": [
+            "A. There are male and female performances.",
+            "B. There are performers singing.",
+            "C. Use the musical score.",
+            "D. Multiple hula hoops were used."
+        ],
+        "meta_data": {
+            "video_id": "815",
+            "duration": "long",
+            "domain": "Artistic Performance",
+            "sub_category": "Acrobatics",
+            "url": "https://www.youtube.com/watch?v=7TydWUguPRU",
+            "videoID": "7TydWUguPRU",
+            "question_id": "815-3",
+            "task_type": "Action Reasoning",
+            "question": "How is the seventh performance different from the others?",
+            "options": [
+                "A. There are male and female performances.",
+                "B. There are performers singing.",
+                "C. Use the musical score.",
+                "D. Multiple hula hoops were used."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/7TydWUguPRU.mp4"
+    },
+    {
+        "video_id": "2QTiAmvygC4.mp4",
+        "caption": "",
+        "question": "What is happening in the video?",
+        "answer": "D",
+        "option": [
+            "A. They are performing a drama.",
+            "B. They are reciting poetry.",
+            "C. They are performing acrobatics.",
+            "D. They are singing a song."
+        ],
+        "meta_data": {
+            "video_id": "182",
+            "duration": "short",
+            "domain": "Artistic Performance",
+            "sub_category": "Stage Play",
+            "url": "https://www.youtube.com/watch?v=2QTiAmvygC4",
+            "videoID": "2QTiAmvygC4",
+            "question_id": "182-3",
+            "task_type": "Information Synopsis",
+            "question": "What is happening in the video?",
+            "options": [
+                "A. They are performing a drama.",
+                "B. They are reciting poetry.",
+                "C. They are performing acrobatics.",
+                "D. They are singing a song."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/2QTiAmvygC4.mp4"
+    },
+    {
+        "video_id": "0ag_Qi5OEd0.mp4",
+        "caption": "",
+        "question": "What does the finished handcraft look like?",
+        "answer": "D",
+        "option": [
+            "A. A burning fire.",
+            "B. A sunflower.",
+            "C. A rattle.",
+            "D. An octopus."
+        ],
+        "meta_data": {
+            "video_id": "522",
+            "duration": "medium",
+            "domain": "Life Record",
+            "sub_category": "Handicraft",
+            "url": "https://www.youtube.com/watch?v=0ag_Qi5OEd0",
+            "videoID": "0ag_Qi5OEd0",
+            "question_id": "522-2",
+            "task_type": "Object Reasoning",
+            "question": "What does the finished handcraft look like?",
+            "options": [
+                "A. A burning fire.",
+                "B. A sunflower.",
+                "C. A rattle.",
+                "D. An octopus."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/0ag_Qi5OEd0.mp4"
+    },
+    {
+        "video_id": "A30IuIjQYYg.mp4",
+        "caption": "",
+        "question": "What is the correct order in which the activities appear in the video?",
+        "answer": "A",
+        "option": [
+            "A. Fire dance, marine photography, cave adventure.",
+            "B. Fire dance, cave adventure, marine photography.",
+            "C. Cave adventure, marine photography, fire dance.",
+            "D. Marine photography,  fire dance, cave adventure."
+        ],
+        "meta_data": {
+            "video_id": "561",
+            "duration": "medium",
+            "domain": "Life Record",
+            "sub_category": "Travel",
+            "url": "https://www.youtube.com/watch?v=A30IuIjQYYg",
+            "videoID": "A30IuIjQYYg",
+            "question_id": "561-2",
+            "task_type": "Temporal Reasoning",
+            "question": "What is the correct order in which the activities appear in the video?",
+            "options": [
+                "A. Fire dance, marine photography, cave adventure.",
+                "B. Fire dance, cave adventure, marine photography.",
+                "C. Cave adventure, marine photography, fire dance.",
+                "D. Marine photography,  fire dance, cave adventure."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/A30IuIjQYYg.mp4"
+    },
+    {
+        "video_id": "5WIdIs3A9Ok.mp4",
+        "caption": "",
+        "question": "Why do capybaras dive into water in the video?",
+        "answer": "D",
+        "option": [
+            "A. They need to move to other places to live.",
+            "B. They are scared.",
+            "C. They have a habit of swim.",
+            "D. They hear signals from peers."
+        ],
+        "meta_data": {
+            "video_id": "877",
+            "duration": "long",
+            "domain": "Life Record",
+            "sub_category": "Pet & Animal",
+            "url": "https://www.youtube.com/watch?v=5WIdIs3A9Ok",
+            "videoID": "5WIdIs3A9Ok",
+            "question_id": "877-2",
+            "task_type": "Action Reasoning",
+            "question": "Why do capybaras dive into water in the video?",
+            "options": [
+                "A. They need to move to other places to live.",
+                "B. They are scared.",
+                "C. They have a habit of swim.",
+                "D. They hear signals from peers."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/5WIdIs3A9Ok.mp4"
+    },
+    {
+        "video_id": "4ME5ZfDg2aw.mp4",
+        "caption": "",
+        "question": "Why does the author feel betrayed at the beginning of the video?",
+        "answer": "B",
+        "option": [
+            "A. Greenland is deserted.",
+            "B. Greenland is not green.",
+            "C. Greenland is very cold.",
+            "D. Greenland is very expensive."
+        ],
+        "meta_data": {
+            "video_id": "566",
+            "duration": "medium",
+            "domain": "Life Record",
+            "sub_category": "Travel",
+            "url": "https://www.youtube.com/watch?v=4ME5ZfDg2aw",
+            "videoID": "4ME5ZfDg2aw",
+            "question_id": "566-1",
+            "task_type": "Object Reasoning",
+            "question": "Why does the author feel betrayed at the beginning of the video?",
+            "options": [
+                "A. Greenland is deserted.",
+                "B. Greenland is not green.",
+                "C. Greenland is very cold.",
+                "D. Greenland is very expensive."
+            ],
+            "answer": "B"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/4ME5ZfDg2aw.mp4"
+    },
+    {
+        "video_id": "5KlS-p5eYH8.mp4",
+        "caption": "",
+        "question": "In line with the video evidence, why does the heroine in the video only do butt training once a week?",
+        "answer": "B",
+        "option": [
+            "A. Because the heroine's buttocks are already strong enough.",
+            "B. Because the heroine thinks it takes time for the buttock muscles to recover.",
+            "C. Because the heroine doesn't have time to do butt training.",
+            "D. Because the heroine wants to achieve the best result in the marathon."
+        ],
+        "meta_data": {
+            "video_id": "900",
+            "duration": "long",
+            "domain": "Multilingual",
+            "sub_category": "Multilingual",
+            "url": "https://www.youtube.com/watch?v=5KlS-p5eYH8",
+            "videoID": "5KlS-p5eYH8",
+            "question_id": "900-1",
+            "task_type": "Action Reasoning",
+            "question": "In line with the video evidence, why does the heroine in the video only do butt training once a week?",
+            "options": [
+                "A. Because the heroine's buttocks are already strong enough.",
+                "B. Because the heroine thinks it takes time for the buttock muscles to recover.",
+                "C. Because the heroine doesn't have time to do butt training.",
+                "D. Because the heroine wants to achieve the best result in the marathon."
+            ],
+            "answer": "B"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/5KlS-p5eYH8.mp4"
+    },
+    {
+        "video_id": "6Pt3-NDxzRk.mp4",
+        "caption": "",
+        "question": "What does this video show?",
+        "answer": "C",
+        "option": [
+            "A. A woman documents her daily meals and exercise routine for a week.",
+            "B. A woman prepares for a big event by following a strict diet and exercise regimen.",
+            "C. A woman shows off a weekly diet that goes with her fitness plan.",
+            "D. A woman shows off her cooking skills by keeping a diary of her meals for a week."
+        ],
+        "meta_data": {
+            "video_id": "831",
+            "duration": "long",
+            "domain": "Life Record",
+            "sub_category": "Food",
+            "url": "https://www.youtube.com/watch?v=6Pt3-NDxzRk",
+            "videoID": "6Pt3-NDxzRk",
+            "question_id": "831-1",
+            "task_type": "Information Synopsis",
+            "question": "What does this video show?",
+            "options": [
+                "A. A woman documents her daily meals and exercise routine for a week.",
+                "B. A woman prepares for a big event by following a strict diet and exercise regimen.",
+                "C. A woman shows off a weekly diet that goes with her fitness plan.",
+                "D. A woman shows off her cooking skills by keeping a diary of her meals for a week."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/6Pt3-NDxzRk.mp4"
+    },
+    {
+        "video_id": "4qYqPmIO0v0.mp4",
+        "caption": "",
+        "question": "How many athletic goals did LIT score from the last technical statistic on shooting percentage before halftime to the end of the half?",
+        "answer": "A",
+        "option": [
+            "A. 4.",
+            "B. 2.",
+            "C. 1.",
+            "D. 6."
+        ],
+        "meta_data": {
+            "video_id": "747",
+            "duration": "long",
+            "domain": "Sports Competition",
+            "sub_category": "Basketball",
+            "url": "https://www.youtube.com/watch?v=4qYqPmIO0v0",
+            "videoID": "4qYqPmIO0v0",
+            "question_id": "747-2",
+            "task_type": "Counting Problem",
+            "question": "How many athletic goals did LIT score from the last technical statistic on shooting percentage before halftime to the end of the half?",
+            "options": [
+                "A. 4.",
+                "B. 2.",
+                "C. 1.",
+                "D. 6."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/4qYqPmIO0v0.mp4"
+    },
+    {
+        "video_id": "AIs3LoU4JUo.mp4",
+        "caption": "",
+        "question": "How does the man feel about the food?",
+        "answer": "D",
+        "option": [
+            "A. Sweet.",
+            "B. Bland.",
+            "C. Disgusting.",
+            "D. Delicious."
+        ],
+        "meta_data": {
+            "video_id": "297",
+            "duration": "short",
+            "domain": "Multilingual",
+            "sub_category": "Multilingual",
+            "url": "https://www.youtube.com/watch?v=AIs3LoU4JUo",
+            "videoID": "AIs3LoU4JUo",
+            "question_id": "297-3",
+            "task_type": "Action Reasoning",
+            "question": "How does the man feel about the food?",
+            "options": [
+                "A. Sweet.",
+                "B. Bland.",
+                "C. Disgusting.",
+                "D. Delicious."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/AIs3LoU4JUo.mp4"
+    },
+    {
+        "video_id": "540LkURTR7g.mp4",
+        "caption": "",
+        "question": "What is the color of the tall drinking glass initially held by the woman?",
+        "answer": "A",
+        "option": [
+            "A. Blue.",
+            "B. Red.",
+            "C. Green.",
+            "D. Yellow."
+        ],
+        "meta_data": {
+            "video_id": "077",
+            "duration": "short",
+            "domain": "Knowledge",
+            "sub_category": "Life Tip",
+            "url": "https://www.youtube.com/watch?v=540LkURTR7g",
+            "videoID": "540LkURTR7g",
+            "question_id": "077-1",
+            "task_type": "Attribute Perception",
+            "question": "What is the color of the tall drinking glass initially held by the woman?",
+            "options": [
+                "A. Blue.",
+                "B. Red.",
+                "C. Green.",
+                "D. Yellow."
+            ],
+            "answer": "A"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/540LkURTR7g.mp4"
+    },
+    {
+        "video_id": "1uqupftxFOM.mp4",
+        "caption": "",
+        "question": "What sentence best describes the performance?",
+        "answer": "C",
+        "option": [
+            "A. The magic is not wonderful enough to make the audiences cheer up.",
+            "B. One of the judges stops the performance.",
+            "C. The magician does the magic with his eyes closed.",
+            "D. The magician needs other tools besides leathers."
+        ],
+        "meta_data": {
+            "video_id": "496",
+            "duration": "medium",
+            "domain": "Artistic Performance",
+            "sub_category": "Magic Show",
+            "url": "https://www.youtube.com/watch?v=1uqupftxFOM",
+            "videoID": "1uqupftxFOM",
+            "question_id": "496-3",
+            "task_type": "Action Reasoning",
+            "question": "What sentence best describes the performance?",
+            "options": [
+                "A. The magic is not wonderful enough to make the audiences cheer up.",
+                "B. One of the judges stops the performance.",
+                "C. The magician does the magic with his eyes closed.",
+                "D. The magician needs other tools besides leathers."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/1uqupftxFOM.mp4"
+    },
+    {
+        "video_id": "5ksVshqVuiM.mp4",
+        "caption": "",
+        "question": "When did the events described in the video take place?",
+        "answer": "C",
+        "option": [
+            "A. Between 2014 and 2016.",
+            "B. Between 2020 and 2023.",
+            "C. Between 1997 and 2002.",
+            "D. Between 2006 and 2008."
+        ],
+        "meta_data": {
+            "video_id": "040",
+            "duration": "short",
+            "domain": "Knowledge",
+            "sub_category": "Finance & Commerce",
+            "url": "https://www.youtube.com/watch?v=5ksVshqVuiM",
+            "videoID": "5ksVshqVuiM",
+            "question_id": "040-1",
+            "task_type": "Object Reasoning",
+            "question": "When did the events described in the video take place?",
+            "options": [
+                "A. Between 2014 and 2016.",
+                "B. Between 2020 and 2023.",
+                "C. Between 1997 and 2002.",
+                "D. Between 2006 and 2008."
+            ],
+            "answer": "C"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/5ksVshqVuiM.mp4"
+    },
+    {
+        "video_id": "3MJNKd10kxM.mp4",
+        "caption": "",
+        "question": "Which ingredient is not used in the video?",
+        "answer": "D",
+        "option": [
+            "A. Hot glue.",
+            "B. Pieces of burlap.",
+            "C. Florals.",
+            "D. Plastic bottles."
+        ],
+        "meta_data": {
+            "video_id": "822",
+            "duration": "long",
+            "domain": "Life Record",
+            "sub_category": "Handicraft",
+            "url": "https://www.youtube.com/watch?v=3MJNKd10kxM",
+            "videoID": "3MJNKd10kxM",
+            "question_id": "822-2",
+            "task_type": "Object Recognition",
+            "question": "Which ingredient is not used in the video?",
+            "options": [
+                "A. Hot glue.",
+                "B. Pieces of burlap.",
+                "C. Florals.",
+                "D. Plastic bottles."
+            ],
+            "answer": "D"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/3MJNKd10kxM.mp4"
+    }
+]

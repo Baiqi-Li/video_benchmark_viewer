@@ -1,5 +1,22 @@
 {
   "random_200_tempcompass_qa_json": [
     100
+  ],
+  "random_200_motionbench_json": [
+    9
+  ],
+  "random_35_activitynetqa_json": [
+    4
+  ],
+  "random_40_video_mme_json": [
+    4
+  ],
+  "random_45_PLM-VideoBench-RTLoc_mask_json": [
+    5,
+    7
+  ],
+  "random_200_GoogleDeepMind-NEPTUNE-mma_json": [
+    2,
+    4
   ]
 }

@@ -1,7 +1,61 @@
 {
   "random_200_tempcompass_qa_json": [
     4,
+    7,
+    18,
+    24,
     29,
-    32
+    32,
+    39
+  ],
+  "random_200_motionbench_json": [
+    2,
+    3,
+    7,
+    8,
+    12
+  ],
+  "random_100_vinoground_json": [
+    0,
+    6,
+    8,
+    9,
+    10,
+    12,
+    13,
+    18,
+    19
+  ],
+  "random_189_temporalbench_test_short_caption_json": [
+    1,
+    4
+  ],
+  "random_35_activitynetqa_json": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    9,
+    10
+  ],
+  "random_40_video_mme_json": [
+    4,
+    5,
+    7
+  ],
+  "random_45_PLM-VideoBench-RTLoc_mask_json": [
+    0,
+    2,
+    3,
+    5,
+    10,
+    19
+  ],
+  "random_200_GoogleDeepMind-NEPTUNE_json": [
+    2
+  ],
+  "random_200_GoogleDeepMind-NEPTUNE-mma_json": [
+    0
   ]
 }

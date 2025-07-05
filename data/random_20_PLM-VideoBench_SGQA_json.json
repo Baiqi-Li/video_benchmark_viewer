@@ -1,0 +1,382 @@
+[
+    {
+        "video_id": "191892d2b8032706_0_34.mp4",
+        "caption": "",
+        "question": "Hey what is that flag over there for? What does that represent?",
+        "answer": "The Rainbow Flag represents diversity, inclusivity, love, and acceptance, commonly associated with the LGBTQ+ community and Pride Month. Its six colors symbolize unity and pride.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 457,
+            "video": "191892d2b8032706_0_34.mp4",
+            "question": "Hey what is that flag over there for? What does that represent?",
+            "answer": "The Rainbow Flag represents diversity, inclusivity, love, and acceptance, commonly associated with the LGBTQ+ community and Pride Month. Its six colors symbolize unity and pride.",
+            "domain": "IndoorOutdoorActivities"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/191892d2b8032706_0_34.mp4"
+    },
+    {
+        "video_id": "052a2efcc666aa11_325_359.mp4",
+        "caption": "",
+        "question": "How would you describe this uh style and appearance of countertop?",
+        "answer": "The countertop features a warm, speckled design with a mix of tan and brown colors, and a subtle, mottled texture, giving it a classic and traditional appearance suitable for a home setting.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 501,
+            "video": "052a2efcc666aa11_325_359.mp4",
+            "question": "How would you describe this uh style and appearance of countertop?",
+            "answer": "The countertop features a warm, speckled design with a mix of tan and brown colors, and a subtle, mottled texture, giving it a classic and traditional appearance suitable for a home setting.",
+            "domain": "DailyActivities"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/052a2efcc666aa11_325_359.mp4"
+    },
+    {
+        "video_id": "17f6ce667365d807_4_36.mp4",
+        "caption": "",
+        "question": "Is it normal for these leaves to look like this?",
+        "answer": "Yes, it's normal for the leaves of a Sycamore tree (London Plane tree) to change colors and turn like this during late autumn.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 619,
+            "video": "17f6ce667365d807_4_36.mp4",
+            "question": "Is it normal for these leaves to look like this?",
+            "answer": "Yes, it's normal for the leaves of a Sycamore tree (London Plane tree) to change colors and turn like this during late autumn.",
+            "domain": "Gardening"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/17f6ce667365d807_4_36.mp4"
+    },
+    {
+        "video_id": "350d7602932ff24a_162_195.mp4",
+        "caption": "",
+        "question": "What color is this piece I'm looking at?",
+        "answer": "The piece you're looking at appears to be made of a light-colored wood, with a warm, creamy tone, which is often used to represent the white pieces in a chess set, providing a nice contrast to the darker-colored pieces.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 588,
+            "video": "350d7602932ff24a_162_195.mp4",
+            "question": "What color is this piece I'm looking at?",
+            "answer": "The piece you're looking at appears to be made of a light-colored wood, with a warm, creamy tone, which is often used to represent the white pieces in a chess set, providing a nice contrast to the darker-colored pieces.",
+            "domain": "IndoorOutdoorActivities"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/350d7602932ff24a_162_195.mp4"
+    },
+    {
+        "video_id": "1d78c90869ecc2db_120_153.mp4",
+        "caption": "",
+        "question": "Can you tell me what color this coat is?",
+        "answer": "This coat is beige, a soft and natural shade that offers a clean and versatile appearance, easily paired with a range of colors and styles.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 566,
+            "video": "1d78c90869ecc2db_120_153.mp4",
+            "question": "Can you tell me what color this coat is?",
+            "answer": "This coat is beige, a soft and natural shade that offers a clean and versatile appearance, easily paired with a range of colors and styles.",
+            "domain": "Shopping"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/1d78c90869ecc2db_120_153.mp4"
+    },
+    {
+        "video_id": "2eed9c36c05a79f8_0_22.mp4",
+        "caption": "",
+        "question": "Can you please let me know what place I'm currently looking at?",
+        "answer": "You're currently looking at Bake by Melissa, a popular cupcake and dessert shop known for its bite-sized treats and colorful decorations, with multiple locations, particularly in New York City.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 425,
+            "video": "2eed9c36c05a79f8_0_22.mp4",
+            "question": "Can you please let me know what place I'm currently looking at?",
+            "answer": "You're currently looking at Bake by Melissa, a popular cupcake and dessert shop known for its bite-sized treats and colorful decorations, with multiple locations, particularly in New York City.",
+            "domain": "DailyActivities"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/2eed9c36c05a79f8_0_22.mp4"
+    },
+    {
+        "video_id": "1a4b853c464e8fd7_359_391.mp4",
+        "caption": "",
+        "question": "Are these twisted in different directions?",
+        "answer": "Yes, they are twisted in different directions. One side is twisted clockwise and the other side is twisted counterclockwise.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 187,
+            "video": "1a4b853c464e8fd7_359_391.mp4",
+            "question": "Are these twisted in different directions?",
+            "answer": "Yes, they are twisted in different directions. One side is twisted clockwise and the other side is twisted counterclockwise.",
+            "domain": "FashionStyle"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/1a4b853c464e8fd7_359_391.mp4"
+    },
+    {
+        "video_id": "2b5d7dcb2a804df7_194_228.mp4",
+        "caption": "",
+        "question": "Does that mesh shirt look good with that romper",
+        "answer": "The velvet texture would complement your even skin tone beautifully, creating a stunning contrast that makes you stand out. The darker shade will add depth and dimension, accentuating your features and making you look radiant.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 212,
+            "video": "2b5d7dcb2a804df7_194_228.mp4",
+            "question": "Does that mesh shirt look good with that romper",
+            "answer": "The velvet texture would complement your even skin tone beautifully, creating a stunning contrast that makes you stand out. The darker shade will add depth and dimension, accentuating your features and making you look radiant.",
+            "domain": "Shopping"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/2b5d7dcb2a804df7_194_228.mp4"
+    },
+    {
+        "video_id": "0ad76ebcc8486f5d_43_77.mp4",
+        "caption": "",
+        "question": "What is the design style of this, uh, clock I'm looking at?",
+        "answer": "The Grand Central Terminal Clock is an iconic example of Beaux-Arts design.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 557,
+            "video": "0ad76ebcc8486f5d_43_77.mp4",
+            "question": "What is the design style of this, uh, clock I'm looking at?",
+            "answer": "The Grand Central Terminal Clock is an iconic example of Beaux-Arts design.",
+            "domain": "Tourism"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/0ad76ebcc8486f5d_43_77.mp4"
+    },
+    {
+        "video_id": "33a7dcc99a94b2c8_219_250.mp4",
+        "caption": "",
+        "question": "Does my floor look clean?",
+        "answer": "Your floor looks clean, but some remaining dust, dirt or debris is noticeable. A quick touch-up with a vacuum, dustpan or mop will enhance its appearance and leave it spotless.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 659,
+            "video": "33a7dcc99a94b2c8_219_250.mp4",
+            "question": "Does my floor look clean?",
+            "answer": "Your floor looks clean, but some remaining dust, dirt or debris is noticeable. A quick touch-up with a vacuum, dustpan or mop will enhance its appearance and leave it spotless.",
+            "domain": "DailyActivities"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/33a7dcc99a94b2c8_219_250.mp4"
+    },
+    {
+        "video_id": "138ecc073f5da985_517_550.mp4",
+        "caption": "",
+        "question": "What is that black berry looking type thing?",
+        "answer": "California Fan Palm's fruit develops through: flowering, pollination, fertilization, and ripening. The fertilized flowers form green drupes, turning brown/black as they mature, surrounding a single seed, edible fresh, dried, or ground into flour.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 254,
+            "video": "138ecc073f5da985_517_550.mp4",
+            "question": "What is that black berry looking type thing?",
+            "answer": "California Fan Palm's fruit develops through: flowering, pollination, fertilization, and ripening. The fertilized flowers form green drupes, turning brown/black as they mature, surrounding a single seed, edible fresh, dried, or ground into flour.",
+            "domain": "IndoorOutdoorActivities"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/138ecc073f5da985_517_550.mp4"
+    },
+    {
+        "video_id": "2c1234eb7493ff7c_60_92.mp4",
+        "caption": "",
+        "question": "Who is that character she's holding?",
+        "answer": "She's holding Harry Potter.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 316,
+            "video": "2c1234eb7493ff7c_60_92.mp4",
+            "question": "Who is that character she's holding?",
+            "answer": "She's holding Harry Potter.",
+            "domain": "Shopping"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/2c1234eb7493ff7c_60_92.mp4"
+    },
+    {
+        "video_id": "40deb85b0423e5c6_0_14.mp4",
+        "caption": "",
+        "question": "What pattern is this?",
+        "answer": "This shirt features a classic Hawaiian-style tropical floral pattern, showcasing vibrant red flowers and lush green palm leaves, evoking a relaxed, island-inspired vibe.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 70,
+            "video": "40deb85b0423e5c6_0_14.mp4",
+            "question": "What pattern is this?",
+            "answer": "This shirt features a classic Hawaiian-style tropical floral pattern, showcasing vibrant red flowers and lush green palm leaves, evoking a relaxed, island-inspired vibe.",
+            "domain": "Shopping"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/40deb85b0423e5c6_0_14.mp4"
+    },
+    {
+        "video_id": "09bebca392beaf20_149_178.mp4",
+        "caption": "",
+        "question": "Is my friend using proper throwing technique?",
+        "answer": "Your friend's throwing technique is incorrect. Twisting the upper body and bringing the hand over the head can lead to inaccuracy and injury.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 193,
+            "video": "09bebca392beaf20_149_178.mp4",
+            "question": "Is my friend using proper throwing technique?",
+            "answer": "Your friend's throwing technique is incorrect. Twisting the upper body and bringing the hand over the head can lead to inaccuracy and injury.",
+            "domain": "Sports"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/09bebca392beaf20_149_178.mp4"
+    },
+    {
+        "video_id": "37f55e4ebeb355c3_0_18.mp4",
+        "caption": "",
+        "question": "What is this?",
+        "answer": "Purely Elizabeth Coconut Cashew Nut Granola is a gluten-free, organic breakfast or snack option featuring coconut, cashews, and whole grains, offering a creamy, nutty flavor and crunchy texture.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 350,
+            "video": "37f55e4ebeb355c3_0_18.mp4",
+            "question": "What is this?",
+            "answer": "Purely Elizabeth Coconut Cashew Nut Granola is a gluten-free, organic breakfast or snack option featuring coconut, cashews, and whole grains, offering a creamy, nutty flavor and crunchy texture.",
+            "domain": "Shopping"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/37f55e4ebeb355c3_0_18.mp4"
+    },
+    {
+        "video_id": "232b8e087eae68b3_227_260.mp4",
+        "caption": "",
+        "question": "What's that red object hanging on the tree ?",
+        "answer": "The red object hanging on the tree is a Christmas bell.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 571,
+            "video": "232b8e087eae68b3_227_260.mp4",
+            "question": "What's that red object hanging on the tree ?",
+            "answer": "The red object hanging on the tree is a Christmas bell.",
+            "domain": "Sightseeing"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/232b8e087eae68b3_227_260.mp4"
+    },
+    {
+        "video_id": "2d4ccfd868842779_269_301.mp4",
+        "caption": "",
+        "question": "Who wins here?",
+        "answer": "The Queen wins.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 72,
+            "video": "2d4ccfd868842779_269_301.mp4",
+            "question": "Who wins here?",
+            "answer": "The Queen wins.",
+            "domain": "Hobbies"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/2d4ccfd868842779_269_301.mp4"
+    },
+    {
+        "video_id": "0fd9290a35cdf1d3_339_375.mp4",
+        "caption": "",
+        "question": "What do all these cards add up to?",
+        "answer": "Let's add them up: 4 + 3 = 7, 7 + 4 = 11, 11 + 8 = 19, The total is 19.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 92,
+            "video": "0fd9290a35cdf1d3_339_375.mp4",
+            "question": "What do all these cards add up to?",
+            "answer": "Let's add them up: 4 + 3 = 7, 7 + 4 = 11, 11 + 8 = 19, The total is 19.",
+            "domain": "Hobbies"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/0fd9290a35cdf1d3_339_375.mp4"
+    },
+    {
+        "video_id": "498df52223c54424_0_31.mp4",
+        "caption": "",
+        "question": "How many food trucks are currently present at this market?",
+        "answer": "The Bronx Night Market features around 50 local vendors, including food trucks, but the exact number of trucks isn't specified. The market offers a diverse range of food options.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 329,
+            "video": "498df52223c54424_0_31.mp4",
+            "question": "How many food trucks are currently present at this market?",
+            "answer": "The Bronx Night Market features around 50 local vendors, including food trucks, but the exact number of trucks isn't specified. The market offers a diverse range of food options.",
+            "domain": "Sightseeing"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/498df52223c54424_0_31.mp4"
+    },
+    {
+        "video_id": "22c98f5259948ba3_212_244.mp4",
+        "caption": "",
+        "question": "What is she doing to me right now?",
+        "answer": "She's reviving you! Your teammate is helping you get back into the game after being knocked down.",
+        "option": "",
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "meta_data": {
+            "uid": 62,
+            "video": "22c98f5259948ba3_212_244.mp4",
+            "question": "What is she doing to me right now?",
+            "answer": "She's reviving you! Your teammate is helping you get back into the game after being knocked down.",
+            "domain": "DailyActivities"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench_SGQA/videos/22c98f5259948ba3_212_244.mp4"
+    }
+]

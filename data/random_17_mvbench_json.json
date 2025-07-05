@@ -1,0 +1,579 @@
+[
+    {
+        "video_id": "RQRRD.mp4",
+        "caption": "",
+        "question": "When in the video sequence do we observe the action 'person quickly undressing'?",
+        "answer": "Throughout the entire video.",
+        "option": [
+            "At the beginning of the video.",
+            "Throughout the entire video.",
+            "In the middle of the video.",
+            "At the end of the video."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 7.5,
+        "end_time": 24.3,
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Action Localization",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": true,
+            "video": "RQRRD.mp4",
+            "question": "When in the video sequence do we observe the action 'person quickly undressing'?",
+            "candidates": [
+                "At the beginning of the video.",
+                "Throughout the entire video.",
+                "In the middle of the video.",
+                "At the end of the video."
+            ],
+            "answer": "Throughout the entire video.",
+            "start": 7.5,
+            "end": 24.3
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/RQRRD.mp4"
+    },
+    {
+        "video_id": "J6TVB.mp4",
+        "caption": "",
+        "question": "What will the person do next with the dish?",
+        "answer": "Put down.",
+        "option": [
+            "Wash.",
+            "Put down.",
+            "Hold.",
+            "Take."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": 0.0,
+        "end_time": 13.0,
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Action Prediction",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": true,
+            "video": "J6TVB.mp4",
+            "question": "What will the person do next with the dish?",
+            "candidates": [
+                "Wash.",
+                "Put down.",
+                "Hold.",
+                "Take."
+            ],
+            "answer": "Put down.",
+            "start": 0.0,
+            "end": 13.0
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/J6TVB.mp4"
+    },
+    {
+        "video_id": "video_8956.mp4",
+        "caption": "",
+        "question": "In what order did the person put the letters on the table?",
+        "answer": "mute",
+        "option": [
+            "etum",
+            "mute",
+            "suhe"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Character Order",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_8956.mp4",
+            "question": "In what order did the person put the letters on the table?",
+            "candidates": [
+                "etum",
+                "mute",
+                "suhe"
+            ],
+            "answer": "mute"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_8956.mp4"
+    },
+    {
+        "video_id": "video_5766.mp4",
+        "caption": "",
+        "question": "What letters did the person type on the computer in order?",
+        "answer": "amxbnj",
+        "option": [
+            "amxbnj",
+            "rmtegh",
+            "aqlbns"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Character Order",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_5766.mp4",
+            "question": "What letters did the person type on the computer in order?",
+            "candidates": [
+                "amxbnj",
+                "rmtegh",
+                "aqlbns"
+            ],
+            "answer": "amxbnj"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_5766.mp4"
+    },
+    {
+        "video_id": "video_14541.mp4",
+        "caption": "",
+        "question": "What is the color of the moving rubber object?",
+        "answer": "green",
+        "option": [
+            "cyan",
+            "gray",
+            "green",
+            "purple"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Moving Attribute",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_14541.mp4",
+            "question": "What is the color of the moving rubber object?",
+            "candidates": [
+                "cyan",
+                "gray",
+                "green",
+                "purple"
+            ],
+            "answer": "green"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_14541.mp4"
+    },
+    {
+        "video_id": "video_10810.mp4",
+        "caption": "",
+        "question": "What is the shape of the rubber object that is stationary when the video begins?",
+        "answer": "sphere",
+        "option": [
+            "cube",
+            "cylinder",
+            "sphere"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Moving Attribute",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_10810.mp4",
+            "question": "What is the shape of the rubber object that is stationary when the video begins?",
+            "candidates": [
+                "cube",
+                "cylinder",
+                "sphere"
+            ],
+            "answer": "sphere"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_10810.mp4"
+    },
+    {
+        "video_id": "video_524.mp4",
+        "caption": "",
+        "question": "The person interacts with a lighting device among other objects. Is the lighting device on at any point?",
+        "answer": "no",
+        "option": [
+            "yes",
+            "I don't know",
+            "no"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "State Change",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_524.mp4",
+            "question": "The person interacts with a lighting device among other objects. Is the lighting device on at any point?",
+            "candidates": [
+                "yes",
+                "I don't know",
+                "no"
+            ],
+            "answer": "no"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_524.mp4"
+    },
+    {
+        "video_id": "video_10234.mp4",
+        "caption": "",
+        "question": "What is the material of the green object that is stationary when the video begins?",
+        "answer": "rubber",
+        "option": [
+            "metal",
+            "rubber"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Moving Attribute",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_10234.mp4",
+            "question": "What is the material of the green object that is stationary when the video begins?",
+            "candidates": [
+                "metal",
+                "rubber"
+            ],
+            "answer": "rubber"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_10234.mp4"
+    },
+    {
+        "video_id": "video_14661.mp4",
+        "caption": "",
+        "question": "How many moving rubber objects are there when the video ends?",
+        "answer": "1",
+        "option": [
+            "1",
+            "0",
+            "2",
+            "3"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Moving Count",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_14661.mp4",
+            "question": "How many moving rubber objects are there when the video ends?",
+            "candidates": [
+                "1",
+                "0",
+                "2",
+                "3"
+            ],
+            "answer": "1"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_14661.mp4"
+    },
+    {
+        "video_id": "video_11641.mp4",
+        "caption": "",
+        "question": "How many metal objects enter the scene?",
+        "answer": "3",
+        "option": [
+            "4",
+            "3",
+            "1",
+            "2"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Moving Count",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_11641.mp4",
+            "question": "How many metal objects enter the scene?",
+            "candidates": [
+                "4",
+                "3",
+                "1",
+                "2"
+            ],
+            "answer": "3"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_11641.mp4"
+    },
+    {
+        "video_id": "video_11556.mp4",
+        "caption": "",
+        "question": "The person interacts with a lighting device among other objects. Is the lighting device on at any point?",
+        "answer": "yes",
+        "option": [
+            "I don't know",
+            "yes",
+            "no"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "State Change",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_11556.mp4",
+            "question": "The person interacts with a lighting device among other objects. Is the lighting device on at any point?",
+            "candidates": [
+                "I don't know",
+                "yes",
+                "no"
+            ],
+            "answer": "yes"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_11556.mp4"
+    },
+    {
+        "video_id": "video_10700.mp4",
+        "caption": "",
+        "question": "Are there any rubber cubes that enter the scene?",
+        "answer": "no",
+        "option": [
+            "not sure",
+            "yes",
+            "no"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Object Existence",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_10700.mp4",
+            "question": "Are there any rubber cubes that enter the scene?",
+            "candidates": [
+                "not sure",
+                "yes",
+                "no"
+            ],
+            "answer": "no"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_10700.mp4"
+    },
+    {
+        "video_id": "video_11737.mp4",
+        "caption": "",
+        "question": "Are there any stationary red objects?",
+        "answer": "no",
+        "option": [
+            "not sure",
+            "no",
+            "yes"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Object Existence",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_11737.mp4",
+            "question": "Are there any stationary red objects?",
+            "candidates": [
+                "not sure",
+                "no",
+                "yes"
+            ],
+            "answer": "no"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_11737.mp4"
+    },
+    {
+        "video_id": "video_7838.mp4",
+        "caption": "",
+        "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+        "answer": "Under the middle object.",
+        "option": [
+            "Under the middle object.",
+            "Under the farthest object from the person.",
+            "Under the closest object to the person."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Object Shuffle",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_7838.mp4",
+            "question": "The person uses multiple similar objects to play an occlusion game. Where is the hidden object at the end of the game from the person's point of view?",
+            "candidates": [
+                "Under the middle object.",
+                "Under the farthest object from the person.",
+                "Under the closest object to the person."
+            ],
+            "answer": "Under the middle object."
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_7838.mp4"
+    },
+    {
+        "video_id": "video_13915.mp4",
+        "caption": "",
+        "question": "What will happen without the cube?",
+        "answer": "The purple sphere collides with the green object",
+        "option": [
+            "The green object and the gray object collide",
+            "The metal cylinder and the green object collide",
+            "The cyan cylinder collides with the gray sphere",
+            "The purple sphere collides with the green object"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Counterfactual Inference",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_13915.mp4",
+            "question": "What will happen without the cube?",
+            "candidates": [
+                "The green object and the gray object collide",
+                "The metal cylinder and the green object collide",
+                "The cyan cylinder collides with the gray sphere",
+                "The purple sphere collides with the green object"
+            ],
+            "answer": "The purple sphere collides with the green object"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_13915.mp4"
+    },
+    {
+        "video_id": "video_7904.mp4",
+        "caption": "",
+        "question": "The person interacts with a lighting device among other objects. Is the lighting device on at any point?",
+        "answer": "no",
+        "option": [
+            "yes",
+            "I don't know",
+            "no"
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "State Change",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "video_7904.mp4",
+            "question": "The person interacts with a lighting device among other objects. Is the lighting device on at any point?",
+            "candidates": [
+                "yes",
+                "I don't know",
+                "no"
+            ],
+            "answer": "no"
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_7904.mp4"
+    },
+    {
+        "video_id": "Top046_11485.mp4",
+        "caption": "",
+        "question": "What's the right option for how the scenes in the video change?",
+        "answer": "From the fishing vessel to the yacht club.",
+        "option": [
+            "From the fishing vessel to the yacht club.",
+            "From the bakery to the coffee shop.",
+            "From the classroom to the laboratory.",
+            "From the farmhouse to the skyscraper."
+        ],
+        "start_frame": "",
+        "end_frame": "",
+        "start_time": "",
+        "end_time": "",
+        "reasoning": "",
+        "total_frames": "",
+        "type": "",
+        "meta_data": {
+            "task_type": "Scene Transition",
+            "prefix": "datasets/mvbench/videos",
+            "data_type": "video",
+            "bound": false,
+            "video": "Top046_11485.mp4",
+            "question": "What's the right option for how the scenes in the video change?",
+            "candidates": [
+                "From the fishing vessel to the yacht club.",
+                "From the bakery to the coffee shop.",
+                "From the classroom to the laboratory.",
+                "From the farmhouse to the skyscraper."
+            ],
+            "answer": "From the fishing vessel to the yacht club."
+        },
+        "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/Top046_11485.mp4"
+    }
+]
