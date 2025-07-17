@@ -1,119 +1,245 @@
-# Spatial-Temporal Reasoning Analyzer
+# Spatial Temporal Reasoning Analyzer
 
-A comprehensive web-based tool for analyzing, annotating, and repurposing video datasets for spatial-temporal reasoning research. This application provides an intuitive interface for researchers to work with video question-answering (VQA) datasets, perform error analysis, and create new training data.
+A web-based tool for analyzing and annotating video datasets, specifically designed for spatial-temporal reasoning research. This application provides a comprehensive interface for video sample review, error annotation, and data curation.
 
 ## Features
 
-### 🎯 Main Interface
-- **Dataset Browser**: Browse through available datasets stored in the `data/` folder
-- **Sample Navigation**: Navigate through video samples with associated questions, options, and answers
-- **Video Preview**: View video content directly in the browser
-- **Progress Tracking**: Automatically track viewing progress across datasets
+### 🎥 Video Sample Viewer
+- **Multi-format Support**: Supports both regular video files and YouTube videos
+- **Precise Navigation**: Browse through dataset samples with frame-level and time-based controls
+- **Progress Tracking**: Automatically saves your progress across sessions
+- **Multiple Dataset Support**: Switch between different datasets seamlessly
 
-### 🔍 Error Analysis & Annotation
-- **Multi-Type Error Classification**: Annotate samples with various error types:
-  - **Misalignment**: Content doesn't match the question/answer
-  - **Wrong**: Incorrect answers or information
-  - **Single Frame Bias**: Analysis based on single frame instead of temporal reasoning
-  - **Language Bias**: Bias towards certain language patterns
-  - **Poor Video Quality**: Technical issues affecting analysis
-  - **Post Edited**: Videos that appear to be edited after recording
+### 🏷️ Error Annotation System
+- **8 Error Categories**: Comprehensive error classification system
+  - **Ambiguous**: Questions or answers that are unclear or ambiguous
+  - **Wrong**: Incorrect answers or flawed questions
+  - **Single Frame Bias**: Problems that can be solved with just one frame
+  - **Language Bias**: Issues related to language understanding rather than visual reasoning
+  - **Poor Video Quality**: Technical issues affecting video clarity
+  - **Post Edited**: Videos that have been artificially modified
   - **Cannot Answer by Vision**: Questions that cannot be answered through visual information alone
-  - **Others**: Additional error types not covered above
+  - **Others**: Any other types of errors not covered above
 
-- **Batch Error Management**: View and manage all samples marked with specific error types
-- **Quick Error Lookup**: Check which error types are associated with any sample
+### 📝 Content Management
+- **Caption Management**: Add, edit, and delete video captions
+- **VQA (Visual Question Answering) Management**: Create and manage repurposed questions and answers
+- **Data Selection**: Mark samples for inclusion in curated datasets
+- **Abandonment Tracking**: Flag samples that should be excluded
 
-### 🔄 Data Repurposing
-- **VQA Repurposing**: Create new question-answer pairs for existing videos
-  - Add new questions with custom options and answers
-  - Edit existing repurposed VQAs
-  - Delete unwanted repurposed content
-- **Caption Management**: Add, edit, and delete custom captions for video samples
-- **Original Data Selection**: Mark original VQA samples for inclusion in new datasets
+### 📊 Data Organization
+- **Selected Data**: Curated collection of high-quality samples
+- **Error Samples**: Organized by error type for quality control
+- **Repurposed Content**: Modified questions, answers, and captions
+- **Progress Tracking**: Resume work from where you left off
 
-### 📊 Data Management
-- **Progress Tracking**: Keep track of annotation progress across different datasets
-- **Abandoned Data Tracking**: Mark samples as abandoned to exclude from final datasets
-- **Export Ready**: All annotations and repurposed data are saved in JSON format for easy export
-
-## Getting Started
+## Installation
 
 ### Prerequisites
 - Python 3.7+
-- Flask
-- Modern web browser
+- Web browser with JavaScript support
 
-### Installation
-1. Clone the repository
-2. Install dependencies:
+### Setup Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd spatial_temporal_reasoning_analyzer
+   ```
+
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-### Usage
-1. **Prepare your datasets**: Place JSON dataset files in the `data/` folder
-2. **Start the application**:
+3. **Prepare your datasets**
+   - Place your dataset JSON files in the `data/` directory
+   - Ensure each dataset follows the expected JSON structure (see Data Format section)
+
+4. **Run the application**
    ```bash
    python app.py
    ```
-3. **Access the interface**: Open your browser and navigate to `http://localhost:5000`
 
-### Dataset Format
-Your dataset JSON files should contain arrays of objects with the following structure:
+5. **Access the application**
+   - Open your browser and navigate to `http://localhost:5000`
+
+## Data Format
+
+### Expected JSON Structure
+Each dataset should be a JSON array with objects containing:
+
 ```json
 {
-  "video_url": "path/to/video.mp4",
-  "question": "What happens in the video?",
+  "id": "unique_identifier",
+  "video_url": "path/to/video/or/youtube/url",
+  "question": "What is happening in the video?",
   "options": ["Option A", "Option B", "Option C", "Option D"],
   "answer": "Option A",
-  "caption": "Optional video caption"
+  "caption": "Video description",
+  "start_time": 0.0,
+  "end_time": 10.0,
+  "start_frame": 0,
+  "end_frame": 300,
+  "total_frames": 300,
+  "type": "temporal_reasoning",
+  "reasoning": "Explanation of the answer"
 }
 ```
 
-## Interface Guide
+### Required Fields
+- `video_url`: Path to video file or YouTube URL
+- `question`: The question to be answered
+- `options`: Array of possible answers
+- `answer`: The correct answer
 
-### Main Navigation
-- **Home** (`/`): Browse and view dataset samples
-- **Error Samples** (`/error_samples`): Annotate samples with error types
-- **Repurposed Samples** (`/repurposed_samples`): Manage repurposed VQA data
+### Optional Fields
+- `caption`: Video description
+- `start_time`/`end_time`: Time segment in seconds
+- `start_frame`/`end_frame`: Frame segment
+- `total_frames`: Total number of frames
+- `type`: Category of the question
+- `reasoning`: Explanation for the answer
 
-### Workflow Recommendations
-1. **Initial Review**: Use the main interface to browse through datasets and get familiar with the content
-2. **Error Annotation**: Use the error samples interface to systematically identify and classify problematic samples
-3. **Data Repurposing**: Create new VQA pairs from existing video content using the repurposed samples interface
-4. **Quality Control**: Review and refine annotations before finalizing your dataset
+## User Guide
 
-## Data Storage
+### 1. Main Interface (Video Sample Viewer)
 
-The application organizes data in the following structure:
-- `data/`: Original dataset files
-- `error_annotation/`: Error type annotations (separate JSON file per error type)
-- `repurpose_data/`: Repurposed VQA data and caption modifications
-- `selected_data/`: Selected samples, progress tracking, and abandoned data
+#### Getting Started
+1. **Select Dataset**: Choose from available datasets in the dropdown
+2. **Navigate Samples**: Use Previous/Next buttons or enter specific sample index
+3. **View Progress**: Track your current position and total samples
 
-## API Endpoints
+#### Video Controls
+- **Time-based Playback**: Enter start and end times to play specific segments
+- **Frame-based Playback**: Use frame numbers for precise control
+- **YouTube Support**: Seamlessly handle YouTube video URLs
 
-The application provides RESTful API endpoints for:
-- Sample retrieval and dataset information
-- Error annotation management
-- VQA repurposing operations
-- Progress tracking
-- Data selection and abandonment
+#### Error Annotation
+1. **Review Content**: Watch video and read question/answer
+2. **Select Error Types**: Check applicable error categories
+3. **Automatic Saving**: Annotations are saved immediately
 
-## Contributing
+#### Content Management
+1. **Add Captions**: Create new video descriptions
+2. **Create VQAs**: Add new question-answer pairs
+3. **Select Data**: Mark samples for inclusion in final dataset
+4. **Abandon Samples**: Flag problematic samples for exclusion
 
-This tool is designed for research purposes in spatial-temporal reasoning. Feel free to extend the functionality by:
-- Adding new error types
-- Implementing additional annotation features
-- Enhancing the user interface
-- Adding export formats
+### 2. Error Samples Interface
+
+#### Viewing Error Samples
+1. **Select Dataset**: Choose the dataset to review
+2. **Filter by Error Type**: Select specific error category
+3. **Review Samples**: Click on samples to view details
+4. **Manage Annotations**: Remove error annotations as needed
+
+#### Bulk Operations
+- **Delete Annotations**: Remove error labels from samples
+- **Review Repurposed Content**: See related repurposed VQAs
+
+### 3. Repurposed Samples Interface
+
+#### Managing Repurposed Content
+1. **Browse Samples**: View all samples with repurposed content
+2. **Edit VQAs**: Modify repurposed questions and answers
+3. **Manage Captions**: Edit or delete repurposed captions
+4. **Quality Control**: Review and refine repurposed content
+
+## File Structure
+
+```
+spatial_temporal_reasoning_analyzer/
+├── app.py                 # Main Flask application
+├── requirements.txt       # Python dependencies
+├── data/                 # Dataset JSON files
+├── error_annotation/     # Error type annotations
+├── repurpose_data/       # Repurposed VQAs and captions
+├── selected_data/        # Curated dataset and progress
+└── templates/            # HTML templates
+    ├── index.html           # Main interface
+    ├── error_samples.html   # Error samples viewer
+    └── repurposed_samples.html  # Repurposed content viewer
+```
+
+## Data Output
+
+The application generates several types of output files:
+
+### Error Annotations (`error_annotation/`)
+- `{ErrorType}.json`: Lists of samples annotated with each error type
+- Organized by dataset and sample index
+
+### Repurposed Data (`repurpose_data/`)
+- `repurposed_vqa.json`: New questions and answers created from original samples
+- `repurposed_caption.json`: New captions for videos
+- `repurposed_indices.json`: Index mapping for repurposed content
+
+### Selected Data (`selected_data/`)
+- `selected_data.json`: Curated list of high-quality samples
+- `selected_captions.json`: Selected captions
+- `abandoned_data.json`: Samples marked for exclusion
+- `progress.json`: Session progress tracking
+
+## Best Practices
+
+### Data Quality Control
+1. **Systematic Review**: Go through samples sequentially
+2. **Multi-pass Annotation**: Review error types in separate passes
+3. **Consistency Checks**: Regularly review error annotations
+4. **Progress Saving**: Let the system track your progress automatically
+
+### Content Creation
+1. **Clear Captions**: Write descriptive, accurate captions
+2. **Balanced VQAs**: Create diverse question types
+3. **Quality over Quantity**: Focus on high-quality repurposed content
+4. **Regular Backups**: Export your work regularly
+
+### Navigation Tips
+1. **Use Keyboard Shortcuts**: Arrow keys for sample navigation
+2. **Bookmark Progress**: Note your current position for reference
+3. **Filter Views**: Use error type filters for focused review
+4. **Time Management**: Use progress tracking to plan work sessions
+
+## Technical Notes
+
+### Video Support
+- **Local Files**: Supports common video formats (MP4, AVI, MOV, etc.)
+- **YouTube Integration**: Direct YouTube URL support with API integration
+- **Frame-level Control**: Precise navigation for detailed analysis
+
+### Data Persistence
+- **Automatic Saving**: All annotations and selections are saved immediately
+- **Session Recovery**: Resume work from previous sessions
+- **Data Integrity**: Robust error handling and data validation
+
+### Performance Considerations
+- **Lazy Loading**: Samples loaded on demand
+- **Client-side Caching**: Efficient data handling
+- **Progress Optimization**: Minimal server requests for smooth operation
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Video Not Loading**
+   - Check video URL format
+   - Verify file permissions for local videos
+   - Ensure YouTube API is properly loaded
+
+2. **Annotations Not Saving**
+   - Check write permissions for annotation directories
+   - Verify JSON file format integrity
+   - Restart application if persistent issues
+
+3. **Performance Issues**
+   - Close unused browser tabs
+   - Clear browser cache
+   - Restart application for memory cleanup
+
+### Support
+For technical support or feature requests, please create an issue in the project repository.
 
 ## License
 
-[Add your license information here]
-
-## Citation
-
-If you use this tool in your research, please cite:
-[Add citation information here] 
+This project is licensed under the MIT License. See the LICENSE file for details. 
