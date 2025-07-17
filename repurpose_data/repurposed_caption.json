@@ -1,0 +1,74 @@
+[
+  {
+    "original_dataset": "random_111_GoogleDeepMind-NEPTUNE-mma_json",
+    "original_index": 0,
+    "video_url": "https://www.youtube.com/watch?v=uOx8q6R_c9Q",
+    "caption": "At the beginning of the video, the dog lowers its head to the ground."
+  },
+  {
+    "original_dataset": "random_111_GoogleDeepMind-NEPTUNE-mma_json",
+    "original_index": 6,
+    "video_url": "https://www.youtube.com/watch?v=ZLW9J5iwbw8",
+    "caption": "The video transitions from a street view to a virtual studio."
+  },
+  {
+    "original_dataset": "random_111_GoogleDeepMind-NEPTUNE-mma_json",
+    "original_index": 6,
+    "video_url": "https://www.youtube.com/watch?v=ZLW9J5iwbw8",
+    "caption": "The video transitions from a virtual studio to a street view."
+  },
+  {
+    "original_dataset": "random_111_GoogleDeepMind-NEPTUNE-mma_json",
+    "original_index": 6,
+    "video_url": "https://www.youtube.com/watch?v=ZLW9J5iwbw8",
+    "caption": "The scene in the video transitions from a grassy field to a street view."
+  },
+  {
+    "original_dataset": "random_111_GoogleDeepMind-NEPTUNE-mma_json",
+    "original_index": 6,
+    "video_url": "https://www.youtube.com/watch?v=ZLW9J5iwbw8",
+    "caption": "The scene in the video transitions from a street view to a grassy field."
+  },
+  {
+    "original_dataset": "random_12_egoschema_json",
+    "original_index": 2,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/b81bb7b2-a16d-4cdc-8326-f4019f3be544.mp4",
+    "caption": "The person is brushing the wall to the right."
+  },
+  {
+    "original_dataset": "random_12_egoschema_json",
+    "original_index": 2,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/b81bb7b2-a16d-4cdc-8326-f4019f3be544.mp4",
+    "caption": "The person is brushing the wall to the left."
+  },
+  {
+    "original_dataset": "random_12_egoschema_json",
+    "original_index": 2,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/b81bb7b2-a16d-4cdc-8326-f4019f3be544.mp4",
+    "caption": "This person first wipes with a cloth and then paints the wall."
+  },
+  {
+    "original_dataset": "random_12_egoschema_json",
+    "original_index": 2,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/b81bb7b2-a16d-4cdc-8326-f4019f3be544.mp4",
+    "caption": "This person first paints the wall and then wipes with a cloth."
+  },
+  {
+    "original_dataset": "random_113_GoogleDeepMind-NEPTUNE-mmh_json",
+    "original_index": 3,
+    "video_url": "https://www.youtube.com/watch?v=0IfSfdsvJLQ",
+    "caption": "15-20\uff1a In the video, the player character swings the sword in their right hand three times."
+  },
+  {
+    "original_dataset": "random_113_GoogleDeepMind-NEPTUNE-mmh_json",
+    "original_index": 3,
+    "video_url": "https://www.youtube.com/watch?v=0IfSfdsvJLQ",
+    "caption": "34-40\uff1a The player character swings their sword with their right hand once in the video."
+  },
+  {
+    "original_dataset": "random_113_GoogleDeepMind-NEPTUNE-mmh_json",
+    "original_index": 6,
+    "video_url": "https://www.youtube.com/watch?v=a7NwXbiv4PA",
+    "caption": "10-26\uff1a In the video, the puppy walks faster to the left than to the right."
+  }
+]

@@ -17,6 +17,7 @@
   ],
   "random_45_PLM-VideoBench-RTLoc_mask_json": [
     1,
+    4,
     8
   ],
   "random_200_GoogleDeepMind-NEPTUNE_json": [
@@ -28,7 +29,20 @@
     2,
     4
   ],
-  "random_111_GoogleDeepMind-NEPTUNE-mma_json": [
-    0
+  "random_154_LVBench_json": [
+    1,
+    5
+  ],
+  "random_147_minerva_json": [
+    9
+  ],
+  "random_11_cosmos-reason1-RoboVQA_json": [
+    8
+  ],
+  "random_200_videoeval_pro_temporal_reasoning_json": [
+    7
+  ],
+  "random_114_videoeval_pro_human_object_interactions_json": [
+    1
   ]
 }

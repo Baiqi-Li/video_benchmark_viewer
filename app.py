@@ -273,7 +273,17 @@ def get_error_annotations():
         return jsonify({'error': 'Missing required parameters'}), 400
 
     error_types = []
-    for error_type in ['Misalignment', 'Wrong', 'Single Frame Bias', 'Others']:
+    # List all supported error types including the newly added one
+    for error_type in [
+        'Misalignment',
+        'Wrong',
+        'Single Frame Bias',
+        'Language Bias',
+        'Poor Video Quality',
+        'Post Edited',
+        'Cannot Answer by Vision',
+        'Others'
+    ]:
         annotations = load_error_annotations(error_type)
         if dataset in annotations:
             try:
@@ -785,8 +795,11 @@ def update_progress():
     except (ValueError, TypeError):
         return jsonify({'success': False, 'error': 'Invalid sample index'}), 400
     progress = load_progress()
-    progress[dataset] = idx
-    save_progress(progress)
+    # Only update if the new index is further than the saved progress
+    prev_idx = progress.get(dataset, -1)
+    if idx > prev_idx:
+        progress[dataset] = idx
+        save_progress(progress)
     return jsonify({'success': True})
 
 @app.route('/get_progress', methods=['POST'])
@@ -877,3 +890,7 @@ def get_abandon():
 
 if __name__ == '__main__':
     app.run(debug=True) 
+
+    # import os
+    # port = int(os.environ.get('PORT', 5000))  # 默认5000端口，可通过环境变量覆盖
+    # app.run(debug=True, host='0.0.0.0', port=port) 

@@ -65,6 +65,7 @@
                     <option value="Language Bias">Language Bias</option>
                     <option value="Poor Video Quality">Poor Video Quality</option>
                     <option value="Post Edited">Post Edited</option>
+                    <option value="Cannot Answer by Vision">Cannot Answer by Vision</option>
                     <option value="Others">Others</option>
                 </select>
             </div>
@@ -191,23 +192,27 @@
             // 更新选项
             const optionsList = document.getElementById('options');
             optionsList.innerHTML = '';
-            if (sample.options) {
-                if (typeof sample.options === 'string' && sample.options.includes('\n')) {
-                    const options = sample.options.split('\n');
-                    options.forEach(option => {
-                        if (option.trim()) {
-                            const li = document.createElement('li');
-                            li.textContent = option.trim();
-                            optionsList.appendChild(li);
-                        }
-                    });
-                } else if (Array.isArray(sample.options)) {
-                    sample.options.forEach(option => {
+            if (typeof sample.options === 'string' && sample.options.includes('\n')) {
+                const options = sample.options.split('\n');
+                options.forEach(option => {
+                    if (option.trim()) {
                         const li = document.createElement('li');
-                        li.textContent = option;
+                        li.textContent = option.trim();
                         optionsList.appendChild(li);
-                    });
-                }
+                    }
+                });
+            } else if (Array.isArray(sample.options)) {
+                sample.options.forEach(option => {
+                    const li = document.createElement('li');
+                    li.textContent = option;
+                    optionsList.appendChild(li);
+                });
+            } else if (sample.options && typeof sample.options === 'object') {
+                Object.entries(sample.options).forEach(([key,val])=>{
+                    const li = document.createElement('li');
+                    li.textContent = `${key}: ${val}`;
+                    optionsList.appendChild(li);
+                });
             }
             
             // 更新答案

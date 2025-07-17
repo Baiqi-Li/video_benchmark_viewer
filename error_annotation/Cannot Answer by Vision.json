@@ -1,0 +1,31 @@
+{
+  "random_111_GoogleDeepMind-NEPTUNE-mma_json": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    10
+  ],
+  "random_154_LVBench_json": [
+    4
+  ],
+  "random_113_GoogleDeepMind-NEPTUNE-mmh_json": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "random_147_minerva_json": [
+    9,
+    10
+  ],
+  "random_40_video_mme_json": [
+    1
+  ],
+  "random_200_GoogleDeepMind-NEPTUNE_json": [
+    4,
+    7
+  ]
+}

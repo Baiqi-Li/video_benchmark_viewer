@@ -1,1 +1,194 @@
-[]
+[
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 0,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1111601171_reverse.mp4",
+    "question": "Is the sphere building changing from green to blue?",
+    "options": "",
+    "answer": "no"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 22,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1081734740.mp4",
+    "question": "Is the leaf turning into green color?",
+    "options": "",
+    "answer": "no"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 33,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1054494542.mp4",
+    "question": "Is the background changing from pink to blue?",
+    "options": "",
+    "answer": "yes"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 36,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1060403198_reverse.mp4",
+    "question": "What is happening to the tree?\nA. increasing height\nB. decreasing height\nC. shedding leaves\nD. changing color",
+    "options": "",
+    "answer": "B. decreasing height"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 2,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1040541401.mp4",
+    "question": "Is the video running at a rapid speed?",
+    "options": "",
+    "answer": "no"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 5,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1084518106_concat_1.mp4",
+    "question": "How does the speed of the truck above compare to the truck below?\nA. faster\nB. the same speed\nC. slower",
+    "options": "",
+    "answer": "A. faster"
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 11,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1086423566_1094782389_0.mp4",
+    "question": "Does the event of a dog giving a high five to a woman happen simultaneously with foods being added into a bowl in the video?",
+    "options": "",
+    "answer": "yes",
+    "caption": ""
+  },
+  {
+    "dataset": "random_200_tempcompass_qa_json",
+    "sample_index": 21,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1055413730_reverse.mp4",
+    "question": "Is the planet Earth spinning leftwards?",
+    "options": "",
+    "answer": "yes",
+    "caption": ""
+  },
+  {
+    "dataset": "random_200_motionbench_json",
+    "sample_index": 11,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/motionbench/videos/dLFYdjUTL25iETwV.mp4",
+    "question": "What sequence occurs after the focus shifts to the man on the golf course?\nA. The camera zooms in and he pushes the ball\nB. The camera zooms out and he walks away\nC. He swings the club before the camera zooms\nD. He pushes the ball, then the camera zooms\n",
+    "options": "",
+    "answer": "D",
+    "caption": ""
+  },
+  {
+    "dataset": "random_100_vinoground_json",
+    "sample_index": 2,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/384_pos.mp4",
+    "question": "Which caption best describes this video?\nA. the waiter fills the glass with wine before he shakes the bottle a bit\nB. the waiter shakes the bottle a bit before he fills the glass with wine\nAnswer with the option's letter from the given choices directly.",
+    "options": "",
+    "answer": "A",
+    "caption": ""
+  },
+  {
+    "dataset": "random_100_vinoground_json",
+    "sample_index": 3,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/384_neg.mp4",
+    "question": "Which caption best describes this video?\nA. the waiter shakes the bottle a bit before he fills the glass with wine\nB. the waiter fills the glass with wine before he shakes the bottle a bit\nAnswer with the option's letter from the given choices directly.",
+    "options": "",
+    "answer": "A",
+    "caption": ""
+  },
+  {
+    "dataset": "random_100_vinoground_json",
+    "sample_index": 17,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/vinoground/vinoground_videos/74_neg.mp4",
+    "question": "Which caption best describes this video?\nA. someone sucks up a yolk out of a bowl before he drops one in another\nB. someone drops a yolk in a bowl before he sucks up one out of another\nAnswer with the option's letter from the given choices directly.",
+    "options": "",
+    "answer": "B",
+    "caption": ""
+  },
+  {
+    "dataset": "random_40_video_mme_json",
+    "sample_index": 8,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/54YD3Gv-3MI.mp4",
+    "question": "How many players are participating in the game?",
+    "options": "",
+    "answer": "D",
+    "caption": ""
+  },
+  {
+    "dataset": "random_40_video_mme_json",
+    "sample_index": 9,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/video_mme/videos/9v9NHoTXc-Q.mp4",
+    "question": "What color are the shoes worn by the boy with the white hat?",
+    "options": "",
+    "answer": "A",
+    "caption": ""
+  },
+  {
+    "dataset": "random_59_PLM-VideoBench-RCap_json",
+    "sample_index": 2,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench-RCap/videos/sav_007606.mp4",
+    "question": "",
+    "options": "",
+    "answer": "",
+    "caption": "A person's right foot appears from the right side of the frame, wearing a blue slipper and a white sock. The person's foot then kicks a dog toy to the left and exits the frame to the right as the camera pans left."
+  },
+  {
+    "dataset": "random_45_PLM-VideoBench-RTLoc_mask_json",
+    "sample_index": 12,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/PLM-VideoBench-RTLoc/video_with_mask/sav_045315.mp4",
+    "question": "",
+    "options": "",
+    "answer": "",
+    "caption": "A part of the object can be seen."
+  },
+  {
+    "dataset": "random_200_GoogleDeepMind-NEPTUNE_json",
+    "sample_index": 13,
+    "video_url": "https://www.youtube.com/watch?v=Uuo103A29pE",
+    "question": "Which book did Katie choose for the diversity read, and what is its significance?",
+    "options": "",
+    "answer": "0: \nKatie chose \"Brown Girl Dreaming\" by Jacqueline Woodson for the diversity read. It is a Newbery Honor Award winner that follows an African American girl's journey in the 1960s and 70s.",
+    "caption": ""
+  },
+  {
+    "dataset": "random_111_GoogleDeepMind-NEPTUNE-mma_json",
+    "sample_index": 0,
+    "video_url": "https://www.youtube.com/watch?v=uOx8q6R_c9Q",
+    "question": "Describe the change in the dog's position throughout the video.",
+    "options": "",
+    "answer": "1: \nInitially, the dog is standing in the video, then in a sitting position on the back legs, and finally in a lying down position.",
+    "caption": ""
+  },
+  {
+    "dataset": "random_111_GoogleDeepMind-NEPTUNE-mma_json",
+    "sample_index": 6,
+    "video_url": "https://www.youtube.com/watch?v=ZLW9J5iwbw8",
+    "question": "How does the camera movement contribute to the storytelling in the video?",
+    "options": "",
+    "answer": "1: \nThe camera pans across the burned-out car, showing the extent of the damage and creating a sense of desolation.",
+    "caption": ""
+  },
+  {
+    "dataset": "random_154_LVBench_json",
+    "sample_index": 3,
+    "video_url": "https://www.youtube.com/watch?v=wNCPgIVz15c",
+    "question": "Are the men, women, and children in the valley eating together in the video?\n(A) The women and children are eating together\n(B) The men and women are eating together\n(C) The men and children are eating together\n(D) They are all eating separately",
+    "options": "",
+    "answer": "A",
+    "caption": ""
+  },
+  {
+    "dataset": "random_113_GoogleDeepMind-NEPTUNE-mmh_json",
+    "sample_index": 2,
+    "video_url": "https://www.youtube.com/watch?v=ns4Qw0zLjpA",
+    "question": "How many different tools or materials does Jacob use throughout the cleaning process?",
+    "options": "",
+    "answer": "1: \n3 (sponge, water, and Bar Keepers Friend).",
+    "caption": ""
+  },
+  {
+    "dataset": "random_11_cosmos-reason1-RoboVQA_json",
+    "sample_index": 0,
+    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/cosmos-reason1-RoboVQA/videos/16699580329672752614.mp4",
+    "question": "The agent in the video was given the instruction - stack the cups on top of existing stack. Was the agent successful in completing the task specified by the instruction?",
+    "options": "",
+    "answer": "A",
+    "caption": ""
+  }
+]

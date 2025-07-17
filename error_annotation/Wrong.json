@@ -18,5 +18,17 @@
   "random_200_GoogleDeepMind-NEPTUNE-mma_json": [
     2,
     4
+  ],
+  "random_111_GoogleDeepMind-NEPTUNE-mma_json": [
+    5
+  ],
+  "random_12_egoschema_json": [
+    0
+  ],
+  "random_20_PLM-VideoBench_SGQA_json": [
+    3
+  ],
+  "random_17_mvbench_json": [
+    0
   ]
 }

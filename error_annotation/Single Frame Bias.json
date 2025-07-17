@@ -10,14 +10,35 @@
     0
   ],
   "random_35_activitynetqa_json": [
-    0
+    0,
+    3
   ],
   "random_40_video_mme_json": [
+    6,
     7,
-    8,
     10
   ],
   "random_45_PLM-VideoBench-RTLoc_mask_json": [
     4
+  ],
+  "random_12_egoschema_json": [
+    0,
+    5
+  ],
+  "random_113_GoogleDeepMind-NEPTUNE-mmh_json": [
+    3
+  ],
+  "random_20_PLM-VideoBench_SGQA_json": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "random_200_videoeval_pro_temporal_reasoning_json": [
+    3
+  ],
+  "random_114_videoeval_pro_human_object_interactions_json": [
+    6,
+    8
   ]
 }

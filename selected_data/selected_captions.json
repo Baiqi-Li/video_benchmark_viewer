@@ -1,8 +1,2 @@
 [
-  {
-    "dataset": "random_200_tempcompass_qa_json",
-    "sample_index": 43,
-    "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/tempcompass/videos/1098153561.mp4",
-    "caption": "In the forest, the leaves are turning from green to yellow."
-  }
 ]

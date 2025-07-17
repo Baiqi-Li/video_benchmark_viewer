@@ -167,6 +167,10 @@
                             <input class="form-check-input error-type" type="checkbox" id="others" value="Others">
                             <label class="form-check-label" for="others">Others</label>
                         </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input error-type" type="checkbox" id="cannotAnswerVision" value="Cannot Answer by Vision">
+                            <label class="form-check-label" for="cannotAnswerVision">Cannot Answer by Vision</label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -554,6 +558,9 @@
                         optionsArray = optionsData;
                     } else if (typeof optionsData === 'string') {
                         optionsArray = optionsData.split('\n');
+                    } else if (optionsData && typeof optionsData === 'object') {
+                        // Convert dictionary {A:"yes", B:"no"} -> ["A: yes","B: no"]
+                        optionsArray = Object.entries(optionsData).map(([key, val]) => `${key}: ${val}`);
                     }
                     optionsArray.forEach(option => {
                         if (option.trim()) {
@@ -982,6 +989,18 @@
         function toggleNewVQA() {
             const body = document.getElementById('newVQABody');
             const icon = document.getElementById('newVQAToggleIcon');
+            
+            // 保存所有复选框的当前状态
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const checkboxStates = [];
+            checkboxes.forEach(checkbox => {
+                checkboxStates.push({
+                    element: checkbox,
+                    checked: checkbox.checked
+                });
+            });
+            
+            // 执行toggle操作
             if (body.style.display === 'none') {
                 body.style.display = 'block';
                 icon.textContent = '-';
@@ -989,6 +1008,11 @@
                 body.style.display = 'none';
                 icon.textContent = '+';
             }
+            
+            // 恢复所有复选框的原始状态
+            checkboxStates.forEach(state => {
+                state.element.checked = state.checked;
+            });
         }
 
         // Load saved progress for current dataset
