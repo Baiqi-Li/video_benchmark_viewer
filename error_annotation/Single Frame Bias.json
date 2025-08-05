@@ -11,7 +11,10 @@
   ],
   "random_35_activitynetqa_json": [
     0,
-    3
+    3,
+    11,
+    20,
+    21
   ],
   "random_40_video_mme_json": [
     6,
@@ -22,8 +25,7 @@
     4
   ],
   "random_12_egoschema_json": [
-    0,
-    5
+    0
   ],
   "random_113_GoogleDeepMind-NEPTUNE-mmh_json": [
     3
@@ -40,5 +42,13 @@
   "random_114_videoeval_pro_human_object_interactions_json": [
     6,
     8
+  ],
+  "random_70_mvbench_json": [
+    2,
+    3
+  ],
+  "random_200_perceptiontest_mcq_json": [
+    1,
+    3
   ]
 }

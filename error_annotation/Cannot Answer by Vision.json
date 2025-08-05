@@ -27,5 +27,11 @@
   "random_200_GoogleDeepMind-NEPTUNE_json": [
     4,
     7
+  ],
+  "random_35_activitynetqa_json": [
+    10
+  ],
+  "random_200_GoogleDeepMind-NEPTUNE-mma_json": [
+    2
   ]
 }

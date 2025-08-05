@@ -6,7 +6,13 @@
     9
   ],
   "random_35_activitynetqa_json": [
-    4
+    4,
+    12,
+    14,
+    16,
+    17,
+    18,
+    19
   ],
   "random_40_video_mme_json": [
     4
@@ -23,7 +29,8 @@
     5
   ],
   "random_12_egoschema_json": [
-    0
+    0,
+    2
   ],
   "random_20_PLM-VideoBench_SGQA_json": [
     3
@@ -33,6 +40,19 @@
   ],
   "random_200_videoeval_pro_temporal_reasoning_json": [
     2,
-    9
+    9,
+    13,
+    17,
+    27,
+    29
+  ],
+  "random_70_mvbench_json": [
+    0,
+    1,
+    16
+  ],
+  "random_154_LVBench_json": [
+    3,
+    13
   ]
 }

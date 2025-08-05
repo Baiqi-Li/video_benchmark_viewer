@@ -5,7 +5,10 @@
     27
   ],
   "random_35_activitynetqa_json": [
-    2
+    2,
+    8,
+    11,
+    16
   ],
   "random_40_video_mme_json": [
     0,
@@ -30,8 +33,8 @@
     4
   ],
   "random_154_LVBench_json": [
-    1,
-    5
+    13,
+    17
   ],
   "random_147_minerva_json": [
     9
@@ -46,5 +49,20 @@
   ],
   "random_114_videoeval_pro_human_object_interactions_json": [
     1
+  ],
+  "random_70_mvbench_json": [
+    4,
+    5,
+    7,
+    8,
+    9
+  ],
+  "random_12_egoschema_json": [
+    0,
+    1,
+    5
+  ],
+  "random_110_cosmos-reason1-RoboVQA_json": [
+    8
   ]
 }

@@ -1,5 +1,6 @@
 {
   "random_200_tempcompass_qa_json": [
+    1,
     4,
     7,
     18,
@@ -37,7 +38,8 @@
     5,
     7,
     9,
-    10
+    10,
+    15
   ],
   "random_40_video_mme_json": [
     0,
@@ -68,10 +70,14 @@
     2,
     3,
     5,
-    6
+    6,
+    7,
+    9
   ],
   "random_154_LVBench_json": [
-    0
+    0,
+    14,
+    15
   ],
   "random_20_PLM-VideoBench_SGQA_json": [
     0,
@@ -92,10 +98,8 @@
     8,
     9,
     13,
-    14,
     17,
     19,
-    26,
     27,
     28,
     29
@@ -104,6 +108,16 @@
     16
   ],
   "random_114_videoeval_pro_human_object_interactions_json": [
+    1
+  ],
+  "random_70_mvbench_json": [
+    19
+  ],
+  "random_200_perceptiontest_mcq_json": [
+    2
+  ],
+  "random_110_cosmos-reason1-RoboVQA_json": [
+    0,
     1
   ]
 }
