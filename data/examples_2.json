@@ -1,0 +1,460 @@
+[
+    [
+
+        {
+            "video_id": "v_sfbgZOHLkII.mp4",
+            "caption": "",
+            "question": "what happened to the camel after the woman sat down",
+            "answer": "stand up",
+            "option": "",
+            "meta_data": {
+                "video_name": "sfbgZOHLkII",
+                "question_id": "v_sfbgZOHLkII_5",
+                "question": "what happened to the camel after the woman sat down",
+                "answer": "stand up",
+                "type": "2"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_sfbgZOHLkII.mp4"
+        },
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "video_id": "v_12Nafz_Yet4.mp4",
+            "caption": "",
+            "question": "does the person in black have short hair",
+            "answer": "yes",
+            "option": "",
+            "meta_data": {
+                "video_name": "12Nafz_Yet4",
+                "question_id": "v_12Nafz_Yet4_2",
+                "question": "does the person in black have short hair",
+                "answer": "yes",
+                "type": "3"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_12Nafz_Yet4.mp4"
+        },
+        {
+            "video_id": "509e6545-5fff-4f73-ae0f-524dfa8b3c2c.mp4",
+            "caption": "",
+            "question": "Based on c's actions, what is the significance of the wooden crates and the blocks with respect to the fork lift's involvement in the video?",
+            "answer": "0",
+            "option": [
+                "A. The wooden crates and the blocks are used to transport the bricks. the bricks are placed on the wooden crates and then stacked on top of each other. the fork lift is used to move the wooden crates and the bricks.",
+                "B. The wooden crates and the blocks are used to build a structure. the blocks are stacked on top of each other to create a wall. the fork lift is used to move the wooden crates and the blocks into position.",
+                "C. The wooden crates and the blocks are used to create a barrier. the blocks are stacked in front of the wooden crates to create a wall. the fork lift is used to move the wooden crates and the blocks into position.",
+                "D. The wooden crates and the blocks are used to create a display. the blocks are stacked on top of each other to create a pyramid. the fork lift is used to move the wooden crates and the blocks into position.",
+                "E. The wooden crates and the blocks are used to create a sculpture. the blocks are stacked in a variety of shapes to create a work of art. the fork lift is used to move the wooden crates and the blocks into position."
+            ],
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": "",
+            "end_time": "",
+            "total_frames": "",
+            "meta_data": {
+                "question_idx": "00162",
+                "question": "Based on c's actions, what is the significance of the wooden crates and the blocks with respect to the fork lift's involvement in the video?",
+                "video_idx": "509e6545-5fff-4f73-ae0f-524dfa8b3c2c",
+                "option": [
+                    "A. The wooden crates and the blocks are used to transport the bricks. the bricks are placed on the wooden crates and then stacked on top of each other. the fork lift is used to move the wooden crates and the bricks.",
+                    "B. The wooden crates and the blocks are used to build a structure. the blocks are stacked on top of each other to create a wall. the fork lift is used to move the wooden crates and the blocks into position.",
+                    "C. The wooden crates and the blocks are used to create a barrier. the blocks are stacked in front of the wooden crates to create a wall. the fork lift is used to move the wooden crates and the blocks into position.",
+                    "D. The wooden crates and the blocks are used to create a display. the blocks are stacked on top of each other to create a pyramid. the fork lift is used to move the wooden crates and the blocks into position.",
+                    "E. The wooden crates and the blocks are used to create a sculpture. the blocks are stacked in a variety of shapes to create a work of art. the fork lift is used to move the wooden crates and the blocks into position."
+                ],
+                "answer": "0"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/509e6545-5fff-4f73-ae0f-524dfa8b3c2c.mp4"
+        },
+        {
+            "video_id": "-WnyRMZqV1U",
+            "caption": "",
+            "question": "What does the presenter do to Brad Pitt when he wins the award?\n(A) She hugs him\n(B) She gives a high five\n(C) She slaps him\n(D) She kisses him",
+            "answer": "A",
+            "option": "",
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": 201,
+            "end_time": 203,
+            "reasoning": "time_reference: 03:21-03:23",
+            "total_frames": "",
+            "type": [
+                "event understanding"
+            ],
+            "meta_data": {
+                "uid": "1736",
+                "video_id": "-WnyRMZqV1U",
+                "type": [
+                    "event understanding"
+                ],
+                "caption": "",
+                "question": "What does the presenter do to Brad Pitt when he wins the award?\n(A) She hugs him\n(B) She gives a high five\n(C) She slaps him\n(D) She kisses him",
+                "answer": "A",
+                "start_time": 201,
+                "end_time": 203,
+                "reasoning": "time_reference: 03:21-03:23"
+            },
+            "video_url": "https://www.youtube.com/watch?v=-WnyRMZqV1U"
+        },
+        {
+            "video_id": "star/P4HXN.mp4",
+            "caption": "",
+            "question": "Which object did the person put down after they washed the clothes?",
+            "answer": "The laptop.",
+            "option": "['The laptop.', 'The blanket.']",
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": "",
+            "end_time": "",
+            "reasoning": "",
+            "total_frames": "",
+            "type": "",
+            "meta_data": {
+                "video_id": "star_P4HXN_IFQS1_Which_object_did_the_person_put_down_after_they_washed_the_clothes?_1",
+                "video_path": "star/P4HXN.mp4",
+                "question": "Which object did the person put down after they washed the clothes?",
+                "answer": "The laptop.",
+                "candidates": "['The laptop.', 'The blanket.']",
+                "source": "star"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/videoeval_pro_temporal_reasoning/videos/star/P4HXN.mp4"
+        },
+        {
+            "video_id": "v_JGxf-jke0e8.mp4",
+            "caption": "",
+            "question": "what is the man beside the basin doing",
+            "answer": "wash clothes",
+            "option": "",
+            "meta_data": {
+                "video_name": "JGxf-jke0e8",
+                "question_id": "v_JGxf-jke0e8_1",
+                "question": "what is the man beside the basin doing",
+                "answer": "wash clothes",
+                "type": "0"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_JGxf-jke0e8.mp4"
+        },
+        {
+            "video_id": "wNCPgIVz15c",
+            "caption": "",
+            "question": "What decoration is the man wearing on his head while sitting at the table and talking with the American man in the video, but not eating together?\n(A) A duckbill cap\n(B) A top hat\n(C) A headscarf\n(D) He isn't wearing anything",
+            "answer": "A",
+            "option": "",
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": 595,
+            "end_time": 1250,
+            "reasoning": "time_reference: 09:55-20:50",
+            "total_frames": "",
+            "type": [
+                "entity recognition"
+            ],
+            "meta_data": {
+                "uid": "1320",
+                "video_id": "wNCPgIVz15c",
+                "type": [
+                    "entity recognition"
+                ],
+                "caption": "",
+                "question": "What decoration is the man wearing on his head while sitting at the table and talking with the American man in the video, but not eating together?\n(A) A duckbill cap\n(B) A top hat\n(C) A headscarf\n(D) He isn't wearing anything",
+                "answer": "A",
+                "start_time": 595,
+                "end_time": 1250,
+                "reasoning": "time_reference: 09:55-20:50"
+            },
+            "video_url": "https://www.youtube.com/watch?v=wNCPgIVz15c"
+        },
+        {
+            "video_id": "v_hvrKRg166eQ.mp4",
+            "caption": "",
+            "question": "what is the man holding the paper in his right hand in the video",
+            "answer": "broadcast",
+            "option": "",
+            "meta_data": {
+                "video_name": "hvrKRg166eQ",
+                "question_id": "v_hvrKRg166eQ_1",
+                "question": "what is the man holding the paper in his right hand in the video",
+                "answer": "broadcast",
+                "type": "0"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_hvrKRg166eQ.mp4"
+        },
+        {
+            "video_id": "cd569206-229f-44ac-aa8f-be52f68b0fd6.mp4",
+            "caption": "",
+            "question": "In this video, what is the primary task that c is performing and how does he ensure that it is completed effectively?",
+            "answer": "2",
+            "option": [
+                "A. Currently, c is busy cooking in the kitchen.",
+                "B. Currently, c is occupied with doing their laundry task.",
+                "C. C is cleaning the room.",
+                "D. Currently, c is in the bathroom taking a refreshing shower.",
+                "E. C is sleeping."
+            ],
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": "",
+            "end_time": "",
+            "total_frames": "",
+            "meta_data": {
+                "question_idx": "00403",
+                "question": "In this video, what is the primary task that c is performing and how does he ensure that it is completed effectively?",
+                "video_idx": "cd569206-229f-44ac-aa8f-be52f68b0fd6",
+                "option": [
+                    "A. Currently, c is busy cooking in the kitchen.",
+                    "B. Currently, c is occupied with doing their laundry task.",
+                    "C. C is cleaning the room.",
+                    "D. Currently, c is in the bathroom taking a refreshing shower.",
+                    "E. C is sleeping."
+                ],
+                "answer": "2"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/cd569206-229f-44ac-aa8f-be52f68b0fd6.mp4"
+        },
+        {
+            "video_id": "6a0b0189-25fd-46f8-9d1a-99912de3d5f5.mp4",
+            "caption": "",
+            "question": "In the context of the entire video, which actions most contribute to the overall theme and why? analyze the importance of these activities as they relate to the main story being portrayed.",
+            "answer": "2",
+            "option": [
+                "A. The evidence of c's actions, as seen in the video, clearly demonstrates that she is notably a lazy and utterly irresponsible individual.",
+                "B. C's actions in the video show that she is a creative and imaginative person.",
+                "C. C's actions in the video show that she is a caring and responsible person.",
+                "D. The subtle cues in c's actions throughout the video evidently demonstrate that she is a rather shy, introverted person by nature.",
+                "E. The video displays c's actions, clearly indicating that she is a confident, self-assured, and outgoing person, effortlessly socializing."
+            ],
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": "",
+            "end_time": "",
+            "total_frames": "",
+            "meta_data": {
+                "question_idx": "00210",
+                "question": "In the context of the entire video, which actions most contribute to the overall theme and why? analyze the importance of these activities as they relate to the main story being portrayed.",
+                "video_idx": "6a0b0189-25fd-46f8-9d1a-99912de3d5f5",
+                "option": [
+                    "A. The evidence of c's actions, as seen in the video, clearly demonstrates that she is notably a lazy and utterly irresponsible individual.",
+                    "B. C's actions in the video show that she is a creative and imaginative person.",
+                    "C. C's actions in the video show that she is a caring and responsible person.",
+                    "D. The subtle cues in c's actions throughout the video evidently demonstrate that she is a rather shy, introverted person by nature.",
+                    "E. The video displays c's actions, clearly indicating that she is a confident, self-assured, and outgoing person, effortlessly socializing."
+                ],
+                "answer": "2"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/6a0b0189-25fd-46f8-9d1a-99912de3d5f5.mp4"
+        },
+        {
+            "video_id": "811f0bb6-5bde-4e87-a182-bcf09def0c06.mp4",
+            "caption": "",
+            "question": "Describe the primary activity of c throughout the video that highlights his multitasking ability, and provide reasoning for his adjustments between different actions.",
+            "answer": "3",
+            "option": [
+                "A. Concurrently, c is multitasking by skillfully playing the ukulele and singing beautifully at the same time.",
+                "B. C is multitasking by playing the ukulele and dancing at the same time.",
+                "C. Concurrently, c is multitasking skillfully by playing the ukulele and eating delicious food at the same moment.",
+                "D. C is multitasking by playing the ukulele and operating the phone at the same time.",
+                "E. Curiously, c is skillfully multitasking by simultaneously playing the ukulele and sleeping at the same time."
+            ],
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": "",
+            "end_time": "",
+            "total_frames": "",
+            "meta_data": {
+                "question_idx": "00249",
+                "question": "Describe the primary activity of c throughout the video that highlights his multitasking ability, and provide reasoning for his adjustments between different actions.",
+                "video_idx": "811f0bb6-5bde-4e87-a182-bcf09def0c06",
+                "option": [
+                    "A. Concurrently, c is multitasking by skillfully playing the ukulele and singing beautifully at the same time.",
+                    "B. C is multitasking by playing the ukulele and dancing at the same time.",
+                    "C. Concurrently, c is multitasking skillfully by playing the ukulele and eating delicious food at the same moment.",
+                    "D. C is multitasking by playing the ukulele and operating the phone at the same time.",
+                    "E. Curiously, c is skillfully multitasking by simultaneously playing the ukulele and sleeping at the same time."
+                ],
+                "answer": "3"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/egoschema/videos/811f0bb6-5bde-4e87-a182-bcf09def0c06.mp4"
+        },
+        {
+            "video_id": "RQRRD.mp4",
+            "caption": "",
+            "question": "When in the video sequence do we observe the action 'person quickly undressing'?",
+            "answer": "Throughout the entire video.",
+            "option": [
+                "At the beginning of the video.",
+                "Throughout the entire video.",
+                "In the middle of the video.",
+                "At the end of the video."
+            ],
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": 7.5,
+            "end_time": 24.3,
+            "reasoning": "",
+            "total_frames": "",
+            "type": "",
+            "meta_data": {
+                "task_type": "Action Localization",
+                "prefix": "datasets/mvbench/videos",
+                "data_type": "video",
+                "bound": true,
+                "video": "RQRRD.mp4",
+                "question": "When in the video sequence do we observe the action 'person quickly undressing'?",
+                "candidates": [
+                    "At the beginning of the video.",
+                    "Throughout the entire video.",
+                    "In the middle of the video.",
+                    "At the end of the video."
+                ],
+                "answer": "Throughout the entire video.",
+                "start": 7.5,
+                "end": 24.3
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/RQRRD.mp4"
+        },
+        {
+            "video_id": "v_RlRrktN5iH4.mp4",
+            "caption": "",
+            "question": "does the person in black pants tie the hair",
+            "answer": "yes",
+            "option": "",
+            "meta_data": {
+                "video_name": "RlRrktN5iH4",
+                "question_id": "v_RlRrktN5iH4_2",
+                "question": "does the person in black pants tie the hair",
+                "answer": "yes",
+                "type": "3"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/activitynetqa/videos/v_RlRrktN5iH4.mp4"
+        },
+        {
+            "video_id": "J6TVB.mp4",
+            "caption": "",
+            "question": "What will the person do next with the dish?",
+            "answer": "Put down.",
+            "option": [
+                "Wash.",
+                "Put down.",
+                "Hold.",
+                "Take."
+            ],
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": 0.0,
+            "end_time": 13.0,
+            "reasoning": "",
+            "total_frames": "",
+            "type": "",
+            "meta_data": {
+                "task_type": "Action Prediction",
+                "prefix": "datasets/mvbench/videos",
+                "data_type": "video",
+                "bound": true,
+                "video": "J6TVB.mp4",
+                "question": "What will the person do next with the dish?",
+                "candidates": [
+                    "Wash.",
+                    "Put down.",
+                    "Hold.",
+                    "Take."
+                ],
+                "answer": "Put down.",
+                "start": 0.0,
+                "end": 13.0
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/J6TVB.mp4"
+        },
+        {
+            "video_id": "video_14541.mp4",
+            "caption": "",
+            "question": "What is the color of the moving rubber object?",
+            "answer": "green",
+            "option": [
+                "cyan",
+                "gray",
+                "green",
+                "purple"
+            ],
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": "",
+            "end_time": "",
+            "reasoning": "",
+            "total_frames": "",
+            "type": "",
+            "meta_data": {
+                "task_type": "Moving Attribute",
+                "prefix": "datasets/mvbench/videos",
+                "data_type": "video",
+                "bound": false,
+                "video": "video_14541.mp4",
+                "question": "What is the color of the moving rubber object?",
+                "candidates": [
+                    "cyan",
+                    "gray",
+                    "green",
+                    "purple"
+                ],
+                "answer": "green"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_14541.mp4"
+        },
+        {
+            "video_id": "video_10234.mp4",
+            "caption": "",
+            "question": "What is the material of the green object that is stationary when the video begins?",
+            "answer": "rubber",
+            "option": [
+                "metal",
+                "rubber"
+            ],
+            "start_frame": "",
+            "end_frame": "",
+            "start_time": "",
+            "end_time": "",
+            "reasoning": "",
+            "total_frames": "",
+            "type": "",
+            "meta_data": {
+                "task_type": "Moving Attribute",
+                "prefix": "datasets/mvbench/videos",
+                "data_type": "video",
+                "bound": false,
+                "video": "video_10234.mp4",
+                "question": "What is the material of the green object that is stationary when the video begins?",
+                "candidates": [
+                    "metal",
+                    "rubber"
+                ],
+                "answer": "rubber"
+            },
+            "video_url": "https://huggingface.co/datasets/BaiqiL/public_videos/resolve/main/mvbench/videos/video_10234.mp4"
+        }
+    ]
+]
